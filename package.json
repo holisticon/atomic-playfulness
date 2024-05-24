@@ -1,0 +1,19 @@
+{
+  "name": "atomic-playfulness",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Holisticon AG <info@holisticon.de>",
+  "description": "A design-system for Holisticon.",
+  "repository": "github:holisticon/atomic-playfulness",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "eslint": "^9.3.0",
+    "prettier": "^3.2.5",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^8.0.0-alpha.16"
+  }
+}
