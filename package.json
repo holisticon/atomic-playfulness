@@ -4,13 +4,24 @@
   "version": "0.0.0",
   "private": true,
   "author": "Holisticon AG <info@holisticon.de>",
-  "description": "A design-system for Holisticon.",
+  "description": "A design system for Holisticon.",
   "repository": "github:holisticon/atomic-playfulness",
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "prepare": "husky",
+    "format": "prettier --write .",
+    "lint": "npm run lint -ws && prettier -c ."
+  },
+  "lint-staged": {
+    "*": "prettier --ignore-unknown --write",
+    "*.{ts,tsx,js,mjs}": "eslint --fix"
+  },
   "devDependencies": {
     "eslint": "^9.3.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.4",
     "prettier": "^3.2.5",
     "prettier-plugin-organize-imports": "^3.2.4",
     "typescript": "^5.4.5",
