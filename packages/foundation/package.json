@@ -1,0 +1,28 @@
+{
+  "name": "@holisticon/atomic-playfulness-foundation",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Holisticon AG <info@holisticon.de>",
+  "description": "Foundational tokens for the atomic-playfulness design system.",
+  "repository": "github:holisticon/atomic-playfulness",
+  "files": [
+    "./atomic-playfulness.tokens.json",
+    "dist",
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "exports": {
+    "./atomic-playfulness.tokens.json": "./atomic-playfulness.tokens.json",
+    "./tokens.css": "./dist/tokens.css"
+  },
+  "scripts": {
+    "build": "co build",
+    "check": "co check",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@cobalt-ui/cli": "^1.11.2",
+    "@cobalt-ui/plugin-css": "^1.7.4"
+  }
+}

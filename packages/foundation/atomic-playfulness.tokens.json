@@ -1,0 +1,11 @@
+{
+  "space": {
+    "$type": "dimension",
+    "$description": "Space scale to be used for white-space",
+
+    "none": { "$value": "0rem" },
+    "small": { "$value": "0.75rem" },
+    "medium": { "$value": "1rem" },
+    "large": { "$value": "1.5rem" }
+  }
+}
