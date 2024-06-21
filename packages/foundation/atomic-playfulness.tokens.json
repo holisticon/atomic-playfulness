@@ -1,11 +1,17 @@
 {
   "space": {
     "$type": "dimension",
-    "$description": "Space scale to be used for white-space",
+    "$description": "Space scale to be used for white-space.",
 
     "none": { "$value": "0rem" },
+    "xxxSmall": { "$value": "0.125rem" },
+    "xxSmall": { "$value": "0.25rem" },
+    "xSmall": { "$value": "0.5rem" },
     "small": { "$value": "0.75rem" },
     "medium": { "$value": "1rem" },
-    "large": { "$value": "1.5rem" }
+    "large": { "$value": "1.5rem" },
+    "xLarge": { "$value": "2rem" },
+    "xxLarge": { "$value": "3rem" },
+    "xxxLarge": { "$value": "4rem" }
   }
 }
