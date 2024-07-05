@@ -26,7 +26,7 @@ fallbacks for when it is used without the font package.
 
 Host the fonts on a CDN equipped with CORS-Headers that allow their usage only
 on `*.holisticon.de` and `localhost`. That eliminates the need for a dedicated
-artifact with font files. We can simply inclode the CSS `@font-face` definitions
+artifact with font files. We can simply include the CSS `@font-face` definitions
 in the design system and if it's used on a foreign domain, it will simply not
 load the fonts and use the fall-back instead.
 
