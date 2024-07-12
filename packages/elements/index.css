@@ -1,0 +1,6 @@
+@import "@holisticon/atomic-playfulness-foundation/tokens.css";
+
+body {
+  margin: 0;
+  padding: var(--hap-space-large);
+}

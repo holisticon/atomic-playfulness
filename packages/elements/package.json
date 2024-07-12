@@ -12,6 +12,7 @@
     "README.md"
   ],
   "scripts": {
+    "dev": "vite",
     "build": "rm -rf ./dist && tsc -p tsconfig.build.json",
     "lint": "tsc --noEmit && eslint ."
   },
@@ -19,5 +20,8 @@
     "@holisticon/atomic-playfulness-foundation": "^0.0.0",
     "lit": "^3.1.4",
     "tslib": "^2.6.3"
+  },
+  "devDependencies": {
+    "vite": "^5.3.3"
   }
 }
