@@ -1,4 +1,5 @@
 import pluginCSS, { makeNameGenerator } from "@cobalt-ui/plugin-css";
+import pluginJS from "@cobalt-ui/plugin-js";
 
 /** @type {import("@cobalt-ui/core").Config} */
 export default {
@@ -8,5 +9,6 @@ export default {
     pluginCSS({
       generateName: makeNameGenerator(undefined, "hap"),
     }),
+    pluginJS({ meta: false }),
   ],
 };

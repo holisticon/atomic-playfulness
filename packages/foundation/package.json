@@ -14,7 +14,11 @@
   ],
   "exports": {
     "./atomic-playfulness.tokens.json": "./atomic-playfulness.tokens.json",
-    "./tokens.css": "./dist/tokens.css"
+    "./tokens.css": "./dist/tokens.css",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
   },
   "scripts": {
     "build": "co build",
@@ -23,6 +27,7 @@
   },
   "devDependencies": {
     "@cobalt-ui/cli": "^1.11.2",
-    "@cobalt-ui/plugin-css": "^1.7.4"
+    "@cobalt-ui/plugin-css": "^1.7.4",
+    "@cobalt-ui/plugin-js": "^1.4.4"
   }
 }
