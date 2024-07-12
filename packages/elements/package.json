@@ -1,0 +1,23 @@
+{
+  "name": "@holisticon/atomic-playfulness-elements",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Holisticon AG <info@holisticon.de>",
+  "description": "Custom elements for the atomic-playfulness design system.",
+  "repository": "github:holisticon/atomic-playfulness",
+  "files": [
+    "dist",
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rm -rf ./dist && tsc -p tsconfig.build.json",
+    "lint": "tsc --noEmit && eslint ."
+  },
+  "dependencies": {
+    "@holisticon/atomic-playfulness-foundation": "^0.0.0",
+    "lit": "^3.1.4",
+    "tslib": "^2.6.3"
+  }
+}
