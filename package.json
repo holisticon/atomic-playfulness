@@ -11,9 +11,9 @@
   ],
   "scripts": {
     "prepare": "husky",
-    "build": "npm run build -ws",
+    "build": "npm run build --if-present -ws",
     "format": "prettier --write .",
-    "lint": "npm run lint -ws && prettier -c ."
+    "lint": "npm run lint --if-present -ws && prettier -c ."
   },
   "lint-staged": {
     "*": "prettier --ignore-unknown --write",
