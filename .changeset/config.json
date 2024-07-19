@@ -1,0 +1,10 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@3.0.2/schema.json",
+  "changelog": [
+    "@changesets/changelog-github",
+    { "repo": "holisticon/atomic-playfulness" }
+  ],
+  "commit": false,
+  "access": "public",
+  "baseBranch": "main"
+}
