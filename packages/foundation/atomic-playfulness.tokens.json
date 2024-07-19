@@ -32,5 +32,33 @@
       "xxLarge": { "$value": "2rem" },
       "xxxLarge": { "$value": "2.5rem" }
     }
+  },
+  "color": {
+    "$type": "color",
+    "$description": "Palette of color primitives used throughout Atomic Playfulness.",
+
+    "neutral": {
+      "white": { "$value": "#FFFFFF" },
+      "black": { "$value": "#141419" }
+    },
+    "forest-green": {
+      "100": { "$value": "#549A79" },
+      "200": { "$value": "#478467" },
+      "300": { "$value": "#396D55" },
+      "400": { "$value": "#285340" },
+      "500": { "$value": "#1E4132" },
+      "600": { "$value": "#103527" },
+      "700": { "$value": "#102924" }
+    },
+    "bright-green": {
+      "500": { "$value": "#C8FFA5" }
+    },
+    "blue-gray": {
+      "300": { "$value": "#F0F8FF" },
+      "400": { "$value": "#DCE4FB" },
+      "500": { "$value": "#C7CFEB" },
+      "600": { "$value": "#B3BCD3" },
+      "700": { "$value": "#9CA4B8" }
+    }
   }
 }
