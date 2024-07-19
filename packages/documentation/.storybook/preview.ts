@@ -1,3 +1,4 @@
+import "@holisticon/atomic-playfulness-foundation/tokens.css";
 import type { Preview } from "@storybook/web-components";
 import { holisticonTheme } from "./theme.js";
 
