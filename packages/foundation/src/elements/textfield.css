@@ -1,0 +1,31 @@
+.hap-textfield {
+  display: flex;
+  flex-direction: column;
+  gap: var(--hap-space-xxxSmall);
+
+  & > label {
+    display: flex;
+    gap: var(--hap-space-xxSmall);
+    font-family: sans-serif;
+    font-weight: 700;
+    padding-inline-start: var(--hap-space-medium);
+  }
+
+  &:has(input:required) > label::after {
+    display: inline-block;
+    content: "*";
+    color: #eb4b2d;
+  }
+
+  & > input {
+    padding-inline: var(--hap-space-medium);
+    padding-block: var(--hap-space-xSmall);
+    border: 2px solid var(--hap-color-forest-green-500);
+    border-radius: 1000rem;
+  }
+
+  & > input:disabled {
+    pointer-events: none;
+    border-color: var(--hap-color-forest-green-100);
+  }
+}
