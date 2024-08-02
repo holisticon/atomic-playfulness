@@ -11,7 +11,9 @@
   ],
   "scripts": {
     "prepare": "husky",
-    "build": "npm run build --if-present -ws",
+    "build": "npm run build:foundation && npm run build:documentation",
+    "build:foundation": "npm run build -w @holisticon/atomic-playfulness-foundation",
+    "build:documentation": "npm run build -w @holisticon/atomic-playfulness-documentation",
     "format": "prettier --write .",
     "lint": "npm run lint --if-present -ws && prettier -c .",
     "version": "changeset version && npm i",

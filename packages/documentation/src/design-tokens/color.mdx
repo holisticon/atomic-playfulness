@@ -1,0 +1,49 @@
+import { ColorPalette, ColorItem } from "@storybook/blocks";
+
+# Color Tokens
+
+The following color tokens are available as CSS custom properties. In each
+palette, the `500` variant is considered a primary color. An exeption is
+`forest-green-700`, which is also a primary color that is used as a text color.
+
+<ColorPalette>
+  <ColorItem
+    title="Forest Green"
+    subtitle="Primary Color Palette"
+    colors={{
+      100: "var(--hap-color-forest-green-100)",
+      200: "var(--hap-color-forest-green-200)",
+      300: "var(--hap-color-forest-green-300)",
+      400: "var(--hap-color-forest-green-400)",
+      500: "var(--hap-color-forest-green-500)",
+      600: "var(--hap-color-forest-green-600)",
+      700: "var(--hap-color-forest-green-700)",
+    }}
+  />
+  <ColorItem
+    title="Blue Gray"
+    subtitle="Accent Color Palette"
+    colors={{
+      300: "var(--hap-color-blue-gray-300)",
+      400: "var(--hap-color-blue-gray-400)",
+      500: "var(--hap-color-blue-gray-500)",
+      600: "var(--hap-color-blue-gray-600)",
+      700: "var(--hap-color-blue-gray-700)",
+    }}
+  />
+  <ColorItem
+    title="Bright Green"
+    subtitle="Hope you wear sunglasses..."
+    colors={{
+      500: "var(--hap-color-bright-green-500)",
+    }}
+  />
+  <ColorItem
+    title="Neutrals"
+    subtitle="Neutral Colors"
+    colors={{
+      White: "var(--hap-color-neutral-white)",
+      Black: "var(--hap-color-neutral-black)",
+    }}
+  />
+</ColorPalette>
