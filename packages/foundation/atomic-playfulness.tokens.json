@@ -15,6 +15,11 @@
     "xxxLarge": { "$value": "4rem" }
   },
   "font": {
+    "$type": "fontFamily",
+    "family": {
+      "special": { "$value": "ES Klarheit Kurrent" },
+      "main": { "$value": "ES Klarheit Grotesk" }
+    },
     "weight": {
       "$type": "fontWeight",
 
@@ -31,6 +36,14 @@
       "xLarge": { "$value": "1.5rem" },
       "xxLarge": { "$value": "2rem" },
       "xxxLarge": { "$value": "2.5rem" }
+    }
+  },
+  "headingText": {
+    "$type": "typography",
+    "$value": {
+      "letterSpacing": "normal",
+      "lineHeight": 1.4,
+      "textTransform": "none"
     }
   },
   "color": {

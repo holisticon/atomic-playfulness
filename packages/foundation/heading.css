@@ -1,0 +1,38 @@
+.heading {
+  font-family: var(--hap-font-family-main);
+  margin: var(--space-medium) var(--hap-space-none);
+  font-weight: var(--hap-font-weight-regular);
+  line-height: var(--hap-headingText-line-height);
+  letter-spacing: var(--hap-headingText-letter-spacing);
+  text-transform: var(--hap-headingText-text-transform);
+}
+
+.heading--h1 {
+  font-size: var(--hap-font-size-xxxLarge);
+  font-weight: var(--hap-font-weight-bold);
+}
+
+.heading--h2 {
+  font-size: var(--hap-font-size-xxLarge);
+  font-weight: var(--hap-font-weight-bold);
+}
+
+.heading--h3 {
+  font-size: var(--hap-font-size-xLarge);
+  font-weight: var(--hap-font-weight-medium);
+}
+
+.heading--h4 {
+  font-size: var(--hap-font-size-large);
+  font-weight: var(--hap-font-weight-medium);
+}
+
+.heading--h5 {
+  font-size: var(--hap-font-size-small);
+  font-weight: var(--hap-font-weight-regular);
+}
+
+.heading--h6 {
+  font-size: var(--hap-font-size-standard);
+  font-weight: var(--hap-font-weight-regular);
+}
