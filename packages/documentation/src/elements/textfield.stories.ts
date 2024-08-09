@@ -17,8 +17,12 @@ const meta: Meta<TextfieldArgs> = {
   },
   render: (args) => html`
     <div class="hap-textfield">
-      <label>${args.label}</label>
-      <input ?required=${args.required} ?disabled=${args.disabled} />
+      <label for="textfield">${args.label}</label>
+      <input
+        id="textfield"
+        ?required=${args.required}
+        ?disabled=${args.disabled}
+      />
     </div>
   `,
 };
