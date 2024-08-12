@@ -1,38 +1,47 @@
-.heading {
-  font-family: var(--hap-font-family-main);
-  margin: var(--space-medium) var(--hap-space-none);
-  font-weight: var(--hap-font-weight-regular);
-  line-height: var(--hap-headingText-line-height);
-  letter-spacing: var(--hap-headingText-letter-spacing);
-  text-transform: var(--hap-headingText-text-transform);
+.hap-h1 {
+  font-family: var(--hap-h1-font-family);
+  font-size: var(--hap-h1-font-size);
+  font-weight: var(--hap-h1-font-weight);
+  letter-spacing: var(--hap-h1-letter-spacing);
+  line-height: var(--hap-h1-line-height);
 }
 
-.heading--h1 {
-  font-size: var(--hap-font-size-xxxLarge);
-  font-weight: var(--hap-font-weight-bold);
+.hap-h2 {
+  font-family: var(--hap-h2-font-family);
+  font-size: var(--hap-h2-font-size);
+  font-weight: var(--hap-h2-font-weight);
+  letter-spacing: var(--hap-h2-letter-spacing);
+  line-height: var(--hap-h2-line-height);
 }
 
-.heading--h2 {
-  font-size: var(--hap-font-size-xxLarge);
-  font-weight: var(--hap-font-weight-bold);
+.hap-h3 {
+  font-family: var(--hap-h3-font-family);
+  font-size: var(--hap-h3-font-size);
+  font-weight: var(--hap-h3-font-weight);
+  letter-spacing: var(--hap-h3-letter-spacing);
+  line-height: var(--hap-h3-line-height);
 }
 
-.heading--h3 {
-  font-size: var(--hap-font-size-xLarge);
-  font-weight: var(--hap-font-weight-medium);
+.hap-h4 {
+  font-family: var(--hap-h4-font-family);
+  font-size: var(--hap-h4-font-size);
+  font-weight: var(--hap-h4-font-weight);
+  letter-spacing: var(--hap-h4-letter-spacing);
+  line-height: var(--hap-h4-line-height);
 }
 
-.heading--h4 {
-  font-size: var(--hap-font-size-large);
-  font-weight: var(--hap-font-weight-medium);
+.hap-h5 {
+  font-family: var(--hap-h5-font-family);
+  font-size: var(--hap-h5-font-size);
+  font-weight: var(--hap-h5-font-weight);
+  letter-spacing: var(--hap-h5-letter-spacing);
+  line-height: var(--hap-h5-line-height);
 }
 
-.heading--h5 {
-  font-size: var(--hap-font-size-small);
-  font-weight: var(--hap-font-weight-regular);
-}
-
-.heading--h6 {
-  font-size: var(--hap-font-size-standard);
-  font-weight: var(--hap-font-weight-regular);
+.hap-h6 {
+  font-family: var(--hap-h6-font-family);
+  font-size: var(--hap-h6-font-size);
+  font-weight: var(--hap-h6-font-weight);
+  letter-spacing: var(--hap-h6-letter-spacing);
+  line-height: var(--hap-h6-line-height);
 }

@@ -15,10 +15,11 @@
     "xxxLarge": { "$value": "4rem" }
   },
   "font": {
-    "$type": "fontFamily",
     "family": {
-      "special": { "$value": "ES Klarheit Kurrent" },
-      "main": { "$value": "ES Klarheit Grotesk" }
+      "$type": "fontFamily",
+
+      "kurrent": { "$value": "ES Klarheit Kurrent" },
+      "grotesk": { "$value": "ES Klarheit Grotesk" }
     },
     "weight": {
       "$type": "fontWeight",
@@ -38,12 +39,64 @@
       "xxxLarge": { "$value": "2.5rem" }
     }
   },
-  "headingText": {
+  "h1": {
     "$type": "typography",
     "$value": {
+      "fontFamily": "{font.family.kurrent}",
+      "fontSize": "{font.size.xxxLarge}",
+      "fontWeight": "{font.weight.bold}",
       "letterSpacing": "normal",
-      "lineHeight": 1.4,
-      "textTransform": "none"
+      "lineHeight": 1.4
+    }
+  },
+  "h2": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{font.family.kurrent}",
+      "fontSize": "{font.size.xxLarge}",
+      "fontWeight": "{font.weight.bold}",
+      "letterSpacing": "normal",
+      "lineHeight": 1.4
+    }
+  },
+  "h3": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{font.family.kurrent}",
+      "fontSize": "{font.size.xLarge}",
+      "fontWeight": "{font.weight.medium}",
+      "letterSpacing": "normal",
+      "lineHeight": 1.4
+    }
+  },
+  "h4": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{font.family.kurrent}",
+      "fontSize": "{font.size.large}",
+      "fontWeight": "{font.weight.medium}",
+      "letterSpacing": "normal",
+      "lineHeight": 1.4
+    }
+  },
+  "h5": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{font.family.kurrent}",
+      "fontSize": "{font.size.standard}",
+      "fontWeight": "{font.weight.regular}",
+      "letterSpacing": "normal",
+      "lineHeight": 1.4
+    }
+  },
+  "h6": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{font.family.kurrent}",
+      "fontSize": "{font.size.standard}",
+      "fontWeight": "{font.weight.regular}",
+      "letterSpacing": "normal",
+      "lineHeight": 1.4
     }
   },
   "color": {
