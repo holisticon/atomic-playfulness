@@ -14,6 +14,8 @@
   "exports": {
     "./atomic-playfulness.tokens.json": "./atomic-playfulness.tokens.json",
     "./tokens.css": "./dist/tokens.css",
+    "./es-klarheit.css": "./es-klarheit.css",
+    "./typography.css": "./typography.css",
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
