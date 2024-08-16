@@ -15,22 +15,112 @@
     "xxxLarge": { "$value": "4rem" }
   },
   "font": {
+    "family": {
+      "$type": "fontFamily",
+
+      "kurrent": {
+        "$value": ["ES Klarheit Kurrent", "Helvetica", "Arial", "sans-serif"]
+      },
+      "grotesk": {
+        "$value": ["ES Klarheit Grotesk", "Helvetica", "Arial", "sans-serif"]
+      }
+    },
     "weight": {
       "$type": "fontWeight",
 
       "regular": { "$value": 400 },
       "medium": { "$value": 500 },
       "bold": { "$value": 700 }
-    },
-    "size": {
-      "$type": "dimension",
-
-      "small": { "$value": "0.875rem" },
-      "standard": { "$value": "1rem" },
-      "large": { "$value": "1.125rem" },
-      "xLarge": { "$value": "1.5rem" },
-      "xxLarge": { "$value": "2rem" },
-      "xxxLarge": { "$value": "2.5rem" }
+    }
+  },
+  "h1": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{font.family.kurrent}",
+      "fontSize": "2.5rem",
+      "fontWeight": "{font.weight.regular}",
+      "letterSpacing": "normal",
+      "lineHeight": 1.4
+    }
+  },
+  "h2": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{font.family.kurrent}",
+      "fontSize": "2rem",
+      "fontWeight": "{font.weight.regular}",
+      "letterSpacing": "normal",
+      "lineHeight": 1.4
+    }
+  },
+  "h3": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{font.family.kurrent}",
+      "fontSize": "1.625rem",
+      "fontWeight": "{font.weight.regular}",
+      "letterSpacing": "normal",
+      "lineHeight": 1.4
+    }
+  },
+  "h4": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{font.family.kurrent}",
+      "fontSize": "1.375rem",
+      "fontWeight": "{font.weight.medium}",
+      "letterSpacing": "normal",
+      "lineHeight": 1.4
+    }
+  },
+  "h5": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{font.family.kurrent}",
+      "fontSize": "1.25rem",
+      "fontWeight": "{font.weight.bold}",
+      "letterSpacing": "normal",
+      "lineHeight": 1.4
+    }
+  },
+  "h6": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{font.family.kurrent}",
+      "fontSize": "1.125rem",
+      "fontWeight": "{font.weight.bold}",
+      "letterSpacing": "normal",
+      "lineHeight": 1.4
+    }
+  },
+  "text-large": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{font.family.grotesk}",
+      "fontSize": "1.125rem",
+      "fontWeight": "{font.weight.regular}",
+      "letterSpacing": "normal",
+      "lineHeight": 1.4
+    }
+  },
+  "text": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{font.family.grotesk}",
+      "fontSize": "1rem",
+      "fontWeight": "{font.weight.regular}",
+      "letterSpacing": "normal",
+      "lineHeight": 1.4
+    }
+  },
+  "text-small": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "{font.family.grotesk}",
+      "fontSize": "0.875rem",
+      "fontWeight": "{font.weight.regular}",
+      "letterSpacing": "normal",
+      "lineHeight": 1.4
     }
   },
   "color": {
