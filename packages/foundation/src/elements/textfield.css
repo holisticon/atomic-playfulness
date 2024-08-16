@@ -1,31 +1,70 @@
 .hap-textfield {
   display: flex;
   flex-direction: column;
-  gap: var(--hap-space-xxxSmall);
+  gap: var(--hap-space-xxSmall);
+
+  & > label,
+  & > input {
+    /* Copied from hap-text */
+    font-family: var(--hap-text-font-family);
+    font-size: var(--hap-text-font-size);
+    font-weight: var(--hap-text-font-weight);
+    letter-spacing: var(--hap-text-letter-spacing);
+    line-height: var(--hap-text-line-height);
+  }
 
   & > label {
     display: flex;
     gap: var(--hap-space-xxSmall);
-    font-family: sans-serif;
-    font-weight: 700;
-    padding-inline-start: var(--hap-space-medium);
-  }
-
-  &:has(input:required) > label::after {
-    display: inline-block;
-    content: "*";
-    color: #eb4b2d;
+    padding-inline-start: var(--hap-space-large);
   }
 
   & > input {
-    padding-inline: var(--hap-space-medium);
-    padding-block: var(--hap-space-xSmall);
+    /* TODO: Do we need tokens for transitions stuff? */
+    transition: all 150ms linear;
+    background-color: var(--hap-color-neutral-white);
+    padding-inline: var(--hap-space-large);
+    padding-block: var(--hap-space-small);
+    /* TODO: We need tokens for border and outline stuff.. */
     border: 2px solid var(--hap-color-forest-green-500);
     border-radius: 1000rem;
   }
 
+  & > input:hover {
+    background-color: var(--hap-color-blue-gray-300);
+  }
+
+  & > input:focus-visible {
+    outline: 2px solid var(--hap-color-forest-green-500);
+    outline-offset: 1px;
+  }
+
   & > input:disabled {
     pointer-events: none;
-    border-color: var(--hap-color-forest-green-100);
+    border-color: var(--hap-color-blue-gray-700);
+    background-color: var(--hap-color-blue-gray-400);
+  }
+
+  & > input:user-invalid {
+    border-color: var(--hap-color-secondary-bright-red);
+  }
+
+  & .hap-textfield-error {
+    /* TODO: How do we deal with error messages and content shifting?
+    Do they always reserve their space, i.e. visibility: hidden,
+    or do the claim space when needed? */
+    display: none;
+    padding-inline-start: var(--hap-space-large);
+    color: var(--hap-color-secondary-bright-red);
+    /* Copied from hap-text-small */
+    font-family: var(--hap-text-small-font-family);
+    font-size: var(--hap-text-small-font-size);
+    font-weight: var(--hap-text-small-font-weight);
+    letter-spacing: var(--hap-text-small-letter-spacing);
+    line-height: var(--hap-text-small-line-height);
+  }
+
+  &:has(input:user-invalid) > .hap-textfield-error {
+    display: initial;
   }
 }

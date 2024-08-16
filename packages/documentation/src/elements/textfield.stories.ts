@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/web-components";
 import { html } from "lit";
+import { when } from "lit/directives/when.js";
 
 interface TextfieldArgs {
   label: string;
@@ -15,12 +16,18 @@ const meta: Meta<TextfieldArgs> = {
   },
   render: (args) => html`
     <div class="hap-textfield">
-      <label for="textfield">${args.label}</label>
+      <label for="textfield">
+        ${args.label}${when(
+          args.required,
+          () => html`<span aria-hidden="true">*</span>`,
+        )}
+      </label>
       <input
         id="textfield"
         ?required=${args.required}
         ?disabled=${args.disabled}
       />
+      <span class="hap-textfield-error">This is a error message</span>
     </div>
   `,
 };
@@ -39,5 +46,12 @@ export const Required: Story = {
 export const Disabled: Story = {
   args: {
     disabled: true,
+  },
+};
+
+export const Invalid: Story = {
+  args: {
+    label: "Enter and Remove Text",
+    required: true,
   },
 };

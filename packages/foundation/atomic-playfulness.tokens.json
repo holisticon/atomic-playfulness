@@ -149,6 +149,9 @@
       "500": { "$value": "#C7CFEB" },
       "600": { "$value": "#B3BCD3" },
       "700": { "$value": "#9CA4B8" }
+    },
+    "secondary": {
+      "bright-red": { "$value": "#EB4B2D" }
     }
   }
 }
