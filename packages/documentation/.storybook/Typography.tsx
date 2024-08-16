@@ -1,5 +1,4 @@
-import type { FC } from "react";
-import React from "react";
+import React, { type FC, Fragment } from "react";
 
 import { withReset } from "@storybook/components";
 
@@ -22,7 +21,6 @@ const getBlockBackgroundStyle: (theme: Theme) => object = (theme: Theme) => ({
   border: `1px solid ${theme.appBorderColor}`,
 });
 const Label = styled.div(({ theme }) => ({
-  marginRight: 30,
   fontSize: `${theme.typography.size.s1}px`,
   color:
     theme["base"] === "light"
@@ -36,17 +34,14 @@ const Sample = styled.div({
   textOverflow: "ellipsis",
 });
 
-const TypeSpecimen = styled.div({
-  display: "flex",
-  flexDirection: "row",
-  alignItems: "baseline",
-  "&:not(:last-child)": { marginBottom: "1rem" },
-});
-
 const Wrapper = styled.div(withReset, ({ theme }) => ({
   ...getBlockBackgroundStyle(theme),
   margin: "25px 0 40px",
   padding: "30px 20px",
+  display: "grid",
+  gridTemplateColumns: "max-content auto",
+  gridGap: "1rem 2rem",
+  alignItems: "baseline",
 }));
 
 export interface TypesetProps {
@@ -65,12 +60,12 @@ export const Typography: FC<TypesetProps> = ({
 }) => (
   <Wrapper {...props} className="docblock-typeset sb-unstyled">
     {fontClasses.map((className) => (
-      <TypeSpecimen key={className}>
+      <Fragment key={className}>
         <Label>.{className}</Label>
         <Sample className={className}>
           {sampleText || "Was he a beast if music could move him so?"}
         </Sample>
-      </TypeSpecimen>
+      </Fragment>
     ))}
   </Wrapper>
 );

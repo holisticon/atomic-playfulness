@@ -1,3 +1,5 @@
+/* Headings */
+
 .hap-h1 {
   font-family: var(--hap-h1-font-family);
   font-size: var(--hap-h1-font-size);
@@ -44,4 +46,30 @@
   font-weight: var(--hap-h6-font-weight);
   letter-spacing: var(--hap-h6-letter-spacing);
   line-height: var(--hap-h6-line-height);
+}
+
+/* Body text */
+
+.hap-text-large {
+  font-family: var(--hap-text-large-font-family);
+  font-size: var(--hap-text-large-font-size);
+  font-weight: var(--hap-text-large-font-weight);
+  letter-spacing: var(--hap-text-large-letter-spacing);
+  line-height: var(--hap-text-large-line-height);
+}
+
+.hap-text {
+  font-family: var(--hap-text-font-family);
+  font-size: var(--hap-text-font-size);
+  font-weight: var(--hap-text-font-weight);
+  letter-spacing: var(--hap-text-letter-spacing);
+  line-height: var(--hap-text-line-height);
+}
+
+.hap-text-small {
+  font-family: var(--hap-text-small-font-family);
+  font-size: var(--hap-text-small-font-size);
+  font-weight: var(--hap-text-small-font-weight);
+  letter-spacing: var(--hap-text-small-letter-spacing);
+  line-height: var(--hap-text-small-line-height);
 }
