@@ -8,8 +8,6 @@ interface TextfieldArgs {
 }
 
 const meta: Meta<TextfieldArgs> = {
-  //TODO: I am used to having autodocs without explicitly declaring the tag... Did not find the config. How can we enable it implicitly.
-  tags: ["autodocs"],
   args: {
     label: "Textfield",
     disabled: false,
