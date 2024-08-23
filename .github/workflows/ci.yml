@@ -26,3 +26,42 @@ jobs:
         run: npm run lint
       - name: Build Package
         run: npm run build
+
+  deploy-pages:
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    runs-on: macos-latest
+    if: ${{ github.ref == 'refs/heads/main' }}
+    needs: build
+    steps:
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: packages/documentation/dist/
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+
+  release:
+    permissions:
+      id-token: write # to publish with provenance
+      contents: write #  to create release (changesets/action)
+      issues: write # to post issue comments (changesets/action)
+      pull-requests: write #  to create pull request (changesets/action)
+    runs-on: macos-latest
+    if: ${{ github.ref == 'refs/heads/main' }}
+    concurrency: ${{ github.workflow }}-${{ github.ref }}
+    needs: build
+    steps:
+      - name: Version and/or Publish Package
+        uses: changesets/action@v1
+        with:
+          publish: npm run release
+          version: npm run version
+          commit: "ci: release package"
+          title: "ci: release package"
+        env:
+          NPM_CONFIG_PROVENANCE: true
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
