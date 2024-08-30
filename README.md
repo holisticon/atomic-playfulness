@@ -18,8 +18,7 @@ npm install
 To run Storybook locally, run:
 
 ```shell
-npm run build
-npm run dev -w @holisticon/atomic-playfulness-documentation
+npm run storybook
 ```
 
 # License
