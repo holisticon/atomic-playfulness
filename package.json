@@ -17,7 +17,8 @@
     "format": "prettier --write .",
     "lint": "npm run lint --if-present -ws && prettier -c .",
     "version": "changeset version && npm i",
-    "release": "changeset publish"
+    "release": "changeset publish",
+    "storybook": "npm run build && npm run dev -w @holisticon/atomic-playfulness-documentation"
   },
   "lint-staged": {
     "*": "prettier --ignore-unknown --write",

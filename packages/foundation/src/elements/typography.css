@@ -73,3 +73,16 @@
   letter-spacing: var(--hap-text-small-letter-spacing);
   line-height: var(--hap-text-small-line-height);
 }
+
+/* Rounded Dots for all typography levels */
+.hap-h1,
+.hap-h2,
+.hap-h3,
+.hap-h4,
+.hap-h5,
+.hap-h6,
+.hap-text,
+.hap-text-large,
+.hap-text-small {
+  font-feature-settings: "ss11" 1;
+}
