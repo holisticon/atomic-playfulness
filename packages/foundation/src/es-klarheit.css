@@ -3,7 +3,7 @@
 @font-face {
   font-family: "ES Klarheit Kurrent";
   font-weight: 400;
-  src: url("https://atomic-playfulness.holisticon.de/fonts/ESKlarheitKurrent-Rg.woff2")
+  src: url("https://hap-cdn.holisticon.de/fonts/ESKlarheitKurrent-Rg.woff2")
     format("woff2");
   font-style: normal;
   font-display: swap;
@@ -12,7 +12,7 @@
 @font-face {
   font-family: "ES Klarheit Kurrent";
   font-weight: 400;
-  src: url("https://atomic-playfulness.holisticon.de/fonts/ESKlarheitKurrent-It.woff2")
+  src: url("https://hap-cdn.holisticon.de/fonts/ESKlarheitKurrent-It.woff2")
     format("woff2");
   font-style: italic;
   font-display: swap;
@@ -21,7 +21,7 @@
 @font-face {
   font-family: "ES Klarheit Kurrent";
   font-weight: 500;
-  src: url("https://atomic-playfulness.holisticon.de/fonts/ESKlarheitKurrent-Md.woff2")
+  src: url("https://hap-cdn.holisticon.de/fonts/ESKlarheitKurrent-Md.woff2")
     format("woff2");
   font-style: normal;
   font-display: swap;
@@ -30,7 +30,7 @@
 @font-face {
   font-family: "ES Klarheit Kurrent";
   font-weight: 500;
-  src: url("https://atomic-playfulness.holisticon.de/fonts/ESKlarheitKurrent-MdIt.woff2")
+  src: url("https://hap-cdn.holisticon.de/fonts/ESKlarheitKurrent-MdIt.woff2")
     format("woff2");
   font-style: italic;
   font-display: swap;
@@ -39,7 +39,7 @@
 @font-face {
   font-family: "ES Klarheit Kurrent";
   font-weight: 600;
-  src: url("https://atomic-playfulness.holisticon.de/fonts/ESKlarheitKurrent-Smbd.woff2")
+  src: url("https://hap-cdn.holisticon.de/fonts/ESKlarheitKurrent-Smbd.woff2")
     format("woff2");
   font-style: normal;
   font-display: swap;
@@ -48,7 +48,7 @@
 @font-face {
   font-family: "ES Klarheit Kurrent";
   font-weight: 600;
-  src: url("https://atomic-playfulness.holisticon.de/fonts/ESKlarheitKurrent-SmbdIt.woff2")
+  src: url("https://hap-cdn.holisticon.de/fonts/ESKlarheitKurrent-SmbdIt.woff2")
     format("woff2");
   font-style: italic;
   font-display: swap;
@@ -57,7 +57,7 @@
 @font-face {
   font-family: "ES Klarheit Kurrent";
   font-weight: 700;
-  src: url("https://atomic-playfulness.holisticon.de/fonts/ESKlarheitKurrent-Bd.woff2")
+  src: url("https://hap-cdn.holisticon.de/fonts/ESKlarheitKurrent-Bd.woff2")
     format("woff2");
   font-style: normal;
   font-display: swap;
@@ -66,7 +66,7 @@
 @font-face {
   font-family: "ES Klarheit Kurrent";
   font-weight: 700;
-  src: url("https://atomic-playfulness.holisticon.de/fonts/ESKlarheitKurrent-BdIt.woff2")
+  src: url("https://hap-cdn.holisticon.de/fonts/ESKlarheitKurrent-BdIt.woff2")
     format("woff2");
   font-style: italic;
   font-display: swap;
@@ -77,7 +77,7 @@
 @font-face {
   font-family: "ES Klarheit Grotesk";
   font-weight: 400;
-  src: url("https://atomic-playfulness.holisticon.de/fonts/ESKlarheitGrotesk-Rg.woff2")
+  src: url("https://hap-cdn.holisticon.de/fonts/ESKlarheitGrotesk-Rg.woff2")
     format("woff2");
   font-style: normal;
   font-display: swap;
@@ -86,7 +86,7 @@
 @font-face {
   font-family: "ES Klarheit Grotesk";
   font-weight: 400;
-  src: url("https://atomic-playfulness.holisticon.de/fonts/ESKlarheitGrotesk-It.woff2")
+  src: url("https://hap-cdn.holisticon.de/fonts/ESKlarheitGrotesk-It.woff2")
     format("woff2");
   font-style: italic;
   font-display: swap;
@@ -95,7 +95,7 @@
 @font-face {
   font-family: "ES Klarheit Grotesk";
   font-weight: 500;
-  src: url("https://atomic-playfulness.holisticon.de/fonts/ESKlarheitGrotesk-Md.woff2")
+  src: url("https://hap-cdn.holisticon.de/fonts/ESKlarheitGrotesk-Md.woff2")
     format("woff2");
   font-style: normal;
   font-display: swap;
@@ -104,7 +104,7 @@
 @font-face {
   font-family: "ES Klarheit Grotesk";
   font-weight: 500;
-  src: url("https://atomic-playfulness.holisticon.de/fonts/ESKlarheitGrotesk-MdIt.woff2")
+  src: url("https://hap-cdn.holisticon.de/fonts/ESKlarheitGrotesk-MdIt.woff2")
     format("woff2");
   font-style: italic;
   font-display: swap;
@@ -113,7 +113,7 @@
 @font-face {
   font-family: "ES Klarheit Grotesk";
   font-weight: 600;
-  src: url("https://atomic-playfulness.holisticon.de/fonts/ESKlarheitGrotesk-Smbd.woff2")
+  src: url("https://hap-cdn.holisticon.de/fonts/ESKlarheitGrotesk-Smbd.woff2")
     format("woff2");
   font-style: normal;
   font-display: swap;
@@ -122,7 +122,7 @@
 @font-face {
   font-family: "ES Klarheit Grotesk";
   font-weight: 600;
-  src: url("https://atomic-playfulness.holisticon.de/fonts/ESKlarheitGrotesk-SmbdIt.woff2")
+  src: url("https://hap-cdn.holisticon.de/fonts/ESKlarheitGrotesk-SmbdIt.woff2")
     format("woff2");
   font-style: italic;
   font-display: swap;
@@ -131,7 +131,7 @@
 @font-face {
   font-family: "ES Klarheit Grotesk";
   font-weight: 700;
-  src: url("https://atomic-playfulness.holisticon.de/fonts/ESKlarheitGrotesk-Bd.woff2")
+  src: url("https://hap-cdn.holisticon.de/fonts/ESKlarheitGrotesk-Bd.woff2")
     format("woff2");
   font-style: normal;
   font-display: swap;
@@ -140,7 +140,7 @@
 @font-face {
   font-family: "ES Klarheit Grotesk";
   font-weight: 700;
-  src: url("https://atomic-playfulness.holisticon.de/fonts/ESKlarheitGrotesk-BdIt.woff2")
+  src: url("https://hap-cdn.holisticon.de/fonts/ESKlarheitGrotesk-BdIt.woff2")
     format("woff2");
   font-style: italic;
   font-display: swap;
