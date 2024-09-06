@@ -1,4 +1,4 @@
-import "@holisticon/atomic-playfulness-foundation/atomic-playfulness.css";
+import "@holisticon/hap-foundation/atomic-playfulness.css";
 import type { Preview } from "@storybook/web-components";
 import { holisticonTheme } from "./theme.js";
 

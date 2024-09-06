@@ -1,5 +1,5 @@
 {
-  "name": "@holisticon/atomic-playfulness",
+  "name": "@holisticon/hap",
   "type": "module",
   "version": "0.0.0",
   "private": true,
@@ -12,13 +12,13 @@
   "scripts": {
     "prepare": "husky",
     "build": "npm run build:foundation && npm run build:documentation",
-    "build:foundation": "npm run build -w @holisticon/atomic-playfulness-foundation",
-    "build:documentation": "npm run build -w @holisticon/atomic-playfulness-documentation",
+    "build:foundation": "npm run build -w @holisticon/hap-foundation",
+    "build:documentation": "npm run build -w @holisticon/hap-documentation",
     "format": "prettier --write .",
     "lint": "npm run lint --if-present -ws && prettier -c .",
     "version": "changeset version && npm i",
     "release": "changeset publish",
-    "storybook": "npm run build && npm run dev -w @holisticon/atomic-playfulness-documentation"
+    "storybook": "npm run build && npm run dev -w @holisticon/hap-documentation"
   },
   "lint-staged": {
     "*": "prettier --ignore-unknown --write",

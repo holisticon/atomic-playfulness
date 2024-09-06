@@ -1,5 +1,5 @@
 ---
-"@holisticon/atomic-playfulness-foundation": minor
+"@holisticon/hap-foundation": minor
 ---
 
 Added typography tokens and classes for defining heading and texts.
