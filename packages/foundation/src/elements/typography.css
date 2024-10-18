@@ -1,77 +1,77 @@
 /* Headings */
 
 .hap-h1 {
-  font-family: var(--hap-h1-font-family);
-  font-size: var(--hap-h1-font-size);
-  font-weight: var(--hap-h1-font-weight);
-  letter-spacing: var(--hap-h1-letter-spacing);
-  line-height: var(--hap-h1-line-height);
+  font-family: var(--hap-typography-font-family-heading);
+  font-size: var(--hap-typography-font-size-h1);
+  font-weight: var(--hap-typography-font-weight-bold);
+  letter-spacing: normal;
+  line-height: var(--hap-typography-line-height-h1);
 }
 
 .hap-h2 {
-  font-family: var(--hap-h2-font-family);
-  font-size: var(--hap-h2-font-size);
-  font-weight: var(--hap-h2-font-weight);
-  letter-spacing: var(--hap-h2-letter-spacing);
-  line-height: var(--hap-h2-line-height);
+  font-family: var(--hap-typography-font-family-heading);
+  font-size: var(--hap-typography-font-size-h2);
+  font-weight: var(--hap-typography-font-weight-medium);
+  letter-spacing: normal;
+  line-height: var(--hap-typography-line-height-h2);
 }
 
 .hap-h3 {
-  font-family: var(--hap-h3-font-family);
-  font-size: var(--hap-h3-font-size);
-  font-weight: var(--hap-h3-font-weight);
-  letter-spacing: var(--hap-h3-letter-spacing);
-  line-height: var(--hap-h3-line-height);
+  font-family: var(--hap-typography-font-family-heading);
+  font-size: var(--hap-typography-font-size-h3);
+  font-weight: var(--hap-typography-font-weight-medium);
+  letter-spacing: normal;
+  line-height: var(--hap-typography-line-height-h3);
 }
 
 .hap-h4 {
-  font-family: var(--hap-h4-font-family);
-  font-size: var(--hap-h4-font-size);
-  font-weight: var(--hap-h4-font-weight);
-  letter-spacing: var(--hap-h4-letter-spacing);
-  line-height: var(--hap-h4-line-height);
+  font-family: var(--hap-typography-font-family-heading);
+  font-size: var(--hap-typography-font-size-h4);
+  font-weight: var(--hap-typography-font-weight-medium);
+  letter-spacing: normal;
+  line-height: var(--hap-typography-line-height-h4);
 }
 
 .hap-h5 {
-  font-family: var(--hap-h5-font-family);
-  font-size: var(--hap-h5-font-size);
-  font-weight: var(--hap-h5-font-weight);
-  letter-spacing: var(--hap-h5-letter-spacing);
-  line-height: var(--hap-h5-line-height);
+  font-family: var(--hap-typography-font-family-heading);
+  font-size: var(--hap-typography-font-size-h5);
+  font-weight: var(--hap-typography-font-weight-medium);
+  letter-spacing: normal;
+  line-height: var(--hap-typography-line-height-h5);
 }
 
 .hap-h6 {
-  font-family: var(--hap-h6-font-family);
-  font-size: var(--hap-h6-font-size);
-  font-weight: var(--hap-h6-font-weight);
-  letter-spacing: var(--hap-h6-letter-spacing);
-  line-height: var(--hap-h6-line-height);
+  font-family: var(--hap-typography-font-family-heading);
+  font-size: var(--hap-typography-font-size-h6);
+  font-weight: var(--hap-typography-font-weight-medium);
+  letter-spacing: normal;
+  line-height: var(--hap-typography-line-height-h6);
 }
 
 /* Body text */
 
 .hap-text-large {
-  font-family: var(--hap-text-large-font-family);
-  font-size: var(--hap-text-large-font-size);
-  font-weight: var(--hap-text-large-font-weight);
-  letter-spacing: var(--hap-text-large-letter-spacing);
-  line-height: var(--hap-text-large-line-height);
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-h5);
+  font-weight: var(--hap-typography-font-weight-regular);
+  letter-spacing: normal;
+  line-height: var(--hap-typography-line-height-h6);
 }
 
 .hap-text {
-  font-family: var(--hap-text-font-family);
-  font-size: var(--hap-text-font-size);
-  font-weight: var(--hap-text-font-weight);
-  letter-spacing: var(--hap-text-letter-spacing);
-  line-height: var(--hap-text-line-height);
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-body-regular);
+  font-weight: var(--hap-typography-font-weight-regular);
+  letter-spacing: normal;
+  line-height: var(--hap-typography-line-height-body-regular-singleline);
 }
 
 .hap-text-small {
-  font-family: var(--hap-text-small-font-family);
-  font-size: var(--hap-text-small-font-size);
-  font-weight: var(--hap-text-small-font-weight);
-  letter-spacing: var(--hap-text-small-letter-spacing);
-  line-height: var(--hap-text-small-line-height);
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-body-small);
+  font-weight: var(--hap-typography-font-weight-regular);
+  letter-spacing: normal;
+  line-height: var(--hap-typography-line-height-body-small-singleline);
 }
 
 /* Rounded Dots for all typography levels */
