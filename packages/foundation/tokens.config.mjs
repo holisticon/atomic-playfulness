@@ -7,6 +7,7 @@ export default {
   plugins: [
     pluginCSS({
       generateName: makeNameGenerator(undefined, "hap"),
+      transform: (token) => (token.$type === "string" ? token.value : void 0),
     }),
   ],
 };
