@@ -2,48 +2,122 @@ import { ColorPalette, ColorItem } from "@storybook/blocks";
 
 # Color Tokens
 
-The following color tokens are available as CSS custom properties. In each
-palette, the `500` variant is considered a primary color. An exception is
-`forest-green-700`, which is also a primary color that is used as a text color.
+The following color tokens are available as CSS custom properties.
+
+## Primitive Brand Colors
+
+Palettes for our brand colors.
 
 <ColorPalette>
   <ColorItem
-    title="Forest Green"
-    subtitle="Primary Color Palette"
+    title="Brand"
+    subtitle="Brand Colors"
     colors={{
-      100: "var(--hap-color-forest-green-100)",
-      200: "var(--hap-color-forest-green-200)",
-      300: "var(--hap-color-forest-green-300)",
-      400: "var(--hap-color-forest-green-400)",
-      500: "var(--hap-color-forest-green-500)",
-      600: "var(--hap-color-forest-green-600)",
-      700: "var(--hap-color-forest-green-700)",
+      50: "var(--hap-primitives-color-brand-50)",
+      100: "var(--hap-primitives-color-brand-100)",
+      200: "var(--hap-primitives-color-brand-200)",
+      300: "var(--hap-primitives-color-brand-300)",
+      400: "var(--hap-primitives-color-brand-400)",
+      500: "var(--hap-primitives-color-brand-500)",
+      600: "var(--hap-primitives-color-brand-600)",
+      700: "var(--hap-primitives-color-brand-700)",
+      800: "var(--hap-primitives-color-brand-800)",
+      900: "var(--hap-primitives-color-brand-900)",
     }}
   />
   <ColorItem
-    title="Blue Gray"
-    subtitle="Accent Color Palette"
-    colors={{
-      300: "var(--hap-color-blue-gray-300)",
-      400: "var(--hap-color-blue-gray-400)",
-      500: "var(--hap-color-blue-gray-500)",
-      600: "var(--hap-color-blue-gray-600)",
-      700: "var(--hap-color-blue-gray-700)",
-    }}
-  />
-  <ColorItem
-    title="Bright Green"
-    subtitle="Hope you wear sunglasses..."
-    colors={{
-      500: "var(--hap-color-bright-green-500)",
-    }}
-  />
-  <ColorItem
-    title="Neutrals"
+    title="Neutral"
     subtitle="Neutral Colors"
     colors={{
-      White: "var(--hap-color-neutral-white)",
-      Black: "var(--hap-color-neutral-black)",
+      50: "var(--hap-primitives-color-neutral-50)",
+      100: "var(--hap-primitives-color-neutral-100)",
+      200: "var(--hap-primitives-color-neutral-200)",
+      300: "var(--hap-primitives-color-neutral-300)",
+      400: "var(--hap-primitives-color-neutral-400)",
+      500: "var(--hap-primitives-color-neutral-500)",
+      600: "var(--hap-primitives-color-neutral-600)",
+      700: "var(--hap-primitives-color-neutral-700)",
+      800: "var(--hap-primitives-color-neutral-800)",
+      900: "var(--hap-primitives-color-neutral-900)",
+    }}
+  />
+</ColorPalette>
+
+## Primitive Feedback Colors
+
+Palettes for our feedback colors which are used to inform users about the state
+of an application.
+
+<ColorPalette>
+  <ColorItem
+    title="Feedback Green"
+    subtitle="Give some positive feedback"
+    colors={{
+      50: "var(--hap-primitives-color-feedback-green-50)",
+      100: "var(--hap-primitives-color-feedback-green-100)",
+      200: "var(--hap-primitives-color-feedback-green-200)",
+      300: "var(--hap-primitives-color-feedback-green-300)",
+      400: "var(--hap-primitives-color-feedback-green-400)",
+      500: "var(--hap-primitives-color-feedback-green-500)",
+      600: "var(--hap-primitives-color-feedback-green-600)",
+      700: "var(--hap-primitives-color-feedback-green-700)",
+      800: "var(--hap-primitives-color-feedback-green-800)",
+      900: "var(--hap-primitives-color-feedback-green-900)",
+    }}
+  />
+  <ColorItem
+    title="Feedback Red"
+    subtitle="Give some critical feedback"
+    colors={{
+      50: "var(--hap-primitives-color-feedback-red-50)",
+      100: "var(--hap-primitives-color-feedback-red-100)",
+      200: "var(--hap-primitives-color-feedback-red-200)",
+      300: "var(--hap-primitives-color-feedback-red-300)",
+      400: "var(--hap-primitives-color-feedback-red-400)",
+      500: "var(--hap-primitives-color-feedback-red-500)",
+      600: "var(--hap-primitives-color-feedback-red-600)",
+      700: "var(--hap-primitives-color-feedback-red-700)",
+      800: "var(--hap-primitives-color-feedback-red-800)",
+      900: "var(--hap-primitives-color-feedback-red-900)",
+    }}
+  />
+  <ColorItem
+    title="Feedback Yellow"
+    subtitle="Give some cautious feedback"
+    colors={{
+      50: "var(--hap-primitives-color-feedback-yellow-50)",
+      100: "var(--hap-primitives-color-feedback-yellow-100)",
+      200: "var(--hap-primitives-color-feedback-yellow-200)",
+      300: "var(--hap-primitives-color-feedback-yellow-300)",
+      400: "var(--hap-primitives-color-feedback-yellow-400)",
+      500: "var(--hap-primitives-color-feedback-yellow-500)",
+      600: "var(--hap-primitives-color-feedback-yellow-600)",
+      700: "var(--hap-primitives-color-feedback-yellow-700)",
+      800: "var(--hap-primitives-color-feedback-yellow-800)",
+      900: "var(--hap-primitives-color-feedback-yellow-900)",
+    }}
+  />
+</ColorPalette>
+
+## Base Colors
+
+Tones of black and whites that are mainly used for typography.
+
+<ColorPalette>
+  <ColorItem
+    title="Base Black"
+    colors={{
+      primary: "var(--hap-primitives-color-base-blackprimary)",
+      secondary: "var(--hap-primitives-color-base-blacksecondary)",
+      tertiary: "var(--hap-primitives-color-base-blacktertiary)",
+    }}
+  />
+  <ColorItem
+    title="Base White"
+    colors={{
+      primary: "var(--hap-primitives-color-base-whiteprimary)",
+      secondary: "var(--hap-primitives-color-base-whitesecondary)",
+      tertiary: "var(--hap-primitives-color-base-whitetertiary)",
     }}
   />
 </ColorPalette>
