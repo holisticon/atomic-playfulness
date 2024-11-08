@@ -1,6 +1,7 @@
 /* Headings */
 
 .hap-h1 {
+  color: var(--hap-color-text-primary-onlight);
   font-family: var(--hap-typography-font-family-heading);
   font-size: var(--hap-typography-font-size-h1);
   font-weight: var(--hap-typography-font-weight-bold);
@@ -9,6 +10,7 @@
 }
 
 .hap-h2 {
+  color: var(--hap-color-text-primary-onlight);
   font-family: var(--hap-typography-font-family-heading);
   font-size: var(--hap-typography-font-size-h2);
   font-weight: var(--hap-typography-font-weight-medium);
@@ -17,6 +19,7 @@
 }
 
 .hap-h3 {
+  color: var(--hap-color-text-primary-onlight);
   font-family: var(--hap-typography-font-family-heading);
   font-size: var(--hap-typography-font-size-h3);
   font-weight: var(--hap-typography-font-weight-medium);
@@ -25,6 +28,7 @@
 }
 
 .hap-h4 {
+  color: var(--hap-color-text-primary-onlight);
   font-family: var(--hap-typography-font-family-heading);
   font-size: var(--hap-typography-font-size-h4);
   font-weight: var(--hap-typography-font-weight-medium);
@@ -33,6 +37,7 @@
 }
 
 .hap-h5 {
+  color: var(--hap-color-text-primary-onlight);
   font-family: var(--hap-typography-font-family-heading);
   font-size: var(--hap-typography-font-size-h5);
   font-weight: var(--hap-typography-font-weight-medium);
@@ -41,6 +46,7 @@
 }
 
 .hap-h6 {
+  color: var(--hap-color-text-primary-onlight);
   font-family: var(--hap-typography-font-family-heading);
   font-size: var(--hap-typography-font-size-h6);
   font-weight: var(--hap-typography-font-weight-medium);
@@ -51,6 +57,7 @@
 /* Body text */
 
 .hap-text-large {
+  color: var(--hap-color-text-primary-onlight);
   font-family: var(--hap-typography-font-family-body);
   font-size: var(--hap-typography-font-size-h5);
   font-weight: var(--hap-typography-font-weight-regular);
@@ -59,6 +66,7 @@
 }
 
 .hap-text {
+  color: var(--hap-color-text-primary-onlight);
   font-family: var(--hap-typography-font-family-body);
   font-size: var(--hap-typography-font-size-body-regular);
   font-weight: var(--hap-typography-font-weight-regular);
@@ -67,6 +75,7 @@
 }
 
 .hap-text-small {
+  color: var(--hap-color-text-primary-onlight);
   font-family: var(--hap-typography-font-family-body);
   font-size: var(--hap-typography-font-size-body-small);
   font-weight: var(--hap-typography-font-weight-regular);
