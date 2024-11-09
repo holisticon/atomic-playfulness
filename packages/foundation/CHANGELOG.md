@@ -1,5 +1,11 @@
 # @holisticon/hap-foundation
 
+## 0.2.0
+
+### Minor Changes
+
+- [#49](https://github.com/holisticon/atomic-playfulness/pull/49) [`6a41396`](https://github.com/holisticon/atomic-playfulness/commit/6a41396a9ec521535e232634cee5d8cd8da34158) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Added design tokens that are extracted directly from our Figma reference library.
+
 ## 0.1.0
 
 ### Minor Changes
