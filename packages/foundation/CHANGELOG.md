@@ -1,5 +1,11 @@
 # @holisticon/hap-foundation
 
+## 0.2.1
+
+### Patch Changes
+
+- [#51](https://github.com/holisticon/atomic-playfulness/pull/51) [`4ddee06`](https://github.com/holisticon/atomic-playfulness/commit/4ddee068fc87f53071ffb2cb07f1481e266604ab) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Included missing CSS files in package distribution. Now, provided fonts and documented imports should actually work.
+
 ## 0.2.0
 
 ### Minor Changes
