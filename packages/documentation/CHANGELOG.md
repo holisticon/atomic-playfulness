@@ -1,5 +1,12 @@
 # @holisticon/hap-documentation
 
+## 0.0.2
+
+### Patch Changes
+
+- Updated dependencies [[`6a41396`](https://github.com/holisticon/atomic-playfulness/commit/6a41396a9ec521535e232634cee5d8cd8da34158)]:
+  - @holisticon/hap-foundation@0.2.0
+
 ## 0.0.1
 
 ### Patch Changes
