@@ -14,7 +14,7 @@ import {
 } from "./button-story-helpers.js";
 
 const meta: Meta<ButtonArgs> = {
-  args: buttonArgs("primary"),
+  args: buttonArgs("secondary"),
   argTypes: buttonArgTypes,
 
   render: (args) =>
