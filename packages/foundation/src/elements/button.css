@@ -36,7 +36,9 @@
       );
     }
 
-    &:focus {
+    &:focus,
+    &:focus-visible {
+      outline: none;
       color: light-dark(
         var(--hap-color-text-brand-ondark),
         var(--hap-color-text-brand-onlight)
@@ -48,8 +50,8 @@
       /* TODO: add comment */
       box-shadow: inset 0 0 0 2px
         light-dark(
-          var(--hap-border-focused-onlight),
-          var(--hap-border-focused-ondark)
+          var(--hap-color-border-focused-onlight),
+          var(--hap-color-border-focused-ondark)
         );
     }
 
@@ -106,7 +108,9 @@
         );
     }
 
-    &:focus {
+    &:focus,
+    &:focus-visible {
+      outline: none;
       color: light-dark(
         var(--hap-color-text-brand-onlight),
         var(--hap-color-text-brand-ondarkonly)
