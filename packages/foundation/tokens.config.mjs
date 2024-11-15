@@ -27,7 +27,11 @@ export default {
           token.$type === "dimension" &&
           token.id.toLowerCase().includes("opacity")
         ) {
-          return Number(token.$value.replace(/\D/g, "")) / 100;
+          const sanitizedOpacity = Number(
+            token.$value.replace(/[^\d,.]+/g, ""),
+          ).toFixed(2);
+
+          return Number(sanitizedOpacity) / 100;
         }
 
         // letter-spacing values in figma are decimals
@@ -35,7 +39,11 @@ export default {
           token.$type === "dimension" &&
           token.id.toLowerCase().includes("letter-spacing")
         ) {
-          return Number(token.$value);
+          const sanitizedLetterSpacing = Number(
+            token.$value.replace(/[^\d,.]+/g, ""),
+          ).toFixed(2);
+
+          return Number(sanitizedLetterSpacing);
         }
 
         return void 0;
