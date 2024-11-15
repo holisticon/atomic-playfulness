@@ -3,11 +3,7 @@
   font-size: var(--hap-typography-font-size-body-small);
   font-weight: var(--hap-typography-font-weight-medium);
   letter-spacing: var(--hap-typography-letter-spacing-lg);
-  /* has to be calculated because it's only accepted as a value of percentage */
-  line-height: calc(
-    var(--hap-typography-line-height-body-regular-singleline) /
-      var(--hap-typography-font-size-body-small)
-  );
+  line-height: var(--hap-typography-line-height-body-regular-singleline);
   border: none;
   border-radius: var(--hap-radius-radius-full);
   padding: var(--hap-spacing-sm) var(--hap-spacing-md);
