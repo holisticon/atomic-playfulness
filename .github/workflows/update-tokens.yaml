@@ -1,0 +1,50 @@
+name: Update Design Tokens
+
+on:
+  push:
+    # this branch must be the same as configured in figma tokensbrücke plugin for export.
+    branches: [tokens-sync]
+
+env:
+  CI: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  create-pr:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: ".node-version"
+          cache: "npm"
+      - name: Install Dependencies
+        run: npm ci
+      - name: Create changeset
+        # hardcode the changeset file, because the CLI doesn't allow to pass all arguments
+        # and relies on interactive shell usage.
+        run: |
+          cat > .changeset/update-tokens.md << EOM  
+          ---  
+          "@holisticon/hap-foundation": patch  
+          ---  
+          Updated design tokens  
+          EOM
+
+# Disable PR creation for now, as it will check out the base branch first,
+# commit the changes onto there and do a force-push to the already existing tokens-sync branch,
+# effectively overriding the action token changes... :(
+
+#      - name: Create Pull Request
+#        uses: peter-evans/create-pull-request@v7
+#        with:
+#          commit-message: "chore: update design tokens"
+#          title: Update Design Tokens
+#          body: Update design tokens from figma
+#          branch: tokens-sync
+#          base: main
