@@ -8,6 +8,10 @@ on:
 env:
   CI: true
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   create-pr:
     runs-on: macos-latest
@@ -24,7 +28,7 @@ jobs:
       - name: Create changeset
         # hardcode the changeset file, because the CLI doesn't allow to pass all arguments
         # and relies on interactive shell usage.
-        run: >
+        run: |
           cat > .changeset/update-tokens.md << EOM  
           ---  
           "@holisticon/hap-foundation": patch  
