@@ -35,11 +35,16 @@ jobs:
           ---  
           Updated design tokens  
           EOM
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v7
-        with:
-          commit-message: "chore: update design tokens"
-          title: Update Design Tokens
-          body: Update design tokens from figma
-          branch: tokens-sync
-          base: main
+
+# Disable PR creation for now, as it will check out the base branch first,
+# commit the changes onto there and do a force-push to the already existing tokens-sync branch,
+# effectively overriding the action token changes... :(
+
+#      - name: Create Pull Request
+#        uses: peter-evans/create-pull-request@v7
+#        with:
+#          commit-message: "chore: update design tokens"
+#          title: Update Design Tokens
+#          body: Update design tokens from figma
+#          branch: tokens-sync
+#          base: main
