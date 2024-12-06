@@ -22,3 +22,5 @@ export type Story = StoryObj<ButtonArgs>;
 
 export const ButtonPrimary: Story = { args: buttonArgs("primary") };
 export const ButtonSecondary: Story = { args: buttonArgs("secondary") };
+export const ButtonTertiary: Story = { args: buttonArgs("tertiary") };
+export const ButtonDestructive: Story = { args: buttonArgs("destructive") };
