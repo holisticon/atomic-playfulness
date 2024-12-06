@@ -15,6 +15,16 @@
     font-size: var(--hap-typography-font-size-body-small);
   }
 
+  &:disabled {
+    opacity: var(--hap-opacity-disabled);
+    cursor: not-allowed;
+  }
+
+  &:focus,
+  &:focus-visible {
+    outline: none;
+  }
+
   &.primary {
     color: light-dark(
       var(--hap-color-text-brand-ondark),
@@ -38,7 +48,6 @@
 
     &:focus,
     &:focus-visible {
-      outline: none;
       color: light-dark(
         var(--hap-color-text-brand-ondark),
         var(--hap-color-text-brand-onlight)
@@ -47,7 +56,6 @@
         var(--hap-color-button-primary-onlight-default),
         var(--hap-color-button-primary-ondark-default)
       );
-      /* TODO: add comment */
       box-shadow: inset 0 0 0 2px
         light-dark(
           var(--hap-color-border-focused-onlight),
@@ -75,8 +83,6 @@
         var(--hap-color-button-primary-onlight-default),
         var(--hap-color-button-primary-ondark-default)
       );
-      opacity: var(--hap-opacity-disabled);
-      cursor: not-allowed;
     }
   }
 
@@ -85,7 +91,7 @@
       var(--hap-color-text-brand-onlight),
       var(--hap-color-text-brand-ondark)
     );
-    background: none;
+    background-color: none;
     box-shadow: inset 0 0 0 1px
       light-dark(
         var(--hap-color-border-brand-onlight),
@@ -110,12 +116,10 @@
 
     &:focus,
     &:focus-visible {
-      outline: none;
       color: light-dark(
         var(--hap-color-text-brand-onlight),
         var(--hap-color-text-brand-ondarkonly)
       );
-      /* TODO: add comment */
       box-shadow: inset 0 0 0 2px
         light-dark(
           var(--hap-color-border-focused-onlight),
@@ -150,9 +154,119 @@
           var(--hap-color-border-brand-onlight),
           var(--hap-color-border-brand-ondarkonly)
         );
+    }
+  }
 
-      opacity: var(--hap-opacity-disabled);
-      cursor: not-allowed;
+  /* same as secondary but without borders in some states */
+  &.tertiary {
+    color: light-dark(
+      var(--hap-color-text-brand-onlight),
+      var(--hap-color-text-brand-ondark)
+    );
+    background-color: none;
+
+    &:hover {
+      color: light-dark(
+        var(--hap-color-text-brand-onlight),
+        var(--hap-color-text-brand-ondarkonly)
+      );
+      background-color: light-dark(
+        var(--hap-color-interactions-onlight-hovered),
+        var(--hap-color-interactions-ondarkonly-hovered)
+      );
+    }
+
+    &:focus,
+    &:focus-visible {
+      color: light-dark(
+        var(--hap-color-text-brand-onlight),
+        var(--hap-color-text-brand-ondarkonly)
+      );
+      box-shadow: inset 0 0 0 2px
+        light-dark(
+          var(--hap-color-border-focused-onlight),
+          var(--hap-color-border-focused-ondark)
+        );
+    }
+
+    &:active {
+      color: light-dark(
+        var(--hap-color-text-brand-onlight),
+        var(--hap-color-text-brand-ondarkonly)
+      );
+      background-color: light-dark(
+        var(--hap-color-interactions-onlight-pressed),
+        var(--hap-color-interactions-ondarkonly-pressed)
+      );
+    }
+
+    &:disabled {
+      color: light-dark(
+        var(--hap-color-text-brand-onlight),
+        var(--hap-color-text-brand-ondarkonly)
+      );
+      background-color: none;
+    }
+  }
+
+  &.destructive {
+    color: light-dark(
+      var(--hap-color-feedback-critical-light),
+      var(--hap-color-feedback-critical-light)
+    );
+    background-color: light-dark(
+      var(--hap-color-button-destructive-onlight-default),
+      var(--hap-color-button-destructive-ondark-default)
+    );
+
+    &:hover {
+      color: light-dark(
+        var(--hap-color-feedback-critical-light),
+        var(--hap-color-feedback-critical-light)
+      );
+      background-color: light-dark(
+        var(--hap-color-button-destructive-onlight-hovered),
+        var(--hap-color-button-destructive-ondark-hovered)
+      );
+    }
+
+    &:focus,
+    &:focus-visible {
+      color: light-dark(
+        var(--hap-color-feedback-critical-light),
+        var(--hap-color-feedback-critical-light)
+      );
+      background-color: light-dark(
+        var(--hap-color-button-destructive-onlight-hovered),
+        var(--hap-color-button-destructive-ondark-hovered)
+      );
+      box-shadow: inset 0 0 0 2px
+        light-dark(
+          var(--hap-color-border-focused-onlight),
+          var(--hap-color-border-focused-ondark)
+        );
+    }
+
+    &:active {
+      color: light-dark(
+        var(--hap-color-feedback-critical-light),
+        var(--hap-color-feedback-critical-light)
+      );
+      background-color: light-dark(
+        var(--hap-color-button-destructive-onlight-pressed),
+        var(--hap-color-button-destructive-ondark-pressed)
+      );
+    }
+
+    &:disabled {
+      color: light-dark(
+        var(--hap-color-feedback-critical-light),
+        var(--hap-color-feedback-critical-light)
+      );
+      background-color: light-dark(
+        var(--hap-color-button-destructive-onlight-default),
+        var(--hap-color-button-destructive-ondark-default)
+      );
     }
   }
 }
