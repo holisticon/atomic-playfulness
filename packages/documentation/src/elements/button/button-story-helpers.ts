@@ -46,13 +46,13 @@ export const renderButtons = (args: ButtonArgs, colorScheme: ColorScheme) =>
       ...args,
       size: "default",
       label: "Default",
-      icon: "(Icon prefix)",
+      icon: "[Icon]",
     })}
     ${renderButton({
       ...args,
       size: "default",
       label: "Default",
-      icon: "(Icon suffix)",
+      icon: "[Icon]",
       iconPosition: "right",
     })}
     ${renderButton({ ...args, size: "small", label: "Small" })}
@@ -60,13 +60,13 @@ export const renderButtons = (args: ButtonArgs, colorScheme: ColorScheme) =>
       ...args,
       size: "small",
       label: "Small",
-      icon: "(Icon prefix)",
+      icon: "[Icon]",
     })}
     ${renderButton({
       ...args,
       size: "small",
       label: "Small",
-      icon: "(Icon suffix)",
+      icon: "[Icon]",
       iconPosition: "right",
     })}
   </div> `;
