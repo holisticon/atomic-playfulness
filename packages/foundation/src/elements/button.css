@@ -28,132 +28,132 @@
 
   &.primary {
     color: light-dark(
-      var(--hap-color-text-brand-ondark),
-      var(--hap-color-text-brand-onlight)
+      var(--hap-color-text-brand-on-dark),
+      var(--hap-color-text-brand-on-light)
     );
     background-color: light-dark(
-      var(--hap-color-button-primary-onlight-default),
-      var(--hap-color-button-primary-ondark-default)
+      var(--hap-color-button-primary-on-light-default),
+      var(--hap-color-button-primary-on-dark-default)
     );
 
     &:hover {
       color: light-dark(
-        var(--hap-color-text-brand-ondark),
-        var(--hap-color-text-brand-onlight)
+        var(--hap-color-text-brand-on-dark),
+        var(--hap-color-text-brand-on-light)
       );
       background-color: light-dark(
-        var(--hap-color-button-primary-onlight-hovered),
-        var(--hap-color-button-primary-ondark-hovered)
+        var(--hap-color-button-primary-on-light-hovered),
+        var(--hap-color-button-primary-on-dark-hovered)
       );
     }
 
     &:focus,
     &:focus-visible {
       color: light-dark(
-        var(--hap-color-text-brand-ondark),
-        var(--hap-color-text-brand-onlight)
+        var(--hap-color-text-brand-on-dark),
+        var(--hap-color-text-brand-on-light)
       );
       background-color: light-dark(
-        var(--hap-color-button-primary-onlight-default),
-        var(--hap-color-button-primary-ondark-default)
+        var(--hap-color-button-primary-on-light-default),
+        var(--hap-color-button-primary-on-dark-default)
       );
       box-shadow: inset 0 0 0 2px
         light-dark(
-          var(--hap-color-border-focused-onlight),
-          var(--hap-color-border-focused-ondark)
+          var(--hap-color-border-focused-on-light),
+          var(--hap-color-border-focused-on-dark)
         );
     }
 
     &:active {
       color: light-dark(
-        var(--hap-color-text-brand-ondark),
-        var(--hap-color-text-brand-onlight)
+        var(--hap-color-text-brand-on-dark),
+        var(--hap-color-text-brand-on-light)
       );
       background-color: light-dark(
-        var(--hap-color-button-primary-onlight-pressed),
-        var(--hap-color-button-primary-ondark-pressed)
+        var(--hap-color-button-primary-on-light-pressed),
+        var(--hap-color-button-primary-on-dark-pressed)
       );
     }
 
     &:disabled {
       color: light-dark(
-        var(--hap-color-text-brand-ondark),
-        var(--hap-color-text-brand-onlight)
+        var(--hap-color-text-brand-on-dark),
+        var(--hap-color-text-brand-on-light)
       );
       background-color: light-dark(
-        var(--hap-color-button-primary-onlight-default),
-        var(--hap-color-button-primary-ondark-default)
+        var(--hap-color-button-primary-on-light-default),
+        var(--hap-color-button-primary-on-dark-default)
       );
     }
   }
 
   &.secondary {
     color: light-dark(
-      var(--hap-color-text-brand-onlight),
-      var(--hap-color-text-brand-ondark)
+      var(--hap-color-text-brand-on-light),
+      var(--hap-color-text-brand-on-dark)
     );
     background-color: none;
     box-shadow: inset 0 0 0 1px
       light-dark(
-        var(--hap-color-border-brand-onlight),
-        var(--hap-color-border-brand-ondarkonly)
+        var(--hap-color-border-brand-on-light),
+        var(--hap-color-border-brand-on-dark-only)
       );
 
     &:hover {
       color: light-dark(
-        var(--hap-color-text-brand-onlight),
-        var(--hap-color-text-brand-ondarkonly)
+        var(--hap-color-text-brand-on-light),
+        var(--hap-color-text-brand-on-dark-only)
       );
       background-color: light-dark(
-        var(--hap-color-interactions-onlight-hovered),
-        var(--hap-color-interactions-ondarkonly-hovered)
+        var(--hap-color-interactions-on-light-hovered),
+        var(--hap-color-interactions-on-dark-only-hovered)
       );
       box-shadow: inset 0 0 0 1px
         light-dark(
-          var(--hap-color-border-brand-onlight),
-          var(--hap-color-border-brand-ondarkonly)
+          var(--hap-color-border-brand-on-light),
+          var(--hap-color-border-brand-on-dark-only)
         );
     }
 
     &:focus,
     &:focus-visible {
       color: light-dark(
-        var(--hap-color-text-brand-onlight),
-        var(--hap-color-text-brand-ondarkonly)
+        var(--hap-color-text-brand-on-light),
+        var(--hap-color-text-brand-on-dark-only)
       );
       box-shadow: inset 0 0 0 2px
         light-dark(
-          var(--hap-color-border-focused-onlight),
-          var(--hap-color-border-focused-ondark)
+          var(--hap-color-border-focused-on-light),
+          var(--hap-color-border-focused-on-dark)
         );
     }
 
     &:active {
       color: light-dark(
-        var(--hap-color-text-brand-onlight),
-        var(--hap-color-text-brand-ondarkonly)
+        var(--hap-color-text-brand-on-light),
+        var(--hap-color-text-brand-on-dark-only)
       );
       background-color: light-dark(
-        var(--hap-color-interactions-onlight-pressed),
-        var(--hap-color-interactions-ondarkonly-pressed)
+        var(--hap-color-interactions-on-light-pressed),
+        var(--hap-color-interactions-on-dark-only-pressed)
       );
       box-shadow: inset 0 0 0 1px
         light-dark(
-          var(--hap-color-border-brand-onlight),
-          var(--hap-color-border-brand-ondarkonly)
+          var(--hap-color-border-brand-on-light),
+          var(--hap-color-border-brand-on-dark-only)
         );
     }
 
     &:disabled {
       color: light-dark(
-        var(--hap-color-text-brand-onlight),
-        var(--hap-color-text-brand-ondarkonly)
+        var(--hap-color-text-brand-on-light),
+        var(--hap-color-text-brand-on-dark-only)
       );
       background-color: none;
       box-shadow: inset 0 0 0 1px
         light-dark(
-          var(--hap-color-border-brand-onlight),
-          var(--hap-color-border-brand-ondarkonly)
+          var(--hap-color-border-brand-on-light),
+          var(--hap-color-border-brand-on-dark-only)
         );
     }
   }
@@ -161,50 +161,50 @@
   /* same as secondary but without borders in some states */
   &.tertiary {
     color: light-dark(
-      var(--hap-color-text-brand-onlight),
-      var(--hap-color-text-brand-ondark)
+      var(--hap-color-text-brand-on-light),
+      var(--hap-color-text-brand-on-dark)
     );
     background-color: none;
 
     &:hover {
       color: light-dark(
-        var(--hap-color-text-brand-onlight),
-        var(--hap-color-text-brand-ondarkonly)
+        var(--hap-color-text-brand-on-light),
+        var(--hap-color-text-brand-on-dark-only)
       );
       background-color: light-dark(
-        var(--hap-color-interactions-onlight-hovered),
-        var(--hap-color-interactions-ondarkonly-hovered)
+        var(--hap-color-interactions-on-light-hovered),
+        var(--hap-color-interactions-on-dark-only-hovered)
       );
     }
 
     &:focus,
     &:focus-visible {
       color: light-dark(
-        var(--hap-color-text-brand-onlight),
-        var(--hap-color-text-brand-ondarkonly)
+        var(--hap-color-text-brand-on-light),
+        var(--hap-color-text-brand-on-dark-only)
       );
       box-shadow: inset 0 0 0 2px
         light-dark(
-          var(--hap-color-border-focused-onlight),
-          var(--hap-color-border-focused-ondark)
+          var(--hap-color-border-focused-on-light),
+          var(--hap-color-border-focused-on-dark)
         );
     }
 
     &:active {
       color: light-dark(
-        var(--hap-color-text-brand-onlight),
-        var(--hap-color-text-brand-ondarkonly)
+        var(--hap-color-text-brand-on-light),
+        var(--hap-color-text-brand-on-dark-only)
       );
       background-color: light-dark(
-        var(--hap-color-interactions-onlight-pressed),
-        var(--hap-color-interactions-ondarkonly-pressed)
+        var(--hap-color-interactions-on-light-pressed),
+        var(--hap-color-interactions-on-dark-only-pressed)
       );
     }
 
     &:disabled {
       color: light-dark(
-        var(--hap-color-text-brand-onlight),
-        var(--hap-color-text-brand-ondarkonly)
+        var(--hap-color-text-brand-on-light),
+        var(--hap-color-text-brand-on-dark-only)
       );
       background-color: none;
     }
@@ -216,8 +216,8 @@
       var(--hap-color-feedback-critical-light)
     );
     background-color: light-dark(
-      var(--hap-color-button-destructive-onlight-default),
-      var(--hap-color-button-destructive-ondark-default)
+      var(--hap-color-button-destructive-on-light-default),
+      var(--hap-color-button-destructive-on-dark-default)
     );
 
     &:hover {
@@ -226,8 +226,8 @@
         var(--hap-color-feedback-critical-light)
       );
       background-color: light-dark(
-        var(--hap-color-button-destructive-onlight-hovered),
-        var(--hap-color-button-destructive-ondark-hovered)
+        var(--hap-color-button-destructive-on-light-hovered),
+        var(--hap-color-button-destructive-on-dark-hovered)
       );
     }
 
@@ -238,13 +238,13 @@
         var(--hap-color-feedback-critical-light)
       );
       background-color: light-dark(
-        var(--hap-color-button-destructive-onlight-hovered),
-        var(--hap-color-button-destructive-ondark-hovered)
+        var(--hap-color-button-destructive-on-light-hovered),
+        var(--hap-color-button-destructive-on-dark-hovered)
       );
       box-shadow: inset 0 0 0 2px
         light-dark(
-          var(--hap-color-border-focused-onlight),
-          var(--hap-color-border-focused-ondark)
+          var(--hap-color-border-focused-on-light),
+          var(--hap-color-border-focused-on-dark)
         );
     }
 
@@ -254,8 +254,8 @@
         var(--hap-color-feedback-critical-light)
       );
       background-color: light-dark(
-        var(--hap-color-button-destructive-onlight-pressed),
-        var(--hap-color-button-destructive-ondark-pressed)
+        var(--hap-color-button-destructive-on-light-pressed),
+        var(--hap-color-button-destructive-on-dark-pressed)
       );
     }
 
@@ -265,8 +265,8 @@
         var(--hap-color-feedback-critical-light)
       );
       background-color: light-dark(
-        var(--hap-color-button-destructive-onlight-default),
-        var(--hap-color-button-destructive-ondark-default)
+        var(--hap-color-button-destructive-on-light-default),
+        var(--hap-color-button-destructive-on-dark-default)
       );
     }
   }
