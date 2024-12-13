@@ -17,12 +17,12 @@
     "./atomic-playfulness.css": "./src/atomic-playfulness.css"
   },
   "scripts": {
-    "build": "co build",
-    "check": "co check",
-    "lint": "eslint ."
+    "dev": "tz build -w",
+    "build": "tz build",
+    "lint": "eslint . && tz lint"
   },
   "devDependencies": {
-    "@cobalt-ui/cli": "^1.11.2",
-    "@cobalt-ui/plugin-css": "^1.7.4"
+    "@terrazzo/cli": "^0.2.8",
+    "@terrazzo/plugin-css": "^0.2.0"
   }
 }
