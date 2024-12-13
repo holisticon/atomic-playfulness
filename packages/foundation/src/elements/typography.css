@@ -1,97 +1,97 @@
 /* Headings */
 
-.hap-h1 {
-  color: var(--hap-color-text-primary-onlight);
+.hap-headline-3xl {
+  color: var(--hap-color-text-primary-on-light);
   font-family: var(--hap-typography-font-family-heading);
-  font-size: var(--hap-typography-font-size-h1);
-  font-weight: var(--hap-typography-font-weight-bold);
-  letter-spacing: normal;
-  line-height: var(--hap-typography-line-height-h1);
+  font-size: var(--hap-typography-font-size-headline-3-xl);
+  font-weight: var(--hap-typography-font-weight-medium);
+  letter-spacing: var(--hap-typography-letter-spacing-xs);
+  line-height: var(--hap-typography-line-height-headline-3-xl);
 }
 
-.hap-h2 {
-  color: var(--hap-color-text-primary-onlight);
+.hap-headline-2xl {
+  color: var(--hap-color-text-primary-on-light);
   font-family: var(--hap-typography-font-family-heading);
-  font-size: var(--hap-typography-font-size-h2);
+  font-size: var(--hap-typography-font-size-headline-2-xl);
   font-weight: var(--hap-typography-font-weight-medium);
-  letter-spacing: normal;
-  line-height: var(--hap-typography-line-height-h2);
+  letter-spacing: var(--hap-typography-letter-spacing-xs);
+  line-height: var(--hap-typography-line-height-headline-2-xl);
 }
 
-.hap-h3 {
-  color: var(--hap-color-text-primary-onlight);
+.hap-headline-xl {
+  color: var(--hap-color-text-primary-on-light);
   font-family: var(--hap-typography-font-family-heading);
-  font-size: var(--hap-typography-font-size-h3);
+  font-size: var(--hap-typography-font-size-headline-xl);
   font-weight: var(--hap-typography-font-weight-medium);
-  letter-spacing: normal;
-  line-height: var(--hap-typography-line-height-h3);
+  letter-spacing: var(--hap-typography-letter-spacing-s);
+  line-height: var(--hap-typography-line-height-headline-xl);
 }
 
-.hap-h4 {
-  color: var(--hap-color-text-primary-onlight);
+.hap-headline-lg {
+  color: var(--hap-color-text-primary-on-light);
   font-family: var(--hap-typography-font-family-heading);
-  font-size: var(--hap-typography-font-size-h4);
+  font-size: var(--hap-typography-font-size-headline-lg);
   font-weight: var(--hap-typography-font-weight-medium);
-  letter-spacing: normal;
-  line-height: var(--hap-typography-line-height-h4);
+  letter-spacing: var(--hap-typography-letter-spacing-s);
+  line-height: var(--hap-typography-line-height-headline-lg);
 }
 
-.hap-h5 {
-  color: var(--hap-color-text-primary-onlight);
+.hap-headline-md {
+  color: var(--hap-color-text-primary-on-light);
   font-family: var(--hap-typography-font-family-heading);
-  font-size: var(--hap-typography-font-size-h5);
+  font-size: var(--hap-typography-font-size-headline-md);
   font-weight: var(--hap-typography-font-weight-medium);
-  letter-spacing: normal;
-  line-height: var(--hap-typography-line-height-h5);
+  letter-spacing: var(--hap-typography-letter-spacing-md);
+  line-height: var(--hap-typography-line-height-headline-md);
 }
 
-.hap-h6 {
-  color: var(--hap-color-text-primary-onlight);
+.hap-headline-sm {
+  color: var(--hap-color-text-primary-on-light);
   font-family: var(--hap-typography-font-family-heading);
-  font-size: var(--hap-typography-font-size-h6);
+  font-size: var(--hap-typography-font-size-headline-sm);
   font-weight: var(--hap-typography-font-weight-medium);
-  letter-spacing: normal;
-  line-height: var(--hap-typography-line-height-h6);
+  letter-spacing: var(--hap-typography-letter-spacing-lg);
+  line-height: var(--hap-typography-line-height-headline-sm);
 }
 
 /* Body text */
 
-.hap-text-large {
-  color: var(--hap-color-text-primary-onlight);
+.hap-text {
+  color: var(--hap-color-text-primary-on-light);
   font-family: var(--hap-typography-font-family-body);
-  font-size: var(--hap-typography-font-size-h5);
+  font-size: var(--hap-typography-font-size-bodytext-standard);
   font-weight: var(--hap-typography-font-weight-regular);
-  letter-spacing: normal;
-  line-height: var(--hap-typography-line-height-h6);
+  letter-spacing: var(--hap-typography-letter-spacing-md);
+  line-height: var(--hap-typography-line-height-bodytext-standard-singleline);
 }
 
-.hap-text {
-  color: var(--hap-color-text-primary-onlight);
-  font-family: var(--hap-typography-font-family-body);
+.hap-text-sm {
+  color: var(--hap-color-text-primary-on-light);
+  font-family: var(--hap-typography-font-family-bodytext-s);
   font-size: var(--hap-typography-font-size-body-regular);
   font-weight: var(--hap-typography-font-weight-regular);
-  letter-spacing: normal;
-  line-height: var(--hap-typography-line-height-body-regular-singleline);
+  letter-spacing: var(--hap-typography-letter-spacing-lg);
+  line-height: var(--hap-typography-line-height-bodytext-s-singleline);
 }
 
-.hap-text-small {
-  color: var(--hap-color-text-primary-onlight);
+.hap-text-xs {
+  color: var(--hap-color-text-primary-on-light);
   font-family: var(--hap-typography-font-family-body);
-  font-size: var(--hap-typography-font-size-body-small);
+  font-size: var(--hap-typography-font-size-bodytext-xs);
   font-weight: var(--hap-typography-font-weight-regular);
-  letter-spacing: normal;
-  line-height: var(--hap-typography-line-height-body-small-singleline);
+  letter-spacing: var(--hap-typography-letter-spacing-xl);
+  line-height: var(--hap-typography-line-height-bodytext-xs-singleeline);
 }
 
 /* Rounded Dots for all typography levels */
-.hap-h1,
-.hap-h2,
-.hap-h3,
-.hap-h4,
-.hap-h5,
-.hap-h6,
+.hap-headline-3xl,
+.hap-headline-2xl,
+.hap-headline-xl,
+.hap-headline-lg,
+.hap-headline-md,
+.hap-headline-sm,
 .hap-text,
-.hap-text-large,
-.hap-text-small {
+.hap-text-sm,
+.hap-text-xs {
   font-feature-settings: "ss11" 1;
 }
