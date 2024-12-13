@@ -17,7 +17,37 @@ export default {
           .toLowerCase()
           .replace("hap-tokens", "hap");
       }, prefix),
-      transform: (token) => (token.$type === "string" ? token.value : void 0),
+      transform: (token) => {
+        if (token.$type === "string") {
+          return token.value;
+        }
+
+        // opacity values in figma range from 0 to 100
+        if (
+          token.$type === "dimension" &&
+          token.id.toLowerCase().includes("opacity")
+        ) {
+          const sanitizedOpacity = Number(
+            token.$value.replace(/[^\d,.]+/g, ""),
+          ).toFixed(2);
+
+          return Number(sanitizedOpacity) / 100;
+        }
+
+        // letter-spacing values in figma are decimals
+        if (
+          token.$type === "dimension" &&
+          token.id.toLowerCase().includes("letter-spacing")
+        ) {
+          const sanitizedLetterSpacing = Number(
+            token.$value.replace(/[^\d-,.]+/g, ""),
+          ).toFixed(2);
+
+          return Number(sanitizedLetterSpacing);
+        }
+
+        return void 0;
+      },
     }),
   ],
 };

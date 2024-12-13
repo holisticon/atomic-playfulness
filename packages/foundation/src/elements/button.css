@@ -1,0 +1,272 @@
+.hap-button {
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-body-small);
+  font-weight: var(--hap-typography-font-weight-medium);
+  letter-spacing: var(--hap-typography-letter-spacing-lg);
+  line-height: var(--hap-typography-line-height-body-regular-singleline);
+  border: none;
+  border-radius: var(--hap-radius-radius-full);
+  padding: var(--hap-spacing-sm) var(--hap-spacing-md);
+  cursor: pointer;
+  width: max-content;
+
+  &.small {
+    padding: var(--hap-spacing-xs) var(--hap-spacing-sm);
+    font-size: var(--hap-typography-font-size-body-small);
+  }
+
+  &:disabled {
+    opacity: var(--hap-opacity-disabled);
+    cursor: not-allowed;
+  }
+
+  &:focus,
+  &:focus-visible {
+    outline: none;
+  }
+
+  &.primary {
+    color: light-dark(
+      var(--hap-color-text-brand-ondark),
+      var(--hap-color-text-brand-onlight)
+    );
+    background-color: light-dark(
+      var(--hap-color-button-primary-onlight-default),
+      var(--hap-color-button-primary-ondark-default)
+    );
+
+    &:hover {
+      color: light-dark(
+        var(--hap-color-text-brand-ondark),
+        var(--hap-color-text-brand-onlight)
+      );
+      background-color: light-dark(
+        var(--hap-color-button-primary-onlight-hovered),
+        var(--hap-color-button-primary-ondark-hovered)
+      );
+    }
+
+    &:focus,
+    &:focus-visible {
+      color: light-dark(
+        var(--hap-color-text-brand-ondark),
+        var(--hap-color-text-brand-onlight)
+      );
+      background-color: light-dark(
+        var(--hap-color-button-primary-onlight-default),
+        var(--hap-color-button-primary-ondark-default)
+      );
+      box-shadow: inset 0 0 0 2px
+        light-dark(
+          var(--hap-color-border-focused-onlight),
+          var(--hap-color-border-focused-ondark)
+        );
+    }
+
+    &:active {
+      color: light-dark(
+        var(--hap-color-text-brand-ondark),
+        var(--hap-color-text-brand-onlight)
+      );
+      background-color: light-dark(
+        var(--hap-color-button-primary-onlight-pressed),
+        var(--hap-color-button-primary-ondark-pressed)
+      );
+    }
+
+    &:disabled {
+      color: light-dark(
+        var(--hap-color-text-brand-ondark),
+        var(--hap-color-text-brand-onlight)
+      );
+      background-color: light-dark(
+        var(--hap-color-button-primary-onlight-default),
+        var(--hap-color-button-primary-ondark-default)
+      );
+    }
+  }
+
+  &.secondary {
+    color: light-dark(
+      var(--hap-color-text-brand-onlight),
+      var(--hap-color-text-brand-ondark)
+    );
+    background-color: none;
+    box-shadow: inset 0 0 0 1px
+      light-dark(
+        var(--hap-color-border-brand-onlight),
+        var(--hap-color-border-brand-ondarkonly)
+      );
+
+    &:hover {
+      color: light-dark(
+        var(--hap-color-text-brand-onlight),
+        var(--hap-color-text-brand-ondarkonly)
+      );
+      background-color: light-dark(
+        var(--hap-color-interactions-onlight-hovered),
+        var(--hap-color-interactions-ondarkonly-hovered)
+      );
+      box-shadow: inset 0 0 0 1px
+        light-dark(
+          var(--hap-color-border-brand-onlight),
+          var(--hap-color-border-brand-ondarkonly)
+        );
+    }
+
+    &:focus,
+    &:focus-visible {
+      color: light-dark(
+        var(--hap-color-text-brand-onlight),
+        var(--hap-color-text-brand-ondarkonly)
+      );
+      box-shadow: inset 0 0 0 2px
+        light-dark(
+          var(--hap-color-border-focused-onlight),
+          var(--hap-color-border-focused-ondark)
+        );
+    }
+
+    &:active {
+      color: light-dark(
+        var(--hap-color-text-brand-onlight),
+        var(--hap-color-text-brand-ondarkonly)
+      );
+      background-color: light-dark(
+        var(--hap-color-interactions-onlight-pressed),
+        var(--hap-color-interactions-ondarkonly-pressed)
+      );
+      box-shadow: inset 0 0 0 1px
+        light-dark(
+          var(--hap-color-border-brand-onlight),
+          var(--hap-color-border-brand-ondarkonly)
+        );
+    }
+
+    &:disabled {
+      color: light-dark(
+        var(--hap-color-text-brand-onlight),
+        var(--hap-color-text-brand-ondarkonly)
+      );
+      background-color: none;
+      box-shadow: inset 0 0 0 1px
+        light-dark(
+          var(--hap-color-border-brand-onlight),
+          var(--hap-color-border-brand-ondarkonly)
+        );
+    }
+  }
+
+  /* same as secondary but without borders in some states */
+  &.tertiary {
+    color: light-dark(
+      var(--hap-color-text-brand-onlight),
+      var(--hap-color-text-brand-ondark)
+    );
+    background-color: none;
+
+    &:hover {
+      color: light-dark(
+        var(--hap-color-text-brand-onlight),
+        var(--hap-color-text-brand-ondarkonly)
+      );
+      background-color: light-dark(
+        var(--hap-color-interactions-onlight-hovered),
+        var(--hap-color-interactions-ondarkonly-hovered)
+      );
+    }
+
+    &:focus,
+    &:focus-visible {
+      color: light-dark(
+        var(--hap-color-text-brand-onlight),
+        var(--hap-color-text-brand-ondarkonly)
+      );
+      box-shadow: inset 0 0 0 2px
+        light-dark(
+          var(--hap-color-border-focused-onlight),
+          var(--hap-color-border-focused-ondark)
+        );
+    }
+
+    &:active {
+      color: light-dark(
+        var(--hap-color-text-brand-onlight),
+        var(--hap-color-text-brand-ondarkonly)
+      );
+      background-color: light-dark(
+        var(--hap-color-interactions-onlight-pressed),
+        var(--hap-color-interactions-ondarkonly-pressed)
+      );
+    }
+
+    &:disabled {
+      color: light-dark(
+        var(--hap-color-text-brand-onlight),
+        var(--hap-color-text-brand-ondarkonly)
+      );
+      background-color: none;
+    }
+  }
+
+  &.destructive {
+    color: light-dark(
+      var(--hap-color-feedback-critical-light),
+      var(--hap-color-feedback-critical-light)
+    );
+    background-color: light-dark(
+      var(--hap-color-button-destructive-onlight-default),
+      var(--hap-color-button-destructive-ondark-default)
+    );
+
+    &:hover {
+      color: light-dark(
+        var(--hap-color-feedback-critical-light),
+        var(--hap-color-feedback-critical-light)
+      );
+      background-color: light-dark(
+        var(--hap-color-button-destructive-onlight-hovered),
+        var(--hap-color-button-destructive-ondark-hovered)
+      );
+    }
+
+    &:focus,
+    &:focus-visible {
+      color: light-dark(
+        var(--hap-color-feedback-critical-light),
+        var(--hap-color-feedback-critical-light)
+      );
+      background-color: light-dark(
+        var(--hap-color-button-destructive-onlight-hovered),
+        var(--hap-color-button-destructive-ondark-hovered)
+      );
+      box-shadow: inset 0 0 0 2px
+        light-dark(
+          var(--hap-color-border-focused-onlight),
+          var(--hap-color-border-focused-ondark)
+        );
+    }
+
+    &:active {
+      color: light-dark(
+        var(--hap-color-feedback-critical-light),
+        var(--hap-color-feedback-critical-light)
+      );
+      background-color: light-dark(
+        var(--hap-color-button-destructive-onlight-pressed),
+        var(--hap-color-button-destructive-ondark-pressed)
+      );
+    }
+
+    &:disabled {
+      color: light-dark(
+        var(--hap-color-feedback-critical-light),
+        var(--hap-color-feedback-critical-light)
+      );
+      background-color: light-dark(
+        var(--hap-color-button-destructive-onlight-default),
+        var(--hap-color-button-destructive-ondark-default)
+      );
+    }
+  }
+}
