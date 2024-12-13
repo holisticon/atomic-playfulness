@@ -1,5 +1,16 @@
 # @holisticon/hap-documentation
 
+## 0.1.0
+
+### Minor Changes
+
+- [#48](https://github.com/holisticon/atomic-playfulness/pull/48) [`d340105`](https://github.com/holisticon/atomic-playfulness/commit/d340105ce6d68aefa44a02deea7a60f9b6ec9a17) Thanks [@fabiangaukler](https://github.com/fabiangaukler)! - Added buttons and styling for them
+
+### Patch Changes
+
+- Updated dependencies [[`d340105`](https://github.com/holisticon/atomic-playfulness/commit/d340105ce6d68aefa44a02deea7a60f9b6ec9a17)]:
+  - @holisticon/hap-foundation@0.3.0
+
 ## 0.0.2
 
 ### Patch Changes
