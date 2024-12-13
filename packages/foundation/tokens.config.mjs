@@ -40,7 +40,7 @@ export default {
           token.id.toLowerCase().includes("letter-spacing")
         ) {
           const sanitizedLetterSpacing = Number(
-            token.$value.replace(/[^\d,.]+/g, ""),
+            token.$value.replace(/[^\d-,.]+/g, ""),
           ).toFixed(2);
 
           return Number(sanitizedLetterSpacing);
