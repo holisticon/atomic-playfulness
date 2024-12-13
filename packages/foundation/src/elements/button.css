@@ -1,18 +1,19 @@
 .hap-button {
   font-family: var(--hap-typography-font-family-body);
-  font-size: var(--hap-typography-font-size-body-small);
+  font-size: var(--hap-typography-font-size-bodytext-s);
   font-weight: var(--hap-typography-font-weight-medium);
   letter-spacing: var(--hap-typography-letter-spacing-lg);
-  line-height: var(--hap-typography-line-height-body-regular-singleline);
+  line-height: var(--hap-typography-line-height-bodytext-standard-singleline);
   border: none;
-  border-radius: var(--hap-radius-radius-full);
+  border-radius: var(--hap-radius-full);
   padding: var(--hap-spacing-sm) var(--hap-spacing-md);
   cursor: pointer;
   width: max-content;
 
   &.small {
     padding: var(--hap-spacing-xs) var(--hap-spacing-sm);
-    font-size: var(--hap-typography-font-size-body-small);
+    font-size: var(--hap-typography-font-size-bodytext-s);
+    line-height: var(--hap-typography-line-height-bodytext-s-singleline);
   }
 
   &:disabled {
