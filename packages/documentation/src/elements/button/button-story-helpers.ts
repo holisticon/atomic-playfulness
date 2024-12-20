@@ -1,5 +1,6 @@
 import type { ArgTypes } from "@storybook/web-components";
 import { html } from "lit";
+import { ArrowRight, Check, createIcons } from "lucide";
 
 type ButtonSize = "default" | "small";
 type ButtonVariant = "primary" | "secondary" | "tertiary" | "destructive";
@@ -46,13 +47,13 @@ export const renderButtons = (args: ButtonArgs, colorScheme: ColorScheme) =>
       ...args,
       size: "default",
       label: "Default",
-      icon: "[Icon]",
+      icon: "check",
     })}
     ${renderButton({
       ...args,
       size: "default",
       label: "Default",
-      icon: "[Icon]",
+      icon: "arrow-right",
       iconPosition: "right",
     })}
     ${renderButton({ ...args, size: "small", label: "Small" })}
@@ -60,18 +61,28 @@ export const renderButtons = (args: ButtonArgs, colorScheme: ColorScheme) =>
       ...args,
       size: "small",
       label: "Small",
-      icon: "[Icon]",
+      icon: "check",
     })}
     ${renderButton({
       ...args,
       size: "small",
       label: "Small",
-      icon: "[Icon]",
+      icon: "arrow-right",
       iconPosition: "right",
     })}
   </div> `;
 
 const renderButton = (args: ButtonArgs) => {
+  createIcons({
+    icons: {
+      Check,
+      ArrowRight,
+    },
+    attrs: {
+      // TODO: make icons as high as line-height
+    },
+  });
+
   return html`
     <button
       class="hap-button ${args.variant} ${args.size} ${args.disabled
@@ -80,11 +91,11 @@ const renderButton = (args: ButtonArgs) => {
       ?disabled=${args.disabled}
     >
       ${args.icon && args.iconPosition === "left"
-        ? html`<span class="icon">${args.icon}</span>`
+        ? html`<i data-lucide=${args.icon}></i>`
         : ""}
       ${args.label}
       ${args.icon && args.iconPosition === "right"
-        ? html`<span class="icon">${args.icon}</span>`
+        ? html`<i data-lucide=${args.icon}></i>`
         : ""}
     </button>
   `;
