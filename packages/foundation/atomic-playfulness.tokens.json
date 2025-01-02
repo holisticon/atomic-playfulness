@@ -5056,7 +5056,7 @@
             "$extensions": {
               "mode": {
                 "Light": "{Primitives.font-size.md}",
-                "Dark": "{Tokens.spacing.md}"
+                "Dark": "{Primitives.font-size.md}"
               },
               "figma": {
                 "variableId": "VariableID:25:38",
@@ -5347,7 +5347,7 @@
             }
           },
           "XS": {
-            "singleeline": {
+            "singleline": {
               "$type": "dimension",
               "$value": "{Primitives.line-height.xs}",
               "$description": "",
@@ -5427,7 +5427,7 @@
         }
       },
       "letter-spacing": {
-        "md": {
+        "MD": {
           "$type": "dimension",
           "$value": "{Primitives.letter-spacing.md}",
           "$description": "",
@@ -5446,7 +5446,7 @@
             }
           }
         },
-        "lg": {
+        "LG": {
           "$type": "dimension",
           "$value": "{Primitives.letter-spacing.lg}",
           "$description": "",
@@ -5465,7 +5465,7 @@
             }
           }
         },
-        "xl": {
+        "XL": {
           "$type": "dimension",
           "$value": "{Primitives.letter-spacing.xl}",
           "$description": "",
@@ -5484,7 +5484,7 @@
             }
           }
         },
-        "s": {
+        "SM": {
           "$type": "dimension",
           "$value": "{Primitives.letter-spacing.s}",
           "$description": "",
@@ -5503,7 +5503,7 @@
             }
           }
         },
-        "xs": {
+        "XS": {
           "$type": "dimension",
           "$value": "{Primitives.letter-spacing.xs}",
           "$description": "",
@@ -5766,7 +5766,7 @@
       "useDTCGKeys": true,
       "colorMode": "hex",
       "variableCollections": ["Primitives", "Tokens"],
-      "createdAt": "2024-12-13T10:18:24.672Z"
+      "createdAt": "2025-01-02T15:58:40.313Z"
     }
   }
 }
