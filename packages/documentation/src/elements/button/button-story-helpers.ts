@@ -1,6 +1,5 @@
 import type { ArgTypes } from "@storybook/web-components";
 import { html } from "lit";
-import { ArrowRight, Check, createIcons } from "lucide";
 
 type ButtonSize = "default" | "small";
 type ButtonVariant = "primary" | "secondary" | "tertiary" | "destructive";
@@ -72,31 +71,19 @@ export const renderButtons = (args: ButtonArgs, colorScheme: ColorScheme) =>
     })}
   </div> `;
 
-const renderButton = (args: ButtonArgs) => {
-  createIcons({
-    icons: {
-      Check,
-      ArrowRight,
-    },
-    attrs: {
-      // TODO: make icons as high as line-height
-    },
-  });
-
-  return html`
-    <button
-      class="hap-button ${args.variant} ${args.size} ${args.disabled
-        ? "disabled"
-        : ""}"
-      ?disabled=${args.disabled}
-    >
-      ${args.icon && args.iconPosition === "left"
-        ? html`<i data-lucide=${args.icon}></i>`
-        : ""}
-      ${args.label}
-      ${args.icon && args.iconPosition === "right"
-        ? html`<i data-lucide=${args.icon}></i>`
-        : ""}
-    </button>
-  `;
-};
+const renderButton = (args: ButtonArgs) => html`
+  <button
+    class="hap-button ${args.variant} ${args.size} ${args.disabled
+      ? "disabled"
+      : ""}"
+    ?disabled=${args.disabled}
+  >
+    ${args.icon && args.iconPosition === "left"
+      ? html`<i data-lucide=${args.icon}></i>`
+      : ""}
+    ${args.label}
+    ${args.icon && args.iconPosition === "right"
+      ? html`<i data-lucide=${args.icon}></i>`
+      : ""}
+  </button>
+`;

@@ -13,11 +13,21 @@
   gap: var(--hap-spacing-sm);
   align-items: center;
 
+  svg {
+    height: var(--hap-typography-line-height-bodytext-standard-singleline);
+    width: var(--hap-typography-line-height-bodytext-standard-singleline);
+  }
+
   &.small {
     padding: var(--hap-spacing-xs) var(--hap-spacing-sm);
     font-size: var(--hap-typography-font-size-bodytext-s);
     line-height: var(--hap-typography-line-height-bodytext-s-singleline);
     gap: var(--hap-spacing-xs);
+
+    svg {
+      height: var(--hap-typography-line-height-bodytext-s-singleline);
+      width: var(--hap-typography-line-height-bodytext-s-singleline);
+    }
   }
 
   &:disabled {
