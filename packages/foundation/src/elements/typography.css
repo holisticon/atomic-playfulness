@@ -23,7 +23,7 @@
   font-family: var(--hap-typography-font-family-heading);
   font-size: var(--hap-typography-font-size-headline-xl);
   font-weight: var(--hap-typography-font-weight-medium);
-  letter-spacing: var(--hap-typography-letter-spacing-s);
+  letter-spacing: var(--hap-typography-letter-spacing-sm);
   line-height: var(--hap-typography-line-height-headline-xl);
 }
 
@@ -32,7 +32,7 @@
   font-family: var(--hap-typography-font-family-heading);
   font-size: var(--hap-typography-font-size-headline-lg);
   font-weight: var(--hap-typography-font-weight-medium);
-  letter-spacing: var(--hap-typography-letter-spacing-s);
+  letter-spacing: var(--hap-typography-letter-spacing-sm);
   line-height: var(--hap-typography-line-height-headline-lg);
 }
 
@@ -80,7 +80,7 @@
   font-size: var(--hap-typography-font-size-bodytext-xs);
   font-weight: var(--hap-typography-font-weight-regular);
   letter-spacing: var(--hap-typography-letter-spacing-xl);
-  line-height: var(--hap-typography-line-height-bodytext-xs-singleeline);
+  line-height: var(--hap-typography-line-height-bodytext-xs-singleline);
 }
 
 /* Rounded Dots for all typography levels */
