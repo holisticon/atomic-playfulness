@@ -3,7 +3,7 @@ import css from "@terrazzo/plugin-css";
 import { makeCSSVar } from "@terrazzo/token-tools/css";
 
 export default defineConfig({
-  tokens: ["./atomic-playfulness.tokens.json"],
+  tokens: ["./atomic-playfulness.tokens-normalized.json"],
   outDir: "./dist",
   plugins: [
     css({
@@ -21,6 +21,12 @@ export default defineConfig({
           token.id.toLowerCase().includes("letter-spacing")
         ) {
           return Number(token.$value.value).toFixed(2);
+        }
+        if (
+          token.id.toLowerCase().includes("primitives") &&
+          token.$type === "color"
+        ) {
+          return token.$value.hex;
         }
 
         return void 0;
