@@ -1640,7 +1640,7 @@
     "font-family": {
       "heading": {
         "$type": "string",
-        "$value": "ES Klarheit Kurrent RD, sans-serif",
+        "$value": "ES Klarheit Kurrent RD",
         "$description": "",
         "$extensions": {
           "mode": {},
@@ -1657,7 +1657,7 @@
       },
       "body": {
         "$type": "string",
-        "$value": "ES Klarheit Grotesk RD, sans-serif",
+        "$value": "ES Klarheit Grotesk RD",
         "$description": "",
         "$extensions": {
           "mode": {},
@@ -6080,7 +6080,7 @@
       "useDTCGKeys": true,
       "colorMode": "hex",
       "variableCollections": ["Primitives", "Tokens"],
-      "createdAt": "2025-01-02T15:58:40.313Z"
+      "createdAt": "2025-01-10T19:32:41.818Z"
     }
   }
 }

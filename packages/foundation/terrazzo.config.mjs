@@ -23,6 +23,14 @@ export default defineConfig({
           return Number(token.$value.value).toFixed(2);
         }
 
+        if (
+          token.id.toLowerCase().includes("primitives") &&
+          token.id.toLowerCase().includes("font-family") &&
+          !token.$value.includes(", sans-serif")
+        ) {
+          return `${token.$value}, sans-serif`;
+        }
+
         return void 0;
       },
     }),
