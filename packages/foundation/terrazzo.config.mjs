@@ -17,10 +17,17 @@ export default defineConfig({
         // letter-spacing values in figma are float decimals
         if (
           token.$type === "dimension" &&
-          token.id.toLowerCase().includes("primitives") &&
-          token.id.toLowerCase().includes("letter-spacing")
+          isPrimitiveTokenOfType(token, "letter-spacing")
         ) {
           return Number(token.$value.value).toFixed(2);
+        }
+
+        // opacity is wrongly exported as pixel values, e.g. 30px.
+        if (
+          token.$type === "dimension" &&
+          isPrimitiveTokenOfType(token, "opacity")
+        ) {
+          return Number(token.$value.value / 100).toFixed(2);
         }
 
         return void 0;
@@ -28,3 +35,10 @@ export default defineConfig({
     }),
   ],
 });
+
+function isPrimitiveTokenOfType(token, type) {
+  return (
+    token.id.toLowerCase().includes("primitives") &&
+    token.id.toLowerCase().includes(type)
+  );
+}
