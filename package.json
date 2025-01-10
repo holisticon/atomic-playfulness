@@ -18,7 +18,8 @@
     "lint": "npm run lint --if-present -ws && prettier -c .",
     "version": "changeset version && npm i",
     "release": "changeset publish",
-    "storybook": "npm run build && npm run dev -w @holisticon/hap-documentation"
+    "storybook": "npm run build && npm run dev -w @holisticon/hap-documentation",
+    "update": "ncu -i -ws"
   },
   "lint-staged": {
     "*": "prettier --ignore-unknown --write",
@@ -26,14 +27,15 @@
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
-    "@changesets/cli": "^2.27.7",
-    "eslint": "^9.3.0",
-    "husky": "^9.0.11",
-    "lint-staged": "^15.2.4",
-    "prettier": "^3.2.5",
-    "prettier-plugin-organize-imports": "^3.2.4",
+    "@changesets/cli": "^2.27.11",
+    "eslint": "^9.17.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.3.0",
+    "npm-check-updates": "^17.1.13",
+    "prettier": "^3.4.2",
+    "prettier-plugin-organize-imports": "^4.1.0",
     "storybook-addon-pseudo-states": "4.0.2",
-    "typescript": "^5.4.5",
-    "typescript-eslint": "^8.0.0-alpha.16"
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.19.1"
   }
 }
