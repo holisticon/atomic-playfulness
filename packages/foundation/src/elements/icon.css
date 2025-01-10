@@ -1,0 +1,14 @@
+.hap-icon {
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-opacity: 0.8;
+  height: 24px;
+  width: 24px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+
+  &.small {
+    height: 16px;
+    width: 16px;
+  }
+}
