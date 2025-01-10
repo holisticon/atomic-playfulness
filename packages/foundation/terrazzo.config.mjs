@@ -13,6 +13,22 @@ export default defineConfig({
         name = name.replace("hap-tokens", "hap");
         return name;
       },
+      modeSelectors: [
+        {
+          mode: "Light",
+          selectors: [
+            "@media (prefers-color-scheme: light)",
+            '[data-mode="light"]',
+          ],
+        },
+        {
+          mode: "Dark",
+          selectors: [
+            "@media (prefers-color-scheme: dark)",
+            '[data-mode="dark"]',
+          ],
+        },
+      ],
       transform: (token) => {
         // letter-spacing values in figma are float decimals
         if (
