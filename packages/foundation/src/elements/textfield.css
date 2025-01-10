@@ -1,0 +1,96 @@
+.hap-textfield {
+  display: flex;
+  flex-direction: column;
+  gap: var(--hap-spacing-xs);
+}
+
+.hap-label,
+.hap-textfield > label {
+  color: light-dark(
+    var(--hap-color-text-secondary-on-light),
+    var(--hap-color-text-secondary-on-dark)
+  );
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-s);
+  font-weight: var(--hap-typography-font-weight-medium);
+  line-height: var(--hap-typography-line-height-bodytext-s-singleline);
+  letter-spacing: var(--hap-typography-letter-spacing-lg);
+}
+
+.hap-input,
+.hap-textfield > input {
+  --hap-textfield-border-width: 1px;
+  appearance: none;
+  outline: none;
+  box-sizing: border-box;
+  transition: all 150ms linear;
+  padding: var(--hap-spacing-sm);
+  border-radius: var(--hap-radius-minimal);
+  border: var(--hap-textfield-border-width) solid;
+  border-color: light-dark(
+    var(--hap-color-border-secondary-on-light),
+    var(--hap-color-border-secondary-on-dark)
+  );
+  background-color: light-dark(
+    var(--hap-color-background-fill-inverted-default),
+    var(--hap-color-background-fill-inverted-default)
+  );
+  color: light-dark(
+    var(--hap-color-text-primary-on-light),
+    var(--hap-color-text-primary-on-dark)
+  );
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-s);
+  font-weight: var(--hap-typography-font-weight-regular);
+  line-height: var(--hap-typography-line-height-bodytext-standard-singleline);
+  letter-spacing: var(--hap-typography-letter-spacing-lg);
+
+  &:hover {
+    border-color: light-dark(
+      var(--hap-color-border-primary-on-light),
+      var(--hap-color-border-primary-on-dark)
+    );
+    background-color: light-dark(
+      var(--hap-color-interactions-on-light-hovered),
+      var(--hap-color-interactions-on-light-hovered)
+    );
+  }
+
+  &:focus-visible {
+    --hap-textfield-border-width: 2px;
+    border-color: light-dark(
+      var(--hap-color-border-focused-on-light),
+      var(--hap-color-border-focused-on-dark)
+    );
+  }
+
+  &:read-only {
+    border-color: light-dark(
+      var(--hap-color-border-primary-on-light),
+      var(--hap-color-border-primary-on-dark)
+    );
+    background-color: light-dark(
+      var(--hap-color-interactions-on-light-hovered),
+      var(--hap-color-interactions-on-light-hovered)
+    );
+  }
+}
+
+.hap-input:disabled,
+.hap-textfield:has(input:disabled) {
+  pointer-events: none;
+  opacity: var(--hap-opacity-disabled);
+}
+
+.hap-input-description,
+.hap-textfield > span {
+  color: light-dark(
+    var(--hap-color-text-secondary-on-light),
+    var(--hap-color-text-secondary-on-dark)
+  );
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-xs);
+  font-weight: var(--hap-typography-font-weight-regular);
+  line-height: var(--hap-typography-line-height-bodytext-xs-multiline);
+  letter-spacing: var(--hap-typography-letter-spacing-lg);
+}
