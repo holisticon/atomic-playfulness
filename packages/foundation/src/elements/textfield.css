@@ -6,6 +6,8 @@
 
 .hap-label,
 .hap-textfield > label {
+  display: flex;
+  gap: var(--hap-spacing-xs);
   color: light-dark(
     var(--hap-color-text-secondary-on-light),
     var(--hap-color-text-secondary-on-dark)
@@ -20,17 +22,19 @@
 .hap-input,
 .hap-textfield > input {
   --hap-textfield-border-width: 1px;
+  --hap-textfield-border-color: light-dark(
+    var(--hap-color-border-secondary-on-light),
+    var(--hap-color-border-secondary-on-dark)
+  );
   appearance: none;
   outline: none;
   box-sizing: border-box;
   transition: all 150ms linear;
   padding: var(--hap-spacing-sm);
+  border: none;
   border-radius: var(--hap-radius-minimal);
-  border: var(--hap-textfield-border-width) solid;
-  border-color: light-dark(
-    var(--hap-color-border-secondary-on-light),
-    var(--hap-color-border-secondary-on-dark)
-  );
+  box-shadow: inset 0 0 0 var(--hap-textfield-border-width)
+    var(--hap-textfield-border-color);
   background-color: light-dark(
     var(--hap-color-background-fill-inverted-default),
     var(--hap-color-background-fill-inverted-default)
@@ -46,7 +50,7 @@
   letter-spacing: var(--hap-typography-letter-spacing-lg);
 
   &:hover {
-    border-color: light-dark(
+    --hap-textfield-border-color: light-dark(
       var(--hap-color-border-primary-on-light),
       var(--hap-color-border-primary-on-dark)
     );
@@ -58,14 +62,14 @@
 
   &:focus-visible {
     --hap-textfield-border-width: 2px;
-    border-color: light-dark(
+    --hap-textfield-border-color: light-dark(
       var(--hap-color-border-focused-on-light),
       var(--hap-color-border-focused-on-dark)
     );
   }
 
   &:read-only {
-    border-color: light-dark(
+    --hap-textfield-border-color: light-dark(
       var(--hap-color-border-primary-on-light),
       var(--hap-color-border-primary-on-dark)
     );
@@ -82,6 +86,13 @@
   opacity: var(--hap-opacity-disabled);
 }
 
+.hap-input-round,
+.hap-textfield-round > input {
+  border-radius: var(--hap-radius-full);
+  padding-inline: var(--hap-spacing-md-lg);
+  padding-block: var(--hap-spacing-md);
+}
+
 .hap-input-description,
 .hap-textfield > span {
   color: light-dark(
@@ -93,4 +104,21 @@
   font-weight: var(--hap-typography-font-weight-regular);
   line-height: var(--hap-typography-line-height-bodytext-xs-multiline);
   letter-spacing: var(--hap-typography-letter-spacing-lg);
+}
+
+.hap-tone-invalid:not(input),
+.hap-textfield.hap-tone-invalid > label,
+.hap-textfield.hap-tone-invalid > span {
+  color: light-dark(
+    var(--hap-color-feedback-critical-dark),
+    var(--hap-color-feedback-critical-light)
+  );
+}
+
+input.hap-tone-invalid,
+.hap-textfield.hap-tone-invalid > input {
+  --hap-textfield-border-color: light-dark(
+    var(--hap-color-feedback-critical-dark),
+    var(--hap-color-feedback-critical-light)
+  );
 }
