@@ -7,6 +7,7 @@ on:
 
 env:
   CI: true
+  GH_TOKEN: ${{ github.token }}
 
 permissions:
   contents: write
@@ -34,17 +35,9 @@ jobs:
           "@holisticon/hap-foundation": patch  
           ---  
           Updated design tokens  
-          EOM
+          EOM && git commit -m "Add changeset for token import"
 
-# Disable PR creation for now, as it will check out the base branch first,
-# commit the changes onto there and do a force-push to the already existing tokens-sync branch,
-# effectively overriding the action token changes... :(
-
-#      - name: Create Pull Request
-#        uses: peter-evans/create-pull-request@v7
-#        with:
-#          commit-message: "chore: update design tokens"
-#          title: Update Design Tokens
-#          body: Update design tokens from figma
-#          branch: tokens-sync
-#          base: main
+      - name: Create Pull Request
+        run:
+          gh pr create --base main --title "Import Design Tokens" --body "Import
+          design tokens from Figma"
