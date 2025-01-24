@@ -1087,7 +1087,7 @@
         },
         "blackLightest": {
           "$type": "color",
-          "$value": "#14141929",
+          "$value": "#1414191f",
           "$description": "",
           "$extensions": {
             "mode": {},
@@ -1121,7 +1121,7 @@
         },
         "blackLight": {
           "$type": "color",
-          "$value": "#1414193d",
+          "$value": "#14141933",
           "$description": "",
           "$extensions": {
             "mode": {},
@@ -2142,8 +2142,8 @@
     },
     "opacity": {
       "default": {
-        "$type": "dimension",
-        "$value": "100px",
+        "$type": "number",
+        "$value": 1,
         "$description": "",
         "$extensions": {
           "mode": {},
@@ -2159,8 +2159,8 @@
         }
       },
       "disabled": {
-        "$type": "dimension",
-        "$value": "30px",
+        "$type": "number",
+        "$value": 0.3,
         "$description": "",
         "$extensions": {
           "mode": {},
@@ -2176,8 +2176,8 @@
         }
       },
       "inactive": {
-        "$type": "dimension",
-        "$value": "72px",
+        "$type": "number",
+        "$value": 0.72,
         "$description": "",
         "$extensions": {
           "mode": {},
@@ -2193,8 +2193,8 @@
         }
       },
       "hover": {
-        "$type": "dimension",
-        "$value": "10px",
+        "$type": "number",
+        "$value": 0.1,
         "$description": "",
         "$extensions": {
           "mode": {},
@@ -4188,11 +4188,11 @@
           "dark": {
             "default": {
               "$type": "color",
-              "$value": "{Primitives.color.brand.900}",
+              "$value": "{Primitives.color.neutral.900}",
               "$description": "",
               "$extensions": {
                 "mode": {
-                  "Light": "{Primitives.color.brand.900}",
+                  "Light": "{Primitives.color.neutral.900}",
                   "Dark": "{Primitives.color.darkmode.100}"
                 },
                 "figma": {
@@ -4208,11 +4208,11 @@
             },
             "hovered": {
               "$type": "color",
-              "$value": "{Primitives.color.brand.800}",
+              "$value": "{Primitives.color.neutral.800}",
               "$description": "",
               "$extensions": {
                 "mode": {
-                  "Light": "{Primitives.color.brand.800}",
+                  "Light": "{Primitives.color.neutral.800}",
                   "Dark": "{Primitives.color.darkmode.200}"
                 },
                 "figma": {
@@ -4228,11 +4228,11 @@
             },
             "pressed": {
               "$type": "color",
-              "$value": "{Primitives.color.brand.700}",
+              "$value": "{Primitives.color.neutral.700}",
               "$description": "",
               "$extensions": {
                 "mode": {
-                  "Light": "{Primitives.color.brand.700}",
+                  "Light": "{Primitives.color.neutral.700}",
                   "Dark": "{Primitives.color.darkmode.300}"
                 },
                 "figma": {
@@ -5828,7 +5828,7 @@
     },
     "opacity": {
       "default": {
-        "$type": "dimension",
+        "$type": "number",
         "$value": "{Primitives.opacity.default}",
         "$description": "",
         "$extensions": {
@@ -5848,7 +5848,7 @@
         }
       },
       "disabled": {
-        "$type": "dimension",
+        "$type": "number",
         "$value": "{Primitives.opacity.disabled}",
         "$description": "",
         "$extensions": {
@@ -5868,7 +5868,7 @@
         }
       },
       "inactive": {
-        "$type": "dimension",
+        "$type": "number",
         "$value": "{Primitives.opacity.inactive}",
         "$description": "",
         "$extensions": {
@@ -5888,7 +5888,7 @@
         }
       },
       "hovered": {
-        "$type": "dimension",
+        "$type": "number",
         "$value": "{Primitives.opacity.hover}",
         "$description": "",
         "$extensions": {
@@ -6080,7 +6080,7 @@
       "useDTCGKeys": true,
       "colorMode": "hex",
       "variableCollections": ["Primitives", "Tokens"],
-      "createdAt": "2025-01-10T19:32:41.818Z"
+      "createdAt": "2025-01-24T12:57:14.301Z"
     }
   }
 }
