@@ -1,0 +1,44 @@
+name: Update Design Tokens
+
+on:
+  create:
+    # this branch must be the same as configured in figma tokensbrücke plugin for export.
+    branches: [tokens-sync]
+
+env:
+  CI: true
+  GH_TOKEN: ${{ github.token }}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  create-pr:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Create changeset
+        # hardcode the changeset file, because the CLI doesn't allow to pass all arguments
+        # and relies on interactive shell usage.
+        run: |
+          cat > .changeset/update-tokens.md << EOM  
+          ---  
+          "@holisticon/hap-foundation": patch  
+          ---  
+          Updated design tokens  
+          EOM
+        # only run, if the file doesn't yet exist
+        if: ${{ hashFiles('.changeset/update-tokens.md') == '' }}
+      - name: Commit changeset
+        run:
+          git add .changeset/update-tokens.md && git commit -m "Add changeset
+          for token import" && git push
+        # only run, if the file doesn't yet exist
+        if: ${{ hashFiles('.changeset/update-tokens.md') == '' }}
+
+      - name: Create Pull Request
+        run:
+          'gh pr create --base main --title "chore: import design tokens" --body
+          "Import design tokens from Figma"'

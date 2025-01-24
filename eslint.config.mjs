@@ -3,7 +3,7 @@ import tsEslint from "typescript-eslint";
 
 export default tsEslint.config(
   {
-    ignores: ["**/dist"],
+    ignores: ["**/dist", "packages/foundation/atomic-playfulness.tokens.json"],
   },
   eslint.configs.recommended,
   ...tsEslint.configs.recommended,
