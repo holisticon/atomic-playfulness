@@ -1,5 +1,19 @@
 # @holisticon/hap-foundation
 
+## 0.3.0
+
+### Minor Changes
+
+- [#48](https://github.com/holisticon/atomic-playfulness/pull/48) [`d340105`](https://github.com/holisticon/atomic-playfulness/commit/d340105ce6d68aefa44a02deea7a60f9b6ec9a17) Thanks [@fabiangaukler](https://github.com/fabiangaukler)! - Added buttons and styling for them
+
+### Patch Changes
+
+- [#102](https://github.com/holisticon/atomic-playfulness/pull/102) [`f45e252`](https://github.com/holisticon/atomic-playfulness/commit/f45e25260fe931b67288eb08f3de46c45ca16621) Thanks [@fabiangaukler](https://github.com/fabiangaukler)! - updates tokens from figma
+
+- [#96](https://github.com/holisticon/atomic-playfulness/pull/96) [`6fd81f2`](https://github.com/holisticon/atomic-playfulness/commit/6fd81f288ba179b05bb73470ca9538b7890f0e97) Thanks [@fabiangaukler](https://github.com/fabiangaukler)! - font fallbacks now set in terrazzo config
+
+- [#97](https://github.com/holisticon/atomic-playfulness/pull/97) [`e8fd3e7`](https://github.com/holisticon/atomic-playfulness/commit/e8fd3e7d7bcc8a4c3ffa52278bd113e710dad9cd) Thanks [@fabiangaukler](https://github.com/fabiangaukler)! - fixes background styles of buttons
+
 ## 0.2.1
 
 ### Patch Changes
