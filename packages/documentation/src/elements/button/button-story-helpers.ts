@@ -73,7 +73,7 @@ export const renderButtons = (args: ButtonArgs, colorScheme: ColorScheme) =>
 
 const renderButton = (args: ButtonArgs) => html`
   <button
-    class="hap-button ${args.variant} ${args.size} ${args.disabled
+    class="hap-button hap-button--${args.variant} hap-button--${args.size} ${args.disabled
       ? "disabled"
       : ""}"
     ?disabled=${args.disabled}
