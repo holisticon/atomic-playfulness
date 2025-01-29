@@ -1,24 +1,41 @@
 import { Meta, Canvas } from "@storybook/blocks";
 import * as ButtonStories from "./button.stories.ts";
+import { createIcons } from "lucide";
 
 <Meta title="Elements/button/Buttons" />
 
 # Buttons
 
-The following kinds of buttons are available.
+For the buttons we created two main css classes that can be utilized. The main
+one that should be used for buttons is `.hap-button`. There is also a smaller
+version of the button that is documented in the respective examples in
+storybook. In order to have that style, you have to first use `.hap-button` and
+on top of that `.hap-button--small`.
 
 ## Primary Button
+
+Besides the css class `.hap-button` the primary button needs the class
+`.hap-button--primary` to achieve the showcased styles.
 
 <Canvas of={ButtonStories.ButtonPrimary} />
 
 ## Secondary Button
 
+Besides the css class `.hap-button` the primary button needs the class
+`.hap-button--secondary` to achieve the showcased styles.
+
 <Canvas of={ButtonStories.ButtonSecondary} />
 
 ## Tertiary Button
 
+Besides the css class `.hap-button` the primary button needs the class
+`.hap-button--tertiary` to achieve the showcased styles.
+
 <Canvas of={ButtonStories.ButtonTertiary} />
 
 ## Destructive Button
+
+Besides the css class `.hap-button` the primary button needs the class
+`.hap-button--destructive` to achieve the showcased styles.
 
 <Canvas of={ButtonStories.ButtonDestructive} />
