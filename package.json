@@ -35,5 +35,8 @@
     "storybook-addon-pseudo-states": "4.0.2",
     "typescript": "^5.4.5",
     "typescript-eslint": "^8.0.0-alpha.16"
+  },
+  "dependencies": {
+    "lucide": "0.469.0"
   }
 }
