@@ -32,8 +32,8 @@
       var(--hap-color-text-brand-on-light)
     );
     background-color: light-dark(
-      var(--hap-color-button-primary-on-light-default),
-      var(--hap-color-button-primary-on-dark-default)
+      var(--hap-color-fill-brand-on-light-default),
+      var(--hap-color-fill-brand-on-dark-default)
     );
 
     &:hover {
@@ -42,8 +42,8 @@
         var(--hap-color-text-brand-on-light)
       );
       background-color: light-dark(
-        var(--hap-color-button-primary-on-light-hovered),
-        var(--hap-color-button-primary-on-dark-hovered)
+        var(--hap-color-fill-brand-on-light-hovered),
+        var(--hap-color-fill-brand-on-dark-hovered)
       );
     }
 
@@ -54,13 +54,13 @@
         var(--hap-color-text-brand-on-light)
       );
       background-color: light-dark(
-        var(--hap-color-button-primary-on-light-default),
-        var(--hap-color-button-primary-on-dark-default)
+        var(--hap-color-fill-brand-on-light-default),
+        var(--hap-color-fill-brand-on-dark-default)
       );
       box-shadow: inset 0 0 0 2px
         light-dark(
-          var(--hap-color-border-focused-on-light),
-          var(--hap-color-border-focused-on-dark)
+          var(--hap-color-border-focused-default),
+          var(--hap-color-border-focused-default)
         );
     }
 
@@ -70,8 +70,8 @@
         var(--hap-color-text-brand-on-light)
       );
       background-color: light-dark(
-        var(--hap-color-button-primary-on-light-pressed),
-        var(--hap-color-button-primary-on-dark-pressed)
+        var(--hap-color-fill-brand-on-light-pressed),
+        var(--hap-color-fill-brand-on-dark-pressed)
       );
     }
 
@@ -81,8 +81,8 @@
         var(--hap-color-text-brand-on-light)
       );
       background-color: light-dark(
-        var(--hap-color-button-primary-on-light-default),
-        var(--hap-color-button-primary-on-dark-default)
+        var(--hap-color-fill-brand-on-light-default),
+        var(--hap-color-fill-brand-on-dark-default)
       );
     }
   }
@@ -90,13 +90,16 @@
   &.secondary {
     color: light-dark(
       var(--hap-color-text-brand-on-light),
-      var(--hap-color-text-brand-on-dark)
+      var(--hap-color-text-brand-on-dark-only)
     );
-    background-color: transparent;
+    background-color: light-dark(
+      var(--hap-color-fill-interaction-on-light-default),
+      var(--hap-color-fill-interaction-on-dark-default)
+    );
     box-shadow: inset 0 0 0 1px
       light-dark(
-        var(--hap-color-border-brand-on-light),
-        var(--hap-color-border-brand-on-dark-only)
+        var(--hap-color-border-brand-on-light-default),
+        var(--hap-color-border-brand-on-dark-default)
       );
 
     &:hover {
@@ -105,13 +108,13 @@
         var(--hap-color-text-brand-on-dark-only)
       );
       background-color: light-dark(
-        var(--hap-color-interactions-on-light-hovered),
-        var(--hap-color-interactions-on-dark-only-hovered)
+        var(--hap-color-fill-interaction-on-light-hovered),
+        var(--hap-color-fill-interaction-on-dark-hovered)
       );
       box-shadow: inset 0 0 0 1px
         light-dark(
-          var(--hap-color-border-brand-on-light),
-          var(--hap-color-border-brand-on-dark-only)
+          var(--hap-color-border-brand-on-light-default),
+          var(--hap-color-border-brand-on-dark-default)
         );
     }
 
@@ -119,12 +122,16 @@
     &:focus-visible {
       color: light-dark(
         var(--hap-color-text-brand-on-light),
-        var(--hap-color-text-brand-on-dark-only)
+        var(--hap-color-text-brand-on-dark)
+      );
+      background-color: light-dark(
+        var(--hap-color-fill-interaction-on-light-default),
+        var(--hap-color-fill-interaction-on-dark-default)
       );
       box-shadow: inset 0 0 0 2px
         light-dark(
-          var(--hap-color-border-focused-on-light),
-          var(--hap-color-border-focused-on-dark)
+          var(--hap-color-border-focused-default),
+          var(--hap-color-border-focused-default)
         );
     }
 
@@ -134,13 +141,13 @@
         var(--hap-color-text-brand-on-dark-only)
       );
       background-color: light-dark(
-        var(--hap-color-interactions-on-light-pressed),
-        var(--hap-color-interactions-on-dark-only-pressed)
+        var(--hap-color-fill-interaction-on-light-pressed),
+        var(--hap-color-fill-interaction-on-dark-pressed)
       );
       box-shadow: inset 0 0 0 1px
         light-dark(
-          var(--hap-color-border-brand-on-light),
-          var(--hap-color-border-brand-on-dark-only)
+          var(--hap-color-border-brand-on-light-default),
+          var(--hap-color-border-brand-on-dark-default)
         );
     }
 
@@ -149,11 +156,14 @@
         var(--hap-color-text-brand-on-light),
         var(--hap-color-text-brand-on-dark-only)
       );
-      background-color: transparent;
+      background-color: light-dark(
+        var(--hap-color-fill-interaction-on-light-default),
+        var(--hap-color-fill-interaction-on-dark-default)
+      );
       box-shadow: inset 0 0 0 1px
         light-dark(
-          var(--hap-color-border-brand-on-light),
-          var(--hap-color-border-brand-on-dark-only)
+          var(--hap-color-border-brand-on-light-default),
+          var(--hap-color-border-brand-on-dark-default)
         );
     }
   }
@@ -162,9 +172,12 @@
   &.tertiary {
     color: light-dark(
       var(--hap-color-text-brand-on-light),
-      var(--hap-color-text-brand-on-dark)
+      var(--hap-color-text-brand-on-dark-only)
     );
-    background-color: transparent;
+    background-color: light-dark(
+      var(--hap-color-fill-interaction-on-light-default),
+      var(--hap-color-fill-interaction-on-dark-default)
+    );
 
     &:hover {
       color: light-dark(
@@ -172,8 +185,8 @@
         var(--hap-color-text-brand-on-dark-only)
       );
       background-color: light-dark(
-        var(--hap-color-interactions-on-light-hovered),
-        var(--hap-color-interactions-on-dark-only-hovered)
+        var(--hap-color-fill-interaction-on-light-hovered),
+        var(--hap-color-fill-interaction-on-dark-hovered)
       );
     }
 
@@ -181,12 +194,16 @@
     &:focus-visible {
       color: light-dark(
         var(--hap-color-text-brand-on-light),
-        var(--hap-color-text-brand-on-dark-only)
+        var(--hap-color-text-brand-on-dark)
+      );
+      background-color: light-dark(
+        var(--hap-color-fill-interaction-on-light-default),
+        var(--hap-color-fill-interaction-on-dark-default)
       );
       box-shadow: inset 0 0 0 2px
         light-dark(
-          var(--hap-color-border-focused-on-light),
-          var(--hap-color-border-focused-on-dark)
+          var(--hap-color-border-focused-default),
+          var(--hap-color-border-focused-default)
         );
     }
 
@@ -196,8 +213,8 @@
         var(--hap-color-text-brand-on-dark-only)
       );
       background-color: light-dark(
-        var(--hap-color-interactions-on-light-pressed),
-        var(--hap-color-interactions-on-dark-only-pressed)
+        var(--hap-color-fill-interaction-on-light-pressed),
+        var(--hap-color-fill-interaction-on-dark-pressed)
       );
     }
 
@@ -206,7 +223,10 @@
         var(--hap-color-text-brand-on-light),
         var(--hap-color-text-brand-on-dark-only)
       );
-      background-color: transparent;
+      background-color: light-dark(
+        var(--hap-color-fill-interaction-on-light-default),
+        var(--hap-color-fill-interaction-on-dark-default)
+      );
     }
   }
 
@@ -216,8 +236,8 @@
       var(--hap-color-feedback-critical-light)
     );
     background-color: light-dark(
-      var(--hap-color-button-destructive-on-light-default),
-      var(--hap-color-button-destructive-on-dark-default)
+      var(--hap-color-fill-destructive-on-light-default),
+      var(--hap-color-fill-destructive-on-dark-default)
     );
 
     &:hover {
@@ -226,8 +246,8 @@
         var(--hap-color-feedback-critical-light)
       );
       background-color: light-dark(
-        var(--hap-color-button-destructive-on-light-hovered),
-        var(--hap-color-button-destructive-on-dark-hovered)
+        var(--hap-color-fill-destructive-on-light-hovered),
+        var(--hap-color-fill-destructive-on-dark-hovered)
       );
     }
 
@@ -238,13 +258,13 @@
         var(--hap-color-feedback-critical-light)
       );
       background-color: light-dark(
-        var(--hap-color-button-destructive-on-light-hovered),
-        var(--hap-color-button-destructive-on-dark-hovered)
+        var(--hap-color-fill-destructive-on-light-hovered),
+        var(--hap-color-fill-destructive-on-dark-hovered)
       );
       box-shadow: inset 0 0 0 2px
         light-dark(
-          var(--hap-color-border-focused-on-light),
-          var(--hap-color-border-focused-on-dark)
+          var(--hap-color-border-focused-default),
+          var(--hap-color-border-focused-default)
         );
     }
 
@@ -254,8 +274,8 @@
         var(--hap-color-feedback-critical-light)
       );
       background-color: light-dark(
-        var(--hap-color-button-destructive-on-light-pressed),
-        var(--hap-color-button-destructive-on-dark-pressed)
+        var(--hap-color-fill-destructive-on-light-pressed),
+        var(--hap-color-fill-destructive-on-dark-pressed)
       );
     }
 
@@ -265,8 +285,8 @@
         var(--hap-color-feedback-critical-light)
       );
       background-color: light-dark(
-        var(--hap-color-button-destructive-on-light-default),
-        var(--hap-color-button-destructive-on-dark-default)
+        var(--hap-color-fill-destructive-on-light-default),
+        var(--hap-color-fill-destructive-on-dark-default)
       );
     }
   }
