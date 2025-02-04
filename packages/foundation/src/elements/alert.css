@@ -1,0 +1,76 @@
+.hap-alert {
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-standard);
+  font-weight: var(--hap-typography-font-weight-regular);
+  letter-spacing: var(--hap-typography-letter-spacing-lg);
+  line-height: var(--hap-typography-line-height-bodytext-standard-multiline);
+  border: none;
+  border-radius: var(--hap-radius-rounded);
+  padding: var(--hap-spacing-md) var(--hap-spacing-md);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+
+  &.positive {
+    color: light-dark(
+      var(--hap-color-feedback-positive-light),
+      var(--hap-color-feedback-positive-dark)
+    );
+    background-color: light-dark(
+      var(--hap-color-feedback-positive-dark),
+      var(--hap-color-feedback-positive-light)
+    );
+  }
+
+  &.caution {
+    color: light-dark(
+      var(--hap-color-feedback-caution-light),
+      var(--hap-color-feedback-caution-dark)
+    );
+    background-color: light-dark(
+      var(--hap-color-feedback-caution-dark),
+      var(--hap-color-feedback-caution-light)
+    );
+  }
+
+  &.critical {
+    color: light-dark(
+      var(--hap-color-feedback-critical-light),
+      var(--hap-color-feedback-critical-dark)
+    );
+    background-color: light-dark(
+      var(--hap-color-feedback-critical-dark),
+      var(--hap-color-feedback-critical-light)
+    );
+  }
+
+  &.informative {
+    color: light-dark(
+      var(--hap-color-feedback-neutral-light),
+      var(--hap-color-feedback-neutral-dark)
+    );
+    background-color: light-dark(
+      var(--hap-color-feedback-neutral-dark),
+      var(--hap-color-feedback-neutral-light)
+    );
+  }
+
+  &.promoted {
+    color: light-dark(
+      var(--hap-color-feedback-new-light),
+      var(--hap-color-feedback-new-dark)
+    );
+    background-color: light-dark(
+      var(--hap-color-feedback-new-dark),
+      var(--hap-color-feedback-new-light)
+    );
+  }
+}
+
+.hap-alert-content {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  gap: var(--hap-spacing-sm);
+}
