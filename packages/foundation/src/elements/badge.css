@@ -1,0 +1,147 @@
+.hap-badge {
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-s);
+  font-weight: var(--hap-typography-font-weight-medium);
+  letter-spacing: var(--hap-typography-letter-spacing-lg);
+  line-height: var(--hap-typography-line-height-bodytext-s-singleline);
+  border: none;
+  border-radius: var(--hap-radius-minimal);
+  padding: var(--hap-spacing-xs) var(--hap-spacing-sm);
+  width: max-content;
+
+  &.regular {
+    &.default {
+      color: light-dark(
+        var(--hap-color-feedback-default-light),
+        var(--hap-color-feedback-default-dark)
+      );
+      background-color: light-dark(
+        var(--hap-color-feedback-default-dark),
+        var(--hap-color-feedback-default-light)
+      );
+    }
+
+    &.positive {
+      color: light-dark(
+        var(--hap-color-feedback-positive-light),
+        var(--hap-color-feedback-positive-dark)
+      );
+      background-color: light-dark(
+        var(--hap-color-feedback-positive-dark),
+        var(--hap-color-feedback-positive-light)
+      );
+    }
+
+    &.caution {
+      color: light-dark(
+        var(--hap-color-feedback-caution-light),
+        var(--hap-color-feedback-caution-dark)
+      );
+      background-color: light-dark(
+        var(--hap-color-feedback-caution-dark),
+        var(--hap-color-feedback-caution-light)
+      );
+    }
+
+    &.critical {
+      color: light-dark(
+        var(--hap-color-feedback-critical-light),
+        var(--hap-color-feedback-critical-dark)
+      );
+      background-color: light-dark(
+        var(--hap-color-feedback-critical-dark),
+        var(--hap-color-feedback-critical-light)
+      );
+    }
+
+    &.neutral {
+      color: light-dark(
+        var(--hap-color-feedback-neutral-light),
+        var(--hap-color-feedback-neutral-dark)
+      );
+      background-color: light-dark(
+        var(--hap-color-feedback-neutral-dark),
+        var(--hap-color-feedback-neutral-light)
+      );
+    }
+
+    &.new {
+      color: light-dark(
+        var(--hap-color-feedback-new-light),
+        var(--hap-color-feedback-new-dark)
+      );
+      background-color: light-dark(
+        var(--hap-color-feedback-new-dark),
+        var(--hap-color-feedback-new-light)
+      );
+    }
+  }
+
+  &.bold {
+    &.default {
+      color: light-dark(
+        var(--hap-color-feedback-default-dark),
+        var(--hap-color-feedback-default-light)
+      );
+      background-color: light-dark(
+        var(--hap-color-feedback-default-light),
+        var(--hap-color-feedback-default-dark)
+      );
+    }
+
+    &.positive {
+      color: light-dark(
+        var(--hap-color-feedback-positive-dark),
+        var(--hap-color-feedback-positive-light)
+      );
+      background-color: light-dark(
+        var(--hap-color-feedback-positive-light),
+        var(--hap-color-feedback-positive-dark)
+      );
+    }
+
+    &.caution {
+      color: light-dark(
+        var(--hap-color-feedback-caution-dark),
+        var(--hap-color-feedback-caution-light)
+      );
+      background-color: light-dark(
+        var(--hap-color-feedback-caution-light),
+        var(--hap-color-feedback-caution-dark)
+      );
+    }
+
+    &.critical {
+      color: light-dark(
+        var(--hap-color-feedback-critical-dark),
+        var(--hap-color-feedback-critical-light)
+      );
+      background-color: light-dark(
+        var(--hap-color-feedback-critical-light),
+        var(--hap-color-feedback-critical-dark)
+      );
+    }
+
+    &.neutral {
+      color: light-dark(
+        var(--hap-color-feedback-neutral-dark),
+        var(--hap-color-feedback-neutral-light)
+      );
+      background-color: light-dark(
+        var(--hap-color-feedback-neutral-light),
+        var(--hap-color-feedback-neutral-dark)
+      );
+    }
+
+    &.new {
+      color: light-dark(
+        var(--hap-color-feedback-new-dark),
+        var(--hap-color-feedback-new-light)
+      );
+      background-color: light-dark(
+        var(--hap-color-feedback-new-light),
+        var(--hap-color-feedback-new-dark)
+      );
+    }
+  }
+}
