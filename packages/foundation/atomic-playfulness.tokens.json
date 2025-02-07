@@ -1310,7 +1310,7 @@
         },
         "800": {
           "$type": "color",
-          "$value": "#404040",
+          "$value": "#383838",
           "$description": "Brand Color: Dark Blue",
           "$extensions": {
             "mode": {},
@@ -1327,7 +1327,7 @@
         },
         "900": {
           "$type": "color",
-          "$value": "#202020",
+          "$value": "#1b1b1b",
           "$description": "",
           "$extensions": {
             "mode": {},
@@ -4339,6 +4339,48 @@
               }
             }
           }
+        },
+        "default": {
+          "dark": {
+            "$type": "color",
+            "$value": "{Primitives.color.grey.800}",
+            "$description": "",
+            "$extensions": {
+              "mode": {
+                "Light": "{Primitives.color.grey.800}",
+                "Dark": "{Primitives.color.grey.200}"
+              },
+              "figma": {
+                "codeSyntax": {},
+                "variableId": "VariableID:1507:3339",
+                "collection": {
+                  "id": "VariableCollectionId:23:56",
+                  "name": "Tokens",
+                  "defaultModeId": "23:0"
+                }
+              }
+            }
+          },
+          "light": {
+            "$type": "color",
+            "$value": "{Primitives.color.grey.200}",
+            "$description": "",
+            "$extensions": {
+              "mode": {
+                "Light": "{Primitives.color.grey.200}",
+                "Dark": "{Primitives.color.grey.800}"
+              },
+              "figma": {
+                "codeSyntax": {},
+                "variableId": "VariableID:1507:3340",
+                "collection": {
+                  "id": "VariableCollectionId:23:56",
+                  "name": "Tokens",
+                  "defaultModeId": "23:0"
+                }
+              }
+            }
+          }
         }
       },
       "icon": {
@@ -5070,7 +5112,7 @@
             "$extensions": {
               "mode": {
                 "Light": "{Primitives.color.brand.300}",
-                "Dark": "{Primitives.color.brand.800}"
+                "Dark": "{Primitives.color.brand.900}"
               },
               "figma": {
                 "codeSyntax": {},
@@ -5110,7 +5152,7 @@
             "$extensions": {
               "mode": {
                 "Light": "{Primitives.color.brand.500}",
-                "Dark": "{Primitives.color.base.whiteLight}"
+                "Dark": "{Primitives.color.brand.700}"
               },
               "figma": {
                 "codeSyntax": {},
@@ -5130,7 +5172,7 @@
             "$extensions": {
               "mode": {
                 "Light": "{Primitives.color.brand.400}",
-                "Dark": "{Primitives.color.base.whitePrimary}"
+                "Dark": "{Primitives.color.brand.800}"
               },
               "figma": {
                 "codeSyntax": {},
@@ -6403,7 +6445,7 @@
         "Primitives",
         "Tokens"
       ],
-      "createdAt": "2025-01-31T09:21:10.405Z"
+      "createdAt": "2025-02-07T11:30:05.561Z"
     }
   }
 }
