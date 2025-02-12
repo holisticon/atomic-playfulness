@@ -15,7 +15,7 @@ const meta: Meta<IndicatorArgs> = {
   argTypes: {
     variant: {
       control: { type: "select" },
-      options: ["default", "small"],
+      options: ["default", "hap-indicator-small"],
     },
   },
 
