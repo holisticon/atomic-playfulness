@@ -56,10 +56,10 @@ export const Critical: Story = {
   args: { variant: "critical", label: "This is a critical message." },
 };
 
-export const Neutral: Story = {
+export const Informative: Story = {
   args: { variant: "informative", label: "This is an informative message." },
 };
 
-export const New: Story = {
+export const Promoted: Story = {
   args: { variant: "promoted", label: "This is a promoted message." },
 };

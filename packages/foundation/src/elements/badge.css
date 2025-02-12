@@ -11,69 +11,33 @@
 
   &.regular {
     &.default {
-      color: light-dark(
-        var(--hap-color-feedback-default-light),
-        var(--hap-color-feedback-default-dark)
-      );
-      background-color: light-dark(
-        var(--hap-color-feedback-default-dark),
-        var(--hap-color-feedback-default-light)
-      );
+      color: var(--hap-color-feedback-default-dark);
+      background-color: var(--hap-color-feedback-default-light);
     }
 
     &.positive {
-      color: light-dark(
-        var(--hap-color-feedback-positive-light),
-        var(--hap-color-feedback-positive-dark)
-      );
-      background-color: light-dark(
-        var(--hap-color-feedback-positive-dark),
-        var(--hap-color-feedback-positive-light)
-      );
+      color: var(--hap-color-feedback-positive-dark);
+      background-color: var(--hap-color-feedback-positive-light);
     }
 
     &.caution {
-      color: light-dark(
-        var(--hap-color-feedback-caution-light),
-        var(--hap-color-feedback-caution-dark)
-      );
-      background-color: light-dark(
-        var(--hap-color-feedback-caution-dark),
-        var(--hap-color-feedback-caution-light)
-      );
+      color: var(--hap-color-feedback-caution-dark);
+      background-color: var(--hap-color-feedback-caution-light);
     }
 
     &.critical {
-      color: light-dark(
-        var(--hap-color-feedback-critical-light),
-        var(--hap-color-feedback-critical-dark)
-      );
-      background-color: light-dark(
-        var(--hap-color-feedback-critical-dark),
-        var(--hap-color-feedback-critical-light)
-      );
+      color: var(--hap-color-feedback-critical-dark);
+      background-color: var(--hap-color-feedback-critical-light);
     }
 
     &.neutral {
-      color: light-dark(
-        var(--hap-color-feedback-neutral-light),
-        var(--hap-color-feedback-neutral-dark)
-      );
-      background-color: light-dark(
-        var(--hap-color-feedback-neutral-dark),
-        var(--hap-color-feedback-neutral-light)
-      );
+      color: var(--hap-color-feedback-neutral-dark);
+      background-color: var(--hap-color-feedback-neutral-light);
     }
 
     &.new {
-      color: light-dark(
-        var(--hap-color-feedback-new-light),
-        var(--hap-color-feedback-new-dark)
-      );
-      background-color: light-dark(
-        var(--hap-color-feedback-new-dark),
-        var(--hap-color-feedback-new-light)
-      );
+      color: var(--hap-color-feedback-new-dark);
+      background-color: var(--hap-color-feedback-new-light);
     }
   }
 
@@ -90,58 +54,28 @@
     }
 
     &.positive {
-      color: light-dark(
-        var(--hap-color-feedback-positive-dark),
-        var(--hap-color-feedback-positive-light)
-      );
-      background-color: light-dark(
-        var(--hap-color-feedback-positive-light),
-        var(--hap-color-feedback-positive-dark)
-      );
+      color: var(--hap-color-feedback-positive-light);
+      background-color: var(--hap-color-feedback-positive-dark);
     }
 
     &.caution {
-      color: light-dark(
-        var(--hap-color-feedback-caution-dark),
-        var(--hap-color-feedback-caution-light)
-      );
-      background-color: light-dark(
-        var(--hap-color-feedback-caution-light),
-        var(--hap-color-feedback-caution-dark)
-      );
+      color: var(--hap-color-feedback-caution-light);
+      background-color: var(--hap-color-feedback-caution-dark);
     }
 
     &.critical {
-      color: light-dark(
-        var(--hap-color-feedback-critical-dark),
-        var(--hap-color-feedback-critical-light)
-      );
-      background-color: light-dark(
-        var(--hap-color-feedback-critical-light),
-        var(--hap-color-feedback-critical-dark)
-      );
+      color: var(--hap-color-feedback-critical-light);
+      background-color: var(--hap-color-feedback-critical-dark);
     }
 
     &.neutral {
-      color: light-dark(
-        var(--hap-color-feedback-neutral-dark),
-        var(--hap-color-feedback-neutral-light)
-      );
-      background-color: light-dark(
-        var(--hap-color-feedback-neutral-light),
-        var(--hap-color-feedback-neutral-dark)
-      );
+      color: var(--hap-color-feedback-neutral-light);
+      background-color: var(--hap-color-feedback-neutral-dark);
     }
 
     &.new {
-      color: light-dark(
-        var(--hap-color-feedback-new-dark),
-        var(--hap-color-feedback-new-light)
-      );
-      background-color: light-dark(
-        var(--hap-color-feedback-new-light),
-        var(--hap-color-feedback-new-dark)
-      );
+      color: var(--hap-color-feedback-new-light);
+      background-color: var(--hap-color-feedback-new-dark);
     }
   }
 }
