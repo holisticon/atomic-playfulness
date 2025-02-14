@@ -1,6 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/web-components";
 import { html } from "lit";
-import { ArrowRight, Check, createIcons } from "lucide";
 import {
   buttonArgs,
   buttonArgTypes,
@@ -15,17 +14,6 @@ const meta: Meta<ButtonArgs> = {
     html`<div style="display:flex;gap:1rem">
       ${renderButtons(args, "light")}${renderButtons(args, "dark")}
     </div>`,
-
-  play: () =>
-    createIcons({
-      icons: {
-        Check,
-        ArrowRight,
-      },
-      attrs: {
-        "stroke-width": 1.5,
-      },
-    }),
 };
 
 export default meta;
