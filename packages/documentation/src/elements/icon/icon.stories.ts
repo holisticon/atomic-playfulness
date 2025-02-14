@@ -66,6 +66,7 @@ const meta: Meta<IconArgs> = {
         "stroke-opacity": args.initialArgs.strokeOpacity,
         height: mapIconSizeToPx(args.initialArgs.size),
         width: mapIconSizeToPx(args.initialArgs.size),
+        color: "grey",
       },
     });
   },
