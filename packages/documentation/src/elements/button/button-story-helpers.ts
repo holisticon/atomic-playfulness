@@ -79,11 +79,11 @@ const renderButton = (args: ButtonArgs) => html`
     ?disabled=${args.disabled}
   >
     ${args.icon && args.iconPosition === "left"
-      ? html`<i data-lucide=${args.icon}></i>`
+      ? html`<i class="hap-icon" data-lucide=${args.icon}></i>`
       : ""}
     ${args.label}
     ${args.icon && args.iconPosition === "right"
-      ? html`<i data-lucide=${args.icon}></i>`
+      ? html`<i class="hap-icon" data-lucide=${args.icon}></i>`
       : ""}
   </button>
 `;
