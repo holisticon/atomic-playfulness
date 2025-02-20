@@ -5,22 +5,26 @@
   "author": "Holisticon AG <info@holisticon.de>",
   "description": "Tailwind configuration for the atomic-playfulness design system.",
   "repository": "github:holisticon/atomic-playfulness",
-  "main": "src/index.js",
   "files": [
-    "./tailwind.config.js",
-    "./index.js",
-    "./styles.css",
     "dist",
-    "src",
     "CHANGELOG.md",
     "README.md"
   ],
   "exports": {
-    "./tailwind.config.js": "./tailwind.config.js"
+    ".": {
+      "types": "./dist/tailwind.config.d.ts",
+      "import": "./dist/tailwind.config.js",
+      "default": "./dist/tailwind.config.js"
+    }
   },
   "scripts": {
-    "dev": "npx serve dist",
-    "build": "mkdir -p dist && cp tailwind.config.js dist/",
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc",
     "lint": "tsc --noEmit && eslint ."
+  },
+  "peerDependencies": {
+    "@holisticon/hap-foundation": "^0.2.1",
+    "tailwindcss": "3.4.17",
+    "rimraf": "6.0.1"
   }
 }
