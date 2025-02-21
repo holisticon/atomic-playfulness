@@ -9,11 +9,25 @@
   padding: var(--hap-spacing-sm) var(--hap-spacing-md);
   cursor: pointer;
   width: max-content;
+  display: flex;
+  gap: var(--hap-spacing-sm);
+  align-items: center;
 
-  &.small {
+  svg {
+    height: var(--hap-typography-line-height-bodytext-standard-singleline);
+    width: var(--hap-typography-line-height-bodytext-standard-singleline);
+  }
+
+  &.hap-button--small {
     padding: var(--hap-spacing-xs) var(--hap-spacing-sm);
     font-size: var(--hap-typography-font-size-bodytext-s);
     line-height: var(--hap-typography-line-height-bodytext-s-singleline);
+    gap: var(--hap-spacing-xs);
+
+    svg {
+      height: var(--hap-typography-line-height-bodytext-s-singleline);
+      width: var(--hap-typography-line-height-bodytext-s-singleline);
+    }
   }
 
   &:disabled {
@@ -26,7 +40,7 @@
     outline: none;
   }
 
-  &.primary {
+  &.hap-button--primary {
     color: light-dark(
       var(--hap-color-text-brand-on-dark),
       var(--hap-color-text-brand-on-light)
@@ -87,7 +101,7 @@
     }
   }
 
-  &.secondary {
+  &.hap-button--secondary {
     color: light-dark(
       var(--hap-color-text-brand-on-light),
       var(--hap-color-text-brand-on-dark-only)
@@ -169,7 +183,7 @@
   }
 
   /* same as secondary but without borders in some states */
-  &.tertiary {
+  &.hap-button--tertiary {
     color: light-dark(
       var(--hap-color-text-brand-on-light),
       var(--hap-color-text-brand-on-dark-only)
@@ -230,7 +244,7 @@
     }
   }
 
-  &.destructive {
+  &.hap-button--destructive {
     color: light-dark(
       var(--hap-color-feedback-critical-light),
       var(--hap-color-feedback-critical-light)
