@@ -8,6 +8,14 @@
   border-radius: var(--hap-radius-minimal);
   padding: var(--hap-spacing-xs) var(--hap-spacing-sm);
   width: max-content;
+  display: flex;
+  gap: var(--hap-spacing-xs);
+  align-items: center;
+
+  svg {
+    height: var(--hap-typography-line-height-bodytext-s-singleline);
+    width: var(--hap-typography-line-height-bodytext-s-singleline);
+  }
 
   &.regular {
     &.default {
