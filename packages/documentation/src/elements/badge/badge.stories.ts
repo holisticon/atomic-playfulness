@@ -1,14 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/web-components";
 import { html } from "lit";
-import {
-  ArrowDown,
-  ArrowUpRight,
-  Check,
-  CircleAlert,
-  createIcons,
-  Info,
-  Sparkles,
-} from "lucide";
 
 type BadgeVariant =
   | "default"
@@ -48,17 +39,6 @@ const meta: Meta<BadgeArgs> = {
       </div>
     </div>
   `,
-  play: () =>
-    createIcons({
-      icons: {
-        Info,
-        ArrowUpRight,
-        CircleAlert,
-        ArrowDown,
-        Check,
-        Sparkles,
-      },
-    }),
 };
 
 export default meta;
