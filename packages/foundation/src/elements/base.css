@@ -1,5 +1,6 @@
 :root {
   color-scheme: light dark;
-  /* arbitrary background color for storybook */
-  background-color: white;
+  /* arbitrary color and background color for storybook */
+  color: var(--hap-color-text-primary-on-light);
+  background-color: var(--hap-color-background-neutral);
 }

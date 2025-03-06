@@ -1,0 +1,33 @@
+import { Meta, Canvas } from "@storybook/blocks";
+import * as IconStories from "./icon.stories.ts";
+
+<Meta title="Elements/icon/Icons" />
+
+# Icons
+
+We want to showcase 2 sizes of a selection of icons from
+[Lucide](https://lucide.dev/) that you can find in the stories in this folder.
+They are meant for demonstration but we encourage to use one of the
+[packages](https://lucide.dev/packages) provided by Lucide to suit your project.
+
+But we provide a base css class that you should use and extend in your project
+to adhere to the principles of the Design System. The main class `.hap-icon` is
+meant for a default size while adding `.hap-icon--small` as another class in
+your html will use a smaller size.
+
+```css
+.hap-icon {
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-opacity: 0.8;
+  height: 24px;
+  width: 24px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+
+  &.hap-icon--small {
+    height: 16px;
+    width: 16px;
+  }
+}
+```

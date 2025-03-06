@@ -17,7 +17,8 @@
     "lint": "tsc --noEmit && eslint ."
   },
   "dependencies": {
-    "@holisticon/hap-foundation": "^0.2.0"
+    "@holisticon/hap-foundation": "^0.2.0",
+    "lit": "^3.2.1"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^8.5.0",
@@ -26,7 +27,6 @@
     "@storybook/theming": "^8.5.0",
     "@storybook/web-components": "^8.5.0",
     "@storybook/web-components-vite": "^8.5.0",
-    "lit": "^3.2.1",
     "storybook": "^8.5.0"
   }
 }

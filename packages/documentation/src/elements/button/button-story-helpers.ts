@@ -46,13 +46,13 @@ export const renderButtons = (args: ButtonArgs, colorScheme: ColorScheme) =>
       ...args,
       size: "default",
       label: "Default",
-      icon: "[Icon]",
+      icon: "check",
     })}
     ${renderButton({
       ...args,
       size: "default",
       label: "Default",
-      icon: "[Icon]",
+      icon: "arrow-right",
       iconPosition: "right",
     })}
     ${renderButton({ ...args, size: "small", label: "Small" })}
@@ -60,32 +60,30 @@ export const renderButtons = (args: ButtonArgs, colorScheme: ColorScheme) =>
       ...args,
       size: "small",
       label: "Small",
-      icon: "[Icon]",
+      icon: "check",
     })}
     ${renderButton({
       ...args,
       size: "small",
       label: "Small",
-      icon: "[Icon]",
+      icon: "arrow-right",
       iconPosition: "right",
     })}
   </div> `;
 
-const renderButton = (args: ButtonArgs) => {
-  return html`
-    <button
-      class="hap-button ${args.variant} ${args.size} ${args.disabled
-        ? "disabled"
-        : ""}"
-      ?disabled=${args.disabled}
-    >
-      ${args.icon && args.iconPosition === "left"
-        ? html`<span class="icon">${args.icon}</span>`
-        : ""}
-      ${args.label}
-      ${args.icon && args.iconPosition === "right"
-        ? html`<span class="icon">${args.icon}</span>`
-        : ""}
-    </button>
-  `;
-};
+const renderButton = (args: ButtonArgs) => html`
+  <button
+    class="hap-button hap-button--${args.variant} hap-button--${args.size} ${args.disabled
+      ? "disabled"
+      : ""}"
+    ?disabled=${args.disabled}
+  >
+    ${args.icon && args.iconPosition === "left"
+      ? html`<i class="hap-icon" data-lucide=${args.icon}></i>`
+      : ""}
+    ${args.label}
+    ${args.icon && args.iconPosition === "right"
+      ? html`<i class="hap-icon" data-lucide=${args.icon}></i>`
+      : ""}
+  </button>
+`;
