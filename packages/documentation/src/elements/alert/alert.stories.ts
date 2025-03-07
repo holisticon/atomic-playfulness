@@ -18,8 +18,8 @@ interface AlertArgs {
 const meta: Meta<AlertArgs> = {
   args: {
     label: "Badge",
-    icon: "[Icon]",
-    iconbutton: "[Iconbutton]",
+    icon: "info",
+    iconbutton: "circle-x",
   },
   argTypes: {
     variant: {
@@ -30,12 +30,16 @@ const meta: Meta<AlertArgs> = {
 
   render: (args) => html`
     <div style="display:flex;gap:0.5rem;flex-direction:column;padding:2rem">
-      <div class="hap-alert hap-${args.variant}">
+      <div class="hap-alert hap-feedback-${args.variant}">
         <div class="hap-alert-content">
-          <span class="hap-icon">${args.icon}</span>
+          ${args.icon
+            ? html`<i class="hap-icon" data-lucide=${args.icon}></i>`
+            : ""}
           <span>${args.label}</span>
         </div>
-        <span class="hap-iconbutton">${args.iconbutton}</span>
+        ${args.iconbutton
+          ? html`<i class="hap-iconbutton" data-lucide=${args.iconbutton}></i>`
+          : ""}
       </div>
     </div>
   `,
