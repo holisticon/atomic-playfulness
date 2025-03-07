@@ -1,6 +1,5 @@
 ---
-"@holisticon/hap-documentation": patch
-"@holisticon/hap-foundation": patch
+"@holisticon/hap-foundation": minor
 ---
 
-add textlink
+Added CSS classes for styling textlink components.
