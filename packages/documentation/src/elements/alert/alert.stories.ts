@@ -30,12 +30,12 @@ const meta: Meta<AlertArgs> = {
 
   render: (args) => html`
     <div style="display:flex;gap:0.5rem;flex-direction:column;padding:2rem">
-      <div class="hap-alert ${args.variant}">
+      <div class="hap-alert hap-${args.variant}">
         <div class="hap-alert-content">
-          <span class="icon">${args.icon}</span>
+          <span class="hap-icon">${args.icon}</span>
           <span>${args.label}</span>
         </div>
-        <span class="iconbutton">${args.iconbutton}</span>
+        <span class="hap-iconbutton">${args.iconbutton}</span>
       </div>
     </div>
   `,

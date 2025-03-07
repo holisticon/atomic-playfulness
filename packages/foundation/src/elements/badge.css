@@ -17,76 +17,74 @@
     width: var(--hap-typography-line-height-bodytext-s-singleline);
   }
 
-  &.regular {
-    &.default {
-      color: light-dark(
-        var(--hap-color-feedback-default-light),
-        var(--hap-color-feedback-default-dark)
-      );
-      background-color: light-dark(
-        var(--hap-color-feedback-default-dark),
-        var(--hap-color-feedback-default-light)
-      );
-    }
-
-    &.positive {
-      color: light-dark(
-        var(--hap-color-feedback-positive-light),
-        var(--hap-color-feedback-positive-dark)
-      );
-      background-color: light-dark(
-        var(--hap-color-feedback-positive-dark),
-        var(--hap-color-feedback-positive-light)
-      );
-    }
-
-    &.caution {
-      color: light-dark(
-        var(--hap-color-feedback-caution-light),
-        var(--hap-color-feedback-caution-dark)
-      );
-      background-color: light-dark(
-        var(--hap-color-feedback-caution-dark),
-        var(--hap-color-feedback-caution-light)
-      );
-    }
-
-    &.critical {
-      color: light-dark(
-        var(--hap-color-feedback-critical-light),
-        var(--hap-color-feedback-critical-dark)
-      );
-      background-color: light-dark(
-        var(--hap-color-feedback-critical-dark),
-        var(--hap-color-feedback-critical-light)
-      );
-    }
-
-    &.neutral {
-      color: light-dark(
-        var(--hap-color-feedback-neutral-light),
-        var(--hap-color-feedback-neutral-dark)
-      );
-      background-color: light-dark(
-        var(--hap-color-feedback-neutral-dark),
-        var(--hap-color-feedback-neutral-light)
-      );
-    }
-
-    &.new {
-      color: light-dark(
-        var(--hap-color-feedback-new-light),
-        var(--hap-color-feedback-new-dark)
-      );
-      background-color: light-dark(
-        var(--hap-color-feedback-new-dark),
-        var(--hap-color-feedback-new-light)
-      );
-    }
+  &.hap-feedback-default {
+    color: light-dark(
+      var(--hap-color-feedback-default-light),
+      var(--hap-color-feedback-default-dark)
+    );
+    background-color: light-dark(
+      var(--hap-color-feedback-default-dark),
+      var(--hap-color-feedback-default-light)
+    );
   }
 
-  &.bold {
-    &.default {
+  &.hap-feedback-positive {
+    color: light-dark(
+      var(--hap-color-feedback-positive-light),
+      var(--hap-color-feedback-positive-dark)
+    );
+    background-color: light-dark(
+      var(--hap-color-feedback-positive-dark),
+      var(--hap-color-feedback-positive-light)
+    );
+  }
+
+  &.hap-feedback-caution {
+    color: light-dark(
+      var(--hap-color-feedback-caution-light),
+      var(--hap-color-feedback-caution-dark)
+    );
+    background-color: light-dark(
+      var(--hap-color-feedback-caution-dark),
+      var(--hap-color-feedback-caution-light)
+    );
+  }
+
+  &.hap-feedback-critical {
+    color: light-dark(
+      var(--hap-color-feedback-critical-light),
+      var(--hap-color-feedback-critical-dark)
+    );
+    background-color: light-dark(
+      var(--hap-color-feedback-critical-dark),
+      var(--hap-color-feedback-critical-light)
+    );
+  }
+
+  &.hap-feedback-neutral {
+    color: light-dark(
+      var(--hap-color-feedback-neutral-light),
+      var(--hap-color-feedback-neutral-dark)
+    );
+    background-color: light-dark(
+      var(--hap-color-feedback-neutral-dark),
+      var(--hap-color-feedback-neutral-light)
+    );
+  }
+
+  &.hap-feedback-new {
+    color: light-dark(
+      var(--hap-color-feedback-new-light),
+      var(--hap-color-feedback-new-dark)
+    );
+    background-color: light-dark(
+      var(--hap-color-feedback-new-dark),
+      var(--hap-color-feedback-new-light)
+    );
+  }
+
+  &.hap-badge-bold {
+    &.hap-feedback-default {
       color: light-dark(
         var(--hap-color-feedback-default-dark),
         var(--hap-color-feedback-default-light)
@@ -97,7 +95,7 @@
       );
     }
 
-    &.positive {
+    &.hap-feedback-positive {
       color: light-dark(
         var(--hap-color-feedback-positive-dark),
         var(--hap-color-feedback-positive-light)
@@ -108,7 +106,7 @@
       );
     }
 
-    &.caution {
+    &.hap-feedback-caution {
       color: light-dark(
         var(--hap-color-feedback-caution-dark),
         var(--hap-color-feedback-caution-light)
@@ -119,7 +117,7 @@
       );
     }
 
-    &.critical {
+    &.hap-feedback-critical {
       color: light-dark(
         var(--hap-color-feedback-critical-dark),
         var(--hap-color-feedback-critical-light)
@@ -130,7 +128,7 @@
       );
     }
 
-    &.neutral {
+    &.hap-feedback-neutral {
       color: light-dark(
         var(--hap-color-feedback-neutral-dark),
         var(--hap-color-feedback-neutral-light)
@@ -141,7 +139,7 @@
       );
     }
 
-    &.new {
+    &.hap-feedback-new {
       color: light-dark(
         var(--hap-color-feedback-new-dark),
         var(--hap-color-feedback-new-light)

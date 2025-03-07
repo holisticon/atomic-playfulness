@@ -13,7 +13,7 @@
   gap: var(--hap-spacing-md);
   width: 100%;
 
-  &.positive {
+  &.hap-feedback-positive {
     color: light-dark(
       var(--hap-color-feedback-positive-light),
       var(--hap-color-feedback-positive-dark)
@@ -24,7 +24,7 @@
     );
   }
 
-  &.caution {
+  &.hap-feedback-caution {
     color: light-dark(
       var(--hap-color-feedback-caution-light),
       var(--hap-color-feedback-caution-dark)
@@ -35,7 +35,7 @@
     );
   }
 
-  &.critical {
+  &.hap-feedback-critical {
     color: light-dark(
       var(--hap-color-feedback-critical-light),
       var(--hap-color-feedback-critical-dark)
@@ -46,7 +46,7 @@
     );
   }
 
-  &.informative {
+  &.hap-feedback-informative {
     color: light-dark(
       var(--hap-color-feedback-neutral-light),
       var(--hap-color-feedback-neutral-dark)
@@ -57,7 +57,7 @@
     );
   }
 
-  &.promoted {
+  &.hap-feedback-promoted {
     color: light-dark(
       var(--hap-color-feedback-new-light),
       var(--hap-color-feedback-new-dark)
