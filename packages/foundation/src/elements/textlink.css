@@ -1,0 +1,33 @@
+.hap-textlink {
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-standard);
+  font-weight: var(--hap-typography-font-weight-regular);
+  letter-spacing: var(--hap-typography-letter-spacing-lg);
+  line-height: var(--hap-typography-line-height-bodytext-standard-singleline);
+
+  color: var(--hap-color-link-default);
+  text-decoration: underline;
+
+  display: inline-flex;
+  align-items: center;
+  gap: var(--hap-spacing-xs);
+
+  &:hover {
+    color: var(--hap-color-link-hovered);
+  }
+
+  &:active {
+    color: var(--hap-color-link-pressed);
+  }
+
+  &.hap-textlink--small {
+    font-size: var(--hap-typography-font-size-bodytext-s);
+    line-height: var(--hap-typography-line-height-bodytext-s-singleline);
+  }
+
+  &.hap-textlink--footnote {
+    font-size: var(--hap-typography-font-size-bodytext-xs);
+    line-height: var(--hap-typography-line-height-bodytext-xs-singleline);
+    letter-spacing: var(--hap-typography-letter-spacing-xl);
+  }
+}
