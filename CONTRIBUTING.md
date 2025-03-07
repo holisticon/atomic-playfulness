@@ -9,7 +9,7 @@ This guide describes how you can successfully contribute to our design system
 - If you use a Node.js version manager that supports .node-version files, you
   can install the specific Node.js version from the repository's .node-version
   file.
-- Install all workspace dependencies and Git-hooks with: `npm i -ws`
+- Install all workspace dependencies and Git-hooks with: `npm i`
 
 ## Git Workflow
 
