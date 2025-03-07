@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/web-components";
 import { html } from "lit";
+import { classMap } from "lit/directives/class-map.js";
 import { styleMap } from "lit/directives/style-map.js";
 
 interface IconArgs {
@@ -52,12 +53,6 @@ const icons = [
 ];
 
 const meta: Meta<IconArgs> = {
-  argTypes: {
-    iconSize: {
-      control: { type: "select" },
-      options: ["default", "small"],
-    },
-  },
   decorators: (story) =>
     html`<div
       style=${styleMap({
@@ -68,9 +63,16 @@ const meta: Meta<IconArgs> = {
     >
       ${story()}
     </div>`,
-  render: () =>
+  render: (args) =>
     html`${icons.map(
-      (icon) => html`<i class="hap-icon" data-lucide=${icon}></i>`,
+      (icon) =>
+        html`<i
+          class=${classMap({
+            "hap-icon": true,
+            "hap-icon--small": args.iconSize === "small",
+          })}
+          data-lucide=${icon}
+        ></i>`,
     )}`,
 };
 
