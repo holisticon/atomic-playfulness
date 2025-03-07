@@ -4,7 +4,7 @@
   gap: var(--hap-spacing-xs);
 }
 
-.hap-label,
+.hap-textfield-label,
 .hap-textfield > label {
   display: flex;
   gap: var(--hap-spacing-xs);
@@ -24,7 +24,7 @@
   }
 }
 
-.hap-input,
+.hap-textfield-input,
 .hap-textfield > input {
   --hap-textfield-border-width: 1px;
   --hap-textfield-border-color: var(
@@ -64,20 +64,20 @@
   }
 }
 
-.hap-input:disabled,
+.hap-textfield-input:disabled,
 .hap-textfield:has(input:disabled) {
   pointer-events: none;
   opacity: var(--hap-opacity-disabled);
 }
 
-.hap-input-round,
-.hap-textfield-round > input {
+.hap-textfield-input--round,
+.hap-textfield--round > input {
   border-radius: var(--hap-radius-full);
   padding-inline: var(--hap-spacing-md-lg);
   padding-block: var(--hap-spacing-md);
 }
 
-.hap-input-description,
+.hap-textfield-description,
 .hap-textfield > span {
   color: light-dark(
     var(--hap-color-text-secondary-on-light),
