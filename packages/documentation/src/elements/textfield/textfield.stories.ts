@@ -24,7 +24,7 @@ const meta: Meta<TextfieldArgs> = {
     <div
       class=${classMap({
         "hap-textfield": true,
-        "hap-textfield-round": args.round,
+        "hap-textfield--round": args.round,
       })}
     >
       <label for="textfield">${args.label}</label>
@@ -57,7 +57,7 @@ export const Invalid: Story = {
       class=${classMap({
         "hap-textfield": true,
         "hap-tone-invalid": true,
-        "hap-textfield-round": args.round,
+        "hap-textfield--round": args.round,
       })}
     >
       <label for="textfield">
@@ -78,11 +78,11 @@ export const Invalid: Story = {
 
 export const Granular: Story = {
   render: (args) => html`
-    <label class="hap-label" for="textfield">${args.label}</label>
+    <label class="hap-textfield-label" for="textfield">${args.label}</label>
     <input
       class=${classMap({
-        "hap-input": true,
-        "hap-input-round": args.round,
+        "hap-textfield-input": true,
+        "hap-textfield-input--round": args.round,
       })}
       id="textfield"
       aria-describedby="description"
@@ -90,7 +90,7 @@ export const Granular: Story = {
       ?disabled=${args.disabled}
       ?readonly=${args.readonly}
     />
-    <span class="hap-input-description" id="description"
+    <span class="hap-textfield-description" id="description"
       >${args.description}</span
     >
   `,
