@@ -1,0 +1,122 @@
+.hap-checkbox {
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-s);
+  font-weight: var(--hap-typography-font-weight-medium);
+  letter-spacing: var(--hap-typography-letter-spacing-lg);
+  line-height: var(--hap-typography-line-height-bodytext-s-singleline);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--hap-spacing-sm);
+  width: 100%;
+  position: relative;
+
+  input[type="checkbox"] {
+    appearance: none;
+    /* TODO: create token for width & height */
+    width: 18px;
+    height: 18px;
+    /* TODO: create token for clickable area */
+    margin: 3px;
+    background-color: var(--hap-color-fill-input-default);
+    border-style: solid;
+    border-color: var(--hap-color-border-brand-on-light-default);
+    /* TODO: create token for border width */
+    border-width: 2px;
+    border-radius: var(--hap-radius-minimal);
+
+    &:not(:checked) ~ svg {
+      display: none;
+    }
+
+    &:checked {
+      background-color: var(--hap-color-fill-brand-on-light-default);
+
+      & ~ svg {
+        position: absolute;
+        display: block;
+        left: 3px;
+        pointer-events: none;
+      }
+    }
+
+    &::after {
+      display: none;
+      content: "";
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      left: -8px;
+      top: -8px;
+    }
+
+    &:hover:not(:disabled) {
+      &::after {
+        display: block;
+        background-color: var(--hap-color-fill-interaction-on-light-hovered);
+      }
+    }
+
+    &:active:not(:disabled) {
+      &::after {
+        display: block;
+        background-color: var(--hap-color-fill-interaction-on-light-pressed);
+      }
+    }
+
+    &:focus-visible {
+      outline: none;
+
+      &::after {
+        display: block;
+        border-color: var(--hap-color-border-focused-default);
+        border-width: 2px;
+        border-style: solid;
+        width: 36px;
+        height: 36px;
+      }
+    }
+
+    &:disabled {
+      opacity: var(--hap-opacity-disabled);
+
+      & ~ label {
+        opacity: var(--hap-opacity-disabled);
+      }
+    }
+  }
+
+  svg {
+    width: 18px;
+    color: var(--hap-color-icon-primary-on-dark);
+  }
+
+  &.hap-critical {
+    color: var(--hap-color-feedback-critical-dark);
+
+    input[type="checkbox"] {
+      border-color: var(--hap-color-feedback-critical-dark);
+
+      &:checked {
+        background-color: var(--hap-color-feedback-critical-dark);
+      }
+    }
+
+    svg {
+      color: var(--hap-color-feedback-critical-light);
+    }
+
+    label {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+
+      svg {
+        display: inline;
+        color: var(--hap-color-feedback-critical-dark);
+        stroke-width: 1px;
+      }
+    }
+  }
+}
