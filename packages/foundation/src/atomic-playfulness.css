@@ -5,5 +5,6 @@
 @import "./elements/typography.css";
 @import "./elements/button.css";
 @import "./elements/badge.css";
+@import "./elements/checkbox.css";
 @import "./elements/alert.css";
 @import "./elements/icon.css";
