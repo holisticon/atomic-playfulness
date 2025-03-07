@@ -32,13 +32,17 @@ const meta: Meta<BadgeArgs> = {
       <div class="hap-badge hap-feedback-${args.variant}">
         <span>${args.label}</span>
         ${args.icon
-          ? html`<i class="hap-icon" data-lucide=${args.icon}></i>`
+          ? html`<svg class="hap-icon" viewBox="0 0 24 24">
+              <use href="#${args.icon}" />
+            </svg>`
           : ""}
       </div>
       <div class="hap-badge hap-badge-bold hap-feedback-${args.variant}">
         <span>${args.label}</span>
         ${args.icon
-          ? html`<i class="hap-icon" data-lucide=${args.icon}></i>`
+          ? html`<svg class="hap-icon" viewBox="0 0 24 24">
+              <use href="#${args.icon}" />
+            </svg>`
           : ""}
       </div>
     </div>

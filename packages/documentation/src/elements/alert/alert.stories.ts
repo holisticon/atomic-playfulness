@@ -33,7 +33,9 @@ const meta: Meta<AlertArgs> = {
       <div class="hap-alert hap-feedback-${args.variant}">
         <div class="hap-alert-content">
           ${args.icon
-            ? html`<i class="hap-icon" data-lucide=${args.icon}></i>`
+            ? html`<svg class="hap-icon" viewBox="0 0 24 24">
+                <use href="#${args.icon}" />
+              </svg>`
             : ""}
           <span>${args.label}</span>
         </div>

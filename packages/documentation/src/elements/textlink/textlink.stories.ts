@@ -26,8 +26,10 @@ const meta: Meta<TextlinkArgs> = {
         class="hap-textlink${args.type !== "standard"
           ? ` hap-textlink--${args.type}`
           : ""}"
-        >${args.label}</a
-      >
+        >${args.label}
+        <svg class="hap-icon hap-icon--small" viewBox="0 0 24 24">
+          <use href="#arrow-up-right" /></svg
+      ></a>
     </div>
   `,
 };
