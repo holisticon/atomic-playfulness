@@ -1,0 +1,65 @@
+.hap-snackbar,
+.hap-snackbar-multiline {
+  border-radius: var(--hap-radius-rounded);
+  background: var(--hap-color-surface-inverted-default);
+  padding: var(--hap-spacing-md);
+  box-shadow: var(--hap-shadow-second-level-color)
+    var(--hap-shadow-second-level-x) var(--hap-shadow-second-level-y)
+    var(--hap-shadow-second-level-blur);
+}
+
+.hap-snackbar-content {
+  width: 100%;
+  display: flex;
+  gap: var(--hap-spacing-md);
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-s);
+  line-height: var(--hap-typography-line-height-bodytextstandard-singleline);
+  color: var(--hap-color-text-primary-on-dark);
+
+  .hap-snackbar & {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .hap-snackbar-multiline & {
+    flex-direction: column;
+  }
+}
+
+.hap-snackbar-actions {
+  display: flex;
+  gap: var(--hap-spacing-md);
+
+  .hap-snackbar & {
+    justify-self: flex-end;
+  }
+
+  .hap-snackbar-multiline & {
+    align-self: flex-end;
+  }
+}
+
+.hap-snackbar-button {
+  border-radius: var(--hap-radius-full);
+  padding: var(--hap-spacing-xs) var(--hap-spacing-sm);
+  color: var(--hap-color-text-brand-on-dark);
+  background: none;
+  border: none;
+
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-s);
+
+  &:hover {
+    background: var(--hap-color-fill-interaction-on-dark-hovered);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--hap-color-icon-brand-on-dark);
+  }
+
+  &:active {
+    background: var(--hap-color-fill-interaction-on-dark-pressed);
+  }
+}
