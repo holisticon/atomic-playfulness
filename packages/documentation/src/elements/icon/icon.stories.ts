@@ -68,10 +68,19 @@ const meta: Meta<IconArgs> = {
     >
       ${story()}
     </div>`,
-  render: () =>
-    html`${icons.map(
-      (icon) => html`<i class="hap-icon" data-lucide=${icon}></i>`,
-    )}`,
+  render: (args) => {
+    return html`${icons.map(
+      (icon) =>
+        html`<svg
+          class="hap-icon${args.iconSize !== "default"
+            ? ` hap-icon--${args.iconSize}`
+            : ""}"
+          viewBox="0 0 24 24"
+        >
+          <use href="#${icon}" />
+        </svg>`,
+    )}`;
+  },
 };
 
 export default meta;
