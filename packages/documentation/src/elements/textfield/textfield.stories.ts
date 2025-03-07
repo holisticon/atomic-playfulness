@@ -61,7 +61,7 @@ export const Invalid: Story = {
       })}
     >
       <label for="textfield">
-        <span class="placeholder-icon">[ERR]</span>
+        <i class="hap-icon" data-lucide="circle-alert"></i>
         ${args.label}
       </label>
       <input
