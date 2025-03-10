@@ -39,6 +39,6 @@
     "typescript-eslint": "^8.20.0"
   },
   "dependencies": {
-    "lucide": "0.469.0"
+    "lucide-static": "^0.479.0"
   }
 }

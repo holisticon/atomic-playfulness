@@ -79,11 +79,15 @@ const renderButton = (args: ButtonArgs) => html`
     ?disabled=${args.disabled}
   >
     ${args.icon && args.iconPosition === "left"
-      ? html`<i class="hap-icon" data-lucide=${args.icon}></i>`
+      ? html`<svg class="hap-icon" viewBox="0 0 24 24">
+          <use href="#${args.icon}" />
+        </svg>`
       : ""}
     ${args.label}
     ${args.icon && args.iconPosition === "right"
-      ? html`<i class="hap-icon" data-lucide=${args.icon}></i>`
+      ? html`<svg class="hap-icon" viewBox="0 0 24 24">
+          <use href="#${args.icon}" />
+        </svg>`
       : ""}
   </button>
 `;
