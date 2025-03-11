@@ -1,0 +1,35 @@
+.hap-divider {
+  border: none;
+  background-color: var(--hap-color-fill-secondary-on-light-default);
+
+  &.hap-divider-horizontal {
+    block-size: 1px;
+    inline-size: 100%;
+
+    &.hap-divider--inset {
+      margin-inline-start: var(--hap-spacing-md);
+      inline-size: calc(100% - var(--hap-spacing-md));
+    }
+
+    &.hap-divider--middle-inset {
+      margin-inline: var(--hap-spacing-md);
+      inline-size: calc(100% - 2 * var(--hap-spacing-md));
+    }
+  }
+
+  &.hap-divider-vertical {
+    inline-size: 1px;
+    block-size: 250px;
+    margin: 0 1rem;
+
+    &.hap-divider--inset {
+      margin-block-start: var(--hap-spacing-md);
+      block-size: calc(250px - var(--hap-spacing-md));
+    }
+
+    &.hap-divider--middle-inset {
+      margin-block: var(--hap-spacing-md);
+      block-size: calc(250px - 2 * var(--hap-spacing-md));
+    }
+  }
+}
