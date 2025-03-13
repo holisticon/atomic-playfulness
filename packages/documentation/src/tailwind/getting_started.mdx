@@ -1,0 +1,129 @@
+import { Meta } from "@storybook/blocks";
+
+<Meta title="Tailwind/Getting Started" />
+
+# Using Our Custom Tailwind Configuration in Another Project
+
+This guide explains how to integrate our custom Tailwind CSS configuration into
+another project.
+
+## Prerequisites
+
+- The target project should be using **Tailwind CSS v3**.
+- You should have access to our custom Tailwind configuration by installing our
+  project.
+
+## Installation
+
+### 1. Install Our Project
+
+To use our custom Tailwind configuration, first install our project:
+
+```sh
+npm install @holisticon/hap-foundation @holisticon/hap-tailwind
+```
+
+Or using yarn:
+
+```sh
+yarn add @holisticon/hap-foundation @holisticon/hap-tailwind
+```
+
+### 2. Install Tailwind CSS (if not already installed)
+
+If the target project does not have Tailwind CSS installed, add it using npm or
+yarn:
+
+```sh
+npm install tailwindcss postcss autoprefixer --save-dev
+```
+
+Or using yarn:
+
+```sh
+yarn add tailwindcss postcss autoprefixer --dev
+```
+
+### 3. Use Our Custom Tailwind Config
+
+Ensure that the target project imports and extends our custom Tailwind
+configuration in `tailwind.config.js`:
+
+```js
+import { theme as hapTheme } from "@holisticon/hap-tailwind";
+
+export default {
+  content: ["./src/**/*.{js,ts,jsx,tsx}"],
+
+  theme: {
+    extend: hapTheme,
+  },
+
+  plugins: [],
+};
+```
+
+### 4. Configure Tailwind in the Project
+
+#### a) Add a Global Stylesheet
+
+Create a global stylesheet (e.g., `global.css`) in the project and import
+Tailwind. Additionally, make sure that `atomic-playfulness.css` is included in
+the styles. In this file we provide all the custom CSS tokens that are being
+used by the Tailwind config:
+
+```css
+@import "@holisticon/hap-foundation/atomic-playfulness.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+#### b) Ensure PostCSS is Configured
+
+If the target project uses PostCSS, make sure `postcss.config.js` is set up
+correctly:
+
+```js
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+};
+```
+
+### 5. Restart the Project
+
+After making these changes, restart the development server to apply the custom
+Tailwind configuration.
+
+## Tailwind Class Structure
+
+Our custom Tailwind configuration introduces specific class structures based on
+design tokens. Here are some key examples:
+
+- **Spacing:** Classes such as `p-md`, `m-xl`, `gap-sm` use values like
+  `var(--hap-spacing-md)`, ensuring consistent spacing.
+- **Border Radius:** Classes like `rounded-minimal`, `rounded-lg`, and
+  `rounded-full` apply predefined radius tokens.
+- **Typography:** Font-related classes (`text-headline-lg`, `font-bold`,
+  `leading-bodytext-standard`) map to specific variables like
+  `var(--hap-typography-font-size-headline-lg)`.
+- **Colors:** Classes like `text-primary-onLight`,
+  `bg-fill-brand-light-default`, and `border-primary-onDark-default` adapt to
+  different themes.
+- **Shadows & Opacity:** Custom shadow levels (`shadow-firstLevel`) and opacity
+  (`opacity-disabled`, `opacity-hovered`) provide consistent depth and
+  visibility handling.
+
+By using these custom class names, you ensure your project maintains a unified
+design language with our predefined Tailwind theme.
+
+## Conclusion
+
+The target project should now be using our custom Tailwind configuration. You
+can verify by checking if our custom styles and components appear correctly. If
+any issues arise, ensure the Tailwind and PostCSS configurations are properly
+set up.
