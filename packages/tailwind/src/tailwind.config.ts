@@ -292,65 +292,59 @@ export const theme: Config["theme"] = {
       },
     },
   },
-  typography: {
-    fontFamily: {
-      heading: ["var(--hap-typography-font-family-heading)", "sans-serif"],
-      body: ["var(--hap-typography-font-family-body)", "sans-serif"],
-    },
-    fontWeight: {
-      regular: "var(--hap-typography-font-weight-regular)",
-      medium: "var(--hap-typography-font-weight-medium)",
-      bold: "var(--hap-typography-font-weight-bold)",
-    },
-    fontSize: {
-      headline: {
-        "3xl": "var(--hap-typography-font-size-headline-3-xl)",
-        "2xl": "var(--hap-typography-font-size-headline-2-xl)",
-        xl: "var(--hap-typography-font-size-headline-xl)",
-        lg: "var(--hap-typography-font-size-headline-lg)",
-        md: "var(--hap-typography-font-size-headline-md)",
-        sm: "var(--hap-typography-font-size-headline-sm)",
-      },
-      bodytext: {
-        standard: "var(--hap-typography-font-size-bodytext-standard)",
-        s: "var(--hap-typography-font-size-bodytext-s)",
-        xs: "var(--hap-typography-font-size-bodytext-xs)",
-        "2xs": "var(--hap-typography-font-size-bodytext-2-xs)",
-      },
-    },
-    lineHeight: {
-      headline: {
-        "3xl": "var(--hap-typography-line-height-headline-3-xl)",
-        "2xl": "var(--hap-typography-line-height-headline-2-xl)",
-        xl: "var(--hap-typography-line-height-headline-xl)",
-        lg: "var(--hap-typography-line-height-headline-lg)",
-        md: "var(--hap-typography-line-height-headline-md)",
-        sm: "var(--hap-typography-line-height-headline-sm)",
-      },
-      bodyText: {
-        standardSingleline:
-          "var(--hap-typography-line-height-bodytext-standard-singleline)",
-        standardMultiline:
-          "var(--hap-typography-line-height-bodytext-standard-multiline)",
-        sSingleline: "var(--hap-typography-line-height-bodytext-s-singleline)",
-        sMultiline: "var(--hap-typography-line-height-bodytext-s-multiline)",
-        xsSingleline:
-          "var(--hap-typography-line-height-bodytext-xs-singleline)",
-        xsMultiline: "var(--hap-typography-line-height-bodytext-xs-multiline)",
-        "3xs": "var(--hap-typography-line-height-bodytext-3-xs)",
-        "2xs": "var(--hap-typography-line-height-bodytext-2-xs)",
-      },
-    },
-    letterSpacing: {
-      spacing: {
-        md: "var(--hap-typography-letter-spacing-md)",
-        lg: "var(--hap-typography-letter-spacing-lg)",
-        xl: "var(--hap-typography-letter-spacing-xl)",
-        sm: "var(--hap-typography-letter-spacing-sm)",
-        xs: "var(--hap-typography-letter-spacing-xs)",
-      },
-    },
+  fontFamily: {
+    heading: ["var(--hap-typography-font-family-heading)", "sans-serif"],
+    body: ["var(--hap-typography-font-family-body)", "sans-serif"],
   },
+  fontWeight: {
+    regular: "var(--hap-typography-font-weight-regular)",
+    medium: "var(--hap-typography-font-weight-medium)",
+    bold: "var(--hap-typography-font-weight-bold)",
+  },
+  fontSize: {
+    "headline-3xl": "var(--hap-typography-font-size-headline-3-xl)",
+    "headline-2xl": "var(--hap-typography-font-size-headline-2-xl)",
+    "headline-xl": "var(--hap-typography-font-size-headline-xl)",
+    "headline-lg": "var(--hap-typography-font-size-headline-lg)",
+    "headline-md": "var(--hap-typography-font-size-headline-md)",
+    "headline-sm": "var(--hap-typography-font-size-headline-sm)",
+
+    "bodytext-standard": "var(--hap-typography-font-size-bodytext-standard)",
+    "bodytext-s": "var(--hap-typography-font-size-bodytext-s)",
+    "bodytext-xs": "var(--hap-typography-font-size-bodytext-xs)",
+    "bodytext-2xs": "var(--hap-typography-font-size-bodytext-2-xs)",
+  },
+  lineHeight: {
+    "headline-3xl": "var(--hap-typography-line-height-headline-3-xl)",
+    "headline-2xl": "var(--hap-typography-line-height-headline-2-xl)",
+    "headline-xl": "var(--hap-typography-line-height-headline-xl)",
+    "headline-lg": "var(--hap-typography-line-height-headline-lg)",
+    "headline-md": "var(--hap-typography-line-height-headline-md)",
+    "headline-sm": "var(--hap-typography-line-height-headline-sm)",
+
+    "bodytext-standard-singleline":
+      "var(--hap-typography-line-height-bodytext-standard-singleline)",
+    "bodytext-standard-multiline":
+      "var(--hap-typography-line-height-bodytext-standard-multiline)",
+    "bodytext-s-singleline":
+      "var(--hap-typography-line-height-bodytext-s-singleline)",
+    "bodytext-s-multiline":
+      "var(--hap-typography-line-height-bodytext-s-multiline)",
+    "bodytext-xs-singleline":
+      "var(--hap-typography-line-height-bodytext-xs-singleline)",
+    "bodytext-xs-multiline":
+      "var(--hap-typography-line-height-bodytext-xs-multiline)",
+    "bodytext-3xs": "var(--hap-typography-line-height-bodytext-3-xs)",
+    "bodytext-2xs": "var(--hap-typography-line-height-bodytext-2-xs)",
+  },
+  letterSpacing: {
+    md: "var(--hap-typography-letter-spacing-md)",
+    lg: "var(--hap-typography-letter-spacing-lg)",
+    xl: "var(--hap-typography-letter-spacing-xl)",
+    sm: "var(--hap-typography-letter-spacing-sm)",
+    xs: "var(--hap-typography-letter-spacing-xs)",
+  },
+
   opacity: {
     default: "var(--hap-opacity-default)",
     disabled: "var(--hap-opacity-disabled)",
