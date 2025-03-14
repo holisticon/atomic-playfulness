@@ -45,7 +45,9 @@ export const Invalid: Story = {
   render: (args) => html`
     <div class="hap-textarea hap-tone-invalid">
       <label for="textarea">
-        <i class="hap-icon" data-lucide="circle-alert"></i>
+        <svg class="hap-icon" viewBox="0 0 24 24">
+          <use href="#circle-alert" />
+        </svg>
         ${args.label}
       </label>
       <textarea
