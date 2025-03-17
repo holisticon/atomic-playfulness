@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/web-components";
-import { html, type TemplateResult } from "lit";
+import { html } from "lit";
 
 interface BreadCrumbArgs {
   pages: string[];
@@ -7,39 +7,27 @@ interface BreadCrumbArgs {
 }
 
 const renderBreadcrumb = (args: BreadCrumbArgs) => {
-  let nav: TemplateResult<1> = html``;
-  const lastIndex = args.pages?.length - 1;
-  args.pages?.forEach((element: string, index: number) => {
-    nav = html`
-      ${nav}
-      ${renderBreadcrumbElement(
-        element,
-        index == args.currentPageIndex,
-        index == lastIndex,
-      )}
-    `;
-  });
   return html` <nav class="hap-breadcrumb">
     <ol>
-      ${nav}
+      ${args.pages?.map(
+        (elem, index) => html`
+          <li>
+            <a class=${index == args.currentPageIndex ? "selected" : ""}>
+              ${elem} ${renderBreadcrumbIcon(args.pages.length - 1 !== index)}
+            </a>
+          </li>
+        `,
+      )}
     </ol>
   </nav>`;
 };
 
-const renderBreadcrumbElement = (
-  label: string,
-  isCurrent: boolean,
-  isLastIndex: boolean,
-) => html`
-  <li>
-    <a class=${isCurrent ? "selected" : ""}>
-      ${label}
-      ${!isLastIndex
-        ? html`<i class="hap-icon" data-lucide="chevron-right"></i>`
-        : ""}
-    </a>
-  </li>
-`;
+const renderBreadcrumbIcon = (isLastIndex: boolean) =>
+  html` ${isLastIndex
+    ? html` <svg viewBox="0 0 24 24" class="hap-icon hap-icon--small">
+        <use href="#chevron-right"></use>
+      </svg>`
+    : ""}`;
 
 const meta: Meta<BreadCrumbArgs> = {
   render: (args) => html`
