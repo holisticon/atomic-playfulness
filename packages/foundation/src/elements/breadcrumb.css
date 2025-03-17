@@ -1,0 +1,53 @@
+.hap-breadcrumb {
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-s);
+  font-weight: var(--hap-typography-font-weight-medium);
+  letter-spacing: var(--hap-typography-letter-spacing-lg);
+  line-height: var(--hap-typography-line-height-bodytext-s-singleline);
+  gap: var(--hap-spacing-xs);
+
+  align-items: center;
+
+  color: light-dark(
+    var(--hap-color-text-tertiary-on-light),
+    var(--hap-color-text-tertiary-on-dark)
+  );
+  background-color: light-dark(
+    var(--hap-color-text-tertiary-on-dark),
+    var(--hap-color-text-tertiary-on-light)
+  );
+
+  ol {
+    display: flex;
+
+    li {
+      list-style-type: none;
+      justify-content: center;
+      margin: auto;
+
+      .hap-icon {
+        height: var(--hap-primitives-font-size-md);
+        position: relative;
+        top: 0.1rem;
+      }
+
+      a {
+        cursor: pointer;
+      }
+
+      a:hover {
+        color: light-dark(
+          var(--hap-color-text-secondary-on-light),
+          var(--hap-color-text-secondary-on-dark)
+        );
+      }
+
+      a.selected {
+        color: light-dark(
+          var(--hap-color-text-primary-on-light),
+          var(--hap-color-text-primary-on-dark)
+        );
+      }
+    }
+  }
+}
