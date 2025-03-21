@@ -52,12 +52,6 @@ const icons = [
 ];
 
 const meta: Meta<IconArgs> = {
-  argTypes: {
-    iconSize: {
-      control: { type: "select" },
-      options: ["default", "small"],
-    },
-  },
   decorators: (story) =>
     html`<div
       style=${styleMap({
