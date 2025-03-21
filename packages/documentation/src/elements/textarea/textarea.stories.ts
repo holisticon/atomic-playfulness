@@ -43,7 +43,7 @@ export const Disabled: Story = { args: { disabled: true } };
 
 export const Invalid: Story = {
   render: (args) => html`
-    <div class="hap-textarea hap-tone-invalid">
+    <div class="hap-textarea hap-feedback-invalid">
       <label for="textarea">
         <svg class="hap-icon" viewBox="0 0 24 24">
           <use href="#circle-alert" />

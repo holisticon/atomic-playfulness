@@ -88,16 +88,16 @@
   letter-spacing: var(--hap-typography-letter-spacing-lg);
 }
 
-.hap-tone-invalid:not(textarea),
-.hap-textarea.hap-tone-invalid > label,
-.hap-textarea.hap-tone-invalid > span {
+.hap-feedback-invalid:not(textarea),
+.hap-textarea.hap-feedback-invalid > label,
+.hap-textarea.hap-feedback-invalid > span {
   color: light-dark(
     var(--hap-color-feedback-critical-dark),
     var(--hap-color-feedback-critical-light)
   );
 }
 
-textarea.hap-tone-invalid,
-.hap-textarea.hap-tone-invalid > textarea {
+textarea.hap-feedback-invalid,
+.hap-textarea.hap-feedback-invalid > textarea {
   --hap-textarea-border-color: var(--hap-color-feedback-critical-dark);
 }
