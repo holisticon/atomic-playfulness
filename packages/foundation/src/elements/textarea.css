@@ -1,0 +1,103 @@
+.hap-textarea {
+  display: flex;
+  flex-direction: column;
+  gap: var(--hap-spacing-xs);
+}
+
+.hap-textarea-label,
+.hap-textarea > label {
+  display: flex;
+  gap: var(--hap-spacing-xs);
+  color: light-dark(
+    var(--hap-color-text-secondary-on-light),
+    var(--hap-color-text-secondary-on-dark)
+  );
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-s);
+  font-weight: var(--hap-typography-font-weight-medium);
+  line-height: var(--hap-typography-line-height-bodytext-s-singleline);
+  letter-spacing: var(--hap-typography-letter-spacing-lg);
+
+  & > svg {
+    height: var(--hap-typography-line-height-bodytext-s-singleline);
+    width: var(--hap-typography-line-height-bodytext-s-singleline);
+  }
+}
+
+.hap-textarea-input,
+.hap-textarea > textarea {
+  --hap-textarea-border-width: 1px;
+  --hap-textarea-border-color: var(
+    --hap-color-border-secondary-on-light-default
+  );
+  appearance: none;
+  outline: none;
+  box-sizing: content-box;
+  resize: vertical;
+  min-block-size: var(
+    --hap-typography-line-height-bodytext-standard-singleline
+  );
+  transition: 150ms linear;
+  transition-property: background-color, box-shadow;
+  padding: var(--hap-spacing-sm);
+  border: none;
+  border-radius: var(--hap-radius-minimal);
+  box-shadow: inset 0 0 0 var(--hap-textarea-border-width)
+    var(--hap-textarea-border-color);
+  background-color: var(--hap-color-fill-input-default);
+  color: var(--hap-color-text-primary-on-light);
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-s);
+  font-weight: var(--hap-typography-font-weight-regular);
+  line-height: var(--hap-typography-line-height-bodytext-standard-singleline);
+  letter-spacing: var(--hap-typography-letter-spacing-lg);
+
+  &:hover {
+    background-color: var(--hap-color-fill-input-hovered);
+  }
+
+  &:read-only {
+    --hap-textarea-border-color: var(
+      --hap-color-border-secondary-on-light-default
+    );
+    background-color: var(--hap-color-fill-input-hovered);
+  }
+
+  &:focus-visible {
+    --hap-textarea-border-width: 2px;
+    --hap-textarea-border-color: var(--hap-color-border-focused-default);
+  }
+}
+
+.hap-textarea-input:disabled,
+.hap-textarea:has(textarea:disabled) {
+  pointer-events: none;
+  opacity: var(--hap-opacity-disabled);
+}
+
+.hap-textarea-description,
+.hap-textarea > span {
+  color: light-dark(
+    var(--hap-color-text-secondary-on-light),
+    var(--hap-color-text-secondary-on-dark)
+  );
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-xs);
+  font-weight: var(--hap-typography-font-weight-regular);
+  line-height: var(--hap-typography-line-height-bodytext-xs-multiline);
+  letter-spacing: var(--hap-typography-letter-spacing-lg);
+}
+
+.hap-feedback-invalid:not(textarea),
+.hap-textarea.hap-feedback-invalid > label,
+.hap-textarea.hap-feedback-invalid > span {
+  color: light-dark(
+    var(--hap-color-feedback-critical-dark),
+    var(--hap-color-feedback-critical-light)
+  );
+}
+
+textarea.hap-feedback-invalid,
+.hap-textarea.hap-feedback-invalid > textarea {
+  --hap-textarea-border-color: var(--hap-color-feedback-critical-dark);
+}
