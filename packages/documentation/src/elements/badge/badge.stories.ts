@@ -29,18 +29,18 @@ const meta: Meta<BadgeArgs> = {
 
   render: (args) => html`
     <div style="display:flex;gap:0.5rem;flex-direction:column;padding:2rem">
-      <div class="hap-badge hap-feedback-${args.variant}">
+      <div class="hap-badge regular ${args.variant}">
         <span>${args.label}</span>
         ${args.icon
-          ? html`<svg class="hap-icon" viewBox="0 0 24 24">
+          ? html`<svg class="hap-icon hap-icon--small" viewBox="0 0 24 24">
               <use href="#${args.icon}" />
             </svg>`
           : ""}
       </div>
-      <div class="hap-badge hap-badge-bold hap-feedback-${args.variant}">
+      <div class="hap-badge strong ${args.variant}">
         <span>${args.label}</span>
         ${args.icon
-          ? html`<svg class="hap-icon" viewBox="0 0 24 24">
+          ? html`<svg class="hap-icon hap-icon--small" viewBox="0 0 24 24">
               <use href="#${args.icon}" />
             </svg>`
           : ""}
