@@ -70,8 +70,8 @@
   opacity: var(--hap-opacity-disabled);
 }
 
-.hap-textfield-input--round,
-.hap-textfield--round > input {
+.hap-textfield-input--brand,
+.hap-textfield--brand > input {
   border-radius: var(--hap-radius-full);
   padding-inline: var(--hap-spacing-md-lg);
   padding-block: var(--hap-spacing-md);
@@ -90,16 +90,16 @@
   letter-spacing: var(--hap-typography-letter-spacing-lg);
 }
 
-.hap-tone-invalid:not(input),
-.hap-textfield.hap-tone-invalid > label,
-.hap-textfield.hap-tone-invalid > span {
+.hap-feedback-invalid:not(input),
+.hap-textfield.hap-feedback-invalid > label,
+.hap-textfield.hap-feedback-invalid > span {
   color: light-dark(
     var(--hap-color-feedback-critical-dark),
     var(--hap-color-feedback-critical-light)
   );
 }
 
-input.hap-tone-invalid,
-.hap-textfield.hap-tone-invalid > input {
+input.hap-feedback-invalid,
+.hap-textfield.hap-feedback-invalid > input {
   --hap-textfield-border-color: var(--hap-color-feedback-critical-dark);
 }
