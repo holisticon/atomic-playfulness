@@ -1,0 +1,23 @@
+.hap-indicator {
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-2-xs);
+  font-weight: var(--hap-typography-font-weight-medium);
+  letter-spacing: var(--hap-typography-letter-spacing-xl);
+  line-height: var(--hap-typography-line-height-bodytext-s-singleline);
+  color: var(--hap-color-feedback-positive-dark);
+  background-color: var(--hap-color-feedback-new-light);
+  border: none;
+  width: max-content;
+  border-radius: var(--hap-radius-rounded);
+  padding: var(--hap-spacing-none) var(--hap-spacing-xs);
+
+  &.small {
+    width: 8px;
+    height: 8px;
+    padding: 0;
+
+    .hap-indicator-number {
+      display: none;
+    }
+  }
+}
