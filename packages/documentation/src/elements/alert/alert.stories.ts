@@ -30,7 +30,7 @@ const meta: Meta<AlertArgs> = {
 
   render: (args) => html`
     <div style="display:flex;gap:0.5rem;flex-direction:column;padding:2rem">
-      <div class="hap-alert hap-feedback-${args.variant}">
+      <div class="hap-alert ${args.variant}">
         <div class="hap-alert-content">
           ${args.icon
             ? html`<svg class="hap-icon" viewBox="0 0 24 24">

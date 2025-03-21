@@ -1,7 +1,10 @@
 .hap-badge {
+  display: flex;
+  gap: var(--hap-spacing-xs);
   font-family: var(--hap-typography-font-family-body);
   font-size: var(--hap-typography-font-size-bodytext-s);
-  font-weight: var(--hap-typography-font-weight-medium);
+  /* --hap-typography-font-weight-medium should correspond to 500, but doesn't :( */
+  font-weight: 500;
   letter-spacing: var(--hap-typography-letter-spacing-lg);
   line-height: var(--hap-typography-line-height-bodytext-s-singleline);
   border: none;
@@ -41,16 +44,10 @@
     }
   }
 
-  &.bold {
+  &.strong {
     &.default {
-      color: light-dark(
-        var(--hap-color-feedback-default-dark),
-        var(--hap-color-feedback-default-light)
-      );
-      background-color: light-dark(
-        var(--hap-color-feedback-default-light),
-        var(--hap-color-feedback-default-dark)
-      );
+      color: var(--hap-color-feedback-default-light);
+      background-color: var(--hap-color-feedback-default-dark);
     }
 
     &.positive {
