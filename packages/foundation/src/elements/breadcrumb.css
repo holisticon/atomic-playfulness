@@ -17,21 +17,20 @@
     var(--hap-color-text-tertiary-on-light)
   );
 
-  ol {
+  .hap-navList {
     display: flex;
 
-    li {
+    .hap-navItem {
       list-style-type: none;
       justify-content: center;
       margin: auto;
 
       .hap-icon {
-        height: var(--hap-primitives-font-size-md);
         position: relative;
         top: 0.1rem;
       }
 
-      a {
+      .hap-navLink {
         cursor: pointer;
       }
 
@@ -42,7 +41,8 @@
         );
       }
 
-      a.selected {
+      .selected {
+        font-weight: 500;
         color: light-dark(
           var(--hap-color-text-primary-on-light),
           var(--hap-color-text-primary-on-dark)
