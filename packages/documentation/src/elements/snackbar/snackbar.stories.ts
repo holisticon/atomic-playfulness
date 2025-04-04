@@ -25,10 +25,9 @@ const meta: Meta<AlertArgs> = {
           <div class="hap-snackbar-actions">
             <button class="hap-snackbar-button">Action</button>
             ${args.iconbutton
-              ? html`<i
-                  class="hap-iconbutton"
-                  data-lucide=${args.iconbutton}
-                ></i>`
+              ? html`<svg class="hap-icon" viewBox="0 0 24 24">
+                  <use href="#${args.iconbutton}" />
+                </svg>`
               : ""}
           </div>
         </div>
