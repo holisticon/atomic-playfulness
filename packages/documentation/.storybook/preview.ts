@@ -7,7 +7,13 @@ const preview: Preview = {
     docs: { theme: holisticonTheme },
     options: {
       storySort: {
-        order: ["Introduction", "Foundation", "Design Tokens"],
+        order: [
+          "Introduction",
+          "Foundation",
+          "Design Tokens",
+          "Elements",
+          "Tailwind",
+        ],
       },
     },
   },
