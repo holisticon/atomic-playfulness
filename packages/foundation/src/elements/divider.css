@@ -1,35 +1,34 @@
-.hap-divider {
+.hap-divider:not(.hap-divider-vertical) {
   border: none;
-  background-color: var(--hap-color-fill-secondary-on-light-default);
+  border-top: solid 1px var(--hap-color-fill-secondary-on-light-default);
+  display: block;
+  margin: 10px 0;
 
-  &.hap-divider-horizontal {
-    block-size: 1px;
-    inline-size: 100%;
-
-    &.hap-divider--inset {
-      margin-inline-start: var(--hap-spacing-md);
-      inline-size: calc(100% - var(--hap-spacing-md));
-    }
-
-    &.hap-divider--middle-inset {
-      margin-inline: var(--hap-spacing-md);
-      inline-size: calc(100% - 2 * var(--hap-spacing-md));
-    }
+  &.hap-divider--inset {
+    margin-inline-start: var(--hap-spacing-md);
+    inline-size: calc(100% - var(--hap-spacing-md));
   }
 
-  &.hap-divider-vertical {
-    inline-size: 1px;
-    block-size: 250px;
-    margin: 0 1rem;
+  &.hap-divider--middle-inset {
+    margin-inline: var(--hap-spacing-md);
+    inline-size: calc(100% - 2 * var(--hap-spacing-md));
+  }
+}
 
-    &.hap-divider--inset {
-      margin-block-start: var(--hap-spacing-md);
-      block-size: calc(250px - var(--hap-spacing-md));
-    }
+.hap-divider-vertical {
+  border: none;
+  display: inline-block;
+  height: 100%;
+  border-left: solid 1px var(--hap-color-fill-secondary-on-light-default);
+  margin: 0 10px;
 
-    &.hap-divider--middle-inset {
-      margin-block: var(--hap-spacing-md);
-      block-size: calc(250px - 2 * var(--hap-spacing-md));
-    }
+  &.hap-divider--inset {
+    margin-block-start: var(--hap-spacing-md);
+    block-size: calc(200x - var(--hap-spacing-md));
+  }
+
+  &.hap-divider--middle-inset {
+    margin-block: var(--hap-spacing-md);
+    block-size: calc(200px - 2 * var(--hap-spacing-md));
   }
 }
