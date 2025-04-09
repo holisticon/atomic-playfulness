@@ -14,14 +14,14 @@ const renderBreadcrumbIcon = (isLastIndex: boolean) =>
 
 const renderBreadcrumb = (args: BreadCrumbArgs) => {
   return html` <nav class="hap-breadcrumb">
-    <ol class="hap-navList">
+    <ol class="hap-breakcrumb-list">
       ${args.pages?.map(
         (elem, index) => html`
           <li class="hap-navItem">
             <a
               class=${index == args.currentPageIndex
-                ? "selected hap-navLink"
-                : "hap-navLink"}
+                ? "selected hap-breakcrumb-link"
+                : "hap-breakcrumb-link"}
             >
               ${elem} ${renderBreadcrumbIcon(args.pages.length - 1 !== index)}
             </a>

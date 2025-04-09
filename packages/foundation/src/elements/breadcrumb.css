@@ -17,7 +17,7 @@
     var(--hap-color-text-tertiary-on-light)
   );
 
-  .hap-navList {
+  .hap-breakcrumb-list {
     display: flex;
 
     .hap-navItem {
@@ -30,7 +30,7 @@
         top: 0.1rem;
       }
 
-      .hap-navLink {
+      .hap-breakcrumb-link {
         cursor: pointer;
       }
 
