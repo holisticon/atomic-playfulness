@@ -18,40 +18,56 @@ const meta: Meta<CheckboxArgs> = {
       <div class="hap-checkbox ${args.error ? "hap-critical" : ""}">
         <!-- TODO: input inside or next to label? -->
         <input type="checkbox" id="checkbox" />
-        <i class="hap-icon" data-lucide="check"></i>
+        <svg class="hap-icon" viewBox="0 0 24 24">
+          <use href="#check" />
+        </svg>
         <label for="checkbox5">
           ${args.error
-            ? html`<i class="hap-icon" data-lucide="circle-alert"></i>`
+            ? html`<svg class="hap-icon" viewBox="0 0 24 24">
+                <use href="#cicle-alert" />
+              </svg>`
             : ""}
           ${args.label} default
         </label>
       </div>
       <div class="hap-checkbox ${args.error ? "hap-critical" : ""}">
-        <input type="checkbox" id="checkbox2" checked="checked" />
-        <i class="hap-icon" data-lucide="check"></i>
+        <input type="checkbox" id="checkbox2" checked />
+        <svg class="hap-icon" viewBox="0 0 24 24">
+          <use href="#check" />
+        </svg>
         <label for="checkbox5">
           ${args.error
-            ? html`<i class="hap-icon" data-lucide="circle-alert"></i>`
+            ? html`<svg class="hap-icon" viewBox="0 0 24 24">
+                <use href="#cicle-alert" />
+              </svg>`
             : ""}
           ${args.label} checked
         </label>
       </div>
       <div class="hap-checkbox ${args.error ? "hap-critical" : ""}">
-        <input type="checkbox" id="checkbox3" checked="checked" />
-        <i class="hap-icon" data-lucide="minus"></i>
+        <input type="checkbox" id="checkbox3" checked />
+        <svg class="hap-icon" viewBox="0 0 24 24">
+          <use href="#minus" />
+        </svg>
         <label for="checkbox5">
           ${args.error
-            ? html`<i class="hap-icon" data-lucide="circle-alert"></i>`
+            ? html`<svg class="hap-icon" viewBox="0 0 24 24">
+                <use href="#cicle-alert" />
+              </svg>`
             : ""}
           ${args.label} indeterminate
         </label>
       </div>
       <div class="hap-checkbox ${args.error ? "hap-critical" : ""}">
-        <input type="checkbox" id="checkbox4" checked="checked" disabled />
-        <i class="hap-icon" data-lucide="check"></i>
+        <input type="checkbox" id="checkbox4" checked disabled />
+        <svg class="hap-icon" viewBox="0 0 24 24">
+          <use href="#check" />
+        </svg>
         <label for="checkbox5">
           ${args.error
-            ? html`<i class="hap-icon" data-lucide="circle-alert"></i>`
+            ? html`<svg class="hap-icon" viewBox="0 0 24 24">
+                <use href="#cicle-alert" />
+              </svg>`
             : ""}
           ${args.label} disabled
         </label>

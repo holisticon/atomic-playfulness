@@ -35,7 +35,7 @@
       & ~ svg {
         position: absolute;
         display: block;
-        left: 3px;
+        left: 4px;
         pointer-events: none;
       }
     }
@@ -88,8 +88,10 @@
   }
 
   svg {
-    width: 18px;
+    width: 16px;
     color: var(--hap-color-icon-primary-on-dark);
+    /* stroke width is only a workaround here to make up for the scaling */
+    stroke-width: 2.5;
   }
 
   &.hap-critical {
