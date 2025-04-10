@@ -2090,7 +2090,7 @@
     "letter-spacing": {
       "xs": {
         "$type": "dimension",
-        "$value": "-0.20000000298023224px",
+        "$value": "-0.2px",
         "$description": "",
         "$extensions": {
           "mode": {},
@@ -2107,7 +2107,7 @@
       },
       "s": {
         "$type": "dimension",
-        "$value": "-0.10000000149011612px",
+        "$value": "-0.1px",
         "$description": "",
         "$extensions": {
           "mode": {},
@@ -2141,7 +2141,7 @@
       },
       "lg": {
         "$type": "dimension",
-        "$value": "0.10000000149011612px",
+        "$value": "0.1px",
         "$description": "",
         "$extensions": {
           "mode": {},
@@ -2158,7 +2158,7 @@
       },
       "xl": {
         "$type": "dimension",
-        "$value": "0.20000000298023224px",
+        "$value": "0.2px",
         "$description": "",
         "$extensions": {
           "mode": {},
@@ -2235,6 +2235,127 @@
           "figma": {
             "codeSyntax": {},
             "variableId": "VariableID:370:918",
+            "collection": {
+              "id": "VariableCollectionId:2:5",
+              "name": "Primitives",
+              "defaultModeId": "2:0"
+            }
+          }
+        }
+      }
+    },
+    "size": {
+      "1": {
+        "$type": "dimension",
+        "$value": "8px",
+        "$description": "",
+        "$extensions": {
+          "mode": {},
+          "figma": {
+            "codeSyntax": {},
+            "variableId": "VariableID:3123:1744",
+            "collection": {
+              "id": "VariableCollectionId:2:5",
+              "name": "Primitives",
+              "defaultModeId": "2:0"
+            }
+          }
+        }
+      },
+      "2": {
+        "$type": "dimension",
+        "$value": "12px",
+        "$description": "",
+        "$extensions": {
+          "mode": {},
+          "figma": {
+            "codeSyntax": {},
+            "variableId": "VariableID:3123:1745",
+            "collection": {
+              "id": "VariableCollectionId:2:5",
+              "name": "Primitives",
+              "defaultModeId": "2:0"
+            }
+          }
+        }
+      },
+      "3": {
+        "$type": "dimension",
+        "$value": "16px",
+        "$description": "",
+        "$extensions": {
+          "mode": {},
+          "figma": {
+            "codeSyntax": {},
+            "variableId": "VariableID:3123:1746",
+            "collection": {
+              "id": "VariableCollectionId:2:5",
+              "name": "Primitives",
+              "defaultModeId": "2:0"
+            }
+          }
+        }
+      },
+      "4": {
+        "$type": "dimension",
+        "$value": "20px",
+        "$description": "",
+        "$extensions": {
+          "mode": {},
+          "figma": {
+            "codeSyntax": {},
+            "variableId": "VariableID:3123:1747",
+            "collection": {
+              "id": "VariableCollectionId:2:5",
+              "name": "Primitives",
+              "defaultModeId": "2:0"
+            }
+          }
+        }
+      },
+      "5": {
+        "$type": "dimension",
+        "$value": "24px",
+        "$description": "",
+        "$extensions": {
+          "mode": {},
+          "figma": {
+            "codeSyntax": {},
+            "variableId": "VariableID:3123:1748",
+            "collection": {
+              "id": "VariableCollectionId:2:5",
+              "name": "Primitives",
+              "defaultModeId": "2:0"
+            }
+          }
+        }
+      },
+      "6": {
+        "$type": "dimension",
+        "$value": "32px",
+        "$description": "",
+        "$extensions": {
+          "mode": {},
+          "figma": {
+            "codeSyntax": {},
+            "variableId": "VariableID:3123:1749",
+            "collection": {
+              "id": "VariableCollectionId:2:5",
+              "name": "Primitives",
+              "defaultModeId": "2:0"
+            }
+          }
+        }
+      },
+      "7": {
+        "$type": "dimension",
+        "$value": "40px",
+        "$description": "",
+        "$extensions": {
+          "mode": {},
+          "figma": {
+            "codeSyntax": {},
+            "variableId": "VariableID:3123:2676",
             "collection": {
               "id": "VariableCollectionId:2:5",
               "name": "Primitives",
@@ -6435,6 +6556,148 @@
           }
         }
       }
+    },
+    "size": {
+      "2xs": {
+        "$type": "dimension",
+        "$value": "{Primitives.size.1}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "Light": "{Primitives.size.1}",
+            "Dark": "{Primitives.size.1}"
+          },
+          "figma": {
+            "codeSyntax": {},
+            "variableId": "VariableID:3123:1756",
+            "collection": {
+              "id": "VariableCollectionId:23:56",
+              "name": "Tokens",
+              "defaultModeId": "23:0"
+            }
+          }
+        }
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": "{Primitives.size.2}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "Light": "{Primitives.size.2}",
+            "Dark": "{Primitives.size.2}"
+          },
+          "figma": {
+            "codeSyntax": {},
+            "variableId": "VariableID:3123:1757",
+            "collection": {
+              "id": "VariableCollectionId:23:56",
+              "name": "Tokens",
+              "defaultModeId": "23:0"
+            }
+          }
+        }
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "{Primitives.size.3}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "Light": "{Primitives.size.3}",
+            "Dark": "{Primitives.size.3}"
+          },
+          "figma": {
+            "codeSyntax": {},
+            "variableId": "VariableID:3123:1758",
+            "collection": {
+              "id": "VariableCollectionId:23:56",
+              "name": "Tokens",
+              "defaultModeId": "23:0"
+            }
+          }
+        }
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "{Primitives.size.4}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "Light": "{Primitives.size.4}",
+            "Dark": "{Primitives.size.4}"
+          },
+          "figma": {
+            "codeSyntax": {},
+            "variableId": "VariableID:3123:1759",
+            "collection": {
+              "id": "VariableCollectionId:23:56",
+              "name": "Tokens",
+              "defaultModeId": "23:0"
+            }
+          }
+        }
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "{Primitives.size.5}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "Light": "{Primitives.size.5}",
+            "Dark": "{Primitives.size.5}"
+          },
+          "figma": {
+            "codeSyntax": {},
+            "variableId": "VariableID:3123:1760",
+            "collection": {
+              "id": "VariableCollectionId:23:56",
+              "name": "Tokens",
+              "defaultModeId": "23:0"
+            }
+          }
+        }
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "{Primitives.size.6}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "Light": "{Primitives.size.6}",
+            "Dark": "{Primitives.size.6}"
+          },
+          "figma": {
+            "codeSyntax": {},
+            "variableId": "VariableID:3123:1762",
+            "collection": {
+              "id": "VariableCollectionId:23:56",
+              "name": "Tokens",
+              "defaultModeId": "23:0"
+            }
+          }
+        }
+      },
+      "2xl": {
+        "$type": "dimension",
+        "$value": "{Primitives.size.7}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "Light": "{Primitives.size.7}",
+            "Dark": "{Primitives.size.7}"
+          },
+          "figma": {
+            "codeSyntax": {},
+            "variableId": "VariableID:3123:2677",
+            "collection": {
+              "id": "VariableCollectionId:23:56",
+              "name": "Tokens",
+              "defaultModeId": "23:0"
+            }
+          }
+        }
+      }
     }
   },
   "Typography": {
@@ -6763,7 +7026,7 @@
         "Primitives",
         "Tokens"
       ],
-      "createdAt": "2025-04-04T13:08:55.634Z"
+      "createdAt": "2025-04-09T10:32:27.078Z"
     }
   }
 }
