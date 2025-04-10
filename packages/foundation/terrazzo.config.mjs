@@ -14,14 +14,6 @@ export default defineConfig({
         return name;
       },
       transform: (token) => {
-        // letter-spacing values in figma are float decimals
-        if (
-          token.$type === "dimension" &&
-          isPrimitiveTokenOfType(token, "letter-spacing")
-        ) {
-          return Number(token.$value.value).toFixed(2);
-        }
-
         if (
           isPrimitiveTokenOfType(token, "font-family") &&
           !token.$value.includes(", sans-serif")
