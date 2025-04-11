@@ -16,7 +16,6 @@ const meta: Meta<CheckboxArgs> = {
   render: (args) => html`
     <div style="display:flex;gap:0.5rem;flex-direction:column;padding:2rem">
       <div class="hap-checkbox ${args.error ? "hap-critical" : ""}">
-        <!-- TODO: input inside or next to label? -->
         <input type="checkbox" id="checkbox" />
         <svg class="hap-icon" viewBox="0 0 24 24">
           <use href="#check" />
@@ -24,7 +23,7 @@ const meta: Meta<CheckboxArgs> = {
         <label for="checkbox5">
           ${args.error
             ? html`<svg class="hap-icon" viewBox="0 0 24 24">
-                <use href="#cicle-alert" />
+                <use href="#circle-alert" />
               </svg>`
             : ""}
           ${args.label} default
@@ -38,7 +37,7 @@ const meta: Meta<CheckboxArgs> = {
         <label for="checkbox5">
           ${args.error
             ? html`<svg class="hap-icon" viewBox="0 0 24 24">
-                <use href="#cicle-alert" />
+                <use href="#circle-alert" />
               </svg>`
             : ""}
           ${args.label} checked
@@ -52,7 +51,7 @@ const meta: Meta<CheckboxArgs> = {
         <label for="checkbox5">
           ${args.error
             ? html`<svg class="hap-icon" viewBox="0 0 24 24">
-                <use href="#cicle-alert" />
+                <use href="#circle-alert" />
               </svg>`
             : ""}
           ${args.label} indeterminate
@@ -66,7 +65,7 @@ const meta: Meta<CheckboxArgs> = {
         <label for="checkbox5">
           ${args.error
             ? html`<svg class="hap-icon" viewBox="0 0 24 24">
-                <use href="#cicle-alert" />
+                <use href="#circle-alert" />
               </svg>`
             : ""}
           ${args.label} disabled

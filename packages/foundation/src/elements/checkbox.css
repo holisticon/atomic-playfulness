@@ -8,14 +8,15 @@
   flex-direction: row;
   align-items: center;
   gap: var(--hap-spacing-sm);
-  width: 100%;
+  height: var(--hap-size-lg);
+  width: var(--hap-size-lg);
   position: relative;
 
   input[type="checkbox"] {
     appearance: none;
-    /* TODO: create token for width & height */
-    width: 18px;
-    height: 18px;
+    flex: 1 0 auto;
+    height: calc(var(--hap-size-lg) - 2 * 3px);
+    width: calc(var(--hap-size-lg) - 2 * 3px);
     /* TODO: create token for clickable area */
     margin: 3px;
     background-color: var(--hap-color-fill-input-default);
@@ -35,6 +36,8 @@
       & ~ svg {
         position: absolute;
         display: block;
+        height: var(--hap-size-sm);
+        width: var(--hap-size-sm);
         left: 4px;
         pointer-events: none;
       }
@@ -88,10 +91,14 @@
   }
 
   svg {
-    width: 16px;
+    width: var(--hap-size-md);
     color: var(--hap-color-icon-primary-on-dark);
     /* stroke width is only a workaround here to make up for the scaling */
     stroke-width: 2.5;
+  }
+
+  label {
+    flex: 1 0 auto;
   }
 
   &.hap-critical {
@@ -117,7 +124,7 @@
       svg {
         display: inline;
         color: var(--hap-color-feedback-critical-dark);
-        stroke-width: 1px;
+        stroke-width: 2;
       }
     }
   }
