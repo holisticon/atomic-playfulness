@@ -2,7 +2,7 @@
   border: none;
   border-top: solid 1px var(--hap-color-fill-secondary-on-light-default);
   display: block;
-  margin: 10px 0;
+  margin: 0;
 
   &.hap-divider--inset {
     margin-inline-start: var(--hap-spacing-md);
@@ -20,7 +20,7 @@
   display: inline-block;
   height: 100%;
   border-left: solid 1px var(--hap-color-fill-secondary-on-light-default);
-  margin: 0 10px;
+  margin: 0;
 
   &.hap-divider--inset {
     margin-block-start: var(--hap-spacing-md);
