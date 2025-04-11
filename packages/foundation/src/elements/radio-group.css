@@ -1,0 +1,102 @@
+.hap-radio-group {
+  --hap-radio-spacing: var(--hap-spacing-xs);
+  appearance: none;
+  border: none;
+  margin: unset;
+  padding: unset;
+  display: flex;
+  flex-direction: column;
+  gap: var(--hap-radio-spacing);
+
+  &:disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: var(--hap-opacity-disabled);
+  }
+
+  & > legend {
+    padding: unset;
+    padding-block-end: var(--hap-radio-spacing);
+
+    color: light-dark(
+      var(--hap-color-text-secondary-on-light),
+      var(--hap-color-text-secondary-on-dark)
+    );
+    font-family: var(--hap-typography-font-family-body);
+    font-size: var(--hap-typography-font-size-bodytext-s);
+    font-weight: var(--hap-typography-font-weight-medium);
+    line-height: var(--hap-typography-line-height-bodytext-s-singleline);
+    letter-spacing: var(--hap-typography-letter-spacing-lg);
+  }
+}
+
+.hap-radio {
+  --hap-radio-border-width: 2px;
+  --hap-radio-size: var(--hap-size-lg);
+
+  color: light-dark(
+    var(--hap-color-text-primary-on-light),
+    var(--hap-color-text-primary-on-dark)
+  );
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-s);
+  font-weight: var(--hap-typography-font-weight-medium);
+  line-height: var(--hap-typography-line-height-bodytext-s-singleline);
+  letter-spacing: var(--hap-typography-letter-spacing-lg);
+
+  display: flex;
+  gap: var(--hap-spacing-sm);
+  align-items: center;
+  cursor: pointer;
+}
+
+.hap-radio > input {
+  box-sizing: border-box;
+  appearance: none;
+  margin: unset;
+  display: grid;
+  grid-template: 1fr / 1fr;
+  place-items: center;
+  cursor: pointer;
+
+  color: light-dark(
+    var(--hap-color-border-brand-on-light-default),
+    var(--hap-color-border-brand-on-dark-default)
+  );
+  border-radius: 100%;
+  inline-size: var(--hap-radio-size);
+  block-size: var(--hap-radio-size);
+
+  &::before {
+    grid-area: 1 / 1;
+    box-sizing: border-box;
+    display: block;
+    content: "";
+    border-radius: 100%;
+    border: var(--hap-radio-border-width) solid currentColor;
+
+    inline-size: 75%;
+    block-size: 75%;
+  }
+
+  &:hover {
+    background-color: var(--hap-color-fill-interaction-on-light-hovered);
+  }
+
+  &:focus-visible {
+    z-index: 1;
+    outline: var(--hap-radio-border-width) solid;
+    outline-color: var(--hap-color-border-focused-default);
+    outline-offset: 0;
+  }
+
+  &:checked::after {
+    grid-area: 1 / 1;
+    display: block;
+    content: "";
+    border-radius: 100%;
+    background-color: currentColor;
+    inline-size: calc(100% / 3);
+    block-size: calc(100% / 3);
+  }
+}
