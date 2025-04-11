@@ -8,8 +8,8 @@ export default defineConfig({
   plugins: [
     css({
       filename: "tokens.css",
-      variableName: (id) => {
-        let name = makeCSSVar(id, { prefix: "hap" });
+      variableName: (token) => {
+        let name = makeCSSVar(token.id, { prefix: "hap" });
         name = name.replace("hap-tokens", "hap");
         return name;
       },
