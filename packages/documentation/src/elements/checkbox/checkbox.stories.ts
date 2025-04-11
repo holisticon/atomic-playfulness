@@ -18,32 +18,31 @@ const meta: Meta<CheckboxArgs> = {
     <div style="display:flex;gap:0.5rem;flex-direction:column;padding:2rem">
       <div class="hap-checkbox ${args.error ? "hap-critical" : ""}">
         <input type="checkbox" id="checkbox" />
-        ${renderIcon("#check")}
+        ${renderIcon("check")}
         <label for="checkbox5">
-          ${args.error ? renderIcon("#circle-alert") : ""} ${args.label} default
+          ${args.error ? renderIcon("circle-alert") : ""} ${args.label} default
         </label>
       </div>
       <div class="hap-checkbox ${args.error ? "hap-critical" : ""}">
         <input type="checkbox" id="checkbox2" checked />
-        ${renderIcon("#check")}
+        ${renderIcon("check")}
         <label for="checkbox5">
-          ${args.error ? renderIcon("#circle-alert") : ""} ${args.label} checked
+          ${args.error ? renderIcon("circle-alert") : ""} ${args.label} checked
         </label>
       </div>
       <div class="hap-checkbox ${args.error ? "hap-critical" : ""}">
         <input type="checkbox" id="checkbox3" checked />
-        ${renderIcon("#minus")}
+        ${renderIcon("minus")}
         <label for="checkbox5">
-          ${args.error ? renderIcon("#circle-alert") : ""} ${args.label}
+          ${args.error ? renderIcon("circle-alert") : ""} ${args.label}
           indeterminate
         </label>
       </div>
       <div class="hap-checkbox ${args.error ? "hap-critical" : ""}">
         <input type="checkbox" id="checkbox4" checked disabled />
-        ${renderIcon("#check")}
+        ${renderIcon("check")}
         <label for="checkbox5">
-          ${args.error ? renderIcon("#circle-alert") : ""} ${args.label}
-          disabled
+          ${args.error ? renderIcon("circle-alert") : ""} ${args.label} disabled
         </label>
       </div>
     </div>
