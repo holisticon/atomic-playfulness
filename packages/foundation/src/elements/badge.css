@@ -3,8 +3,7 @@
   gap: var(--hap-spacing-xs);
   font-family: var(--hap-typography-font-family-body);
   font-size: var(--hap-typography-font-size-bodytext-s);
-  /* --hap-typography-font-weight-medium should correspond to 500, but doesn't :( */
-  font-weight: 500;
+  font-weight: var(--hap-typography-font-weight-medium);
   letter-spacing: var(--hap-typography-letter-spacing-lg);
   line-height: var(--hap-typography-line-height-bodytext-s-singleline);
   border: none;
