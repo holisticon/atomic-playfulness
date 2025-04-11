@@ -20,7 +20,7 @@
   .hap-breakcrumb-list {
     display: flex;
 
-    .hap-navItem {
+    .hap-breadcrumb-item {
       list-style-type: none;
       justify-content: center;
       margin: auto;
@@ -42,7 +42,7 @@
       }
 
       .selected {
-        font-weight: 500;
+        font-weight: var(--hap-typography-font-weight-medium);
         color: light-dark(
           var(--hap-color-text-primary-on-light),
           var(--hap-color-text-primary-on-dark)

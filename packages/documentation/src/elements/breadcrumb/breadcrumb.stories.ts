@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/web-components";
 import { html } from "lit";
-import { renderSingleIcon } from "../icon/icon.stories.js";
+import { renderIcon } from "../icon/icon.stories.js";
 
 interface BreadCrumbArgs {
   pages: string[];
@@ -8,16 +8,14 @@ interface BreadCrumbArgs {
 }
 
 const renderBreadcrumbIcon = (isLastIndex: boolean) =>
-  html` ${isLastIndex
-    ? html`${renderSingleIcon("small", "chevron-right")} `
-    : ""}`;
+  html` ${isLastIndex ? html`${renderIcon("chevron-right", "small")} ` : ""}`;
 
 const renderBreadcrumb = (args: BreadCrumbArgs) => {
   return html` <nav class="hap-breadcrumb">
     <ol class="hap-breakcrumb-list">
       ${args.pages?.map(
         (elem, index) => html`
-          <li class="hap-navItem">
+          <li class="hap-breadcrumb-item">
             <a
               class=${index == args.currentPageIndex
                 ? "selected hap-breakcrumb-link"

@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/web-components";
 import { html } from "lit";
 import { classMap } from "lit/directives/class-map.js";
+import { renderIcon } from "../icon/icon.stories.js";
 
 interface TextfieldArgs {
   label: string;
@@ -61,10 +62,7 @@ export const Invalid: Story = {
       })}
     >
       <label for="textfield">
-        <svg class="hap-icon" viewBox="0 0 24 24">
-          <use href="#circle-alert" />
-        </svg>
-        ${args.label}
+        ${renderIcon("circle-alert")} ${args.label}
       </label>
       <input
         id="textfield"

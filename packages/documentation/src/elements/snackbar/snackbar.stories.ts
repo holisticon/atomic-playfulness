@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/web-components";
 import { html } from "lit";
+import { renderIcon } from "../icon/icon.stories.js";
 
 type SnackbarVariant = "hap-snackbar" | "hap-snackbar-multiline";
 
@@ -24,11 +25,7 @@ const meta: Meta<AlertArgs> = {
           <span>${args.label}</span>
           <div class="hap-snackbar-actions">
             <button class="hap-snackbar-button">Action</button>
-            ${args.iconbutton
-              ? html`<svg class="hap-icon" viewBox="0 0 24 24">
-                  <use href="#${args.iconbutton}" />
-                </svg>`
-              : ""}
+            ${args.iconbutton ? renderIcon(args.iconbutton) : ""}
           </div>
         </div>
       </div>

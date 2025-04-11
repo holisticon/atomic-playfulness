@@ -55,7 +55,7 @@ const icons = [
   "lock",
 ];
 
-export const renderSingleIcon = (size: IconSizeType, icon: IconType) =>
+export const renderIcon = (icon: IconType, size: IconSizeType = "default") =>
   html` <svg
     class="hap-icon${size !== "default" ? ` hap-icon--${size}` : ""}"
     viewBox="0 0 24 24"
@@ -64,7 +64,7 @@ export const renderSingleIcon = (size: IconSizeType, icon: IconType) =>
   </svg>`;
 
 const renderAllIcons = (args: IconArgs) =>
-  html` ${icons.map((icon) => html`${renderSingleIcon(args.iconSize, icon)}`)}`;
+  html` ${icons.map((icon) => html`${renderIcon(icon, args.iconSize)}`)}`;
 
 const meta: Meta<IconArgs> = {
   decorators: (story) =>
@@ -79,7 +79,7 @@ const meta: Meta<IconArgs> = {
     </div>`,
   render: (args) => {
     return html` ${args.iconType
-      ? renderSingleIcon(args.iconSize, args.iconType)
+      ? renderIcon(args.iconType, args.iconSize)
       : renderAllIcons(args)}`;
   },
 };
