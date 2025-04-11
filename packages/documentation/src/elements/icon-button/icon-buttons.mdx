@@ -1,0 +1,12 @@
+import { Meta, Canvas } from "@storybook/blocks";
+import * as ButtonStories from "./icon-button.stories.ts";
+
+<Meta title="Elements/icon-button/Icon Button" />
+
+# Icon Buttons
+
+For the icon buttons, there is one main-class `.hap-icon-button`. The sizing
+happens automatically based on the selected icon-size. For a special
+'selected'-state, use the additional `.hap-icon-button--selected` class.
+
+<Canvas of={ButtonStories.IconButton} />

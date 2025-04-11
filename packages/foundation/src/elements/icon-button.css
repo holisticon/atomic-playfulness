@@ -1,0 +1,44 @@
+.hap-icon-button {
+  padding: var(--hap-spacing-sm);
+  line-height: 0;
+  color: light-dark(
+    var(--hap-color-icon-primary-on-light),
+    var(--hap-color-text-brand-on-dark)
+  );
+  border-radius: var(--hap-radius-full);
+  background: none;
+  border: none;
+
+  &:hover:not(.disabled) {
+    background: light-dark(
+      var(--hap-color-fill-interaction-on-light-hovered),
+      var(--hap-color-fill-interaction-on-dark-hovered)
+    );
+  }
+
+  &:focus-visible {
+    outline: 1px solid var(--hap-color-border-focused-default);
+  }
+
+  &:active:not(.disabled) {
+    background: light-dark(
+      var(--hap-color-fill-interaction-on-light-pressed),
+      var(--hap-color-fill-interaction-on-dark-pressed)
+    );
+  }
+
+  &.hap-icon-button--selected {
+    background: light-dark(
+      var(--hap-color-fill-interaction-on-light-selected),
+      var(--hap-color-fill-interaction-on-dark-selected)
+    );
+  }
+
+  &.disabled {
+    color: light-dark(
+      var(--hap-color-icon-primary-on-light),
+      var(--hap-color-text-brand-on-dark)
+    );
+    opacity: var(--hap-opacity-disabled);
+  }
+}
