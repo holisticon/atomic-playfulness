@@ -35,7 +35,6 @@
     cursor: not-allowed;
   }
 
-  &:focus,
   &:focus-visible {
     outline: none;
   }
@@ -71,7 +70,7 @@
         var(--hap-color-fill-brand-on-light-default),
         var(--hap-color-fill-brand-on-dark-default)
       );
-      box-shadow: inset 0 0 0 2px
+      box-shadow: inset 0 0 0 var(--hap-border-width-md)
         light-dark(
           var(--hap-color-border-focused-default),
           var(--hap-color-border-focused-default)
@@ -110,7 +109,7 @@
       var(--hap-color-fill-interaction-on-light-default),
       var(--hap-color-fill-interaction-on-dark-default)
     );
-    box-shadow: inset 0 0 0 1px
+    box-shadow: inset 0 0 0 var(--hap-border-width-sm)
       light-dark(
         var(--hap-color-border-brand-on-light-default),
         var(--hap-color-border-brand-on-dark-default)
@@ -125,7 +124,7 @@
         var(--hap-color-fill-interaction-on-light-hovered),
         var(--hap-color-fill-interaction-on-dark-hovered)
       );
-      box-shadow: inset 0 0 0 1px
+      box-shadow: inset 0 0 0 var(--hap-border-width-sm)
         light-dark(
           var(--hap-color-border-brand-on-light-default),
           var(--hap-color-border-brand-on-dark-default)
@@ -142,7 +141,7 @@
         var(--hap-color-fill-interaction-on-light-default),
         var(--hap-color-fill-interaction-on-dark-default)
       );
-      box-shadow: inset 0 0 0 2px
+      box-shadow: inset 0 0 0 var(--hap-border-width-md)
         light-dark(
           var(--hap-color-border-focused-default),
           var(--hap-color-border-focused-default)
@@ -158,7 +157,7 @@
         var(--hap-color-fill-interaction-on-light-pressed),
         var(--hap-color-fill-interaction-on-dark-pressed)
       );
-      box-shadow: inset 0 0 0 1px
+      box-shadow: inset 0 0 0 var(--hap-border-width-sm)
         light-dark(
           var(--hap-color-border-brand-on-light-default),
           var(--hap-color-border-brand-on-dark-default)
@@ -174,7 +173,7 @@
         var(--hap-color-fill-interaction-on-light-default),
         var(--hap-color-fill-interaction-on-dark-default)
       );
-      box-shadow: inset 0 0 0 1px
+      box-shadow: inset 0 0 0 var(--hap-border-width-sm)
         light-dark(
           var(--hap-color-border-brand-on-light-default),
           var(--hap-color-border-brand-on-dark-default)
@@ -214,7 +213,7 @@
         var(--hap-color-fill-interaction-on-light-default),
         var(--hap-color-fill-interaction-on-dark-default)
       );
-      box-shadow: inset 0 0 0 2px
+      box-shadow: inset 0 0 0 var(--hap-border-width-md)
         light-dark(
           var(--hap-color-border-focused-default),
           var(--hap-color-border-focused-default)
@@ -275,7 +274,7 @@
         var(--hap-color-fill-destructive-on-light-hovered),
         var(--hap-color-fill-destructive-on-dark-hovered)
       );
-      box-shadow: inset 0 0 0 2px
+      box-shadow: inset 0 0 0 var(--hap-border-width-md)
         light-dark(
           var(--hap-color-border-focused-default),
           var(--hap-color-border-focused-default)

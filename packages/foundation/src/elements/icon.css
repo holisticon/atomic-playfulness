@@ -1,12 +1,24 @@
 .hap-icon {
   fill: none;
   stroke: currentColor;
-  stroke-width: 1.5;
+  stroke-width: 2;
   stroke-opacity: 0.8;
   height: var(--hap-primitives-line-height-md);
   width: var(--hap-primitives-line-height-md);
   stroke-linecap: round;
   stroke-linejoin: round;
+
+  svg,
+  use,
+  path,
+  circle,
+  rect,
+  ellipse,
+  line,
+  polygon,
+  polyline {
+    vector-effect: non-scaling-stroke;
+  }
 
   &.hap-icon--small {
     height: var(--hap-primitives-line-height-xs);

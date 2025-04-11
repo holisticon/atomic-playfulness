@@ -21,14 +21,6 @@ export default defineConfig({
           return `${token.$value}, sans-serif`;
         }
 
-        // opacity is wrongly exported as pixel values, e.g. 30px.
-        if (
-          token.$type === "dimension" &&
-          isPrimitiveTokenOfType(token, "opacity")
-        ) {
-          return Number(token.$value.value / 100).toFixed(2);
-        }
-
         return void 0;
       },
     }),

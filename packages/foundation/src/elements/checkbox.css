@@ -1,0 +1,130 @@
+.hap-checkbox {
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-s);
+  font-weight: var(--hap-typography-font-weight-medium);
+  letter-spacing: var(--hap-typography-letter-spacing-lg);
+  line-height: var(--hap-typography-line-height-bodytext-s-singleline);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--hap-spacing-sm);
+  height: var(--hap-size-lg);
+  width: var(--hap-size-lg);
+  position: relative;
+
+  input[type="checkbox"] {
+    appearance: none;
+    flex: 1 0 auto;
+    height: calc(var(--hap-size-lg) - 2 * 3px);
+    width: calc(var(--hap-size-lg) - 2 * 3px);
+    /* TODO: create token for clickable area */
+    margin: 3px;
+    background-color: var(--hap-color-fill-input-default);
+    border-style: solid;
+    border-color: var(--hap-color-border-brand-on-light-default);
+    border-width: var(--hap-border-width-md);
+    border-radius: var(--hap-radius-minimal);
+
+    &:not(:checked) ~ svg {
+      display: none;
+    }
+
+    &:checked {
+      background-color: var(--hap-color-fill-brand-on-light-default);
+
+      & ~ svg {
+        position: absolute;
+        display: block;
+        height: var(--hap-size-sm);
+        width: var(--hap-size-sm);
+        left: 4px;
+        pointer-events: none;
+      }
+    }
+
+    &::after {
+      display: none;
+      content: "";
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      left: -8px;
+      top: -8px;
+    }
+
+    &:hover:not(:disabled) {
+      &::after {
+        display: block;
+        background-color: var(--hap-color-fill-interaction-on-light-hovered);
+      }
+    }
+
+    &:active:not(:disabled) {
+      &::after {
+        display: block;
+        background-color: var(--hap-color-fill-interaction-on-light-pressed);
+      }
+    }
+
+    &:focus-visible {
+      outline: none;
+
+      &::after {
+        display: block;
+        border-color: var(--hap-color-border-focused-default);
+        border-width: var(--hap-border-width-md);
+        border-style: solid;
+        width: 36px;
+        height: 36px;
+      }
+    }
+
+    &:disabled {
+      opacity: var(--hap-opacity-disabled);
+
+      & ~ label {
+        opacity: var(--hap-opacity-disabled);
+      }
+    }
+  }
+
+  svg {
+    width: var(--hap-size-md);
+    color: var(--hap-color-icon-primary-on-dark);
+    /* stroke width is only a workaround here to make up for the scaling */
+    stroke-width: 2.5;
+  }
+
+  label {
+    flex: 1 0 auto;
+  }
+
+  &.hap-critical {
+    color: var(--hap-color-feedback-critical-dark);
+
+    input[type="checkbox"] {
+      border-color: var(--hap-color-feedback-critical-dark);
+
+      &:checked {
+        background-color: var(--hap-color-feedback-critical-dark);
+      }
+    }
+
+    svg {
+      color: var(--hap-color-feedback-critical-light);
+    }
+
+    label {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+
+      svg {
+        display: inline;
+        color: var(--hap-color-feedback-critical-dark);
+        stroke-width: 2;
+      }
+    }
+  }
+}
