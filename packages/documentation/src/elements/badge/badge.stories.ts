@@ -32,11 +32,11 @@ const meta: Meta<BadgeArgs> = {
     <div style="display:flex;gap:0.5rem;flex-direction:column;padding:2rem">
       <div class="hap-badge regular ${args.variant}">
         <span>${args.label}</span>
-        ${args.icon ? renderIcon(args.icon, 'small') : ""}
+        ${args.icon ? renderIcon(args.icon, "small") : ""}
       </div>
       <div class="hap-badge strong ${args.variant}">
         <span>${args.label}</span>
-        ${args.icon ? renderIcon(args.icon, 'small') : ""}
+        ${args.icon ? renderIcon(args.icon, "small") : ""}
       </div>
     </div>
   `,
