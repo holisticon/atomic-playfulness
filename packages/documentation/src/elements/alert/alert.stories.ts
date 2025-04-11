@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/web-components";
 import { html } from "lit";
+import { renderIcon } from "../icon/icon.stories.js";
 
 type AlertVariant =
   | "positive"
@@ -32,11 +33,7 @@ const meta: Meta<AlertArgs> = {
     <div style="display:flex;gap:0.5rem;flex-direction:column;padding:2rem">
       <div class="hap-alert ${args.variant}">
         <div class="hap-alert-content">
-          ${args.icon
-            ? html`<svg class="hap-icon" viewBox="0 0 24 24">
-                <use href="#${args.icon}" />
-              </svg>`
-            : ""}
+          ${args.icon ? renderIcon(args.icon) : ""}
           <span>${args.label}</span>
         </div>
         ${args.iconbutton

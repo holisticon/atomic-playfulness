@@ -1,5 +1,6 @@
 import type { ArgTypes } from "@storybook/web-components";
 import { html } from "lit";
+import { renderIcon } from "../icon/icon.stories.js";
 
 type ButtonSize = "default" | "small";
 type ButtonVariant = "primary" | "secondary" | "tertiary" | "destructive";
@@ -78,16 +79,8 @@ const renderButton = (args: ButtonArgs) => html`
       : ""}"
     ?disabled=${args.disabled}
   >
-    ${args.icon && args.iconPosition === "left"
-      ? html`<svg class="hap-icon" viewBox="0 0 24 24">
-          <use href="#${args.icon}" />
-        </svg>`
-      : ""}
+    ${args.icon && args.iconPosition === "left" ? renderIcon(args.icon) : ""}
     ${args.label}
-    ${args.icon && args.iconPosition === "right"
-      ? html`<svg class="hap-icon" viewBox="0 0 24 24">
-          <use href="#${args.icon}" />
-        </svg>`
-      : ""}
+    ${args.icon && args.iconPosition === "right" ? renderIcon(args.icon) : ""}
   </button>
 `;

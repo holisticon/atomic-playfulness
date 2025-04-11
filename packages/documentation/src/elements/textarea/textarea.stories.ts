@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/web-components";
 import { html } from "lit";
+import { renderIcon } from "../icon/icon.stories.js";
 
 interface TextareaArgs {
   label: string;
@@ -45,10 +46,7 @@ export const Invalid: Story = {
   render: (args) => html`
     <div class="hap-textarea hap-feedback-invalid">
       <label for="textarea">
-        <svg class="hap-icon" viewBox="0 0 24 24">
-          <use href="#circle-alert" />
-        </svg>
-        ${args.label}
+        ${renderIcon("circle-alert")} ${args.label}
       </label>
       <textarea
         id="textarea"

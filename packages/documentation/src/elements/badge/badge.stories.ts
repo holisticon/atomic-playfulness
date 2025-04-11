@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/web-components";
 import { html } from "lit";
+import { renderIcon } from "../icon/icon.stories.js";
 
 type BadgeVariant =
   | "default"
@@ -31,19 +32,11 @@ const meta: Meta<BadgeArgs> = {
     <div style="display:flex;gap:0.5rem;flex-direction:column;padding:2rem">
       <div class="hap-badge regular ${args.variant}">
         <span>${args.label}</span>
-        ${args.icon
-          ? html`<svg class="hap-icon hap-icon--small" viewBox="0 0 24 24">
-              <use href="#${args.icon}" />
-            </svg>`
-          : ""}
+        ${args.icon ? renderIcon(args.icon, "small") : ""}
       </div>
       <div class="hap-badge strong ${args.variant}">
         <span>${args.label}</span>
-        ${args.icon
-          ? html`<svg class="hap-icon hap-icon--small" viewBox="0 0 24 24">
-              <use href="#${args.icon}" />
-            </svg>`
-          : ""}
+        ${args.icon ? renderIcon(args.icon, "small") : ""}
       </div>
     </div>
   `,

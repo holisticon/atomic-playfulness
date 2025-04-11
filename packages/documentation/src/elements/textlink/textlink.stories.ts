@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/web-components";
 import { html } from "lit";
+import { renderIcon } from "../icon/icon.stories.js";
 
 type TextlinkType = "standard" | "small" | "footnote";
 
@@ -26,10 +27,8 @@ const meta: Meta<TextlinkArgs> = {
         class="hap-textlink${args.type !== "standard"
           ? ` hap-textlink--${args.type}`
           : ""}"
-        >${args.label}
-        <svg class="hap-icon hap-icon--small" viewBox="0 0 24 24">
-          <use href="#arrow-up-right" /></svg
-      ></a>
+        >${args.label} ${renderIcon("arrow-up-right", "small")}
+      </a>
     </div>
   `,
 };

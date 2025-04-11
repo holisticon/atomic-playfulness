@@ -3,8 +3,12 @@ import { html } from "lit";
 import { styleMap } from "lit/directives/style-map.js";
 
 interface IconArgs {
-  iconSize: "default" | "small";
+  iconSize: IconSizeType;
+  iconType?: IconType;
 }
+
+export type IconSizeType = "default" | "small";
+export type IconType = (typeof icons)[number];
 
 const icons = [
   "check",
@@ -51,6 +55,17 @@ const icons = [
   "lock",
 ];
 
+export const renderIcon = (icon: IconType, size: IconSizeType = "default") =>
+  html` <svg
+    class="hap-icon${size !== "default" ? ` hap-icon--${size}` : ""}"
+    viewBox="0 0 24 24"
+  >
+    <use href="#${icon}" />
+  </svg>`;
+
+const renderAllIcons = (args: IconArgs) =>
+  html` ${icons.map((icon) => html`${renderIcon(icon, args.iconSize)}`)}`;
+
 const meta: Meta<IconArgs> = {
   decorators: (story) =>
     html`<div
@@ -63,17 +78,9 @@ const meta: Meta<IconArgs> = {
       ${story()}
     </div>`,
   render: (args) => {
-    return html`${icons.map(
-      (icon) =>
-        html`<svg
-          class="hap-icon${args.iconSize !== "default"
-            ? ` hap-icon--${args.iconSize}`
-            : ""}"
-          viewBox="0 0 24 24"
-        >
-          <use href="#${icon}" />
-        </svg>`,
-    )}`;
+    return html` ${args.iconType
+      ? renderIcon(args.iconType, args.iconSize)
+      : renderAllIcons(args)}`;
   },
 };
 
