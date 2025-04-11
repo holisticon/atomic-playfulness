@@ -26,7 +26,7 @@
 
 .hap-textarea-input,
 .hap-textarea > textarea {
-  --hap-textarea-border-width: 1px;
+  --hap-textarea-border-width: border-width: var(--hap-border-width-sm);
   --hap-textarea-border-color: var(
     --hap-color-border-secondary-on-light-default
   );
@@ -64,7 +64,7 @@
   }
 
   &:focus-visible {
-    --hap-textarea-border-width: 2px;
+    --hap-textarea-border-width: var(--hap-border-width-md);
     --hap-textarea-border-color: var(--hap-color-border-focused-default);
   }
 }

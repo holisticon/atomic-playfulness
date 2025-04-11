@@ -22,8 +22,7 @@
     background-color: var(--hap-color-fill-input-default);
     border-style: solid;
     border-color: var(--hap-color-border-brand-on-light-default);
-    /* TODO: create token for border width */
-    border-width: 2px;
+    border-width: var(--hap-border-width-md);
     border-radius: var(--hap-radius-minimal);
 
     &:not(:checked) ~ svg {
@@ -74,7 +73,7 @@
       &::after {
         display: block;
         border-color: var(--hap-color-border-focused-default);
-        border-width: 2px;
+        border-width: var(--hap-border-width-md);
         border-style: solid;
         width: 36px;
         height: 36px;

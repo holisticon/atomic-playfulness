@@ -26,7 +26,7 @@
 
 .hap-textfield-input,
 .hap-textfield > input {
-  --hap-textfield-border-width: 1px;
+  --hap-textfield-border-width: var(--hap-border-width-sm);
   --hap-textfield-border-color: var(
     --hap-color-border-secondary-on-light-default
   );
@@ -59,7 +59,7 @@
   }
 
   &:focus-visible {
-    --hap-textfield-border-width: 2px;
+    --hap-textfield-border-width: var(--hap-border-width-md);
     --hap-textfield-border-color: var(--hap-color-border-focused-default);
   }
 }
