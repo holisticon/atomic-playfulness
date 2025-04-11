@@ -24,11 +24,17 @@
 
   &.hap-divider--inset {
     margin-block-start: var(--hap-spacing-md);
-    block-size: calc(200x - var(--hap-spacing-md));
+    block-size: calc(200px - var(--hap-spacing-md));
   }
 
   &.hap-divider--middle-inset {
     margin-block: var(--hap-spacing-md);
     block-size: calc(200px - 2 * var(--hap-spacing-md));
+  }
+}
+
+.hap-divider {
+  &.hap-divider-bold {
+    border-width: 2px;
   }
 }

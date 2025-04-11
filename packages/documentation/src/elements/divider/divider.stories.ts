@@ -19,21 +19,54 @@ const meta: Meta<DividerArgs> = {
     },
   },
 
-  render: (args) =>
-    html`
+  render: (args) => html`
     <div
       style=${styleMap({
         display: "flex",
         gap: "0.5rem",
-        flexDirection: args.orientation === "horizontal" ? "column" : "row",
-        padding: "2rem",
-        height: "200px", // arbitrary sizes
+        flexDirection: "row",
+        flexWrap: "wrap",
       })}
     >
+      <div
+        style=${styleMap({
+          display: "flex",
+          gap: "0.5rem",
+          width: args.orientation === "horizontal" ? "100%" : "auto",
+          flexDirection: args.orientation === "horizontal" ? "column" : "row",
+          padding: "2rem",
+          height: args.orientation === "horizontal" ? "100px" : "200px", // arbitrary sizes
+        })}
+      >
         <!-- TODO we only need the class with orientation when using vertical divider -->
         <hr class="hap-divider hap-divider-${args.orientation}" />
-        <hr class="hap-divider hap-divider-${args.orientation} hap-divider--inset" />
-        <hr class="hap-divider hap-divider-${args.orientation} hap-divider--middle-inset" />
+        <hr
+          class="hap-divider hap-divider-${args.orientation} hap-divider--inset"
+        />
+        <hr
+          class="hap-divider hap-divider-${args.orientation} hap-divider--middle-inset"
+        />
+      </div>
+      <div
+        style=${styleMap({
+          display: "flex",
+          gap: "0.5rem",
+          width: args.orientation === "horizontal" ? "100%" : "auto",
+          flexDirection: args.orientation === "horizontal" ? "column" : "row",
+          padding: "2rem",
+          height: args.orientation === "horizontal" ? "100px" : "200px", // arbitrary sizes
+        })}
+      >
+        <!-- TODO we only need the class with orientation when using vertical divider -->
+        <hr
+          class="hap-divider hap-divider-bold hap-divider-${args.orientation}"
+        />
+        <hr
+          class="hap-divider hap-divider-bold hap-divider-${args.orientation} hap-divider--inset"
+        />
+        <hr
+          class="hap-divider hap-divider-bold hap-divider-${args.orientation} hap-divider--middle-inset"
+        />
       </div>
     </div>
   `,
