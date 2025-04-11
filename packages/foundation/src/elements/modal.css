@@ -1,0 +1,44 @@
+.hap-modal {
+  border: none;
+  display: flex;
+  padding: var(--hap-spacing-md);
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: var(--hap-spacing-md);
+
+  border-radius: var(--hap-radius-rounded);
+  background: var(--hap-color-surface-primary-default,);
+  box-shadow: var(--hap-shadow-second-level-x) var(--hap-shadow-second-level-y)
+    var(--hap-shadow-second-level-blur) 0px rgba(0, 0, 0, 0.15);
+
+  .hap-modal-title {
+    color: var(--hap-color-text-primary-onLight);
+    font-family: var(--hap-typography-font-family-body);
+    font-size: var(--hap-typography-font-size-headline-md);
+    font-style: normal;
+    font-weight: var(-hap-typography-font-weight-medium);
+    line-height: var(--hap-typography-line-height-bodytext-standard-singleline);
+    letter-spacing: var(--hap-typography-letter-spacing-lg);
+    margin: 0;
+  }
+
+  .hap-modal-content {
+    color: var(--hap-color-text-primary-on-light);
+    font-family: var(--hap-typography-font-family-body);
+    font-size: var(--hap-typography-font-size-bodytext-Standard);
+    font-weight: var(-hap-typography-font-weight-regular);
+    line-height: var(--hap-typography-line-height-bodytext-standard-multiline);
+    letter-spacing: var(--hap-typography-letter-spacing-lg);
+    margin: 0;
+  }
+
+  .hap-modal-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: var(--hap-spacing-md);
+    align-self: stretch;
+  }
+}

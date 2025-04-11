@@ -2,16 +2,18 @@
 
 @import "../dist/tokens.css";
 @import "./es-klarheit.css";
-@import "./elements/typography.css";
-@import "./elements/button.css";
-@import "./elements/badge.css";
-@import "./elements/checkbox.css";
+
 @import "./elements/alert.css";
-@import "./elements/icon.css";
-@import "./elements/snackbar.css";
-@import "./elements/textlink.css";
-@import "./elements/textfield.css";
-@import "./elements/textarea.css";
-@import "./elements/indicator.css";
+@import "./elements/badge.css";
 @import "./elements/breadcrumb.css";
+@import "./elements/button.css";
+@import "./elements/checkbox.css";
+@import "./elements/icon.css";
 @import "./elements/icon-button.css";
+@import "./elements/indicator.css";
+@import "./elements/modal.css";
+@import "./elements/snackbar.css";
+@import "./elements/textarea.css";
+@import "./elements/textfield.css";
+@import "./elements/textlink.css";
+@import "./elements/typography.css";
