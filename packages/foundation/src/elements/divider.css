@@ -1,0 +1,40 @@
+.hap-divider:not(.hap-divider-vertical) {
+  border: none;
+  border-top: solid 1px var(--hap-color-fill-secondary-on-light-default);
+  display: block;
+  margin: 0;
+
+  &.hap-divider--inset {
+    margin-inline-start: var(--hap-spacing-md);
+    inline-size: calc(100% - var(--hap-spacing-md));
+  }
+
+  &.hap-divider--middle-inset {
+    margin-inline: var(--hap-spacing-md);
+    inline-size: calc(100% - 2 * var(--hap-spacing-md));
+  }
+}
+
+.hap-divider-vertical {
+  border: none;
+  display: inline-block;
+  height: 100%;
+  border-left: solid 1px var(--hap-color-fill-secondary-on-light-default);
+  margin: 0;
+
+  &.hap-divider--inset {
+    margin-block-start: var(--hap-spacing-md);
+    block-size: calc(200px - var(--hap-spacing-md));
+  }
+
+  &.hap-divider--middle-inset {
+    margin-block: var(--hap-spacing-md);
+    block-size: calc(200px - 2 * var(--hap-spacing-md));
+  }
+}
+
+.hap-divider {
+  &.hap-divider-bold {
+    border-width: 2px;
+  }
+}

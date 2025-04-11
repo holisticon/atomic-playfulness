@@ -1,0 +1,22 @@
+import { Meta, Canvas } from "@storybook/blocks";
+import * as DividerStories from "./divider.stories";
+
+<Meta of={DividerStories} />
+
+# Divider
+
+The following kinds of dividers are available:
+
+## Divider Default
+
+<Canvas of={DividerStories.Default} />
+
+## Divider Vertical
+
+There is no native vertical divider available in HTML for several reasons.
+Still, it can be achieved by using a normal `hr` element and either setting the
+height and width accordingly or putting it into a parent with `flex`. The CSS
+classes used here are just for showcasing and we encourage to use other ways of
+using vertical dividers.
+
+<Canvas of={DividerStories.Vertical} />
