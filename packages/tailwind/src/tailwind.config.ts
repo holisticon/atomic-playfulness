@@ -89,13 +89,13 @@ export const theme: Config["theme"] = {
         },
       },
       brand: {
-        light: {
+        onLight: {
           default: "var(--hap-color-fill-brand-on-light-default)",
           hovered: "var(--hap-color-fill-brand-on-light-hovered)",
           pressed: "var(--hap-color-fill-brand-on-light-pressed)",
           selected: "var(--hap-color-fill-brand-on-light-selected)",
         },
-        dark: {
+        onDark: {
           default: "var(--hap-color-fill-brand-on-dark-default)",
           hovered: "var(--hap-color-fill-brand-on-dark-hovered)",
           pressed: "var(--hap-color-fill-brand-on-dark-pressed)",
