@@ -1,0 +1,252 @@
+import { Meta } from "@storybook/blocks";
+
+<Meta title="Tailwind/Available Class Names" />
+
+# **Available Tailwind Class Names**
+
+In the first few examples here we also show the CSS tokens that the classes are
+derived from in order for you to understand the structure. The only important
+thing are the actual class names. For these we also provide some examples of
+usage with code snippets.
+
+## **1. Spacing** (Margin, Padding, Gap, etc.)
+
+- `none` → `var(--hap-spacing-none)`
+- `xs` → `var(--hap-spacing-xs)`
+- `sm` → `var(--hap-spacing-sm)`
+- `md` → `var(--hap-spacing-md)`
+- `mdlg` → `var(--hap-spacing-md-lg)`
+- `lg` → `var(--hap-spacing-lg)`
+- `xl` → `var(--hap-spacing-xl)`
+- `2xl` → `var(--hap-spacing-2-xl)`
+
+**Usage Example:**
+
+```html
+<div class="p-mdlg m-lg">Content</div>
+```
+
+---
+
+## **2. Border Radius**
+
+- `rounded-none` → `var(--hap-radius-none)`
+- `rounded-minimal` → `var(--hap-radius-minimal)`
+- `rounded` → `var(--hap-radius-rounded)`
+- `rounded-large` → `var(--hap-radius-rounded-large)`
+- `rounded-full` → `var(--hap-radius-full)`
+
+**Usage Example:**
+
+```html
+<button class="rounded-lg p-md bg-fill-primary-light-default">Click Me</button>
+```
+
+---
+
+## **3. Colors**
+
+### **Text Colors**
+
+- `text-primary-on-light`
+- `text-primary-on-dark`
+- `text-secondary-on-light`
+- `text-secondary-on-dark`
+- `text-brand-on-light`
+- `text-brand-on-dark`
+- `text-tertiary-on-light`
+- `text-tertiary-on-dark`
+
+**Usage Example:**
+
+```html
+<p class="text-primary-on-light">Hello, World!</p>
+```
+
+### **Fill (Background) Colors**
+
+- `bg-fill-primary-light-default`
+- `bg-fill-primary-dark-default`
+- `bg-fill-secondary-light-default`
+- `bg-fill-secondary-dark-default`
+- `bg-fill-destructive-light-default`
+- `bg-fill-destructive-dark-default`
+- `bg-fill-brand-light-default`
+- `bg-fill-brand-dark-default`
+- `bg-fill-tertiary-on-light-default`
+- `bg-fill-tertiary-on-dark-default`
+- `bg-fill-transparent-default`
+- `bg-fill-state-on`
+- `bg-fill-state-off`
+- `bg-fill-input-default`
+- `bg-fill-inverted-default`
+
+**Usage Example:**
+
+```html
+<div class="bg-fill-brand-light-default p-md">Brand Background</div>
+```
+
+### **Surface (Card/Container Background) Colors**
+
+- `bg-surface-inverted-default`
+- `bg-surface-primary-default`
+- `bg-surface-secondary-default`
+- `bg-surface-tertiary-default`
+- `bg-surface-brand-default`
+- `bg-surface-disabled-default`
+- `bg-surface-transparent-default`
+
+**Usage Example:**
+
+```html
+<div class="bg-surface-primary-default p-lg rounded">Card</div>
+```
+
+### **Link Colors**
+
+- `text-link-default`
+- `text-link-hovered`
+- `text-link-pressed`
+
+**Usage Example:**
+
+```html
+<a href="#" class="text-link-default hover:text-link-hovered">Click Me</a>
+```
+
+---
+
+## **4. Borders & Dividers**
+
+### **Border Colors**
+
+- `border-primary-on-light-default`
+- `border-primary-on-dark-default`
+- `border-secondary-on-light-default`
+- `border-secondary-on-dark-default`
+- `border-brand-on-light-default`
+- `border-brand-on-dark-default`
+- `border-focused-default`
+
+**Usage Example:**
+
+```html
+<input class="border border-primary-on-light-default p-sm" type="text" />
+```
+
+### **Dividers**
+
+- `border-divider-on-light`
+- `border-divider-on-dark`
+
+**Usage Example:**
+
+```html
+<hr class="border-divider-on-light" />
+```
+
+---
+
+## **5. Typography**
+
+### **Font Family**
+
+- `font-heading` → `var(--hap-typography-font-family-heading)`
+- `font-body` → `var(--hap-typography-font-family-body)`
+
+**Usage Example:**
+
+```html
+<h1 class="font-heading text-xl">Heading</h1>
+```
+
+### **Font Weight**
+
+- `font-regular`
+- `font-medium`
+- `font-bold`
+
+### **Font Sizes**
+
+#### **Headlines**
+
+- `text-headline-3xl`
+- `text-headline-2xl`
+- `text-headline-xl`
+- `text-headline-lg`
+- `text-headline-md`
+- `text-headline-sm`
+
+#### **Body Text**
+
+- `text-bodytext-standard`
+- `text-bodytext-s`
+- `text-bodytext-xs`
+- `text-bodytext-2xs`
+
+**Usage Example:**
+
+```html
+<p class="text-bodytext-standard font-regular">Regular body text</p>
+```
+
+### **Line Heights**
+
+#### **Headlines**
+
+- `leading-headline-3xl`
+- `leading-headline-2xl`
+- `leading-headline-xl`
+- `leading-headline-lg`
+- `leading-headline-md`
+- `leading-headline-sm`
+
+#### **Body Text**
+
+- `leading-bodytext-standard-singleline`
+- `leading-bodytext-standard-multiline`
+- `leading-bodytext-s-singleline`
+- `leading-bodytext-s-multiline`
+- `leading-bodytext-xs-singleline`
+- `leading-bodytext-xs-multiline`
+- `leading-bodytext-3xs`
+- `leading-bodytext-2xs`
+
+### **Letter Spacing**
+
+- `tracking-md`
+- `tracking-lg`
+- `tracking-xl`
+- `tracking-sm`
+- `tracking-xs`
+
+---
+
+## **6. Opacity**
+
+- `opacity-default`
+- `opacity-disabled`
+- `opacity-inactive`
+- `opacity-hovered`
+
+**Usage Example:**
+
+```html
+<button class="opacity-disabled bg-fill-primary-light-default">Disabled</button>
+```
+
+---
+
+## **7. Shadows**
+
+- `shadow-first-level`
+- `shadow-second-level`
+
+**Usage Example:**
+
+```html
+<div class="shadow-first-level p-md bg-fill-primary-light-default">
+  Shadow Box
+</div>
+```
