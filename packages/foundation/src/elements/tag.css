@@ -1,0 +1,22 @@
+.hap-tag {
+  --hap-tag-border-color: var(--hap-color-border-secondary-on-light-default);
+  --hap-tag-border-width: var(--hap-border-width-sm);
+
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--hap-spacing-sm);
+  padding-inline: var(--hap-spacing-sm);
+  padding-block: var(--hap-spacing-xs);
+  border-radius: var(--hap-radius-minimal);
+  box-shadow: inset 0 0 0 var(--hap-tag-border-width)
+    var(--hap-tag-border-color);
+  background-color: transparent;
+  color: var(--hap-color-text-secondary-on-light);
+
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-s);
+  font-weight: var(--hap-typography-font-weight-regular);
+  letter-spacing: var(--hap-typography-letter-spacing-lg);
+  line-height: var(--hap-typography-line-height-bodytext-s-singleline);
+}

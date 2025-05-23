@@ -1,0 +1,22 @@
+import { Canvas, Meta } from "@storybook/blocks";
+import * as stories from "./tag.stories.ts";
+
+<Meta of={stories} />
+
+# Tag
+
+Tags werden verwendet, um Attribute eines Objekts oder gewählte Filter
+darzustellen. Sie können mit oder ohne Icon in den Varianten statisch oder
+abwählbar verwendet werden.
+
+<Canvas of={stories.Default} />
+
+## Variants
+
+### Default
+
+<Canvas of={stories.Default} />
+
+### Leading Icon
+
+<Canvas of={stories.LeadingIcon} />
