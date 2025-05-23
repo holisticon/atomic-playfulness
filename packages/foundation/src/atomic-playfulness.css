@@ -15,9 +15,10 @@
 @import "./elements/modal.css";
 @import "./elements/navigation-drawer.css";
 @import "./elements/progress-indicator.css";
+@import "./elements/radio-group.css";
+@import "./elements/search.css";
 @import "./elements/snackbar.css";
 @import "./elements/textarea.css";
 @import "./elements/textfield.css";
 @import "./elements/textlink.css";
 @import "./elements/typography.css";
-@import "./elements/radio-group.css";
