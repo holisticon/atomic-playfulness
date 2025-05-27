@@ -1,11 +1,24 @@
 .hap-icon-button {
   padding: var(--hap-spacing-sm);
+  border-radius: var(--hap-radius-full);
+}
+.hap-icon-button--sm {
+  padding: var(--hap-spacing-xs);
+  border-radius: var(--hap-radius-full);
+}
+.hap-icon-button--xs {
+  padding: 0;
+  border-radius: var(--hap-radius-minimal);
+}
+
+.hap-icon-button,
+.hap-icon-button--sm,
+.hap-icon-button--xs {
   line-height: 0;
   color: light-dark(
     var(--hap-color-icon-primary-on-light),
     var(--hap-color-text-brand-on-dark)
   );
-  border-radius: var(--hap-radius-full);
   background: none;
   border: none;
 
