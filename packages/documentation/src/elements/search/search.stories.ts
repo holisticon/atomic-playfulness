@@ -15,7 +15,7 @@ const renderSearch = (args: SearchArgs) => html`
   <div class="hap-search">
     <span class="hap-search-icon"> ${renderIcon("search", "small")} </span>
     <input id="search" placeholder=${args.placeholder} />
-    <button class="hap-icon-button">
+    <button class="hap-icon-button--sm">
       ${renderIcon("arrow-right", "small")}
     </button>
   </div>
