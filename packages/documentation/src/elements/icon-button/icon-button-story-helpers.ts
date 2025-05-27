@@ -2,7 +2,7 @@ import type { ArgTypes } from "@storybook/web-components";
 import { html } from "lit";
 import { renderIcon } from "../icon/icon.stories.js";
 
-type ButtonSize = "default" | "small";
+type ButtonSize = "default" | "sm" | "xs";
 type ColorScheme = "light" | "dark";
 
 export const iconButtonArgs = (): IconButtonArgs => ({
@@ -14,7 +14,7 @@ export const iconButtonArgs = (): IconButtonArgs => ({
 export const buttonArgTypes: Partial<ArgTypes<IconButtonArgs>> = {
   size: {
     control: { type: "select" },
-    options: ["default", "small"],
+    options: ["default", "sm", "xs"],
   },
 };
 
@@ -43,27 +43,43 @@ export const renderButtons = (args: IconButtonArgs, colorScheme: ColorScheme) =>
     })}
     ${renderIconButton({
       ...args,
-      size: "small",
+      size: "sm",
     })}
     ${renderIconButton({
       ...args,
-      size: "small",
+      size: "sm",
       selected: true,
     })}
     ${renderIconButton({
       ...args,
-      size: "small",
+      size: "sm",
+      disabled: true,
+    })}
+    ${renderIconButton({
+      ...args,
+      size: "xs",
+    })}
+    ${renderIconButton({
+      ...args,
+      size: "xs",
+      selected: true,
+    })}
+    ${renderIconButton({
+      ...args,
+      size: "xs",
       disabled: true,
     })}
   </div> `;
 
 const renderIconButton = (args: IconButtonArgs) => html`
   <button
-    class="hap-icon-button ${args.disabled ? "disabled" : ""} ${args.selected
-      ? "hap-icon-button--selected"
-      : ""}"
+    class="
+hap-icon-button${args.size != "default" ? "--" + args.size : ""}
+${args.disabled ? "disabled" : ""} 
+${args.selected ? "hap-icon-button--selected" : ""}
+"
     ?disabled=${args.disabled}
   >
-    ${renderIcon(args.icon, args.size)}
+    ${renderIcon(args.icon, args.size != "default" ? "small" : "default")}
   </button>
 `;
