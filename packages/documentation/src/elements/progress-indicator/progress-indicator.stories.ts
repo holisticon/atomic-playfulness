@@ -13,7 +13,8 @@ const meta: Meta<AlertArgs> = {
     <div style="display:flex;gap:0.5rem;flex-direction:column;padding:2rem">
       <div
         role="progressbar"
-        aria-label="Loading ${args.progress}%"
+        aria-label="Loading"
+        aria-valuenow="${args.progress}"
         class="hap-progress-indicator"
         style="--progress: ${args.progress}%;"
       ></div>
