@@ -1,0 +1,25 @@
+import { Canvas, Meta } from "@storybook/blocks";
+import * as stories from "./switch.stories.ts";
+
+<Meta of={stories} />
+
+# Switch
+
+Switches make it possible to choose between **on** and **off**. Consider using
+them for setting-like selections, but try to avoid their usage in user forms.
+
+<Canvas of={stories.Default} />
+
+## Variants
+
+### Default
+
+<Canvas of={stories.Default} />
+
+### Small
+
+<Canvas of={stories.Small} />
+
+### Disabled
+
+<Canvas of={stories.Disabled} />
