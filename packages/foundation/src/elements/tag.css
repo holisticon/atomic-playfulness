@@ -19,4 +19,19 @@
   font-weight: var(--hap-typography-font-weight-regular);
   letter-spacing: var(--hap-typography-letter-spacing-lg);
   line-height: var(--hap-typography-line-height-bodytext-s-singleline);
+
+  & > svg {
+    color: var(--hap-color-icon-tertiary-on-light);
+  }
+
+  /* Providing a leading icon or closeable button has such a small effect on the */
+  /* tag that it is easy to forget to set additional classes just for the changed padding. */
+  /* To avoid potential problems, try to apply the changes based on the inner content. => Assumes leading icons only... */
+  &:has(> svg) {
+    padding-inline-start: var(--hap-spacing-xs);
+  }
+
+  &:has(> button) {
+    padding-inline-end: var(--hap-spacing-xs);
+  }
 }
