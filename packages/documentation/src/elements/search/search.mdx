@@ -1,0 +1,15 @@
+import { Canvas, Meta } from "@storybook/blocks";
+import * as stories from "./search.stories.ts";
+
+<Meta of={stories} />
+
+# Search
+
+Search enables users to enter a phrase of sentence to get matching information.
+It's an alternate form of navigation.
+
+<Canvas of={stories.Default} />
+
+## Results
+
+<Canvas of={stories.Results} />
