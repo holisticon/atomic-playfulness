@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/web-components";
 import { html } from "lit";
-import { renderIcon } from "../icon/icon.stories.js";
+import { renderIcon, type IconType } from "../icon/icon.stories.js";
 
 type BadgeVariant =
   | "default"
@@ -13,7 +13,7 @@ type BadgeVariant =
 interface BadgeArgs {
   label: string;
   variant: BadgeVariant;
-  icon?: string;
+  icon?: IconType;
 }
 
 const meta: Meta<BadgeArgs> = {

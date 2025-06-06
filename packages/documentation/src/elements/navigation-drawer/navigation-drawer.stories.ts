@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from "@storybook/web-components";
 import { html } from "lit";
-import { renderIcon } from "../icon/icon.stories.js";
+import { renderIcon, type IconType } from "../icon/icon.stories.js";
 
-function navigationItem(icon: string, label: string, indicator = 0) {
+function navigationItem(icon: IconType, label: string, indicator = 0) {
   return html`
     <li>
       <a class="hap-navigation-drawer-item" href="#">

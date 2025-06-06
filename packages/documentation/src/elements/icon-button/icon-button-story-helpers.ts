@@ -1,6 +1,6 @@
 import type { ArgTypes } from "@storybook/web-components";
 import { html } from "lit";
-import { renderIcon } from "../icon/icon.stories.js";
+import { renderIcon, type IconType } from "../icon/icon.stories.js";
 
 type ButtonSize = "default" | "sm" | "xs";
 type ColorScheme = "light" | "dark";
@@ -22,7 +22,7 @@ export interface IconButtonArgs {
   size: ButtonSize;
   disabled: boolean;
   selected?: boolean;
-  icon: string;
+  icon: IconType;
 }
 
 export const renderButtons = (args: IconButtonArgs, colorScheme: ColorScheme) =>

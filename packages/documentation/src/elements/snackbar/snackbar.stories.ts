@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/web-components";
 import { html } from "lit";
-import { renderIcon } from "../icon/icon.stories.js";
+import { renderIcon, type IconType } from "../icon/icon.stories.js";
 
 type SnackbarVariant = "hap-snackbar" | "hap-snackbar-multiline";
 
@@ -8,7 +8,7 @@ interface AlertArgs {
   label: string;
   variant: SnackbarVariant;
   icon?: string;
-  iconbutton?: string;
+  iconbutton?: IconType;
 }
 
 const meta: Meta<AlertArgs> = {

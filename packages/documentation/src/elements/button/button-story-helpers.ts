@@ -1,6 +1,6 @@
 import type { ArgTypes } from "@storybook/web-components";
 import { html } from "lit";
-import { renderIcon } from "../icon/icon.stories.js";
+import { renderIcon, type IconType } from "../icon/icon.stories.js";
 
 type ButtonSize = "default" | "small";
 type ButtonVariant = "primary" | "secondary" | "tertiary" | "destructive";
@@ -31,7 +31,7 @@ export interface ButtonArgs {
   variant: ButtonVariant;
   size: ButtonSize;
   disabled: boolean;
-  icon?: string;
+  icon?: IconType;
   iconPosition: ButtonIconPosition;
 }
 
