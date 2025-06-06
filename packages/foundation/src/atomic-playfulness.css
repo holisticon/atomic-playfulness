@@ -21,5 +21,6 @@
 @import "./elements/textarea.css";
 @import "./elements/textfield.css";
 @import "./elements/textlink.css";
+@import "./elements/tooltip.css";
 @import "./elements/typography.css";
 @import "./elements/radio-group.css";

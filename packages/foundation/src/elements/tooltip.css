@@ -1,0 +1,16 @@
+.hap-tooltip {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: var(--hap-spacing-sm);
+  border-radius: var(--hap-radius-rounded);
+  background: var(--hap-color-surface-inverted-default);
+  box-shadow: var(--hap-shadow-first-level-x) var(--hap-shadow-first-level-y)
+    var(--hap-shadow-first-level-blur) 0px var(--hap-shadow-first-level-color);
+  color: var(--hap-color-text-primary-on-dark);
+
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-xs);
+  font-weight: var(--hap-typography-font-weight-regular);
+  letter-spacing: var(--hap-typography-letter-spacing-lg);
+  line-height: var(--hap-typography-line-height-bodytext-xs-singleline);
+}
