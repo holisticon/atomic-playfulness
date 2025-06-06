@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/web-components";
 import { html } from "lit";
+import { renderIcon } from "../icon/icon.stories.js";
 
 interface TagArgs {
   label: string;
@@ -21,6 +22,7 @@ export const Default: Story = {
 export const LeadingIcon: Story = {
   render: (args) => html`
     <span class="hap-tag">
+      ${renderIcon("sparkles")}
       <svg viewBox="0 0 24 24" class="hap-icon hap-icon--small">
         <use href="#sparkles"></use>
       </svg>

@@ -30,6 +30,7 @@ const icons = [
   "shopping-cart",
   "user-round",
   "clock",
+  "minus",
   "menu",
   "search",
   "eye",
@@ -53,7 +54,7 @@ const icons = [
   "mail",
   "download",
   "lock",
-];
+] as const;
 
 export const renderIcon = (icon: IconType, size: IconSizeType = "default") =>
   html` <svg

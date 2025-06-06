@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/web-components";
 import { html } from "lit";
-import { renderIcon } from "../icon/icon.stories.js";
+import { renderIcon, type IconType } from "../icon/icon.stories.js";
 
 type AlertVariant =
   | "positive"
@@ -12,8 +12,8 @@ type AlertVariant =
 interface AlertArgs {
   label: string;
   variant: AlertVariant;
-  icon?: string;
-  iconbutton?: string;
+  icon?: IconType;
+  iconbutton?: IconType;
 }
 
 const meta: Meta<AlertArgs> = {
