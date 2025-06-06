@@ -1,0 +1,71 @@
+.hap-navigation-drawer {
+  display: flex;
+
+  flex-direction: column;
+  min-width: 360px;
+  width: fit-content;
+  justify-content: flex-end;
+  align-items: stretch;
+
+  gap: 0;
+  padding: var(--hap-spacing-md);
+
+  background: var(--hap-color-surface-primary-default);
+  border: none;
+
+  menu {
+    display: contents;
+    list-style: none;
+  }
+}
+
+.hap-navigation-drawer-title {
+  margin: 0;
+  padding: var(--hap-spacing-md);
+  padding-block-end: var(--hap-spacing-sm);
+
+  color: var(--hap-color-text-secondary-on-light);
+
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-s);
+  font-weight: 500;
+  line-height: var(--hap-typography-line-height-bodytext-s-singleline);
+  letter-spacing: var(--hap-typography-letter-spacing-md);
+}
+
+.hap-navigation-drawer-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--hap-spacing-md);
+  padding-inline-end: var(--hap-spacing-md-lg);
+  gap: var(--hap-spacing-sm);
+  text-decoration: none;
+
+  color: var(--hap-color-text-secondary-on-light);
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-s);
+  font-weight: 400;
+  line-height: var(--hap-typography-line-height-bodytext-standard-singleline);
+  letter-spacing: var(--hap-typography-letter-spacing-md);
+
+  border-radius: var(--hap-radius-full);
+
+  & > span {
+    flex: 1;
+  }
+
+  &:hover {
+    background: var(--hap-color-fill-interaction-on-light-hovered);
+  }
+
+  &:focus-visible {
+    outline: var(--hap-border-width-md) solid
+      var(--hap-color-border-focused-default);
+    outline-offset: calc(-1 * var(--hap-border-width-md));
+  }
+
+  &:active {
+    background: var(--hap-color-fill-interaction-on-light-pressed);
+  }
+}
