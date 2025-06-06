@@ -48,7 +48,7 @@
   border: none;
   background: none;
   flex: 1;
-  height: var(--hap-primitives-size-6);
+  height: var(--hap-size-xl);
 
   font-family: var(--hap-typography-font-family-body);
   font-size: var(--hap-typography-font-size-bodytext-s);
