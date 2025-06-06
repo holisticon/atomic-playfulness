@@ -5,7 +5,7 @@ import { renderIcon } from "../icon/icon.stories.js";
 function navigationItem(icon: string, label: string, indicator = 0) {
   return html`
     <li>
-      <a class="hap-navigation-drawer-item">
+      <a class="hap-navigation-drawer-item" href="#">
         ${renderIcon(icon)}
         <span>${label}</span>
         <div class="hap-indicator default">
