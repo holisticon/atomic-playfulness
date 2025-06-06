@@ -1,0 +1,23 @@
+.hap-progress-indicator {
+  height: 6px;
+  width: 100%;
+  position: relative;
+  border-radius: var(--hap-radius-minimal);
+  background: var(--hap-color-fill-secondary-on-light-default);
+  overflow: hidden;
+
+  &::before {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: var(--hap-color-border-focused-default);
+    height: 6px;
+    /*
+           using a scoped variable instead of a data attribute, because attr() has only experimental support for attributes other than content
+           see: https://developer.mozilla.org/en-US/docs/Web/CSS/attr
+         */
+    width: var(--progress);
+    content: "";
+  }
+}
