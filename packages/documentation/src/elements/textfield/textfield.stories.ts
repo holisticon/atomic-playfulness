@@ -78,20 +78,22 @@ export const Invalid: Story = {
 
 export const Granular: Story = {
   render: (args) => html`
-    <label class="hap-textfield-label" for="textfield">${args.label}</label>
-    <input
-      class=${classMap({
-        "hap-textfield-input": true,
-        "hap-textfield-input--brand": args.round,
-      })}
-      id="textfield"
-      aria-describedby="description"
-      placeholder=${args.placeholder}
-      ?disabled=${args.disabled}
-      ?readonly=${args.readonly}
-    />
-    <span class="hap-textfield-description" id="description"
-      >${args.description}</span
-    >
+    <div style="display: flex; flex-direction: column;">
+      <label class="hap-textfield-label" for="textfield">${args.label}</label>
+      <input
+        class=${classMap({
+          "hap-textfield-input": true,
+          "hap-textfield-input--brand": args.round,
+        })}
+        id="textfield"
+        aria-describedby="description"
+        placeholder=${args.placeholder}
+        ?disabled=${args.disabled}
+        ?readonly=${args.readonly}
+      />
+      <span class="hap-textfield-description" id="description"
+        >${args.description}</span
+      >
+    </div>
   `,
 };
