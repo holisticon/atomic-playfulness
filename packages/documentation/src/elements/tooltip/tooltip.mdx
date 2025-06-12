@@ -1,0 +1,21 @@
+import { Canvas, Meta } from "@storybook/blocks";
+import * as stories from "./tooltip.stories.ts";
+
+<Meta of={stories} />
+
+# Tooltip
+
+Tooltips are informative, specific text labels that provide context-related
+support.
+
+<Canvas of={stories.Default} />
+
+## Variants
+
+### Default
+
+<Canvas of={stories.Default} />
+
+### Multiple Lines
+
+<Canvas of={stories.Multiline} />
