@@ -1,7 +1,7 @@
 {
   "name": "@holisticon/hap-documentation",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "private": true,
   "author": "Holisticon AG <info@holisticon.de>",
   "description": "Documentation for the atomic-playfulness design system.",
@@ -17,7 +17,7 @@
     "lint": "tsc --noEmit && eslint ."
   },
   "dependencies": {
-    "@holisticon/hap-foundation": "^0.2.0",
+    "@holisticon/hap-foundation": "^0.3.0",
     "lit": "^3.2.1"
   },
   "devDependencies": {
