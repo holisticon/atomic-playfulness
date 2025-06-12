@@ -62,17 +62,19 @@ export const Invalid: Story = {
 
 export const Granular: Story = {
   render: (args) => html`
-    <label class="hap-textarea-label" for="textarea">${args.label}</label>
-    <textarea
-      class="hap-textarea-input"
-      id="textarea"
-      aria-describedby="description"
-      placeholder=${args.placeholder}
-      ?disabled=${args.disabled}
-      ?readonly=${args.readonly}
-    ></textarea>
-    <span class="hap-textarea-description" id="description">
-      ${args.description}
-    </span>
+    <div style="display: flex; flex-direction: column;">
+      <label class="hap-textarea-label" for="textarea">${args.label}</label>
+      <textarea
+        class="hap-textarea-input"
+        id="textarea"
+        aria-describedby="description"
+        placeholder=${args.placeholder}
+        ?disabled=${args.disabled}
+        ?readonly=${args.readonly}
+      ></textarea>
+      <span class="hap-textarea-description" id="description">
+        ${args.description}
+      </span>
+    </div>
   `,
 };
