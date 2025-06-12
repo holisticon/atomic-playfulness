@@ -1,6 +1,7 @@
 .hap-tooltip {
   display: inline-block;
   box-sizing: border-box;
+  max-inline-size: 32ch;
   padding: var(--hap-spacing-sm);
   border-radius: var(--hap-radius-rounded);
   background: var(--hap-color-surface-inverted-default);
