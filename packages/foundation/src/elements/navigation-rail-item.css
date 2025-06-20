@@ -28,10 +28,13 @@
 
   .hap-navigation-rail-item-label {
     color: var(--hap-color-text-secondary-on-light);
+    font-size: var(--hap-typography-font-size-bodytext-xs);
+    font-weight: var(--hap-typography-font-weight-medium);
   }
 
   &:focus-visible {
     outline: 2px solid var(--hap-color-border-focused-default);
+    background: none !important;
   }
 
   &.hap-navigation-rail-item--selected {

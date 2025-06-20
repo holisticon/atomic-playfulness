@@ -1,6 +1,6 @@
 import { html } from "lit";
 import { classMap } from "lit/directives/class-map.js";
-import { renderIcon } from "../icon/icon.stories.js";
+import { renderIcon, type IconType } from "../icon/icon.stories.js";
 import {
   renderIndicator,
   type IndicatorVariant,
@@ -10,7 +10,7 @@ export type BadgeVariant = IndicatorVariant | "none";
 
 export interface NavigationRailItemArgs {
   selected?: boolean;
-  icon: string;
+  icon: IconType;
   label?: string;
   badgeVariant: BadgeVariant;
   badgeCount?: string;
