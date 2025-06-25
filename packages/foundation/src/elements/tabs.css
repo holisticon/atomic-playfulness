@@ -1,0 +1,63 @@
+.hap-tabs {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  gap: var(--hap-spacing-sm);
+
+  &::after {
+    display: block;
+    content: "";
+    block-size: var(--hap-border-width-sm);
+    background-color: var(--hap-color-fill-secondary-on-light-default);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.hap-tab {
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: var(--hap-spacing-sm);
+  background-color: transparent;
+  color: var(--hap-color-text-secondary-on-light);
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-s);
+  font-weight: var(--hap-typography-font-weight-regular);
+  letter-spacing: var(--hap-typography-letter-spacing-lg);
+  line-height: var(--hap-typography-line-height-bodytext-s-singleline);
+
+  border-start-start-radius: var(--hap-radius-rounded);
+  border-start-end-radius: var(--hap-radius-rounded);
+  padding-inline: var(--hap-spacing-md);
+  padding-block: var(--hap-spacing-sm);
+  border-bottom: var(--hap-border-width-sm) solid transparent;
+  cursor: pointer;
+  outline: none;
+  transition: all 150ms linear;
+
+  &:hover {
+    background-color: var(--hap-color-fill-interaction-on-light-pressed);
+  }
+
+  &:focus-visible {
+    border-color: var(--hap-color-border-focused-default);
+  }
+
+  & .hap-icon {
+    color: var(--hap-color-icon-secondary-on-light);
+  }
+
+  &:where(.hap-tab--selected) {
+    background-color: var(--hap-color-fill-interaction-on-light-selected);
+    color: var(--hap-color-text-primary-on-light);
+    font-weight: var(--hap-typography-font-weight-medium);
+    border-color: var(--hap-color-border-brand-on-light-default);
+
+    & .hap-icon {
+      color: var(--hap-color-icon-primary-on-light);
+    }
+  }
+}

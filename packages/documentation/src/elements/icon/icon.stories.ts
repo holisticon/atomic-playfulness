@@ -54,6 +54,7 @@ const icons = [
   "mail",
   "download",
   "lock",
+  "user-round",
 ] as const;
 
 export const renderIcon = (icon: IconType, size: IconSizeType = "default") =>
