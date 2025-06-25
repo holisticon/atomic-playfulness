@@ -1,0 +1,20 @@
+import { Canvas, Meta } from "@storybook/blocks";
+import * as stories from "./topbar.stories.ts";
+
+<Meta of={stories} />
+
+# Topbar
+
+Displays available actions at the top of the screen.
+
+<Canvas of={stories.Default} />
+
+## Usage Examples
+
+### With Navigation Links
+
+<Canvas of={stories.Default} />
+
+### With Search Bar
+
+<Canvas of={stories.Search} />
