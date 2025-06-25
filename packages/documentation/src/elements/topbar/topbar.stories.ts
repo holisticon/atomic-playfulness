@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/web-components";
 import { html } from "lit";
+import { renderIcon } from "../icon/icon.stories.js";
 
 const meta: Meta = {};
 
@@ -20,10 +21,7 @@ export const Default: Story = {
         <a class="hap-topbar-nav-item" href="#">Link 5</a>
       </nav>
       <button class="hap-button hap-button--secondary hap-button--small ">
-        <svg viewBox="0 0 24 24" class="hap-icon">
-          <use href="#log-out"></use>
-        </svg>
-        Logout
+        ${renderIcon("log-out")} Logout
       </button>
     </div>`,
 };
@@ -33,23 +31,14 @@ export const Search: Story = {
     html`<div class="hap-topbar">
       <div class="hap-headline-sm">FANCY LOGO</div>
       <div class="hap-search">
-        <span class="hap-search-icon">
-          <svg viewBox="0 0 24 24" class="hap-icon hap-icon--small">
-            <use href="#search"></use>
-          </svg>
-        </span>
+        <span class="hap-search-icon">${renderIcon("search", "small")}</span>
         <input id="search" arial-label="Search" placeholder="Placeholder" />
         <button class="hap-icon-button--sm">
-          <svg viewBox="0 0 24 24" class="hap-icon hap-icon--small">
-            <use href="#arrow-right"></use>
-          </svg>
+          ${renderIcon("arrow-right", "small")}
         </button>
       </div>
       <button class="hap-button hap-button--secondary hap-button--small ">
-        <svg viewBox="0 0 24 24" class="hap-icon">
-          <use href="#log-out"></use>
-        </svg>
-        Logout
+        ${renderIcon("log-out")} Logout
       </button>
     </div>`,
 };
