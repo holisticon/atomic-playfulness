@@ -4,6 +4,7 @@
   font-weight: var(--hap-typography-font-weight-regular);
   letter-spacing: var(--hap-typography-letter-spacing-lg);
   line-height: var(--hap-typography-line-height-bodytext-standard-multiline);
+  box-sizing: border-box;
   border: none;
   border-radius: var(--hap-radius-rounded);
   padding: var(--hap-spacing-md) var(--hap-spacing-md);
