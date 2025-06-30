@@ -1,0 +1,56 @@
+.hap-topbar {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--hap-spacing-md);
+  border-block-end: var(--hap-border-width-sm) solid
+    var(--hap-color-divider-on-light);
+  background-color: var(--hap-color-surface-primary-default);
+  box-shadow: var(--hap-shadow-first-level-x) var(--hap-shadow-first-level-y)
+    var(--hap-shadow-first-level-blur) 0px var(--hap-shadow-first-level-color);
+}
+
+.hap-topbar-nav {
+  display: inline-flex;
+  gap: var(--hap-spacing-md);
+}
+
+.hap-topbar-nav-item {
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-standard);
+  font-weight: var(--hap-typography-font-weight-regular);
+  letter-spacing: var(--hap-typography-letter-spacing-md);
+  line-height: var(--hap-typography-line-height-bodytext-standard-singleline);
+  text-decoration: none;
+  color: var(--hap-color-text-primary-on-light);
+  padding-inline: var(--hap-spacing-xs);
+  border-radius: var(--hap-radius-minimal);
+
+  &::after {
+    display: block;
+    content: "";
+    block-size: var(--hap-border-width-md);
+    border-radius: var(--hap-border-width-md);
+    background-color: transparent;
+    transition: all 150ms linear;
+  }
+
+  &:hover::after {
+    background-color: var(--hap-color-text-brand-on-light);
+  }
+
+  &:active::after {
+    background-color: currentColor;
+  }
+
+  &:focus-visible {
+    outline: var(--hap-border-width-md) solid
+      var(--hap-color-border-focused-default);
+  }
+}
+
+.hap-topbar-nav-item--disabled {
+  opacity: var(--hap-opacity-disabled);
+  pointer-events: none;
+}
