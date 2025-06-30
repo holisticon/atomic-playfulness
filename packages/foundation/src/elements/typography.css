@@ -67,8 +67,8 @@
 
 .hap-text-sm {
   color: var(--hap-color-text-primary-on-light);
-  font-family: var(--hap-typography-font-family-bodytext-s);
-  font-size: var(--hap-typography-font-size-body-regular);
+  font-family: var(--hap-typography-font-family-body);
+  font-size: var(--hap-typography-font-size-bodytext-s);
   font-weight: var(--hap-typography-font-weight-regular);
   letter-spacing: var(--hap-typography-letter-spacing-lg);
   line-height: var(--hap-typography-line-height-bodytext-s-singleline);
