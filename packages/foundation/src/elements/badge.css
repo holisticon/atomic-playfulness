@@ -1,5 +1,5 @@
 .hap-badge {
-  display: flex;
+  display: inline-flex;
   gap: var(--hap-spacing-xs);
   font-family: var(--hap-typography-font-family-body);
   font-size: var(--hap-typography-font-size-bodytext-s);
