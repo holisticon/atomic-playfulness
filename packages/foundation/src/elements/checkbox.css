@@ -1,130 +1,94 @@
 .hap-checkbox {
+  --hap-checkbox-color-text: light-dark(
+    var(--hap-color-text-primary-on-light),
+    var(--hap-color-text-primary-on-dark)
+  );
+  --hap-checkbox-color: light-dark(
+    var(--hap-color-border-brand-on-light-default),
+    var(--hap-color-border-brand-on-dark-default)
+  );
+
+  color: var(--hap-checkbox-color-text);
   font-family: var(--hap-typography-font-family-body);
   font-size: var(--hap-typography-font-size-bodytext-s);
   font-weight: var(--hap-typography-font-weight-medium);
   letter-spacing: var(--hap-typography-letter-spacing-lg);
   line-height: var(--hap-typography-line-height-bodytext-s-singleline);
+
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: var(--hap-spacing-sm);
-  height: var(--hap-size-lg);
-  width: var(--hap-size-lg);
-  position: relative;
+  gap: var(--hap-spacing-xs);
+  cursor: pointer;
 
-  input[type="checkbox"] {
-    appearance: none;
-    flex: 1 0 auto;
-    height: calc(var(--hap-size-lg) - 2 * 3px);
-    width: calc(var(--hap-size-lg) - 2 * 3px);
-    /* TODO: create token for clickable area */
-    margin: 3px;
-    background-color: var(--hap-color-fill-input-default);
-    border-style: solid;
-    border-color: var(--hap-color-border-brand-on-light-default);
-    border-width: var(--hap-border-width-md);
-    border-radius: var(--hap-radius-minimal);
-
-    &:not(:checked) ~ svg {
-      display: none;
-    }
-
-    &:checked {
-      background-color: var(--hap-color-fill-brand-on-light-default);
-
-      & ~ svg {
-        position: absolute;
-        display: block;
-        height: var(--hap-size-sm);
-        width: var(--hap-size-sm);
-        left: 4px;
-        pointer-events: none;
-      }
-    }
-
-    &::after {
-      display: none;
-      content: "";
-      position: absolute;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      left: -8px;
-      top: -8px;
-    }
-
-    &:hover:not(:disabled) {
-      &::after {
-        display: block;
-        background-color: var(--hap-color-fill-interaction-on-light-hovered);
-      }
-    }
-
-    &:active:not(:disabled) {
-      &::after {
-        display: block;
-        background-color: var(--hap-color-fill-interaction-on-light-pressed);
-      }
-    }
-
-    &:focus-visible {
-      outline: none;
-
-      &::after {
-        display: block;
-        border-color: var(--hap-color-border-focused-default);
-        border-width: var(--hap-border-width-md);
-        border-style: solid;
-        width: 36px;
-        height: 36px;
-      }
-    }
-
-    &:disabled {
-      opacity: var(--hap-opacity-disabled);
-
-      & ~ label {
-        opacity: var(--hap-opacity-disabled);
-      }
-    }
+  &:has(input:disabled) {
+    opacity: var(--hap-opacity-disabled);
+    pointer-events: none;
   }
 
-  svg {
-    width: var(--hap-size-md);
-    color: var(--hap-color-icon-primary-on-dark);
-    /* stroke width is only a workaround here to make up for the scaling */
-    stroke-width: 2.5;
+  &:has(input:user-invalid),
+  &.hap-checkbox--invalid {
+    --hap-checkbox-color: light-dark(
+      var(--hap-color-feedback-critical-dark),
+      var(--hap-color-feedback-critical-light)
+    );
+    --hap-checkbox-color-text: light-dark(
+      var(--hap-color-feedback-critical-dark),
+      var(--hap-color-feedback-critical-light)
+    );
+  }
+}
+
+.hap-checkbox > input {
+  box-sizing: border-box;
+  appearance: none;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+
+  color: var(--hap-checkbox-color);
+  border-radius: var(--hap-radius-minimal);
+  border: var(--hap-border-width-md) solid currentColor;
+
+  /* has no custom property... */
+  inline-size: calc(var(--hap-size-lg) - 2 * 3px);
+  block-size: calc(var(--hap-size-lg) - 2 * 3px);
+  margin: 3px;
+
+  &:hover {
+    background-color: var(--hap-color-fill-interaction-on-light-hovered);
   }
 
-  label {
-    flex: 1 0 auto;
+  &:focus-visible {
+    outline: var(--hap-border-width-md) solid;
+    outline-color: var(--hap-color-border-focused-default);
+    outline-offset: var(--hap-border-width-sm);
   }
 
-  &.hap-critical {
-    color: var(--hap-color-feedback-critical-dark);
+  &:checked,
+  &:indeterminate {
+    background-color: currentColor;
+  }
 
-    input[type="checkbox"] {
-      border-color: var(--hap-color-feedback-critical-dark);
+  &::after {
+    display: none;
+    content: "";
+    inline-size: inherit;
+    block-size: inherit;
+    background-color: white;
 
-      &:checked {
-        background-color: var(--hap-color-feedback-critical-dark);
-      }
-    }
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+  }
 
-    svg {
-      color: var(--hap-color-feedback-critical-light);
-    }
+  &:checked::after {
+    display: block;
+    mask-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNoZWNrLWljb24gbHVjaWRlLWNoZWNrIj48cGF0aCBkPSJNMjAgNiA5IDE3bC01LTUiLz48L3N2Zz4=);
+  }
 
-    label {
-      display: flex;
-      align-items: center;
-      gap: 4px;
-
-      svg {
-        display: inline;
-        color: var(--hap-color-feedback-critical-dark);
-        stroke-width: 2;
-      }
-    }
+  &:indeterminate::after {
+    display: block;
+    mask-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1pbnVzLWljb24gbHVjaWRlLW1pbnVzIj48cGF0aCBkPSJNNSAxMmgxNCIvPjwvc3ZnPg==);
   }
 }
