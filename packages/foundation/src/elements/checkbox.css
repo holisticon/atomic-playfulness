@@ -75,7 +75,7 @@
     content: "";
     inline-size: inherit;
     block-size: inherit;
-    background-color: white;
+    background-color: var(--hap-color-fill-input-default);
 
     mask-size: contain;
     mask-repeat: no-repeat;
