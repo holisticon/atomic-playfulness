@@ -1,0 +1,29 @@
+import { Canvas, Meta } from "@storybook/blocks";
+import * as stories from "./dropdown.stories.ts";
+
+<Meta of={stories} />
+
+# Dropdown
+
+The dropdown acts as a trigger for the menu, which then provides options to
+select.
+
+<Canvas of={stories.Default} />
+
+## Variants
+
+### Default
+
+<Canvas of={stories.Default} />
+
+### Invalid
+
+<Canvas of={stories.Invalid} />
+
+### Disabled
+
+<Canvas of={stories.Disabled} />
+
+### With Tags
+
+<Canvas of={stories.WithTags} />

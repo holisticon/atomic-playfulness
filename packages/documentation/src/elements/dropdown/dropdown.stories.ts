@@ -1,9 +1,9 @@
-import type { Meta, StoryObj } from "@storybook/web-components-vite";
+import type { Meta, StoryObj } from "@storybook/web-components";
 import { html } from "lit";
 import { classMap } from "lit/directives/class-map.js";
 import { renderIcon } from "../icon/icon.stories.js";
 
-interface TextfieldArgs {
+interface DropdownArgs {
   label: string;
   description: string;
   placeholder: string;
@@ -12,20 +12,18 @@ interface TextfieldArgs {
   round: boolean;
 }
 
-const meta: Meta<TextfieldArgs> = {
+const meta: Meta<DropdownArgs> = {
   args: {
-    label: "Textfield",
+    label: "Dropdown",
     description: "Optional supporting text",
     placeholder: "Placeholder",
     disabled: false,
     readonly: false,
-    round: false,
   },
   render: (args) => html`
     <div
       class=${classMap({
         "hap-textfield": true,
-        "hap-textfield--brand": args.round,
       })}
     >
       <label for="textfield">${args.label}</label>
@@ -37,6 +35,7 @@ const meta: Meta<TextfieldArgs> = {
           ?disabled=${args.disabled}
           ?readonly=${args.readonly}
         />
+        ${renderIcon("chevron-down")}
       </div>
       <span id="description">${args.description}</span>
     </div>
@@ -44,13 +43,9 @@ const meta: Meta<TextfieldArgs> = {
 };
 
 export default meta;
-type Story = StoryObj<TextfieldArgs>;
+type Story = StoryObj<DropdownArgs>;
 
 export const Default: Story = {};
-
-export const Round: Story = { args: { round: true } };
-
-export const Readonly: Story = { args: { readonly: true } };
 
 export const Disabled: Story = { args: { disabled: true } };
 
@@ -66,36 +61,50 @@ export const Invalid: Story = {
       <label for="textfield">
         ${renderIcon("circle-alert")} ${args.label}
       </label>
-      <input
-        id="textfield"
-        aria-describedby="description"
-        placeholder=${args.placeholder}
-        ?disabled=${args.disabled}
-        ?readonly=${args.readonly}
-      />
+      <div class="hap-textfield-input">
+        <input
+          id="textfield"
+          aria-describedby="description"
+          placeholder=${args.placeholder}
+          ?disabled=${args.disabled}
+          ?readonly=${args.readonly}
+        />
+        ${renderIcon("chevron-down")}
+      </div>
       <span id="description">${args.description}</span>
     </div>
   `,
 };
 
-export const Granular: Story = {
+export const WithTags: Story = {
   render: (args) => html`
-    <div style="display: flex; flex-direction: column;">
-      <label class="hap-textfield-label" for="textfield">${args.label}</label>
-      <input
-        class=${classMap({
-          "hap-textfield-input": true,
-          "hap-textfield-input--brand": args.round,
-        })}
-        id="textfield"
-        aria-describedby="description"
-        placeholder=${args.placeholder}
-        ?disabled=${args.disabled}
-        ?readonly=${args.readonly}
-      />
-      <span class="hap-textfield-description" id="description"
-        >${args.description}</span
-      >
+    <div
+      class=${classMap({
+        "hap-textfield": true,
+        "hap-textfield--brand": args.round,
+      })}
+    >
+      <label for="textfield">
+        ${renderIcon("circle-alert")} ${args.label}
+      </label>
+      <div class="hap-textfield-input">
+        <div class="hap-textfield-input-tags">
+          <span class="hap-tag"
+            >Item 1
+            <button class="hap-icon-button--xs">
+              ${renderIcon("circle-x", "small")}
+            </button></span
+          >
+          <span class="hap-tag"
+            >Item 2
+            <button class="hap-icon-button--xs">
+              ${renderIcon("circle-x", "small")}
+            </button></span
+          >
+        </div>
+        ${renderIcon("chevron-down")}
+      </div>
+      <span id="description">${args.description}</span>
     </div>
   `,
 };
