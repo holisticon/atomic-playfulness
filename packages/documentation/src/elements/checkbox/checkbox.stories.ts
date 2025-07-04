@@ -6,7 +6,7 @@ interface CheckboxArgs {
   label: string;
   disabled?: boolean;
   checked?: boolean;
-  intermediate?: boolean;
+  indeterminate?: boolean;
   error?: boolean;
 }
 
@@ -15,7 +15,7 @@ const meta: Meta<CheckboxArgs> = {
     label: "Checkbox",
     disabled: false,
     checked: false,
-    intermediate: false,
+    indeterminate: false,
   },
   render: (args) => html`
     <label class="hap-checkbox">
@@ -24,7 +24,7 @@ const meta: Meta<CheckboxArgs> = {
         name="confirmation"
         ?disabled=${args.disabled}
         ?checked=${args.checked}
-        .indeterminate=${args.intermediate ?? false}
+        .indeterminate=${args.indeterminate ?? false}
       />
       <span>${args.label}</span>
     </label>
@@ -38,8 +38,8 @@ export const Default: Story = {
   args: { label: "Default" },
 };
 
-export const Intermediate: Story = {
-  args: { label: "Intermediate", intermediate: true },
+export const Indeterminate: Story = {
+  args: { label: "Indeterminate", indeterminate: true },
 };
 
 export const Disabled: Story = {
@@ -55,7 +55,7 @@ export const Error: Story = {
         name="confirmation"
         ?disabled=${args.disabled}
         ?checked=${args.checked}
-        .indeterminate=${args.intermediate ?? false}
+        .indeterminate=${args.indeterminate ?? false}
       />
       ${renderIcon("circle-alert", "small")}
       <span>${args.label}</span>
