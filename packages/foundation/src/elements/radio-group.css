@@ -53,9 +53,6 @@
 }
 
 .hap-radio {
-  --hap-radio-border-width: 2px;
-  --hap-radio-size: var(--hap-size-lg);
-
   color: var(--hap-radio-color-text);
   font-family: var(--hap-typography-font-family-body);
   font-size: var(--hap-typography-font-size-bodytext-s);
@@ -79,10 +76,10 @@
 
   color: var(--hap-radio-color-border);
   border-radius: 100%;
-  border: var(--hap-radio-border-width) solid currentColor;
+  border: var(--hap-border-width-md) solid currentColor;
   /* has no custom property... */
-  inline-size: calc(var(--hap-radio-size) - 2 * 3px);
-  block-size: calc(var(--hap-radio-size) - 2 * 3px);
+  inline-size: calc(var(--hap-size-lg) - 2 * 3px);
+  block-size: calc(var(--hap-size-lg) - 2 * 3px);
   margin: 3px;
 
   &:hover {
@@ -91,9 +88,9 @@
 
   &:focus-visible {
     z-index: 1;
-    outline: var(--hap-radio-border-width) solid;
-    outline-color: var(--hap-color-border-focused-default);
-    outline-offset: 1px;
+    outline: var(--hap-border-width-md) solid
+      var(--hap-color-border-focused-default);
+    outline-offset: var(--hap-border-width-sm);
   }
 
   &:checked::before {

@@ -1,16 +1,29 @@
 import { Meta, Canvas } from "@storybook/blocks";
-import * as checkboxStories from "./checkbox.stories.ts";
+import * as stories from "./checkbox.stories.ts";
 
-<Meta of={checkboxStories} />
+<Meta of={stories} />
 
 # Checkbox
 
-The following kinds of Checkboxs are available.
+Interaction element for using optional selection. The intermediate state is used
+when there is a partial selection within groups.
 
-## checkbox Default
+<Canvas of={stories.Default} />
 
-<Canvas of={checkboxStories.Default} />
+## Variants
 
-## checkbox Error
+### Default
 
-<Canvas of={checkboxStories.Error} />
+<Canvas of={stories.Default} />
+
+## Indeterminate
+
+<Canvas of={stories.Indeterminate} />
+
+## Disabled
+
+<Canvas of={stories.Disabled} />
+
+## Error
+
+<Canvas of={stories.Error} />
