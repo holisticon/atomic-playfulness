@@ -88,8 +88,8 @@
 
   &:focus-visible {
     z-index: 1;
-    outline: var(--hap-border-width-md) solid;
-    outline-color: var(--hap-color-border-focused-default);
+    outline: var(--hap-border-width-md) solid
+      var(--hap-color-border-focused-default);
     outline-offset: var(--hap-border-width-sm);
   }
 
