@@ -1,10 +1,8 @@
-import React, { type FC, Fragment } from "react";
-
-import { withReset } from "@storybook/components";
-
-import type { Theme } from "@storybook/theming";
-import { styled } from "@storybook/theming";
 import { transparentize } from "polished";
+import React, { type FC, Fragment } from "react";
+import { withReset } from "storybook/internal/components";
+import type { Theme } from "storybook/theming";
+import { styled } from "storybook/theming";
 
 /*
  * This component is copied from `@storybook/blocks` and slightly modified
