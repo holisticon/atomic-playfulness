@@ -129,7 +129,7 @@
   );
 }
 
-input.hap-feedback-invalid,
-.hap-textfield.hap-feedback-invalid > input {
+.hap-textfield-input.hap-feedback-invalid,
+.hap-textfield.hap-feedback-invalid > .hap-textfield-input {
   --hap-textfield-border-color: var(--hap-color-feedback-critical-dark);
 }

@@ -66,6 +66,31 @@ export const Invalid: Story = {
       <label for="textfield">
         ${renderIcon("circle-alert")} ${args.label}
       </label>
+      <div class="hap-textfield-input">
+        <input
+          id="textfield"
+          aria-describedby="description"
+          placeholder=${args.placeholder}
+          ?disabled=${args.disabled}
+          ?readonly=${args.readonly}
+        />
+      </div>
+      <span id="description">${args.description}</span>
+    </div>
+  `,
+};
+
+export const Simple: Story = {
+  render: (args) => html`
+    <div
+      class=${classMap({
+        "hap-textfield": true,
+        "hap-textfield--brand": args.round,
+      })}
+    >
+      <label for="textfield">
+        ${renderIcon("circle-alert")} ${args.label}
+      </label>
       <input
         id="textfield"
         aria-describedby="description"
