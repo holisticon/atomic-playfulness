@@ -18,15 +18,14 @@
   },
   "dependencies": {
     "@holisticon/hap-foundation": "^0.3.0",
-    "lit": "^3.2.1"
+    "lit": "^3.3.0",
+    "lucide-static": "^0.525.0",
+    "polished": "^4.3.1"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^8.5.0",
-    "@storybook/blocks": "^8.5.0",
-    "@storybook/manager-api": "^8.5.0",
-    "@storybook/theming": "^8.5.0",
-    "@storybook/web-components": "^8.5.0",
-    "@storybook/web-components-vite": "^8.5.0",
-    "storybook": "^8.5.0"
+    "@storybook/web-components-vite": "^9.0.15",
+    "storybook-addon-pseudo-states": "^9.0.15",
+    "storybook": "^9.0.15",
+    "@storybook/addon-docs": "^9.0.15"
   }
 }

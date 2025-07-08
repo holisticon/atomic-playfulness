@@ -22,7 +22,7 @@
     "lint": "eslint . && tz lint"
   },
   "devDependencies": {
-    "@terrazzo/cli": "^0.7.0",
-    "@terrazzo/plugin-css": "^0.7.0"
+    "@terrazzo/cli": "^0.10.1",
+    "@terrazzo/plugin-css": "^0.10.1"
   }
 }
