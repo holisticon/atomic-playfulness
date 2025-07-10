@@ -1,0 +1,21 @@
+import { Canvas, Meta } from "@storybook/addon-docs/blocks";
+import * as stories from "./toggle-button-group.stories.ts";
+
+<Meta of={stories} />
+
+# ToggleButtonGroup
+
+ToggleButtonGroups are used as a filter bar. Possible as radio or multiselect.
+Tabs are used at page level.
+
+<Canvas of={stories.Default} />
+
+## Variants
+
+### Small
+
+<Canvas of={stories.Small} />
+
+### MultiSelect
+
+<Canvas of={stories.MultiSelect} />
