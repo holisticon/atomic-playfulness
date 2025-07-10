@@ -97,7 +97,8 @@
 }
 
 .hap-textfield-input--brand,
-.hap-textfield--brand > input {
+.hap-textfield--brand > input,
+.hap-textfield--brand > .hap-textfield-input {
   border-radius: var(--hap-radius-full);
   padding-inline: var(--hap-spacing-md-lg);
   padding-block: var(--hap-spacing-md);
@@ -129,6 +130,8 @@
   );
 }
 
+input.hap-feedback-invalid,
+.hap-textfield.hap-feedback-invalid > input,
 .hap-textfield-input.hap-feedback-invalid,
 .hap-textfield.hap-feedback-invalid > .hap-textfield-input {
   --hap-textfield-border-color: var(--hap-color-feedback-critical-dark);

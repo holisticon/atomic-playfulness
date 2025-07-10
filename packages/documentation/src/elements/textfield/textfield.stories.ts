@@ -88,9 +88,7 @@ export const Simple: Story = {
         "hap-textfield--brand": args.round,
       })}
     >
-      <label for="textfield">
-        ${renderIcon("circle-alert")} ${args.label}
-      </label>
+      <label for="textfield"> ${args.label} </label>
       <input
         id="textfield"
         aria-describedby="description"
