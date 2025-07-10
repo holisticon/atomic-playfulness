@@ -1,4 +1,5 @@
-.hap-button {
+.hap-button,
+.hap-toggle-button {
   font-family: var(--hap-typography-font-family-body);
   font-size: var(--hap-typography-font-size-bodytext-s);
   font-weight: var(--hap-typography-font-weight-medium);
@@ -18,7 +19,8 @@
     width: var(--hap-typography-line-height-bodytext-standard-singleline);
   }
 
-  &.hap-button--small {
+  &.hap-button--small,
+  &.hap-toggle-button--small {
     padding: var(--hap-spacing-xs) var(--hap-spacing-sm);
     font-size: var(--hap-typography-font-size-bodytext-s);
     line-height: var(--hap-typography-line-height-bodytext-s-singleline);
@@ -39,7 +41,8 @@
     outline: none;
   }
 
-  &.hap-button--primary {
+  &.hap-button--primary,
+  &.hap-toggle-button:is([aria-pressed="true"], [aria-checked="true"]) {
     color: light-dark(
       var(--hap-color-text-brand-on-dark),
       var(--hap-color-text-brand-on-light)
@@ -60,7 +63,6 @@
       );
     }
 
-    &:focus,
     &:focus-visible {
       color: light-dark(
         var(--hap-color-text-brand-on-dark),
@@ -100,7 +102,8 @@
     }
   }
 
-  &.hap-button--secondary {
+  &.hap-button--secondary,
+  &.hap-toggle-button:is([aria-pressed="false"], [aria-checked="false"]) {
     color: light-dark(
       var(--hap-color-text-brand-on-light),
       var(--hap-color-text-brand-on-dark-only)
@@ -131,7 +134,6 @@
         );
     }
 
-    &:focus,
     &:focus-visible {
       color: light-dark(
         var(--hap-color-text-brand-on-light),
@@ -182,7 +184,11 @@
   }
 
   /* same as secondary but without borders in some states */
-  &.hap-button--tertiary {
+  &.hap-button--tertiary,
+  &.hap-toggle-button--sublte:is(
+      [aria-pressed="false"],
+      [aria-checked="false"]
+    ) {
     color: light-dark(
       var(--hap-color-text-brand-on-light),
       var(--hap-color-text-brand-on-dark-only)
@@ -203,7 +209,6 @@
       );
     }
 
-    &:focus,
     &:focus-visible {
       color: light-dark(
         var(--hap-color-text-brand-on-light),
@@ -264,7 +269,6 @@
       );
     }
 
-    &:focus,
     &:focus-visible {
       color: light-dark(
         var(--hap-color-feedback-critical-light),

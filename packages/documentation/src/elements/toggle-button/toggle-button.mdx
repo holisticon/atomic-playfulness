@@ -1,0 +1,33 @@
+import { Canvas, Meta } from "@storybook/addon-docs/blocks";
+import * as stories from "./toggle-button.stories.ts";
+
+<Meta of={stories} />
+
+# ToggleButton
+
+A two-state button that can be either off (not pressed) or on (pressed). To tell
+assistive technologies that a button is a toggle button, specify a value for the
+attribute `aria-pressed`.
+
+<Canvas of={stories.Default} />
+
+## Variants
+
+### Pressed
+
+The style of ToggleButtons after they have been pressed. You have to adjust the
+`aria-pressed` to have these styles.
+
+<Canvas of={stories.Pressed} />
+
+### With Icons
+
+<Canvas of={stories.WithIcon} />
+
+### Small
+
+<Canvas of={stories.Small} />
+
+### Subtle
+
+<Canvas of={stories.Subtle} />
