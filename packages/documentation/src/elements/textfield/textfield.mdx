@@ -5,6 +5,9 @@ import * as stories from "./textfield.stories.ts";
 
 # Textfield
 
+Textfield enable users to enter a single line of text. They usually appear
+within forms and dialogs.
+
 <Canvas of={stories.Default} />
 
 ## Variants
@@ -29,6 +32,15 @@ import * as stories from "./textfield.stories.ts";
 
 <Canvas of={stories.Disabled} />
 
+### Simple Input
+
+The textfield can also be used with a simpler markup, without the ability to add
+leading or trailing icons.
+
+<Canvas of={stories.Simple} />
+
 ### Granular CSS Classes
+
+The individual parts of the textfield component can also be used separately.
 
 <Canvas of={stories.Granular} />
