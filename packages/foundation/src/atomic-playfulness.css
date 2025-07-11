@@ -25,6 +25,7 @@
 @import "./elements/textarea.css";
 @import "./elements/textfield.css";
 @import "./elements/textlink.css";
+@import "./elements/toggle-button-group.css";
 @import "./elements/tooltip.css";
 @import "./elements/topbar.css";
 @import "./elements/typography.css";

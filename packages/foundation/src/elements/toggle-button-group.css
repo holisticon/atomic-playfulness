@@ -1,0 +1,22 @@
+.hap-toggle-button-group {
+  display: flex;
+
+  & > .hap-toggle-button:not(:first-of-type) {
+    /* Move buttons by their border length to the left to avoid double borders inside the group. */
+    margin-inline-start: calc(var(--hap-border-width-sm) * -1);
+  }
+
+  & > .hap-toggle-button:not(:first-of-type):not(:last-of-type) {
+    border-radius: unset;
+  }
+
+  & > .hap-toggle-button:first-of-type {
+    border-start-end-radius: unset;
+    border-end-end-radius: unset;
+  }
+
+  & > .hap-toggle-button:last-of-type {
+    border-start-start-radius: unset;
+    border-end-start-radius: unset;
+  }
+}
