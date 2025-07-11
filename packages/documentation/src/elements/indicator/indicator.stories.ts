@@ -1,12 +1,9 @@
 import type { Meta, StoryObj } from "@storybook/web-components-vite";
 import { html } from "lit";
-
-type IndicatorVariant = "default" | "small";
-
-interface IndicatorArgs {
-  number: string;
-  variant: IndicatorVariant;
-}
+import {
+  renderIndicator,
+  type IndicatorArgs,
+} from "./indicator-story-helpers.js";
 
 const meta: Meta<IndicatorArgs> = {
   args: {
@@ -22,7 +19,7 @@ const meta: Meta<IndicatorArgs> = {
   render: (args) => html`
     <div style="display:flex;gap:0.5rem;flex-direction:column;padding:2rem">
       <div class="hap-indicator ${args.variant}">
-        <span class="hap-indicator-number">${args.number}</span>
+        ${renderIndicator(args.variant, args.number)}
       </div>
     </div>
   `,
