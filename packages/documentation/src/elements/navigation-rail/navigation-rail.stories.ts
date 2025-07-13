@@ -14,13 +14,17 @@ const meta: Meta<NavigationRailItemArgs> = {
   },
   render: (args) =>
     html`<div
-      style="display:flex;gap:0.5rem;padding:2rem;flex-direction:column"
+      style="display:flex;gap:0.5rem;padding:2rem;flex-direction:column;background:#eeeeee"
     >
-      ${renderNavigationRailItem({ ...args, icon: "menu", label: "" })}
-      ${renderNavigationRailItem({ ...args, selected: true })}
-      ${renderNavigationRailItem({ ...args, badgeVariant: "default" })}
-      ${renderNavigationRailItem(args)} ${renderNavigationRailItem(args)}
-      ${renderNavigationRailItem(args)}
+      <div
+        style="display:flex;gap:0.5rem;flex-direction:column;width:max-content; background:white"
+      >
+        ${renderNavigationRailItem({ ...args, icon: "menu", label: "" })}
+        ${renderNavigationRailItem({ ...args, selected: true })}
+        ${renderNavigationRailItem({ ...args, badgeVariant: "default" })}
+        ${renderNavigationRailItem(args)} ${renderNavigationRailItem(args)}
+        ${renderNavigationRailItem(args)}
+      </div>
     </div>`,
 };
 

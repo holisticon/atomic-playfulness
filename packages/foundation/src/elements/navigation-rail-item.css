@@ -34,7 +34,7 @@
 
   &:focus-visible {
     outline: 2px solid var(--hap-color-border-focused-default);
-    background: none !important;
+    background: none;
   }
 
   &.hap-navigation-rail-item--selected {
