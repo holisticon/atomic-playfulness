@@ -1,23 +1,23 @@
 # Atomic Playfulness
 
-Holisticon Atomic Playfulness (HAP), the design system built by and for
-applications built by Holisticon.
+Atomic Playfulness defines the brand design for Holisticon AG. This design
+system "Holisticon Atomic Playfulness" (HAP) makes the brand design accessible
+to web applications. It is intended to be used by applications that are built by
+and for Holisticon.
 
-This readme is intended for developers who want to contribute to or understand
-how this library is built. If you want to use it in your application, see the
-documentation in Storybook.
+## Getting Started
 
-## Install
+This README is intended for developers who want to contribute to Atomic
+Playfulness. Please refer to
+[our documentation](https://atomic-playfulness.holisticon.de/) if you want to
+use Atomic Playfulness in your application.
 
-```shell
-npm install
-```
+Initial setup requirements and our developing workflow is documented in our
+[contribution guidelines](./CONTRIBUTING.md). After you setup your workspace,
+you can develop the design system in our Storybook by executing the following
+command in the project root.
 
-## Storybook
-
-To run Storybook locally, run:
-
-```shell
+```bash
 npm run storybook
 ```
 
