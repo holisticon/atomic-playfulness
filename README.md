@@ -21,7 +21,7 @@ To run Storybook locally, run:
 npm run storybook
 ```
 
-# License
+## License
 
-Atomic Playfulness is created for Holisticon AG and only intended to be used by
-Holisticon and its projects.
+Atomic Playfulness is created for [Holisticon AG](https://holisticon.de) and
+only intended to be used by Holisticon and its projects.
