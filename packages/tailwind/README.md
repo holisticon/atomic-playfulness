@@ -1,5 +1,10 @@
 <h1 align="center">Atomic Playfulness - Tailwind Configuration</h1>
 
+Atomic Playfulness defines the brand design for Holisticon AG. This design
+system "Holisticon Atomic Playfulness" (HAP) makes the brand design accessible
+to web applications. It is intended to be used by applications that are built by
+and for Holisticon.
+
 ## Installation
 
 You can install the Tailwind configuration package for Atomic Playfulness with
