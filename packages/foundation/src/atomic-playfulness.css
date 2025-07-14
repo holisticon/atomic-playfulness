@@ -2,6 +2,7 @@
 
 @import "../dist/tokens.css";
 @import "./es-klarheit.css";
+@import "./feedback.css";
 
 @import "./elements/alert.css";
 @import "./elements/badge.css";
