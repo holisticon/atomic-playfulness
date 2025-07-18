@@ -1,21 +1,14 @@
 import { Meta, Canvas } from "@storybook/addon-docs/blocks";
 import * as NavigationRailStories from "./navigation-rail.stories.ts";
-import * as NavigationRailItemStoriess from "./navigation-rail-item.stories.ts";
 
 <Meta of={NavigationRailStories} />
 
 # Navigation Rail
 
 Navigation Rails provide access to the application's main destinations,
-especially on tablet and desktop devices.
+especially on tablet and desktop devices. For the navigation rail items, there
+is one main-class `.hap-navigation-rail-item`. The sizing happens automatically
+based on the selected icon-size. For a special 'selected'-state, use the
+additional `.hap-navigation-rail-item--selected` class.
 
 <Canvas of={NavigationRailStories.NavigationRail} />
-
-# Navigation Rail Items
-
-For the navigation rail items, there is one main-class
-`.hap-navigation-rail-item`. The sizing happens automatically based on the
-selected icon-size. For a special 'selected'-state, use the additional
-`.hap-navigation-rail-item--selected` class.
-
-<Canvas of={NavigationRailItemStories.NavigationRailItem} />

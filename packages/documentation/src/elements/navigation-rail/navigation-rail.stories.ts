@@ -12,6 +12,12 @@ const meta: Meta<NavigationRailItemArgs> = {
     badgeVariant: "none",
     label: "Label",
   },
+  argTypes: {
+    badgeVariant: {
+      control: { type: "select" },
+      options: ["default", "small", "none"],
+    },
+  },
   render: (args) =>
     html`<div
       style="display:flex;gap:0.5rem;padding:2rem;flex-direction:column;background:#eeeeee"
@@ -33,3 +39,14 @@ export default meta;
 export type Story = StoryObj<NavigationRailItemArgs>;
 
 export const NavigationRail: Story = {};
+
+export const NavigationRailItem: Story = {
+  name: "Navigation Rail Item",
+  render: (args) =>
+    html`<div style="display:flex;gap:2rem;padding:2rem">
+      ${renderNavigationRailItem({ ...args })}
+      ${renderNavigationRailItem({ ...args, selected: true })}
+      ${renderNavigationRailItem({ ...args, label: "Label" })}
+      ${renderNavigationRailItem({ ...args, label: "Label", selected: true })}
+    </div>`,
+};
