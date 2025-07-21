@@ -41,13 +41,17 @@
   }
 
   &:active::after {
-    background-color: currentColor;
+    background-color: transparent;
   }
 
   &:focus-visible {
     outline: var(--hap-border-width-md) solid
       var(--hap-color-border-focused-default);
   }
+}
+
+.hap-topbar-nav-item--active::after {
+  background-color: var(--hap-color-text-brand-on-light);
 }
 
 .hap-topbar-nav-item--disabled {
