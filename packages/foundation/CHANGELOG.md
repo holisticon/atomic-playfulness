@@ -1,5 +1,35 @@
 # @holisticon/hap-foundation
 
+## 0.4.0
+
+### Minor Changes
+
+- [#157](https://github.com/holisticon/atomic-playfulness/pull/157) [`225babb`](https://github.com/holisticon/atomic-playfulness/commit/225babb42adbb6b9bfd1047044b778d1d91bccff) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Added CSS classes for styling toggle-button components.
+
+- [#149](https://github.com/holisticon/atomic-playfulness/pull/149) [`1f8f091`](https://github.com/holisticon/atomic-playfulness/commit/1f8f091fdcc3b850092d7007516bd6b162d052e5) Thanks [@mrm1st3r](https://github.com/mrm1st3r)! - Add Dropdown
+
+- [#150](https://github.com/holisticon/atomic-playfulness/pull/150) [`277f327`](https://github.com/holisticon/atomic-playfulness/commit/277f3272addb8ff9ee289539adca07dd50d401dd) Thanks [@mrm1st3r](https://github.com/mrm1st3r)! - Add menu component
+
+- [#144](https://github.com/holisticon/atomic-playfulness/pull/144) [`81e5c1a`](https://github.com/holisticon/atomic-playfulness/commit/81e5c1a3407e6251b24e777184957dd3fd0ea158) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Added CSS classes for styling topbar components.
+
+- [#140](https://github.com/holisticon/atomic-playfulness/pull/140) [`c1a4d9d`](https://github.com/holisticon/atomic-playfulness/commit/c1a4d9db563cd2e81c64fe87f6fc7b4cd38d8051) Thanks [@fabiangaukler](https://github.com/fabiangaukler)! - feat: implement navigation rail item
+
+- [#145](https://github.com/holisticon/atomic-playfulness/pull/145) [`b2df716`](https://github.com/holisticon/atomic-playfulness/commit/b2df71698e745595d9958903f1168002f595f3e3) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Added CSS classes for styling tab components.
+
+- [#148](https://github.com/holisticon/atomic-playfulness/pull/148) [`275b519`](https://github.com/holisticon/atomic-playfulness/commit/275b5199b58e5b7dff08bde16441303898c4b9e9) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Overhauled the checkbox styles to match their updated design in Figma.
+
+- [#157](https://github.com/holisticon/atomic-playfulness/pull/157) [`225babb`](https://github.com/holisticon/atomic-playfulness/commit/225babb42adbb6b9bfd1047044b778d1d91bccff) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Added CSS classes for styling toggle-button-group components.
+
+- [#153](https://github.com/holisticon/atomic-playfulness/pull/153) [`5bf62c2`](https://github.com/holisticon/atomic-playfulness/commit/5bf62c262c2195d3ac1388b2f9dfc82fa6b7cec2) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Adjusted the height of search elements to have the same height as textfields.
+
+### Patch Changes
+
+- [#147](https://github.com/holisticon/atomic-playfulness/pull/147) [`360e59c`](https://github.com/holisticon/atomic-playfulness/commit/360e59c7a8f9954d62bdc87058ee64f99284cd19) Thanks [@mrm1st3r](https://github.com/mrm1st3r)! - Change badge to inline-flex to allow placement within text
+
+- [#141](https://github.com/holisticon/atomic-playfulness/pull/141) [`7a11565`](https://github.com/holisticon/atomic-playfulness/commit/7a115659511cb301586b8e6c4382343605a6f2b2) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Fixed the box-model of Alert elements to avoid overlapping parent containers.
+
+- [#142](https://github.com/holisticon/atomic-playfulness/pull/142) [`b88582f`](https://github.com/holisticon/atomic-playfulness/commit/b88582f88ac5028c16f81baeaf2fe5ed5d9451ea) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Fixed the small text stylings to reference a font-family design token that actually exists.
+
 ## 0.3.0
 
 ### Minor Changes
