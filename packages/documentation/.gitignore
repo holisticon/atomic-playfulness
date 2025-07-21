@@ -1,0 +1,11 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# ignore all screenshots except for the platform running the CI pipeline.
+tests/screenshots
+!tests/screenshots/linux
