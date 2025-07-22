@@ -7,5 +7,5 @@ node_modules/
 /playwright/.cache/
 
 # ignore all screenshots except for the platform running the CI pipeline.
-tests/screenshots
+tests/screenshots/*
 !tests/screenshots/linux
