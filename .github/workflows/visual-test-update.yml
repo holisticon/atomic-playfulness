@@ -2,13 +2,14 @@ name: visual-test-update
 
 on:
   workflow_dispatch:
+permissions:
+  contents: write
 env:
   CI: true
+  GH_TOKEN: ${{ github.token }}
 
 jobs:
   visual-test-update:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
