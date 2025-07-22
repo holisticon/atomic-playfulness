@@ -140,6 +140,8 @@ jobs:
         run: npm ci
       - name: Install playwright browsers
         run: npx playwright install --with-deps
+      - name: Build Package
+        run: npm run build
       - name: Update Visual Test Reference Screenshots
         run: npm run visual-test-update
       - name: Commit updated Screenshots
