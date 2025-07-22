@@ -2,12 +2,13 @@ name: visual-test-update
 
 on:
   workflow_dispatch:
-
 env:
   CI: true
 
 jobs:
-  visual-test:
+  visual-test-update:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -23,3 +24,7 @@ jobs:
         run: npx playwright install --with-deps
       - name: Update Visual Test Reference Screenshots
         run: npm run visual-test-update
+      - name: Commit updated Screenshots
+        run: |
+          git commit -am "chore: update screenshots"
+          git push
