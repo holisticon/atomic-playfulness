@@ -1,5 +1,11 @@
 # @holisticon/hap-foundation
 
+## 0.4.1
+
+### Patch Changes
+
+- [#172](https://github.com/holisticon/atomic-playfulness/pull/172) [`4ad537e`](https://github.com/holisticon/atomic-playfulness/commit/4ad537ea765a73e987897406d373f8e9cf6994a0) Thanks [@mrm1st3r](https://github.com/mrm1st3r)! - only show modal when open
+
 ## 0.4.0
 
 ### Minor Changes
