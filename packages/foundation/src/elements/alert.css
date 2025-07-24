@@ -13,31 +13,8 @@
   align-items: flex-start;
   gap: var(--hap-spacing-md);
   width: 100%;
-
-  &.positive {
-    color: var(--hap-color-feedback-positive-dark);
-    background-color: var(--hap-color-feedback-positive-light);
-  }
-
-  &.caution {
-    color: var(--hap-color-feedback-caution-dark);
-    background-color: var(--hap-color-feedback-caution-light);
-  }
-
-  &.critical {
-    color: var(--hap-color-feedback-critical-dark);
-    background-color: var(--hap-color-feedback-critical-light);
-  }
-
-  &.informative {
-    color: var(--hap-color-feedback-neutral-dark);
-    background-color: var(--hap-color-feedback-neutral-light);
-  }
-
-  &.promoted {
-    color: var(--hap-color-feedback-new-dark);
-    background-color: var(--hap-color-feedback-new-light);
-  }
+  color: var(--hap-color-feedback-dark);
+  background-color: var(--hap-color-feedback-light);
 }
 
 .hap-alert-content {
