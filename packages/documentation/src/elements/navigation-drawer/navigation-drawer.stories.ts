@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/web-components-vite";
 import { html } from "lit";
 import { renderIcon, type IconType } from "../icon/icon.stories.js";
 
-function navigationItem(icon: IconType, label: string, indicator = 0) {
+export function navigationItem(icon: IconType, label: string, indicator = 0) {
   return html`
     <li>
       <a class="hap-navigation-drawer-item" href="#">

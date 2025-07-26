@@ -35,6 +35,7 @@ const meta: Meta<DividerArgs> = {
           gap: "1rem",
           width: args.orientation === "horizontal" ? "100%" : "auto",
           flexDirection: args.orientation === "horizontal" ? "column" : "row",
+          alignItems: "stretch",
           padding: "2rem",
           height: args.orientation === "horizontal" ? "100px" : "200px", // arbitrary sizes
         })}

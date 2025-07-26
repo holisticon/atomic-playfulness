@@ -18,7 +18,6 @@
 .hap-divider-vertical {
   border: none;
   display: inline-block;
-  height: 100%;
   border-left: solid 1px var(--hap-color-fill-secondary-on-light-default);
   margin: 0;
 
