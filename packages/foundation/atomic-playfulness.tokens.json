@@ -1087,7 +1087,7 @@
         },
         "blackLightest": {
           "$type": "color",
-          "$value": "#1414191f",
+          "$value": "#14141914",
           "$description": "",
           "$extensions": {
             "mode": {},
@@ -1121,7 +1121,7 @@
         },
         "blackLight": {
           "$type": "color",
-          "$value": "#14141933",
+          "$value": "#14141926",
           "$description": "",
           "$extensions": {
             "mode": {},
@@ -1541,6 +1541,23 @@
           "figma": {
             "codeSyntax": {},
             "variableId": "VariableID:23:39",
+            "collection": {
+              "id": "VariableCollectionId:2:5",
+              "name": "Primitives",
+              "defaultModeId": "2:0"
+            }
+          }
+        }
+      },
+      "quarter": {
+        "$type": "dimension",
+        "$value": "2px",
+        "$description": "",
+        "$extensions": {
+          "mode": {},
+          "figma": {
+            "codeSyntax": {},
+            "variableId": "VariableID:4094:217",
             "collection": {
               "id": "VariableCollectionId:2:5",
               "name": "Primitives",
@@ -2573,6 +2590,26 @@
           "figma": {
             "codeSyntax": {},
             "variableId": "VariableID:215:637",
+            "collection": {
+              "id": "VariableCollectionId:23:56",
+              "name": "Tokens",
+              "defaultModeId": "23:0"
+            }
+          }
+        }
+      },
+      "2xs": {
+        "$type": "dimension",
+        "$value": "{Primitives.spacing.quarter}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "Light": "{Primitives.spacing.quarter}",
+            "Dark": "{Primitives.spacing.quarter}"
+          },
+          "figma": {
+            "codeSyntax": {},
+            "variableId": "VariableID:4094:218",
             "collection": {
               "id": "VariableCollectionId:23:56",
               "name": "Tokens",
@@ -4078,12 +4115,12 @@
           "onLight": {
             "default": {
               "$type": "color",
-              "$value": "{Primitives.color.base.blackTransparent}",
+              "$value": "{Primitives.color.base.whitePrimary}",
               "$description": "",
               "$extensions": {
                 "mode": {
-                  "Light": "{Primitives.color.base.blackTransparent}",
-                  "Dark": "{Primitives.color.base.whiteTransparent}"
+                  "Light": "{Primitives.color.base.whitePrimary}",
+                  "Dark": "{Primitives.color.base.blackPrimary}"
                 },
                 "figma": {
                   "codeSyntax": {},
@@ -4160,12 +4197,12 @@
           "onDark": {
             "default": {
               "$type": "color",
-              "$value": "{Primitives.color.base.whiteTransparent}",
+              "$value": "{Primitives.color.base.blackPrimary}",
               "$description": "",
               "$extensions": {
                 "mode": {
-                  "Light": "{Primitives.color.base.whiteTransparent}",
-                  "Dark": "{Primitives.color.base.blackTransparent}"
+                  "Light": "{Primitives.color.base.blackPrimary}",
+                  "Dark": "{Primitives.color.base.whitePrimary}"
                 },
                 "figma": {
                   "codeSyntax": {},
@@ -6823,7 +6860,7 @@
         "Primitives",
         "Tokens"
       ],
-      "createdAt": "2025-04-11T10:53:09.546Z"
+      "createdAt": "2025-07-30T06:03:26.518Z"
     }
   }
 }
