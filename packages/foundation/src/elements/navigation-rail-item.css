@@ -1,3 +1,19 @@
+.hap-navigation-rail {
+  display: flex;
+  flex-direction: column;
+  padding: var(--hap-spacing-md-lg) 0;
+  align-items: center;
+  gap: var(--hap-spacing-lg);
+
+  background: var(--hap-color-surface-primary-default);
+}
+
+.hap-navigation-rail-items {
+  display: flex;
+  flex-direction: column;
+  gap: var(--hap-spacing-sm);
+}
+
 .hap-navigation-rail-item {
   font-family: var(--hap-typography-font-family-body);
   width: 80px;
