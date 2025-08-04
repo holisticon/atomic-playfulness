@@ -11,6 +11,7 @@ const preview: Preview = {
           "Introduction",
           "Foundation",
           "Design Tokens",
+          "Layout",
           "Elements",
           "Tailwind",
           "Examples",
