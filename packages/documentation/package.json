@@ -27,11 +27,11 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.54.0",
-    "@storybook/addon-docs": "^9.0.16",
-    "@storybook/web-components-vite": "^9.0.16",
+    "@storybook/addon-docs": "^9.0.18",
+    "@storybook/web-components-vite": "^9.0.18",
     "@types/node": "^24.0.12",
     "local-web-server": "^5.4.0",
-    "storybook": "^9.0.16",
-    "storybook-addon-pseudo-states": "^9.0.16"
+    "storybook": "^9.0.18",
+    "storybook-addon-pseudo-states": "^9.0.18"
   }
 }
