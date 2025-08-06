@@ -11,7 +11,7 @@ env:
 
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -37,14 +37,41 @@ jobs:
             **/CHANGELOG.md
             !**/node_modules/**
 
+  visual-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: ".node-version"
+          cache: "npm"
+      - name: Install Dependencies
+        run: npm ci
+      - name: Install playwright browsers
+        run: npx playwright install --with-deps
+      - name: Build Package
+        run: npm run build
+      - name: Run Visual Tests
+        run: npm run visual-test
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 30
+
   deploy-pages:
     permissions:
       contents: read
       pages: write
       id-token: write
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/main' }}
-    needs: build
+    needs:
+      - build
+      - visual-test
     steps:
       - name: Download previous build artifacts
         uses: actions/download-artifact@v4
@@ -63,10 +90,12 @@ jobs:
       contents: write #  to create release (changesets/action)
       issues: write # to post issue comments (changesets/action)
       pull-requests: write #  to create pull request (changesets/action)
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/main' }}
     concurrency: ${{ github.workflow }}-${{ github.ref }}
-    needs: build
+    needs:
+      - build
+      - visual-test
     steps:
       - name: Checkout
         uses: actions/checkout@v4

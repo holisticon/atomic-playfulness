@@ -19,6 +19,8 @@
     "version": "changeset version && npm i",
     "release": "changeset publish",
     "storybook": "npm run build && npm run dev -w @holisticon/hap-documentation",
+    "visual-test": "npm run visual-test -w @holisticon/hap-documentation",
+    "visual-test-update": "npm run visual-test-update -w @holisticon/hap-documentation",
     "update": "ncu -i -ws"
   },
   "devDependencies": {
