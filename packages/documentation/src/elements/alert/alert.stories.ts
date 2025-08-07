@@ -37,7 +37,9 @@ const meta: Meta<AlertArgs> = {
           <span>${args.label}</span>
         </div>
         ${args.iconbutton
-          ? html`<i class="hap-iconbutton" data-lucide=${args.iconbutton}></i>`
+          ? html`<button class="hap-icon-button--sm">
+              ${renderIcon("circle-x", "small")}
+            </button>`
           : ""}
       </div>
     </div>

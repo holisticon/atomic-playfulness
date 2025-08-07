@@ -25,7 +25,11 @@ const meta: Meta<AlertArgs> = {
           <span>${args.label}</span>
           <div class="hap-snackbar-actions">
             <button class="hap-snackbar-button">Action</button>
-            ${args.iconbutton ? renderIcon(args.iconbutton) : ""}
+            ${args.iconbutton
+              ? html`<button class="hap-icon-button--sm">
+                  ${renderIcon("circle-x", "small")}
+                </button>`
+              : ""}
           </div>
         </div>
       </div>
