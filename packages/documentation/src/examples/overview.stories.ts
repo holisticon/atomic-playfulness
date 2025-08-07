@@ -274,7 +274,17 @@ const meta: Meta = {
           </button>
         </div>
 
-        ${surface(html` <div class="flex-row">TODO: tag</div> `)}
+        ${surface(html`
+          <div class="flex-row gap-md">
+            <span class="hap-tag">Label</span>
+            <span class="hap-tag">${renderIcon("sparkles", "small")}Label</span>
+            <span class="hap-tag"
+              >Label<button class="hap-icon-button--xs">
+                ${renderIcon("circle-x", "small")}
+              </button></span
+            >
+          </div>
+        `)}
 
         <div class="flex-row stretch gap-md">
           <div class=" hap-textfield flex-grow">
