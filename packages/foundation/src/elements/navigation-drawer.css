@@ -4,7 +4,6 @@
   flex-direction: column;
   min-width: 360px;
   width: fit-content;
-  justify-content: flex-end;
   align-items: stretch;
 
   gap: 0;

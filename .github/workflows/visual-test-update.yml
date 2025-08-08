@@ -6,7 +6,7 @@ permissions:
   contents: write
 env:
   CI: true
-  GH_TOKEN: ${{ github.token }}
+  GH_TOKEN: ${{ secrets.VISUAL_TEST_UPDATE_TOKEN }}
 
 jobs:
   visual-test-update:

@@ -7,6 +7,7 @@
   font-weight: var(--hap-typography-font-weight-medium);
   letter-spacing: var(--hap-typography-letter-spacing-xs);
   line-height: var(--hap-typography-line-height-headline-3-xl);
+  margin: 0;
 }
 
 .hap-headline-2xl {
@@ -16,6 +17,7 @@
   font-weight: var(--hap-typography-font-weight-medium);
   letter-spacing: var(--hap-typography-letter-spacing-xs);
   line-height: var(--hap-typography-line-height-headline-2-xl);
+  margin: 0;
 }
 
 .hap-headline-xl {
@@ -25,6 +27,7 @@
   font-weight: var(--hap-typography-font-weight-medium);
   letter-spacing: var(--hap-typography-letter-spacing-sm);
   line-height: var(--hap-typography-line-height-headline-xl);
+  margin: 0;
 }
 
 .hap-headline-lg {
@@ -34,6 +37,7 @@
   font-weight: var(--hap-typography-font-weight-medium);
   letter-spacing: var(--hap-typography-letter-spacing-sm);
   line-height: var(--hap-typography-line-height-headline-lg);
+  margin: 0;
 }
 
 .hap-headline-md {
@@ -43,6 +47,7 @@
   font-weight: var(--hap-typography-font-weight-medium);
   letter-spacing: var(--hap-typography-letter-spacing-md);
   line-height: var(--hap-typography-line-height-headline-md);
+  margin: 0;
 }
 
 .hap-headline-sm {
@@ -52,6 +57,7 @@
   font-weight: var(--hap-typography-font-weight-medium);
   letter-spacing: var(--hap-typography-letter-spacing-lg);
   line-height: var(--hap-typography-line-height-headline-sm);
+  margin: 0;
 }
 
 /* Body text */

@@ -1,20 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/web-components-vite";
 import { html } from "lit";
-import { renderIcon, type IconType } from "../icon/icon.stories.js";
-
-function navigationItem(icon: IconType, label: string, indicator = 0) {
-  return html`
-    <li>
-      <a class="hap-navigation-drawer-item" href="#">
-        ${renderIcon(icon)}
-        <span>${label}</span>
-        <div class="hap-indicator default">
-          <span class="hap-indicator-number">${indicator}</span>
-        </div>
-      </a>
-    </li>
-  `;
-}
+import { navigationItem } from "./navigation-drawer-helpers.js";
 
 const meta: Meta = {
   render: () => html`
