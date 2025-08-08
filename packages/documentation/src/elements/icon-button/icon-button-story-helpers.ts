@@ -75,7 +75,6 @@ const renderIconButton = (args: IconButtonArgs) => html`
   <button
     class="
 hap-icon-button${args.size != "default" ? "--" + args.size : ""}
-${args.disabled ? "disabled" : ""} 
 ${args.selected ? "hap-icon-button--selected" : ""}
 "
     ?disabled=${args.disabled}
