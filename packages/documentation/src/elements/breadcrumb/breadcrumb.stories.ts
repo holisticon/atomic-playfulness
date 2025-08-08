@@ -12,14 +12,14 @@ const renderBreadcrumbIcon = (isLastIndex: boolean) =>
 
 const renderBreadcrumb = (args: BreadCrumbArgs) => {
   return html` <nav class="hap-breadcrumb">
-    <ol class="hap-breakcrumb-list">
+    <ol class="hap-breadcrumb-list">
       ${args.pages?.map(
         (elem, index) => html`
           <li class="hap-breadcrumb-item">
             <a
               class=${index == args.currentPageIndex
-                ? "selected hap-breakcrumb-link"
-                : "hap-breakcrumb-link"}
+                ? "selected hap-breadcrumb-link"
+                : "hap-breadcrumb-link"}
             >
               ${elem} ${renderBreadcrumbIcon(args.pages.length - 1 !== index)}
             </a>
@@ -33,11 +33,13 @@ const renderBreadcrumb = (args: BreadCrumbArgs) => {
 const meta: Meta<BreadCrumbArgs> = {
   render: (args) => html`
     <div
-      style="display:flex;gap:1rem;color-scheme:light;background-color:white"
+      style="display:flex;gap:1rem;padding: var(--hap-spacing-md);color-scheme:light;background-color:white"
     >
       ${renderBreadcrumb(args)}
     </div>
-    <div style="display:flex;gap:1rem;color-scheme:dark;background-color:black">
+    <div
+      style="display:flex;gap:1rem;padding: var(--hap-spacing-md);color-scheme:dark;background-color:black"
+    >
       ${renderBreadcrumb(args)}
     </div>
   `,

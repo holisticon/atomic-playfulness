@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/web-components-vite";
 import { html, type TemplateResult } from "lit";
 import { classMap } from "lit/directives/class-map.js";
 import { renderIcon } from "../elements/icon/icon.stories.js";
-import { navigationItem } from "../elements/navigation-drawer/navigation-drawer.stories.js";
+import { navigationItem } from "../elements/navigation-drawer/navigation-drawer-helpers.js";
 import { renderNavigationRailItem } from "../elements/navigation-rail/navigation-rail-item-story-helpers.js";
 
 const surface = (
