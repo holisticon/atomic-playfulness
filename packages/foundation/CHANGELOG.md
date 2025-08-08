@@ -1,5 +1,23 @@
 # @holisticon/hap-foundation
 
+## 0.4.1
+
+### Patch Changes
+
+- [#163](https://github.com/holisticon/atomic-playfulness/pull/163) [`ef88203`](https://github.com/holisticon/atomic-playfulness/commit/ef882035c9ff362148701d542eb6c3749d3daa41) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Fix spacing on breadcrumbs
+
+- [#172](https://github.com/holisticon/atomic-playfulness/pull/172) [`4ad537e`](https://github.com/holisticon/atomic-playfulness/commit/4ad537ea765a73e987897406d373f8e9cf6994a0) Thanks [@mrm1st3r](https://github.com/mrm1st3r)! - only show modal when open
+
+- [#163](https://github.com/holisticon/atomic-playfulness/pull/163) [`ef88203`](https://github.com/holisticon/atomic-playfulness/commit/ef882035c9ff362148701d542eb6c3749d3daa41) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Fix icon button color in snackbar
+
+- [#163](https://github.com/holisticon/atomic-playfulness/pull/163) [`ef88203`](https://github.com/holisticon/atomic-playfulness/commit/ef882035c9ff362148701d542eb6c3749d3daa41) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - fix automatic height of vertical divider
+
+- [#189](https://github.com/holisticon/atomic-playfulness/pull/189) [`92b235c`](https://github.com/holisticon/atomic-playfulness/commit/92b235c9ccae548e92dda49f824bf8ff7dcb6a4b) Thanks [@mrm1st3r](https://github.com/mrm1st3r)! - Fix disabled state for icon button
+
+- [#163](https://github.com/holisticon/atomic-playfulness/pull/163) [`ef88203`](https://github.com/holisticon/atomic-playfulness/commit/ef882035c9ff362148701d542eb6c3749d3daa41) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Explicitly remove margin on headings
+
+- [#179](https://github.com/holisticon/atomic-playfulness/pull/179) [`1ca8b90`](https://github.com/holisticon/atomic-playfulness/commit/1ca8b90a1929e190edca0644c095314d5b47ddba) Thanks [@fabiangaukler](https://github.com/fabiangaukler)! - updates tokens from figma
+
 ## 0.4.0
 
 ### Minor Changes
