@@ -1,36 +1,24 @@
 .hap-button,
-.hap-toggle-button {
+.hap-toggle-button,
+.hap-button--sm,
+.hap-toggle-button--sm {
   font-family: var(--hap-typography-font-family-body);
-  font-size: var(--hap-typography-font-size-bodytext-s);
+  font-size: var(--hap-button-font-size);
   font-weight: var(--hap-typography-font-weight-medium);
   letter-spacing: var(--hap-typography-letter-spacing-lg);
-  line-height: var(--hap-typography-line-height-bodytext-standard-singleline);
+  line-height: var(--hap-button-line-height);
   border: none;
   border-radius: var(--hap-radius-full);
-  padding: var(--hap-spacing-sm) var(--hap-spacing-md);
+  padding: var(--hap-button-padding);
   cursor: pointer;
   width: max-content;
   display: flex;
-  gap: var(--hap-spacing-sm);
+  gap: var(--hap-button-gap);
   align-items: center;
 
   svg {
-    height: var(--hap-typography-line-height-bodytext-standard-singleline);
-    width: var(--hap-typography-line-height-bodytext-standard-singleline);
-  }
-
-  /* TODO: Size handling */
-  &.hap-button--small,
-  &.hap-toggle-button--small {
-    padding: var(--hap-spacing-xs) var(--hap-spacing-sm);
-    font-size: var(--hap-typography-font-size-bodytext-s);
-    line-height: var(--hap-typography-line-height-bodytext-s-singleline);
-    gap: var(--hap-spacing-xs);
-
-    svg {
-      height: var(--hap-typography-line-height-bodytext-s-singleline);
-      width: var(--hap-typography-line-height-bodytext-s-singleline);
-    }
+    height: var(--hap-button-icon-size);
+    width: var(--hap-button-icon-size);
   }
 
   &:disabled {
@@ -43,7 +31,8 @@
   }
 
   &.hap-button--primary,
-  &.hap-toggle-button:is([aria-pressed="true"], [aria-checked="true"]) {
+  &.hap-toggle-button:is([aria-pressed="true"], [aria-checked="true"]),
+  &.hap-toggle-button--sm:is([aria-pressed="true"], [aria-checked="true"]) {
     color: light-dark(
       var(--hap-color-text-brand-on-dark),
       var(--hap-color-text-brand-on-light)
@@ -104,7 +93,8 @@
   }
 
   &.hap-button--secondary,
-  &.hap-toggle-button:is([aria-pressed="false"], [aria-checked="false"]) {
+  &.hap-toggle-button:is([aria-pressed="false"], [aria-checked="false"]),
+  &.hap-toggle-button--sm:is([aria-pressed="false"], [aria-checked="false"]) {
     color: light-dark(
       var(--hap-color-text-brand-on-light),
       var(--hap-color-text-brand-on-dark-only)
@@ -308,4 +298,30 @@
       );
     }
   }
+}
+
+.hap-button,
+.hap-toggle-button {
+  --hap-button-padding: var(--hap-spacing-sm) var(--hap-spacing-md);
+  --hap-button-font-size: var(--hap-typography-font-size-bodytext-s);
+  --hap-button-line-height: var(
+    --hap-typography-line-height-bodytext-standard-singleline
+  );
+  --hap-button-gap: var(--hap-spacing-sm);
+  --hap-button-icon-size: var(
+    --hap-typography-line-height-bodytext-standard-singleline
+  );
+}
+
+.hap-button--sm,
+.hap-toggle-button--sm {
+  --hap-button-padding: var(--hap-spacing-xs) var(--hap-spacing-sm);
+  --hap-button-font-size: var(--hap-typography-font-size-bodytext-s);
+  --hap-button-line-height: var(
+    --hap-typography-line-height-bodytext-s-singleline
+  );
+  --hap-button-gap: var(--hap-spacing-xs);
+  --hap-button-icon-size: var(
+    --hap-typography-line-height-bodytext-s-singleline
+  );
 }

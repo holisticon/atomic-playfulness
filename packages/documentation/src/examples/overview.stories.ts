@@ -99,7 +99,7 @@ const meta: Meta = {
         <a class="hap-topbar-nav-item" href="#">Timeline</a>
         <a class="hap-topbar-nav-item" href="#">Timeline</a>
       </nav>
-      <button class="hap-button hap-button--secondary hap-button--small ">
+      <button class="hap-button--sm hap-button--secondary">
         ${renderIcon("log-out")} Logout
       </button>
     </div>
@@ -432,29 +432,25 @@ const meta: Meta = {
         </div>
 
         <div class="flex-row gap-md align-items-center">
-          <button class="hap-button hap-button--primary hap-button--default ">
+          <button class="hap-button hap-button--primary">
             ${renderIcon("check")} Button
           </button>
 
-          <button class="hap-button hap-button--secondary hap-button--default ">
+          <button class="hap-button hap-button--secondary">
             Button ${renderIcon("arrow-right")}
           </button>
 
-          <button class="hap-button hap-button--tertiary hap-button--default ">
-            Button
-          </button>
+          <button class="hap-button hap-button--tertiary">Button</button>
 
-          <button class="hap-button hap-button--primary hap-button--small ">
+          <button class="hap-button--sm hap-button--primary">
             ${renderIcon("plus", "small")} Button
           </button>
 
-          <button class="hap-button hap-button--secondary hap-button--small ">
+          <button class="hap-button--sm hap-button--secondary">
             Button ${renderIcon("chevron-down", "small")}
           </button>
 
-          <button class="hap-button hap-button--tertiary hap-button--small ">
-            Button
-          </button>
+          <button class="hap-button--sm hap-button--tertiary">Button</button>
         </div>
 
         <div>

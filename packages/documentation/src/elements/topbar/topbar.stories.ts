@@ -9,7 +9,7 @@ type Story = StoryObj;
 
 export const Default: Story = {
   render: () =>
-    html`<div class="hap-topbar">
+    html` <div class="hap-topbar">
       <div class="hap-headline-sm">FANCY LOGO</div>
       <nav class="hap-topbar-nav">
         <a class="hap-topbar-nav-item hap-topbar-nav-item--active" href="#"
@@ -22,7 +22,7 @@ export const Default: Story = {
         </a>
         <a class="hap-topbar-nav-item" href="#">Link 5</a>
       </nav>
-      <button class="hap-button hap-button--secondary hap-button--small ">
+      <button class="hap-button--sm hap-button--secondary">
         ${renderIcon("log-out")} Logout
       </button>
     </div>`,
@@ -30,7 +30,7 @@ export const Default: Story = {
 
 export const Search: Story = {
   render: () =>
-    html`<div class="hap-topbar">
+    html` <div class="hap-topbar">
       <div class="hap-headline-sm">FANCY LOGO</div>
       <div class="hap-search">
         <span class="hap-search-icon">${renderIcon("search", "small")}</span>
@@ -39,7 +39,7 @@ export const Search: Story = {
           ${renderIcon("arrow-right", "small")}
         </button>
       </div>
-      <button class="hap-button hap-button--secondary hap-button--small ">
+      <button class="hap-button--sm hap-button--secondary">
         ${renderIcon("log-out")} Logout
       </button>
     </div>`,

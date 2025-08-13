@@ -40,7 +40,6 @@
         );
       }
 
-      /* TODO: Current oder Active? https://w3c.github.io/aria/#aria-current als Referenz? */
       .hap-breadcrumb-link--current {
         font-weight: var(--hap-typography-font-weight-medium);
         color: light-dark(
