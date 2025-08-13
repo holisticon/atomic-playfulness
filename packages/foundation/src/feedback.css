@@ -27,3 +27,9 @@
   --hap-color-feedback-dark: var(--hap-color-feedback-new-dark);
   --hap-color-feedback-light: var(--hap-color-feedback-new-light);
 }
+
+.hap-feedback--invalid {
+  /*
+   * Placeholder class that should be implemented by all form components that provide an invalid state.
+  */
+}

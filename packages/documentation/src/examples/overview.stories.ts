@@ -397,12 +397,12 @@ const meta: Meta = {
                 />
                 <span>Default</span>
               </label>
-              <label class="hap-checkbox hap-checkbox--invalid">
+              <label class="hap-checkbox hap-feedback--invalid">
                 <input type="checkbox" name="confirmation" />
                 ${renderIcon("circle-alert", "small")}
                 <span>Error</span>
               </label>
-              <label class="hap-checkbox hap-checkbox--invalid">
+              <label class="hap-checkbox hap-feedback--invalid">
                 <input type="checkbox" checked="checked" name="confirmation" />
                 ${renderIcon("circle-alert", "small")}
                 <span>Error</span>
