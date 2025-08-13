@@ -90,7 +90,11 @@
   line-height: var(--hap-typography-line-height-bodytext-xs-singleline);
 }
 
-/* Rounded Dots for all typography levels */
+/*
+ *Rounded Dots for all typography levels
+ * TODO: Remove after `font-feature-settings` are widely available at font-level.
+ * See: https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-feature-settings
+  */
 .hap-headline-3xl,
 .hap-headline-2xl,
 .hap-headline-xl,
