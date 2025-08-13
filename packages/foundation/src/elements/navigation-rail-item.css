@@ -30,12 +30,12 @@
     color: var(--hap-color-icon-secondary-on-light);
     position: relative;
 
-    .hap-indicator {
+    & .hap-indicator {
       position: absolute;
       top: -1px;
       right: -10px;
 
-      &.small {
+      &:empty {
         top: 0;
         right: calc((-1) * var(--hap-spacing-xs));
       }

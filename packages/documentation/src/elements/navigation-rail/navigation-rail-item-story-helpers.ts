@@ -1,19 +1,13 @@
-import { html } from "lit";
+import { html, nothing } from "lit";
 import { classMap } from "lit/directives/class-map.js";
 import { renderIcon, type IconType } from "../icon/icon.stories.js";
-import {
-  renderIndicator,
-  type IndicatorVariant,
-} from "../indicator/indicator-story-helpers.js";
-
-export type BadgeVariant = IndicatorVariant | "none";
+import { renderIndicator } from "../indicator/indicator-story-helpers.js";
 
 export interface NavigationRailItemArgs {
   selected?: boolean;
   icon: IconType;
   label?: string;
-  badgeVariant: BadgeVariant;
-  badgeCount?: string;
+  badgeCount?: number | null;
 }
 
 export const renderNavigationRailItem = (args: NavigationRailItemArgs) => html`
@@ -26,12 +20,12 @@ export const renderNavigationRailItem = (args: NavigationRailItemArgs) => html`
   >
     <div class="hap-navigation-rail-item-icon">
       ${renderIcon(args.icon)}
-      ${args.badgeVariant !== "none"
-        ? renderIndicator(args.badgeVariant, args.badgeCount)
-        : ""}
+      ${args.badgeCount !== undefined
+        ? renderIndicator(args.badgeCount)
+        : nothing}
     </div>
     ${args.label
       ? html`<div class="hap-navigation-rail-item-label">${args.label}</div>`
-      : ""}
+      : nothing}
   </a>
 `;
