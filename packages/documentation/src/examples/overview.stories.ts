@@ -264,7 +264,7 @@ const meta: Meta = {
           )}
         </div>
 
-        <div class="hap-alert critical stretch">
+        <div class="hap-alert hap-feedback--critical stretch">
           <div class="hap-alert-content">
             ${renderIcon("info")}
             <span>This is a critical message.</span>
@@ -355,7 +355,7 @@ const meta: Meta = {
 
         <div class="flex-row gap-md stretch">
           ${surface(
-            html`<div>
+            html` <div>
               <input name="some-setting" type="checkbox" class=" hap-switch " />
               <input
                 name="some-setting"
@@ -378,7 +378,7 @@ const meta: Meta = {
             </div>`,
           )}
           ${surface(
-            html`<div>
+            html` <div>
               <label class="hap-checkbox">
                 <input type="checkbox" name="confirmation" />
                 <span>Default</span>
@@ -456,53 +456,53 @@ const meta: Meta = {
         </div>
 
         <div>
-          <div class="hap-badge strong default">
+          <div class="hap-badge hap-badge--strong hap-feedback--default">
             <span>Default</span>
             ${renderIcon("info", "small")}
           </div>
-          <div class="hap-badge strong positive">
+          <div class="hap-badge hap-badge--strong hap-feedback--positive">
             <span>Positive</span>
             ${renderIcon("arrow-up-right", "small")}
           </div>
-          <div class="hap-badge strong caution">
+          <div class="hap-badge hap-badge--strong hap-feedback--caution">
             <span>Caution</span>
             ${renderIcon("circle-alert", "small")}
           </div>
-          <div class="hap-badge strong neutral">
+          <div class="hap-badge hap-badge--strong hap-feedback--neutral">
             <span>Neutral</span>
             ${renderIcon("check", "small")}
           </div>
-          <div class="hap-badge strong critical">
+          <div class="hap-badge hap-badge--strong hap-feedback--critical">
             <span>Critical</span>
             ${renderIcon("arrow-down", "small")}
           </div>
-          <div class="hap-badge strong new">
+          <div class="hap-badge hap-badge--strong hap-feedback--new">
             <span>New</span>
             ${renderIcon("sparkles", "small")}
           </div>
           <br />
 
-          <div class="hap-badge regular default">
+          <div class="hap-badge hap-feedback--default">
             <span>Default</span>
             ${renderIcon("info", "small")}
           </div>
-          <div class="hap-badge regular positive">
+          <div class="hap-badge hap-feedback--positive">
             <span>Positive</span>
             ${renderIcon("arrow-up-right", "small")}
           </div>
-          <div class="hap-badge regular caution">
+          <div class="hap-badge hap-feedback--caution">
             <span>Caution</span>
             ${renderIcon("circle-alert", "small")}
           </div>
-          <div class="hap-badge regular neutral">
+          <div class="hap-badge hap-feedback--neutral">
             <span>Neutral</span>
             ${renderIcon("check", "small")}
           </div>
-          <div class="hap-badge regular critical">
+          <div class="hap-badge hap-feedback--critical">
             <span>Critical</span>
             ${renderIcon("arrow-down", "small")}
           </div>
-          <div class="hap-badge regular new">
+          <div class="hap-badge hap-feedback--new">
             <span>New</span>
             ${renderIcon("sparkles", "small")}
           </div>
@@ -517,7 +517,7 @@ const meta: Meta = {
           >
         </div>
 
-        <div class="hap-alert caution">
+        <div class="hap-alert hap-feedback--caution">
           <div class="hap-alert-content">
             ${renderIcon("circle-alert")}
             <span>This is a cautionary message.</span>

@@ -3,28 +3,27 @@
   --hap-color-feedback-light: var(--hap-color-feedback-default-light);
 }
 
-/* TODO: Double Dashes? */
-.hap-feedback-neutral {
+.hap-feedback--neutral {
   --hap-color-feedback-dark: var(--hap-color-feedback-neutral-dark);
   --hap-color-feedback-light: var(--hap-color-feedback-neutral-light);
 }
 
-.hap-feedback-positive {
+.hap-feedback--positive {
   --hap-color-feedback-dark: var(--hap-color-feedback-positive-dark);
   --hap-color-feedback-light: var(--hap-color-feedback-positive-light);
 }
 
-.hap-feedback-critical {
+.hap-feedback--critical {
   --hap-color-feedback-dark: var(--hap-color-feedback-critical-dark);
   --hap-color-feedback-light: var(--hap-color-feedback-critical-light);
 }
 
-.hap-feedback-caution {
+.hap-feedback--caution {
   --hap-color-feedback-dark: var(--hap-color-feedback-caution-dark);
   --hap-color-feedback-light: var(--hap-color-feedback-caution-light);
 }
 
-.hap-feedback-new {
+.hap-feedback--new {
   --hap-color-feedback-dark: var(--hap-color-feedback-new-dark);
   --hap-color-feedback-light: var(--hap-color-feedback-new-light);
 }

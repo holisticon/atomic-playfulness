@@ -9,5 +9,5 @@ export const feedbackArgType = {
 /** @returns the class name for a given {@link Feedback}. */
 export function feedback(feedback: Feedback): string {
   if (feedback === "default") return "";
-  return `hap-feedback-${feedback}`;
+  return `hap-feedback--${feedback}`;
 }
