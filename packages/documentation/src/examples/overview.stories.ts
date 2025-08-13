@@ -358,24 +358,24 @@ const meta: Meta = {
         <div class="flex-row gap-md stretch">
           ${surface(
             html` <div>
-              <input name="some-setting" type="checkbox" class=" hap-switch " />
+              <input name="some-setting" type="checkbox" class="hap-switch" />
               <input
                 name="some-setting"
                 type="checkbox"
                 checked="checked"
-                class=" hap-switch "
+                class="hap-switch"
               />
               <br />
               <input
                 name="some-setting"
                 type="checkbox"
-                class=" hap-switch hap-switch--small "
+                class="hap-switch--sm"
               />
               <input
                 name="some-setting"
                 type="checkbox"
                 checked="checked"
-                class=" hap-switch hap-switch--small "
+                class="hap-switch--sm"
               />
             </div>`,
           )}

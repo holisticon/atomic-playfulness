@@ -1,4 +1,5 @@
-.hap-switch {
+.hap-switch,
+.hap-switch--sm {
   appearance: none;
   margin: 0;
   box-sizing: border-box;
@@ -49,8 +50,7 @@
   }
 }
 
-/* TODO: Size Handling */
-.hap-switch--small {
+.hap-switch--sm {
   inline-size: var(--hap-size-lg);
 
   &::before {

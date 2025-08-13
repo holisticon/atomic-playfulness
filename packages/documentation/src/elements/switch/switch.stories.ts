@@ -25,8 +25,8 @@ const meta: Meta<SwitchArgs> = {
       name="some-setting"
       type="checkbox"
       class=${classMap({
-        "hap-switch": true,
-        "hap-switch--small": args.size === "small",
+        "hap-switch": args.size === "default",
+        "hap-switch--sm": args.size === "small",
       })}
       ?disabled=${args.disabled}
       ?checked=${args.checked}
