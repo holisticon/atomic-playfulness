@@ -1,4 +1,6 @@
-.hap-textlink {
+.hap-textlink,
+.hap-textlink--sm,
+.hap-textlink--xs {
   font-family: var(--hap-typography-font-family-body);
   font-size: var(--hap-typography-font-size-bodytext-standard);
   font-weight: var(--hap-typography-font-weight-regular);
@@ -19,17 +21,15 @@
   &:active {
     color: var(--hap-color-link-pressed);
   }
+}
 
-  /* TODO: Size Handling */
-  &.hap-textlink--small {
-    font-size: var(--hap-typography-font-size-bodytext-s);
-    line-height: var(--hap-typography-line-height-bodytext-s-singleline);
-  }
+.hap-textlink--sm {
+  font-size: var(--hap-typography-font-size-bodytext-s);
+  line-height: var(--hap-typography-line-height-bodytext-s-singleline);
+}
 
-  /* TODO: Size Handling */
-  &.hap-textlink--footnote {
-    font-size: var(--hap-typography-font-size-bodytext-xs);
-    line-height: var(--hap-typography-line-height-bodytext-xs-singleline);
-    letter-spacing: var(--hap-typography-letter-spacing-xl);
-  }
+.hap-textlink--xs {
+  font-size: var(--hap-typography-font-size-bodytext-xs);
+  line-height: var(--hap-typography-line-height-bodytext-xs-singleline);
+  letter-spacing: var(--hap-typography-letter-spacing-xl);
 }

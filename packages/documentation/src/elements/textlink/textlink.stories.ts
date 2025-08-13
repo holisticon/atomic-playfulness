@@ -1,21 +1,22 @@
 import type { Meta, StoryObj } from "@storybook/web-components-vite";
 import { html } from "lit";
+import { classMap } from "lit/directives/class-map.js";
 import { renderIcon } from "../icon/icon.stories.js";
 
-type TextlinkType = "standard" | "small" | "footnote";
+type TextlinkSize = "standard" | "small" | "footnote";
 
 interface TextlinkArgs {
   label: string;
-  type: TextlinkType;
+  size: TextlinkSize;
 }
 
 const meta: Meta<TextlinkArgs> = {
   args: {
     label: "Textlink",
-    type: "standard",
+    size: "standard",
   },
   argTypes: {
-    type: {
+    size: {
       control: { type: "select" },
       options: ["standard", "small", "footnote"],
     },
@@ -24,9 +25,11 @@ const meta: Meta<TextlinkArgs> = {
     <div style="display:flex;gap:0.5rem;flex-direction:column;padding:2rem">
       <a
         href="#"
-        class="hap-textlink${args.type !== "standard"
-          ? ` hap-textlink--${args.type}`
-          : ""}"
+        class=${classMap({
+          "hap-textlink": args.size === "standard",
+          "hap-textlink-sm": args.size === "small",
+          "hap-textlink-xs": args.size === "footnote",
+        })}
         >${args.label} ${renderIcon("arrow-up-right", "small")}
       </a>
     </div>
@@ -37,11 +40,11 @@ export default meta;
 type Story = StoryObj<TextlinkArgs>;
 
 export const Standard: Story = {
-  args: { type: "standard", label: "Standard" },
+  args: { size: "standard", label: "Standard" },
 };
 export const Small: Story = {
-  args: { type: "small", label: "Small" },
+  args: { size: "small", label: "Small" },
 };
 export const Footnote: Story = {
-  args: { type: "footnote", label: "Footnote" },
+  args: { size: "footnote", label: "Footnote" },
 };
