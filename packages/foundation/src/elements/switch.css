@@ -49,6 +49,7 @@
   }
 }
 
+/* TODO: Size Handling */
 .hap-switch--small {
   inline-size: var(--hap-size-lg);
 

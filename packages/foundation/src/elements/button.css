@@ -19,6 +19,7 @@
     width: var(--hap-typography-line-height-bodytext-standard-singleline);
   }
 
+  /* TODO: Size handling */
   &.hap-button--small,
   &.hap-toggle-button--small {
     padding: var(--hap-spacing-xs) var(--hap-spacing-sm);

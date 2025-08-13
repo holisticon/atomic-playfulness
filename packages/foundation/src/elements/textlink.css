@@ -20,11 +20,13 @@
     color: var(--hap-color-link-pressed);
   }
 
+  /* TODO: Size Handling */
   &.hap-textlink--small {
     font-size: var(--hap-typography-font-size-bodytext-s);
     line-height: var(--hap-typography-line-height-bodytext-s-singleline);
   }
 
+  /* TODO: Size Handling */
   &.hap-textlink--footnote {
     font-size: var(--hap-typography-font-size-bodytext-xs);
     line-height: var(--hap-typography-line-height-bodytext-xs-singleline);

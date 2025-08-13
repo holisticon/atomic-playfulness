@@ -11,6 +11,7 @@
   border-radius: var(--hap-radius-rounded);
   padding: var(--hap-spacing-none) var(--hap-spacing-xs);
 
+  /* TODO: Size handling */
   &.small {
     width: 8px;
     height: 8px;

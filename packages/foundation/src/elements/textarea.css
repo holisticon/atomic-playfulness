@@ -88,6 +88,7 @@
   letter-spacing: var(--hap-typography-letter-spacing-lg);
 }
 
+/* TODO: Invalid über Feedback Classes? */
 .hap-feedback-invalid:not(textarea),
 .hap-textarea.hap-feedback-invalid > label,
 .hap-textarea.hap-feedback-invalid > span {

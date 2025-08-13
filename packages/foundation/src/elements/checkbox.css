@@ -26,6 +26,7 @@
     pointer-events: none;
   }
 
+  /* TODO: Invalid über Feedback Class? */
   &:has(input:user-invalid),
   &.hap-checkbox--invalid {
     --hap-checkbox-color: light-dark(

@@ -19,6 +19,7 @@
     vector-effect: non-scaling-stroke;
   }
 
+  /* TODO: Size handling */
   &.hap-icon--small {
     height: var(--hap-primitives-line-height-xs);
     width: var(--hap-primitives-line-height-xs);

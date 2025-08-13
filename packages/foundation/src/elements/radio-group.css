@@ -27,6 +27,7 @@
     opacity: var(--hap-opacity-disabled);
   }
 
+  /* TODO: Invalid über Feedback Class? */
   &:has(.hap-error) {
     --hap-radio-group-color-text: light-dark(
       var(--hap-color-feedback-critical-dark),
@@ -103,6 +104,7 @@
   }
 }
 
+/* TODO: Invalid über Feedback Class? */
 .hap-error {
   display: inline-flex;
   gap: var(--hap-spacing-xs);

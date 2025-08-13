@@ -121,6 +121,7 @@
 
 /* Error State */
 
+/* TODO: Invalid über Feedback Classes? */
 .hap-feedback-invalid:not(input),
 .hap-textfield.hap-feedback-invalid > label,
 .hap-textfield.hap-feedback-invalid > span {

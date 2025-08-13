@@ -35,6 +35,7 @@
       top: -1px;
       right: -10px;
 
+      /* TODO: Will need adjustment when size changes */
       &.small {
         top: 0;
         right: calc((-1) * var(--hap-spacing-xs));
