@@ -32,7 +32,7 @@ const meta: Meta = {
       }
     </style>
     <form class="form-card">
-      <h2 class="hap-headline-xl">Signup</h2>
+      <h2 class="hap-headline--xl">Signup</h2>
       <div class="hap-alert informative">
         <div class="hap-alert-content">
           ${renderIcon("info")}

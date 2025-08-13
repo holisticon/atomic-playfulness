@@ -90,7 +90,7 @@ const meta: Meta = {
       }
     </style>
     <div class="hap-topbar">
-      <h1 class="hap-headline-lg">Holibar</h1>
+      <h1 class="hap-headline--lg">Holibar</h1>
       <nav class="hap-topbar-nav">
         <a class="hap-topbar-nav-item hap-topbar-nav-item--active" href="#"
           >Timeline</a
@@ -226,22 +226,22 @@ const meta: Meta = {
           html`
             <div class="flex-row">
               <span
-                class="hap-headline-md"
+                class="hap-headline--md"
                 style="flex: 1;color: var(--hap-color-text-primary-on-light);"
                 >Textcolor Primary</span
               >
               <span
-                class="hap-headline-md"
+                class="hap-headline--md"
                 style="flex: 1;color: var(--hap-color-text-secondary-on-light);"
                 >Textcolor Secondary</span
               >
               <span
-                class="hap-headline-md"
+                class="hap-headline--md"
                 style="flex: 1;color: var(--hap-color-text-tertiary-on-light);"
                 >Textcolor Tertiary</span
               >
               <span
-                class="hap-headline-md"
+                class="hap-headline--md"
                 style="flex: 1;color: var(--hap-color-text-brand-on-light);"
                 >Textcolor Brand</span
               >

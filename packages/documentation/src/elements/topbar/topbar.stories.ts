@@ -9,8 +9,8 @@ type Story = StoryObj;
 
 export const Default: Story = {
   render: () =>
-    html` <div class="hap-topbar">
-      <div class="hap-headline-sm">FANCY LOGO</div>
+    html`<div class="hap-topbar">
+      <div class="hap-headline--sm">FANCY LOGO</div>
       <nav class="hap-topbar-nav">
         <a class="hap-topbar-nav-item hap-topbar-nav-item--active" href="#"
           >Link 1</a
@@ -30,8 +30,8 @@ export const Default: Story = {
 
 export const Search: Story = {
   render: () =>
-    html` <div class="hap-topbar">
-      <div class="hap-headline-sm">FANCY LOGO</div>
+    html`<div class="hap-topbar">
+      <div class="hap-headline--sm">FANCY LOGO</div>
       <div class="hap-search">
         <span class="hap-search-icon">${renderIcon("search", "small")}</span>
         <input id="search" arial-label="Search" placeholder="Placeholder" />
