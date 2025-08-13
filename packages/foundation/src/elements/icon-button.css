@@ -22,7 +22,7 @@
   background: none;
   border: none;
 
-  &:hover:not(.disabled) {
+  &:hover:not(:disabled) {
     background: light-dark(
       var(--hap-color-fill-interaction-on-light-hovered),
       var(--hap-color-fill-interaction-on-dark-hovered)
@@ -33,7 +33,7 @@
     outline: 1px solid var(--hap-color-border-focused-default);
   }
 
-  &:active:not(.disabled) {
+  &:active:not(:disabled) {
     background: light-dark(
       var(--hap-color-fill-interaction-on-light-pressed),
       var(--hap-color-fill-interaction-on-dark-pressed)
@@ -47,7 +47,7 @@
     );
   }
 
-  &.disabled {
+  &:disabled {
     color: light-dark(
       var(--hap-color-icon-primary-on-light),
       var(--hap-color-text-brand-on-dark)

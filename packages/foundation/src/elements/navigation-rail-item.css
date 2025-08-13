@@ -1,0 +1,91 @@
+.hap-navigation-rail {
+  display: flex;
+  flex-direction: column;
+  padding: var(--hap-spacing-md-lg) 0;
+  align-items: center;
+  gap: var(--hap-spacing-lg);
+
+  background: var(--hap-color-surface-primary-default);
+}
+
+.hap-navigation-rail-items {
+  display: flex;
+  flex-direction: column;
+  gap: var(--hap-spacing-sm);
+}
+
+.hap-navigation-rail-item {
+  font-family: var(--hap-typography-font-family-body);
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--hap-spacing-xs);
+  align-self: flex-start;
+  gap: var(--hap-spacing-xs);
+  cursor: pointer;
+  text-decoration: none;
+
+  .hap-navigation-rail-item-icon {
+    color: var(--hap-color-icon-secondary-on-light);
+    position: relative;
+
+    .hap-indicator {
+      position: absolute;
+      top: -1px;
+      right: -10px;
+
+      &.small {
+        top: 0;
+        right: calc((-1) * var(--hap-spacing-xs));
+      }
+    }
+  }
+
+  .hap-navigation-rail-item-label {
+    color: var(--hap-color-text-secondary-on-light);
+    font-size: var(--hap-typography-font-size-bodytext-xs);
+    font-weight: var(--hap-typography-font-weight-medium);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--hap-color-border-focused-default);
+    background: none;
+  }
+
+  &.hap-navigation-rail-item--selected {
+    background: var(--hap-color-fill-interaction-on-light-selected);
+
+    .hap-navigation-rail-item-icon {
+      color: var(--hap-color-icon-primary-on-light);
+    }
+
+    .hap-navigation-rail-item-label {
+      color: var(--hap-color-text-primary-on-light);
+    }
+  }
+
+  &:hover {
+    background: var(--hap-color-fill-interaction-on-light-hovered);
+
+    .hap-navigation-rail-item-icon {
+      color: var(--hap-color-icon-primary-on-light);
+    }
+
+    .hap-navigation-rail-item-label {
+      color: var(--hap-color-text-primary-on-light);
+    }
+  }
+
+  &:active {
+    background: var(--hap-color-fill-interaction-on-light-pressed);
+
+    .hap-navigation-rail-item-icon {
+      color: var(--hap-color-icon-primary-on-light);
+    }
+
+    .hap-navigation-rail-item-label {
+      color: var(--hap-color-text-primary-on-light);
+    }
+  }
+}

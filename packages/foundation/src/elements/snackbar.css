@@ -31,6 +31,8 @@
 .hap-snackbar-actions {
   display: flex;
   gap: var(--hap-spacing-md);
+  align-items: center;
+  color-scheme: dark;
 
   .hap-snackbar & {
     justify-self: flex-end;
@@ -38,6 +40,10 @@
 
   .hap-snackbar-multiline & {
     align-self: flex-end;
+  }
+
+  .hap-icon-button--sm {
+    color: var(--hap-color-icon-primary-on-dark);
   }
 }
 

@@ -10,12 +10,13 @@
 @import "./elements/button.css";
 @import "./elements/checkbox.css";
 @import "./elements/divider.css";
-@import "./elements/icon.css";
 @import "./elements/icon-button.css";
+@import "./elements/icon.css";
 @import "./elements/indicator.css";
 @import "./elements/menu.css";
 @import "./elements/modal.css";
 @import "./elements/navigation-drawer.css";
+@import "./elements/navigation-rail-item.css";
 @import "./elements/progress-indicator.css";
 @import "./elements/radio-group.css";
 @import "./elements/search.css";

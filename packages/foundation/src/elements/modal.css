@@ -1,11 +1,14 @@
 .hap-modal {
   border: none;
-  display: flex;
   padding: var(--hap-spacing-md);
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
   gap: var(--hap-spacing-md);
+
+  &[open] {
+    display: flex;
+  }
 
   border-radius: var(--hap-radius-rounded);
   background: var(--hap-color-surface-primary-default,);

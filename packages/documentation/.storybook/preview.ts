@@ -4,7 +4,7 @@ import { holisticonTheme } from "./theme.js";
 
 const preview: Preview = {
   parameters: {
-    docs: { theme: holisticonTheme },
+    docs: { theme: holisticonTheme, codePanel: true },
     options: {
       storySort: {
         order: [
@@ -13,6 +13,7 @@ const preview: Preview = {
           "Design Tokens",
           "Elements",
           "Tailwind",
+          "Examples",
         ],
       },
     },
