@@ -25,16 +25,18 @@ const meta: Meta<AlertArgs> = {
   },
 
   render: (args) => html`
-    <div class="hap-alert ${feedback(args.feedback)}">
-      <div class="hap-alert-content">
-        ${args.icon ? renderIcon(args.icon) : ""}
-        <span>${args.label}</span>
+    <div style="display:flex;gap:0.5rem;flex-direction:column;padding:2rem">
+      <div class="hap-alert ${feedback(args.feedback)}">
+        <div class="hap-alert-content">
+          ${args.icon ? renderIcon(args.icon) : ""}
+          <span>${args.label}</span>
+        </div>
+        ${args.iconbutton
+          ? html`<button class="hap-icon-button--sm">
+              ${renderIcon("circle-x", "small")}
+            </button>`
+          : ""}
       </div>
-      ${args.iconbutton
-        ? html`<button class="hap-icon-button--sm">
-            ${renderIcon("circle-x", "small")}
-          </button>`
-        : ""}
     </div>
   `,
 };
