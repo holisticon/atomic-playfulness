@@ -3,16 +3,27 @@
 This strategy outlines the best-practices and patterns for naming and composing
 CSS classes in _Atomic Playfulness_.
 
-## Class Prefix
+## Class Naming Schema
 
-All classes **must** start with a `hap-`prefix. This ensures that our our API
-does not accidentally clash with other CSS classes.
+The CSS classes should all conform to some basic naming conventions:
+
+- All classes **must** start with a `hap-`prefix. This ensures that our API does
+  not accidentally clash with other CSS classes.
+- Sizes must be abbreviated (`sm` instead of `small`)
+- Variant classes should be built similar to BEM (`.hap-headline--xl` instead of
+  `.hap-headline-xl`)
 
 ## Make the Default Easy
 
 Typing and remembering CSS classes is no fun. To make each component easy to
 use, the default should be applicable through a single class. I.e. `.hap-badge`
-instead of `.hap-badge .hap-badge-regular .hap-badge-default`.
+instead of `.hap-badge .hap-badge--regular .hap-badge--default`.
+
+When there are variants of a component that can be identified as the "main
+variant" (typically the size), these variants should be usable with a single css
+class, e.g. `.hap-button--sm`.  
+Only other variants should then require the usage of a secondary class, e.g.
+`.hap-button--sm .hap-button--primary`.
 
 ## Non-Class Selectors
 
@@ -56,9 +67,7 @@ The CSS classes should form a coherent API. Overarching concepts between
 components should be named the same to be recognizable and intuitive.
 
 When possible, consider abstracting a concept into one set CSS classes that
-compose with components, instead of defining the concept for each components.
-For example, some components, such as `badge` and `alert`, all have a concept of
-tones (or feedback). This could be abstracted into global `hap-feedback-{tone}`
-classes that define special CSS custom properties, which components can reuse.
-
-_Note: This is currently not applied the to existing set of components._
+compose with components, instead of defining the concept for each component. For
+example, some components, such as `badge` and `alert`, all have a concept of
+feedback. This could be abstracted into global `hap-feedback-{tone}` classes
+that define special CSS custom properties, which components can reuse.
