@@ -27,8 +27,8 @@ const meta: Meta<TextlinkArgs> = {
         href="#"
         class=${classMap({
           "hap-textlink": args.size === "standard",
-          "hap-textlink-sm": args.size === "small",
-          "hap-textlink-xs": args.size === "footnote",
+          "hap-textlink--sm": args.size === "small",
+          "hap-textlink--xs": args.size === "footnote",
         })}
         >${args.label} ${renderIcon("arrow-up-right", "small")}
       </a>
