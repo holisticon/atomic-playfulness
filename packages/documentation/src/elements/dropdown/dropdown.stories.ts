@@ -54,7 +54,7 @@ export const Invalid: Story = {
     <div
       class=${classMap({
         "hap-textfield": true,
-        "hap-feedback-invalid": true,
+        "hap-feedback--invalid": true,
         "hap-textfield--brand": args.round,
       })}
     >

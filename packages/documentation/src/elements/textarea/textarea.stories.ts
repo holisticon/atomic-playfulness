@@ -44,7 +44,7 @@ export const Disabled: Story = { args: { disabled: true } };
 
 export const Invalid: Story = {
   render: (args) => html`
-    <div class="hap-textarea hap-feedback-invalid">
+    <div class="hap-textarea hap-feedback--invalid">
       <label for="textarea">
         ${renderIcon("circle-alert")} ${args.label}
       </label>

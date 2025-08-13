@@ -51,7 +51,7 @@ export const Invalid: Story = {
   render: (args) => html`
     <fieldset
       role="radiogroup"
-      class="hap-radio-group hap-feedback-invalid"
+      class="hap-radio-group hap-feedback--invalid"
       ?disabled=${args.disabled}
       aria-describedby="error"
     >

@@ -305,7 +305,7 @@ const meta: Meta = {
             <span id="description"></span>
           </div>
 
-          <div class=" hap-textfield hap-feedback-invalid  flex-grow">
+          <div class=" hap-textfield hap-feedback--invalid  flex-grow">
             <label for="textfield">
               <svg viewBox="0 0 24 24" class="hap-icon">
                 <use href="#circle-alert"></use>
@@ -423,7 +423,7 @@ const meta: Meta = {
                 <input type="radio" name="invalid" checked="" />
                 <span>Option 3</span>
               </label>
-              <label class="hap-radio hap-feedback-invalid">
+              <label class="hap-radio hap-feedback--invalid">
                 <input type="radio" name="invalid" />
                 <span>Option 4</span>
               </label>
