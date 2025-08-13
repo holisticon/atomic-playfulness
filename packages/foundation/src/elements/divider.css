@@ -33,6 +33,7 @@
 }
 
 .hap-divider {
+  /* TODO: Variant dash */
   &.hap-divider-bold {
     border-width: 2px;
   }
