@@ -12,7 +12,7 @@ export const Default: Story = {
     html`<div class="hap-topbar">
       <div class="hap-headline--sm">FANCY LOGO</div>
       <nav class="hap-topbar-nav">
-        <a class="hap-topbar-nav-item hap-topbar-nav-item--active" href="#"
+        <a class="hap-topbar-nav-item hap-topbar-nav-item--current" href="#"
           >Link 1</a
         >
         <a class="hap-topbar-nav-item" href="#">Link 2</a>

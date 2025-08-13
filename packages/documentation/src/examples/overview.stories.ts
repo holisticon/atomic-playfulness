@@ -92,7 +92,7 @@ const meta: Meta = {
     <div class="hap-topbar">
       <h1 class="hap-headline--lg">Holibar</h1>
       <nav class="hap-topbar-nav">
-        <a class="hap-topbar-nav-item hap-topbar-nav-item--active" href="#"
+        <a class="hap-topbar-nav-item hap-topbar-nav-item--current" href="#"
           >Timeline</a
         >
         <a class="hap-topbar-nav-item" href="#">Timeline</a>
