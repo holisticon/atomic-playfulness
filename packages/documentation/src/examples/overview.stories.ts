@@ -183,7 +183,9 @@ const meta: Meta = {
             </li>
 
             <li class="hap-breadcrumb-item">
-              <a class="selected hap-breadcrumb-link"> Navigation 3 </a>
+              <a class="hap-breadcrumb-link hap-breadcrumb-link--current">
+                Navigation 3
+              </a>
             </li>
           </ol>
         </nav>
