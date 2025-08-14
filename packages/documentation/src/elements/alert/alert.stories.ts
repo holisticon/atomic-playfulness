@@ -57,7 +57,7 @@ export const Critical: Story = {
 };
 
 export const Informative: Story = {
-  args: { feedback: "neutral", label: "This is an informative message." },
+  args: { feedback: "informative", label: "This is an informative message." },
 };
 
 export const Promoted: Story = {
