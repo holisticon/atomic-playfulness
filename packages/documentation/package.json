@@ -21,15 +21,21 @@
   },
   "dependencies": {
     "@holisticon/hap-foundation": "^0.4.0",
+    "@holisticon/hap-react": "^0.1.0",
     "lit": "^3.3.1",
     "lucide-static": "^0.525.0",
-    "polished": "^4.3.1"
+    "polished": "^4.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@playwright/test": "^1.54.0",
     "@storybook/addon-docs": "^9.0.18",
+    "@storybook/react-vite": "^9.0.18",
     "@storybook/web-components-vite": "^9.0.18",
     "@types/node": "^24.0.12",
+    "@types/react": "^18.3.17",
+    "@types/react-dom": "^18.3.5",
     "local-web-server": "^5.4.0",
     "storybook": "^9.0.18",
     "storybook-addon-pseudo-states": "^9.0.18"

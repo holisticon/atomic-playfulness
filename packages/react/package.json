@@ -1,0 +1,51 @@
+{
+  "name": "@holisticon/hap-react",
+  "type": "module",
+  "version": "0.1.0",
+  "author": "Holisticon AG <info@holisticon.de>",
+  "description": "React components for the atomic-playfulness design system.",
+  "repository": "github:holisticon/atomic-playfulness",
+  "files": [
+    "dist",
+    "src",
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc",
+    "dev": "tsc --watch",
+    "lint": "tsc --noEmit && eslint .",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "peerDependencies": {
+    "@holisticon/hap-foundation": "^0.4.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.17",
+    "@types/react-dom": "^18.3.5",
+    "@testing-library/jest-dom": "^6.6.0",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.5.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "jsdom": "^26.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.3",
+    "vitest": "^2.1.8"
+  }
+}

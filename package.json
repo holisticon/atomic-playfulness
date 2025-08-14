@@ -10,8 +10,9 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "npm run build:foundation && npm run build:documentation && npm run build:tailwind",
+    "build": "npm run build:foundation && npm run build:react && npm run build:documentation && npm run build:tailwind",
     "build:foundation": "npm run build -w @holisticon/hap-foundation",
+    "build:react": "npm run build -w @holisticon/hap-react",
     "build:documentation": "npm run build -w @holisticon/hap-documentation",
     "build:tailwind": "npm run build -w @holisticon/hap-tailwind",
     "format": "prettier --write .",
