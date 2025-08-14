@@ -3,7 +3,7 @@
   --hap-color-feedback-light: var(--hap-color-feedback-default-light);
 }
 
-.hap-feedback--neutral {
+.hap-feedback--informative {
   --hap-color-feedback-dark: var(--hap-color-feedback-neutral-dark);
   --hap-color-feedback-light: var(--hap-color-feedback-neutral-light);
 }
