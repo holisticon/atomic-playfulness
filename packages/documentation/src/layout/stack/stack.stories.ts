@@ -22,7 +22,7 @@ const meta: Meta<StackArgs> = {
     align: alignArgType,
   },
   render: (args) => html`
-    <div class="hap-stack hap-gap-${args.gap} hap-align-${args.align} ">
+    <div class="hap-stack hap-gap--${args.gap} hap-align--${args.align} ">
       <div class="hap-placeholder"></div>
       <div class="hap-placeholder"></div>
       <div class="hap-placeholder"></div>
@@ -37,26 +37,26 @@ export const Default: Story = {};
 
 export const Alignment: Story = {
   render: () => html`
-    <div class="hap-stack hap-gap-sm">
-      <div class="hap-stack hap-gap-md hap-align-start">
+    <div class="hap-stack hap-gap--sm">
+      <div class="hap-stack hap-gap--md hap-align--start">
         <div class="hap-placeholder"></div>
         <div class="hap-placeholder"></div>
         <div class="hap-placeholder"></div>
       </div>
       <hr class="hap-divider" />
-      <div class="hap-stack hap-gap-md hap-align-center">
+      <div class="hap-stack hap-gap--md hap-align--center">
         <div class="hap-placeholder"></div>
         <div class="hap-placeholder"></div>
         <div class="hap-placeholder"></div>
       </div>
       <hr class="hap-divider" />
-      <div class="hap-stack hap-gap-md hap-align-end">
+      <div class="hap-stack hap-gap--md hap-align--end">
         <div class="hap-placeholder"></div>
         <div class="hap-placeholder"></div>
         <div class="hap-placeholder"></div>
       </div>
       <hr class="hap-divider" />
-      <div class="hap-stack hap-gap-md hap-align-stretch">
+      <div class="hap-stack hap-gap--md hap-align--stretch">
         <div class="hap-placeholder"></div>
         <div class="hap-placeholder"></div>
         <div class="hap-placeholder"></div>

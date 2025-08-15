@@ -28,7 +28,7 @@ const meta: Meta<InlineArgs> = {
   },
   render: (args) => html`
     <div
-      class="hap-inline hap-gap-${args.gap} hap-align-${args.align} hap-justify-${args.justify}"
+      class="hap-inline hap-gap--${args.gap} hap-align--${args.align} hap-justify--${args.justify}"
     >
       <div class="hap-placeholder"></div>
       <div class="hap-placeholder"></div>
@@ -44,26 +44,26 @@ export const Default: Story = {};
 
 export const Alignment: Story = {
   render: () => html`
-    <div class="hap-stack hap-gap-sm">
-      <div class="hap-inline hap-gap-md hap-align-start">
+    <div class="hap-stack hap-gap--sm">
+      <div class="hap-inline hap-gap--md hap-align--start">
         <div class="hap-placeholder" style="height: 120px"></div>
         <div class="hap-placeholder" style="height: 80px"></div>
         <div class="hap-placeholder"></div>
       </div>
       <hr class="hap-divider" />
-      <div class="hap-inline hap-gap-md hap-align-center">
+      <div class="hap-inline hap-gap--md hap-align--center">
         <div class="hap-placeholder" style="height: 120px"></div>
         <div class="hap-placeholder" style="height: 80px"></div>
         <div class="hap-placeholder"></div>
       </div>
       <hr class="hap-divider" />
-      <div class="hap-inline hap-gap-md hap-align-end">
+      <div class="hap-inline hap-gap--md hap-align--end">
         <div class="hap-placeholder" style="height: 120px"></div>
         <div class="hap-placeholder" style="height: 80px"></div>
         <div class="hap-placeholder"></div>
       </div>
       <hr class="hap-divider" />
-      <div class="hap-inline hap-gap-md hap-align-stretch">
+      <div class="hap-inline hap-gap--md hap-align--stretch">
         <div class="hap-placeholder" style="height: 120px"></div>
         <div class="hap-placeholder"></div>
         <div class="hap-placeholder"></div>
@@ -74,26 +74,26 @@ export const Alignment: Story = {
 
 export const Positioning: Story = {
   render: () => html`
-    <div class="hap-stack hap-gap-sm">
-      <div class="hap-inline hap-gap-md hap-justify-start">
+    <div class="hap-stack hap-gap--sm">
+      <div class="hap-inline hap-gap--md hap-justify--start">
         <div class="hap-placeholder"></div>
         <div class="hap-placeholder"></div>
         <div class="hap-placeholder"></div>
       </div>
       <hr class="hap-divider" />
-      <div class="hap-inline hap-gap-md hap-justify-center">
+      <div class="hap-inline hap-gap--md hap-justify--center">
         <div class="hap-placeholder"></div>
         <div class="hap-placeholder"></div>
         <div class="hap-placeholder"></div>
       </div>
       <hr class="hap-divider" />
-      <div class="hap-inline hap-gap-md hap-justify-end">
+      <div class="hap-inline hap-gap--md hap-justify--end">
         <div class="hap-placeholder"></div>
         <div class="hap-placeholder"></div>
         <div class="hap-placeholder"></div>
       </div>
       <hr class="hap-divider" />
-      <div class="hap-inline hap-gap-md hap-justify-spaced">
+      <div class="hap-inline hap-gap--md hap-justify--spaced">
         <div class="hap-placeholder"></div>
         <div class="hap-placeholder"></div>
         <div class="hap-placeholder"></div>
@@ -104,7 +104,7 @@ export const Positioning: Story = {
 
 export const Wrap: Story = {
   render: () => html`
-    <div class="hap-inline hap-inline--wrap hap-gap-md">
+    <div class="hap-inline hap-inline--wrap hap-gap--md">
       <div class="hap-placeholder"></div>
       <div class="hap-placeholder"></div>
       <div class="hap-placeholder"></div>
