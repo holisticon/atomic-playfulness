@@ -10,3 +10,7 @@
   align-items: var(--hap-layout-align);
   min-inline-size: 0;
 }
+
+.hap-inline--wrap {
+  flex-wrap: wrap;
+}

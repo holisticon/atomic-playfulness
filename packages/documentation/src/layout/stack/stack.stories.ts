@@ -26,8 +26,6 @@ const meta: Meta<StackArgs> = {
       <div class="hap-placeholder"></div>
       <div class="hap-placeholder"></div>
       <div class="hap-placeholder"></div>
-      <div class="hap-placeholder"></div>
-      <div class="hap-placeholder"></div>
     </div>
   `,
 };
@@ -36,3 +34,33 @@ export default meta;
 type Story = StoryObj<StackArgs>;
 
 export const Default: Story = {};
+
+export const Alignment: Story = {
+  render: () => html`
+    <div class="hap-stack hap-gap-sm">
+      <div class="hap-stack hap-gap-md hap-align-start">
+        <div class="hap-placeholder"></div>
+        <div class="hap-placeholder"></div>
+        <div class="hap-placeholder"></div>
+      </div>
+      <hr class="hap-divider" />
+      <div class="hap-stack hap-gap-md hap-align-center">
+        <div class="hap-placeholder"></div>
+        <div class="hap-placeholder"></div>
+        <div class="hap-placeholder"></div>
+      </div>
+      <hr class="hap-divider" />
+      <div class="hap-stack hap-gap-md hap-align-end">
+        <div class="hap-placeholder"></div>
+        <div class="hap-placeholder"></div>
+        <div class="hap-placeholder"></div>
+      </div>
+      <hr class="hap-divider" />
+      <div class="hap-stack hap-gap-md hap-align-stretch">
+        <div class="hap-placeholder"></div>
+        <div class="hap-placeholder"></div>
+        <div class="hap-placeholder"></div>
+      </div>
+    </div>
+  `,
+};
