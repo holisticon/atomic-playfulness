@@ -13,5 +13,5 @@ Updated `hap-textlink` to use common size variants and make them work standalone
 <!-- OLD -->
 <a class="hap-textlink hap-textlink--footnote">Link</a>
 <!-- NEW -->
-<a class="hap-textlink-xs">Link</a>
+<a class="hap-textlink--xs">Link</a>
 ```
