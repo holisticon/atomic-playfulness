@@ -1,0 +1,24 @@
+{
+  "name": "@holisticon/hap-react",
+  "type": "module",
+  "version": "0.0.0",
+  "author": "Holisticon AG <info@holisticon.de>",
+  "description": "React components for the atomic-playfulness design system.",
+  "files": [
+    "dist",
+    "src",
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "lint": "tsc --noEmit && eslint ."
+  },
+  "dependencies": {
+    "cva": "^1.0.0-beta.4"
+  },
+  "peerDependencies": {
+    "@holisticon/hap-foundation": "^0.4.0",
+    "react": "^19.1.1"
+  }
+}
