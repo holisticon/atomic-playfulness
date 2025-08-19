@@ -1,13 +1,15 @@
-import { cva } from "cva";
+import { type VariantProps } from "cva";
+import type { ReactNode } from "react";
+import { feedback } from "../common/feedback.js";
 
-const badge = cva({
-  base: "hap-badge regular",
-});
-
-interface BadgeProps {
-  feedback?: "positive" | "critical";
+interface BadgeProps extends VariantProps<typeof feedback> {
+  children?: ReactNode;
 }
 
 export function Badge(props: BadgeProps) {
-  return <div className={badge()}>{props.feedback}</div>;
+  return (
+    <div className={feedback({ class: "hap-badge", ...props })}>
+      {props.children}
+    </div>
+  );
 }
