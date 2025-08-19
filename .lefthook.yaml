@@ -4,7 +4,7 @@ pre-commit:
   commands:
     lint:
       priority: 1
-      glob: "*.{ts,js,mjs}"
+      glob: "*.{ts,tsx,js,jsx,mjs}"
       run: npx eslint --fix {staged_files}
       stage_fixed: true
     format:
