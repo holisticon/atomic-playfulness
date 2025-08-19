@@ -7,12 +7,19 @@
   "files": [
     "dist",
     "src",
+    "!src/**/*.stories.*",
     "CHANGELOG.md",
     "README.md"
   ],
+  "exports": {
+    ".": {
+      "types": "./dist/exports/main.d.ts",
+      "default": "./dist/exports/main.js"
+    }
+  },
   "scripts": {
     "dev": "storybook dev -p 6007",
-    "build": "rm -rf dist && tsc",
+    "build": "rm -rf dist && tsc -p tsconfig.build.json",
     "build:storybook": "storybook build -o ./dist",
     "lint": "tsc --noEmit && eslint ."
   },
