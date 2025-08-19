@@ -454,10 +454,6 @@ const meta: Meta = {
         </div>
 
         <div>
-          <div class="hap-badge hap-badge--strong hap-feedback--default">
-            <span>Default</span>
-            ${renderIcon("info", "small")}
-          </div>
           <div class="hap-badge hap-badge--strong hap-feedback--positive">
             <span>Positive</span>
             ${renderIcon("arrow-up-right", "small")}
@@ -466,7 +462,7 @@ const meta: Meta = {
             <span>Caution</span>
             ${renderIcon("circle-alert", "small")}
           </div>
-          <div class="hap-badge hap-badge--strong hap-feedback--informative">
+          <div class="hap-badge hap-badge--strong hap-feedback--neutral">
             <span>Neutral</span>
             ${renderIcon("check", "small")}
           </div>
@@ -480,10 +476,6 @@ const meta: Meta = {
           </div>
           <br />
 
-          <div class="hap-badge hap-feedback--default">
-            <span>Default</span>
-            ${renderIcon("info", "small")}
-          </div>
           <div class="hap-badge hap-feedback--positive">
             <span>Positive</span>
             ${renderIcon("arrow-up-right", "small")}
@@ -492,7 +484,7 @@ const meta: Meta = {
             <span>Caution</span>
             ${renderIcon("circle-alert", "small")}
           </div>
-          <div class="hap-badge hap-feedback--informative">
+          <div class="hap-badge hap-feedback--neutral">
             <span>Neutral</span>
             ${renderIcon("check", "small")}
           </div>

@@ -16,7 +16,7 @@ interface BadgeArgs {
 const meta: Meta<BadgeArgs> = {
   args: {
     label: "Badge",
-    feedback: "default",
+    feedback: "positive",
   },
   argTypes: {
     feedback: feedbackArgType,
@@ -38,10 +38,6 @@ const meta: Meta<BadgeArgs> = {
 export default meta;
 type Story = StoryObj<BadgeArgs>;
 
-export const Default: Story = {
-  args: { feedback: "default", label: "Default", icon: "info" },
-};
-
 export const Positive: Story = {
   args: { feedback: "positive", label: "Positive", icon: "arrow-up-right" },
 };
@@ -55,7 +51,7 @@ export const Critical: Story = {
 };
 
 export const Neutral: Story = {
-  args: { feedback: "informative", label: "Informative", icon: "check" },
+  args: { feedback: "neutral", label: "Neutral", icon: "check" },
 };
 
 export const New: Story = {
