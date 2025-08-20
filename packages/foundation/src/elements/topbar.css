@@ -50,7 +50,7 @@
   }
 }
 
-.hap-topbar-nav-item--active::after {
+.hap-topbar-nav-item--current::after {
   background-color: var(--hap-color-text-brand-on-light);
 }
 

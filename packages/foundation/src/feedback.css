@@ -1,0 +1,35 @@
+:root {
+  --hap-color-feedback-dark: var(--hap-color-feedback-default-dark);
+  --hap-color-feedback-light: var(--hap-color-feedback-default-light);
+}
+
+.hap-feedback--neutral {
+  --hap-color-feedback-dark: var(--hap-color-feedback-neutral-dark);
+  --hap-color-feedback-light: var(--hap-color-feedback-neutral-light);
+}
+
+.hap-feedback--positive {
+  --hap-color-feedback-dark: var(--hap-color-feedback-positive-dark);
+  --hap-color-feedback-light: var(--hap-color-feedback-positive-light);
+}
+
+.hap-feedback--critical {
+  --hap-color-feedback-dark: var(--hap-color-feedback-critical-dark);
+  --hap-color-feedback-light: var(--hap-color-feedback-critical-light);
+}
+
+.hap-feedback--caution {
+  --hap-color-feedback-dark: var(--hap-color-feedback-caution-dark);
+  --hap-color-feedback-light: var(--hap-color-feedback-caution-light);
+}
+
+.hap-feedback--new {
+  --hap-color-feedback-dark: var(--hap-color-feedback-new-dark);
+  --hap-color-feedback-light: var(--hap-color-feedback-new-light);
+}
+
+.hap-feedback--invalid {
+  /*
+   * Placeholder class that should be implemented by all form components that provide an invalid state.
+  */
+}

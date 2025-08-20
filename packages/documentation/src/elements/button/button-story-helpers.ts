@@ -1,5 +1,6 @@
 import type { ArgTypes } from "@storybook/web-components";
 import { html } from "lit";
+import { classMap } from "lit/directives/class-map.js";
 import { renderIcon, type IconType } from "../icon/icon.stories.js";
 
 type ButtonSize = "default" | "small";
@@ -74,9 +75,11 @@ export const renderButtons = (args: ButtonArgs, colorScheme: ColorScheme) =>
 
 const renderButton = (args: ButtonArgs) => html`
   <button
-    class="hap-button hap-button--${args.variant} hap-button--${args.size} ${args.disabled
-      ? "disabled"
-      : ""}"
+    class=" ${classMap({
+      "hap-button": args.size !== "small",
+      "hap-button--sm": args.size === "small",
+      ["hap-button--" + args.variant]: true,
+    })}"
     ?disabled=${args.disabled}
   >
     ${args.icon && args.iconPosition === "left" ? renderIcon(args.icon) : ""}

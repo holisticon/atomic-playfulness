@@ -17,7 +17,6 @@ const meta: Meta<AlertArgs> = {
     icon: "info",
     iconbutton: "circle-x",
   },
-  // TODO: use actual icon button for cancel
   render: (args) => html`
     <div style="width: 374px;">
       <div class="${args.variant}">

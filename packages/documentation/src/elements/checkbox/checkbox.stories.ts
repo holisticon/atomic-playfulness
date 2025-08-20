@@ -49,7 +49,7 @@ export const Disabled: Story = {
 export const Error: Story = {
   args: { label: "Error" },
   render: (args) => html`
-    <label class="hap-checkbox hap-checkbox--invalid">
+    <label class="hap-checkbox hap-feedback--invalid">
       <input
         type="checkbox"
         name="confirmation"

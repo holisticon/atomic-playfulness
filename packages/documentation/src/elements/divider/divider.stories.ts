@@ -41,17 +41,20 @@ const meta: Meta<DividerArgs> = {
         })}
       >
         <hr
-          class="hap-divider ${classMap({
+          class=" ${classMap({
+            "hap-divider": args.orientation !== "vertical",
             "hap-divider-vertical": args.orientation === "vertical",
           })}"
         />
         <hr
-          class="hap-divider hap-divider--inset ${classMap({
+          class="hap-divider--inset ${classMap({
+            "hap-divider": args.orientation !== "vertical",
             "hap-divider-vertical": args.orientation === "vertical",
           })}"
         />
         <hr
-          class="hap-divider hap-divider--middle-inset ${classMap({
+          class="hap-divider--middle-inset ${classMap({
+            "hap-divider": args.orientation !== "vertical",
             "hap-divider-vertical": args.orientation === "vertical",
           })}"
         />
@@ -67,21 +70,22 @@ const meta: Meta<DividerArgs> = {
         })}
       >
         <hr
-          class="hap-divider hap-divider-bold ${classMap({
+          class="hap-divider--bold ${classMap({
+            "hap-divider": args.orientation !== "vertical",
             "hap-divider-vertical": args.orientation === "vertical",
           })}"
         />
         <hr
-          class="hap-divider hap-divider-bold hap-divider--inset ${classMap({
+          class="hap-divider--bold hap-divider--inset ${classMap({
+            "hap-divider": args.orientation !== "vertical",
             "hap-divider-vertical": args.orientation === "vertical",
           })}"
         />
         <hr
-          class="hap-divider hap-divider-bold hap-divider--middle-inset ${classMap(
-            {
-              "hap-divider-vertical": args.orientation === "vertical",
-            },
-          )}"
+          class="hap-divider--bold hap-divider--middle-inset ${classMap({
+            "hap-divider": args.orientation !== "vertical",
+            "hap-divider-vertical": args.orientation === "vertical",
+          })}"
         />
       </div>
     </div>

@@ -19,8 +19,8 @@ const meta: Meta<ButtonGroupArgs> = {
             role="radio"
             aria-checked="false"
             class=${classMap({
-              "hap-toggle-button": true,
-              "hap-toggle-button--small": args.small,
+              "hap-toggle-button": !args.small,
+              "hap-toggle-button--sm": args.small,
             })}
             @click=${(e: MouseEvent) => {
               const btn = e.currentTarget as HTMLButtonElement;

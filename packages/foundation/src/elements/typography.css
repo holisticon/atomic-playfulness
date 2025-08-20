@@ -1,6 +1,6 @@
 /* Headings */
 
-.hap-headline-3xl {
+.hap-headline--3xl {
   color: var(--hap-color-text-primary-on-light);
   font-family: var(--hap-typography-font-family-heading);
   font-size: var(--hap-typography-font-size-headline-3-xl);
@@ -10,7 +10,7 @@
   margin: 0;
 }
 
-.hap-headline-2xl {
+.hap-headline--2xl {
   color: var(--hap-color-text-primary-on-light);
   font-family: var(--hap-typography-font-family-heading);
   font-size: var(--hap-typography-font-size-headline-2-xl);
@@ -20,7 +20,7 @@
   margin: 0;
 }
 
-.hap-headline-xl {
+.hap-headline--xl {
   color: var(--hap-color-text-primary-on-light);
   font-family: var(--hap-typography-font-family-heading);
   font-size: var(--hap-typography-font-size-headline-xl);
@@ -30,7 +30,7 @@
   margin: 0;
 }
 
-.hap-headline-lg {
+.hap-headline--lg {
   color: var(--hap-color-text-primary-on-light);
   font-family: var(--hap-typography-font-family-heading);
   font-size: var(--hap-typography-font-size-headline-lg);
@@ -40,7 +40,7 @@
   margin: 0;
 }
 
-.hap-headline-md {
+.hap-headline--md {
   color: var(--hap-color-text-primary-on-light);
   font-family: var(--hap-typography-font-family-heading);
   font-size: var(--hap-typography-font-size-headline-md);
@@ -50,7 +50,7 @@
   margin: 0;
 }
 
-.hap-headline-sm {
+.hap-headline--sm {
   color: var(--hap-color-text-primary-on-light);
   font-family: var(--hap-typography-font-family-heading);
   font-size: var(--hap-typography-font-size-headline-sm);
@@ -71,7 +71,7 @@
   line-height: var(--hap-typography-line-height-bodytext-standard-singleline);
 }
 
-.hap-text-sm {
+.hap-text--sm {
   color: var(--hap-color-text-primary-on-light);
   font-family: var(--hap-typography-font-family-body);
   font-size: var(--hap-typography-font-size-bodytext-s);
@@ -80,7 +80,7 @@
   line-height: var(--hap-typography-line-height-bodytext-s-singleline);
 }
 
-.hap-text-xs {
+.hap-text--xs {
   color: var(--hap-color-text-primary-on-light);
   font-family: var(--hap-typography-font-family-body);
   font-size: var(--hap-typography-font-size-bodytext-xs);
@@ -89,15 +89,19 @@
   line-height: var(--hap-typography-line-height-bodytext-xs-singleline);
 }
 
-/* Rounded Dots for all typography levels */
-.hap-headline-3xl,
-.hap-headline-2xl,
-.hap-headline-xl,
-.hap-headline-lg,
-.hap-headline-md,
-.hap-headline-sm,
+/*
+ *Rounded Dots for all typography levels
+ * TODO: Remove after `font-feature-settings` are widely available at font-level.
+ * See: https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-feature-settings
+  */
+.hap-headline--3xl,
+.hap-headline--2xl,
+.hap-headline--xl,
+.hap-headline--lg,
+.hap-headline--md,
+.hap-headline--sm,
 .hap-text,
-.hap-text-sm,
-.hap-text-xs {
+.hap-text--sm,
+.hap-text--xs {
   font-feature-settings: "ss11" 1;
 }

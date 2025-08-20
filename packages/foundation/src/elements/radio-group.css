@@ -27,7 +27,7 @@
     opacity: var(--hap-opacity-disabled);
   }
 
-  &:has(.hap-error) {
+  &.hap-feedback--invalid {
     --hap-radio-group-color-text: light-dark(
       var(--hap-color-feedback-critical-dark),
       var(--hap-color-feedback-critical-light)
@@ -103,7 +103,7 @@
   }
 }
 
-.hap-error {
+.hap-radio-group-error {
   display: inline-flex;
   gap: var(--hap-spacing-xs);
   font-family: var(--hap-typography-font-family-body);
@@ -111,10 +111,7 @@
   font-weight: var(--hap-typography-font-weight-regular);
   line-height: var(--hap-typography-line-height-bodytext-xs-multiline);
   letter-spacing: var(--hap-typography-letter-spacing-lg);
-  color: light-dark(
-    var(--hap-color-feedback-critical-dark),
-    var(--hap-color-feedback-critical-light)
-  );
+  color: var(--hap-radio-color-text);
 
   & > svg {
     height: var(--hap-typography-line-height-bodytext-s-singleline);

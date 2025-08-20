@@ -40,7 +40,7 @@
         );
       }
 
-      .selected {
+      .hap-breadcrumb-link--current {
         font-weight: var(--hap-typography-font-weight-medium);
         color: light-dark(
           var(--hap-color-text-primary-on-light),

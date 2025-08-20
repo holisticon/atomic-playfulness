@@ -1,6 +1,7 @@
-.hap-divider:not(.hap-divider-vertical) {
+.hap-divider {
   border: none;
-  border-top: solid 1px var(--hap-color-fill-secondary-on-light-default);
+  border-top: solid var(--hap-divider-width)
+    var(--hap-color-fill-secondary-on-light-default);
   display: block;
   margin: 0;
 
@@ -18,7 +19,8 @@
 .hap-divider-vertical {
   border: none;
   display: inline-block;
-  border-left: solid 1px var(--hap-color-fill-secondary-on-light-default);
+  border-left: solid var(--hap-divider-width)
+    var(--hap-color-fill-secondary-on-light-default);
   margin: 0;
 
   &.hap-divider--inset {
@@ -32,8 +34,11 @@
   }
 }
 
-.hap-divider {
-  &.hap-divider-bold {
-    border-width: 2px;
+.hap-divider,
+.hap-divider-vertical {
+  --hap-divider-width: 1px;
+
+  &.hap-divider--bold {
+    --hap-divider-width: 2px;
   }
 }

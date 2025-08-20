@@ -18,7 +18,7 @@ const renderBreadcrumb = (args: BreadCrumbArgs) => {
           <li class="hap-breadcrumb-item">
             <a
               class=${index == args.currentPageIndex
-                ? "selected hap-breadcrumb-link"
+                ? "hap-breadcrumb-link hap-breadcrumb-link--current"
                 : "hap-breadcrumb-link"}
             >
               ${elem} ${renderBreadcrumbIcon(args.pages.length - 1 !== index)}

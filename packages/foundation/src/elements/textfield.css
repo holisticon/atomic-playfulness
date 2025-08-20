@@ -121,18 +121,18 @@
 
 /* Error State */
 
-.hap-feedback-invalid:not(input),
-.hap-textfield.hap-feedback-invalid > label,
-.hap-textfield.hap-feedback-invalid > span {
+.hap-feedback--invalid:not(input),
+.hap-textfield.hap-feedback--invalid > label,
+.hap-textfield.hap-feedback--invalid > span {
   color: light-dark(
     var(--hap-color-feedback-critical-dark),
     var(--hap-color-feedback-critical-light)
   );
 }
 
-input.hap-feedback-invalid,
-.hap-textfield.hap-feedback-invalid > input,
-.hap-textfield-input.hap-feedback-invalid,
-.hap-textfield.hap-feedback-invalid > .hap-textfield-input {
+input.hap-feedback--invalid,
+.hap-textfield.hap-feedback--invalid > input,
+.hap-textfield-input.hap-feedback--invalid,
+.hap-textfield.hap-feedback--invalid > .hap-textfield-input {
   --hap-textfield-border-color: var(--hap-color-feedback-critical-dark);
 }

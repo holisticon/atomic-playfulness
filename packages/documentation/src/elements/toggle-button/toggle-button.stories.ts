@@ -24,9 +24,9 @@ const meta = {
     <button
       aria-pressed=${args.pressed}
       class=${classMap({
-        "hap-toggle-button": true,
+        "hap-toggle-button": !args.small,
+        "hap-toggle-button--sm": args.small,
         "hap-toggle-button--subtle": args.subtle,
-        "hap-toggle-button--small": args.small,
       })}
       @click=${(e: MouseEvent) => {
         const btn = e.currentTarget as HTMLButtonElement;

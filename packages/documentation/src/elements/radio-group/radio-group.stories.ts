@@ -51,7 +51,7 @@ export const Invalid: Story = {
   render: (args) => html`
     <fieldset
       role="radiogroup"
-      class="hap-radio-group hap-feedback-invalid"
+      class="hap-radio-group hap-feedback--invalid"
       ?disabled=${args.disabled}
       aria-describedby="error"
     >
@@ -62,7 +62,7 @@ export const Invalid: Story = {
           <span>${option.label}</span>
         </label>`;
       })}
-      <span id="error" class="hap-error">
+      <span id="error" class="hap-radio-group-error">
         <svg class="hap-icon" viewBox="0 0 24 24">
           <use href="#circle-alert" />
         </svg>

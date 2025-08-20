@@ -32,8 +32,8 @@ const meta: Meta = {
       }
     </style>
     <form class="form-card">
-      <h2 class="hap-headline-xl">Signup</h2>
-      <div class="hap-alert informative">
+      <h2 class="hap-headline--xl">Signup</h2>
+      <div class="hap-alert hap-feedback--neutral">
         <div class="hap-alert-content">
           ${renderIcon("info")}
           <span>

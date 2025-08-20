@@ -10,9 +10,9 @@ type Story = StoryObj;
 export const Default: Story = {
   render: () =>
     html`<div class="hap-topbar">
-      <div class="hap-headline-sm">FANCY LOGO</div>
+      <div class="hap-headline--sm">FANCY LOGO</div>
       <nav class="hap-topbar-nav">
-        <a class="hap-topbar-nav-item hap-topbar-nav-item--active" href="#"
+        <a class="hap-topbar-nav-item hap-topbar-nav-item--current" href="#"
           >Link 1</a
         >
         <a class="hap-topbar-nav-item" href="#">Link 2</a>
@@ -22,7 +22,7 @@ export const Default: Story = {
         </a>
         <a class="hap-topbar-nav-item" href="#">Link 5</a>
       </nav>
-      <button class="hap-button hap-button--secondary hap-button--small ">
+      <button class="hap-button--sm hap-button--secondary">
         ${renderIcon("log-out")} Logout
       </button>
     </div>`,
@@ -31,7 +31,7 @@ export const Default: Story = {
 export const Search: Story = {
   render: () =>
     html`<div class="hap-topbar">
-      <div class="hap-headline-sm">FANCY LOGO</div>
+      <div class="hap-headline--sm">FANCY LOGO</div>
       <div class="hap-search">
         <span class="hap-search-icon">${renderIcon("search", "small")}</span>
         <input id="search" arial-label="Search" placeholder="Placeholder" />
@@ -39,7 +39,7 @@ export const Search: Story = {
           ${renderIcon("arrow-right", "small")}
         </button>
       </div>
-      <button class="hap-button hap-button--secondary hap-button--small ">
+      <button class="hap-button--sm hap-button--secondary">
         ${renderIcon("log-out")} Logout
       </button>
     </div>`,

@@ -1,9 +1,20 @@
 .hap-icon {
+  --hap-icon-size: var(--hap-primitives-line-height-md);
+  --hap-icon-stroke-width: 1.5;
+}
+
+.hap-icon--sm {
+  --hap-icon-size: var(--hap-primitives-line-height-xs);
+  --hap-icon-stroke-width: 1;
+}
+
+.hap-icon,
+.hap-icon--sm {
   fill: none;
   stroke: currentColor;
-  stroke-width: 2;
-  height: var(--hap-primitives-line-height-md);
-  width: var(--hap-primitives-line-height-md);
+  stroke-width: var(--hap-icon-stroke-width);
+  height: var(--hap-icon-size);
+  width: var(--hap-icon-size);
   stroke-linecap: round;
   stroke-linejoin: round;
 
@@ -17,10 +28,5 @@
   polygon,
   polyline {
     vector-effect: non-scaling-stroke;
-  }
-
-  &.hap-icon--small {
-    height: var(--hap-primitives-line-height-xs);
-    width: var(--hap-primitives-line-height-xs);
   }
 }
