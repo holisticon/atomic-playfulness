@@ -73,6 +73,10 @@ const meta: Meta = {
         align-items: center;
       }
 
+      .justify-content-center {
+        justify-content: center;
+      }
+
       .align-items-start {
         align-items: flex-start;
       }
@@ -277,14 +281,21 @@ const meta: Meta = {
         </div>
 
         ${surface(html`
-          <div class="flex-row gap-md">
-            <span class="hap-tag">Label</span>
-            <span class="hap-tag">${renderIcon("sparkles", "small")}Label</span>
+          <div class="flex-row stretch gap-md justify-content-center">
             <span class="hap-tag"
               >Label<button class="hap-icon-button--xs">
                 ${renderIcon("circle-x", "small")}
               </button></span
             >
+            <span class="hap-tag">Label</span>
+            <span class="hap-tag"
+              >${renderIcon("sparkles", "small")}Label<button
+                class="hap-icon-button--xs"
+              >
+                ${renderIcon("circle-x", "small")}
+              </button></span
+            >
+            <span class="hap-tag">${renderIcon("sparkles", "small")}Label</span>
           </div>
         `)}
 
