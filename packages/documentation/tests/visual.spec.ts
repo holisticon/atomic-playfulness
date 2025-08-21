@@ -1,4 +1,4 @@
-import { expect, test } from "@playwright/test";
+import { expect, test } from "./test.ts";
 
 /**
  * taken from: https://markus.oberlehner.net/blog/running-visual-regression-tests-with-storybook-and-playwright-for-free
@@ -22,8 +22,7 @@ for (const story of stories) {
     });
 
     await page.goto(`/iframe.html?${params.toString()}`);
-    await page.waitForSelector("#storybook-root");
-    await page.waitForLoadState("networkidle");
+    await page.locator("#storybook-root").waitFor();
 
     await expect(page).toHaveScreenshot(
       `${story.id}-${workerInfo.project.name}.png`,
