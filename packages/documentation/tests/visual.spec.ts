@@ -22,7 +22,7 @@ for (const story of stories) {
     });
 
     await page.goto(`/iframe.html?${params.toString()}`);
-    await page.waitForSelector("#storybook-root");
+    await page.locator("#storybook-root").waitFor();
 
     await expect(page).toHaveScreenshot(
       `${story.id}-${workerInfo.project.name}.png`,
