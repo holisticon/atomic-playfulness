@@ -31,3 +31,17 @@ your html will use a smaller size.
   }
 }
 ```
+
+## Angular
+
+When using the Lucide icons with Angular, you'll need to add the following to
+your global styles:
+
+```css
+lucide-icon {
+  display: contents;
+}
+```
+
+As the Angular package for lucide will add a transparent wrapper element for the
+icons, this will otherwise introduce some layout problems.
