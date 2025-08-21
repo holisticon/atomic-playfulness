@@ -1,0 +1,23 @@
+.hap-placeholder {
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  padding-inline: var(--hap-spacing-lg);
+  padding-block: var(--hap-spacing-md);
+  border-radius: var(--hap-radius-rounded);
+  border: var(--hap-border-width-sm) solid;
+  border-color: var(--hap-color-border-secondary-on-light-default);
+  background-color: var(--hap-color-surface-secondary-default);
+
+  &::before {
+    display: block;
+    content: "Placeholder";
+
+    color: var(--hap-color-text-secondary-on-light);
+    font-family: var(--hap-typography-font-family-body);
+    font-size: var(--hap-typography-font-size-bodytext-s);
+    font-weight: var(--hap-typography-font-weight-regular);
+    letter-spacing: var(--hap-typography-letter-spacing-lg);
+    line-height: var(--hap-typography-line-height-bodytext-s-singleline);
+  }
+}

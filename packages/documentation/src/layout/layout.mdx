@@ -1,0 +1,37 @@
+import { Canvas } from "@storybook/addon-docs/blocks";
+import * as stack from "./stack/stack.stories.ts";
+import * as inline from "./inline/inline.stories.ts";
+
+# Layout
+
+Atomic Playfulness provides layout primitives that enable most common layouts
+without the need for custom CSS.
+
+## Spacing
+
+All layout primitives have configurable spacing. Any semantic spacing can be
+applied as a layout space. The following classes are available:
+
+- `.hap-gap--none`
+- `.hap-gap--xs`
+- `.hap-gap--sm`
+- `.hap-gap--md`
+- `.hap-gap--md-lg`
+- `.hap-gap--lg`
+- `.hap-gap--xl`
+- `.hap-gap--2xl`
+
+## Inline
+
+Layout content horizontally with adjustable spacing, alignment, and positioning.
+Examples for all adjustable properties can be found in the `inline`
+documentation.
+
+<Canvas of={inline.Default} />
+
+## Stack
+
+Stacks content vertically with adjustable spacing and alignment. Examples for
+all adjustable properties can be found in the `stack` documentation.
+
+<Canvas of={stack.Default} />

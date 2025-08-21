@@ -1,0 +1,16 @@
+.hap-inline {
+  --hap-layout-gap-inline: var(--hap-spacing-none);
+  --hap-layout-justify: initial;
+  --hap-layout-align: initial;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: var(--hap-layout-gap-inline);
+  justify-content: var(--hap-layout-justify);
+  align-items: var(--hap-layout-align);
+  min-inline-size: 0;
+}
+
+.hap-inline--wrap {
+  flex-wrap: wrap;
+}
