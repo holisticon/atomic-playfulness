@@ -23,6 +23,6 @@ export const Default: Story = {
   args: { content: 123 },
 };
 
-export const NoContent: Story = {
+export const Small: Story = {
   args: { content: null },
 };
