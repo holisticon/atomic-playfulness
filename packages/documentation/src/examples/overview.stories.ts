@@ -116,29 +116,24 @@ const meta: Meta = {
         <div class="hap-navigation-rail-items">
           ${renderNavigationRailItem({
             icon: "shopping-cart",
-            badgeVariant: "default",
             selected: true,
             label: "Label",
           })}
           ${renderNavigationRailItem({
             icon: "shopping-cart",
-            badgeVariant: "default",
-            badgeCount: "3",
+            badgeCount: 3,
             label: "Label",
           })}
           ${renderNavigationRailItem({
             icon: "shopping-cart",
-            badgeVariant: "default",
             label: "Label",
           })}
           ${renderNavigationRailItem({
             icon: "shopping-cart",
-            badgeVariant: "default",
             label: "Label",
           })}
           ${renderNavigationRailItem({
             icon: "shopping-cart",
-            badgeVariant: "default",
             label: "Label",
           })}
         </div>
@@ -373,7 +368,7 @@ const meta: Meta = {
               <input
                 name="some-setting"
                 type="checkbox"
-                checked="checked"
+                checked
                 class="hap-switch"
               />
               <br />
@@ -385,7 +380,7 @@ const meta: Meta = {
               <input
                 name="some-setting"
                 type="checkbox"
-                checked="checked"
+                checked
                 class="hap-switch--sm"
               />
             </div>`,
@@ -397,7 +392,7 @@ const meta: Meta = {
                 <span>Default</span>
               </label>
               <label class="hap-checkbox">
-                <input type="checkbox" checked="checked" name="confirmation" />
+                <input type="checkbox" checked name="confirmation" />
                 <span>Default</span>
               </label>
               <label class="hap-checkbox">
@@ -414,7 +409,7 @@ const meta: Meta = {
                 <span>Error</span>
               </label>
               <label class="hap-checkbox hap-feedback--invalid">
-                <input type="checkbox" checked="checked" name="confirmation" />
+                <input type="checkbox" checked name="confirmation" />
                 ${renderIcon("circle-alert", "small")}
                 <span>Error</span>
               </label>

@@ -8,15 +8,7 @@ import {
 const meta: Meta<NavigationRailItemArgs> = {
   args: {
     icon: "shopping-cart",
-    badgeCount: "3",
-    badgeVariant: "none",
     label: "Label",
-  },
-  argTypes: {
-    badgeVariant: {
-      control: { type: "select" },
-      options: ["default", "small", "none"],
-    },
   },
   render: (args) =>
     html`<div
@@ -27,7 +19,7 @@ const meta: Meta<NavigationRailItemArgs> = {
       >
         ${renderNavigationRailItem({ ...args, icon: "menu", label: "" })}
         ${renderNavigationRailItem({ ...args, selected: true })}
-        ${renderNavigationRailItem({ ...args, badgeVariant: "default" })}
+        ${renderNavigationRailItem({ ...args, badgeCount: 3 })}
         ${renderNavigationRailItem(args)} ${renderNavigationRailItem(args)}
         ${renderNavigationRailItem(args)}
       </div>
