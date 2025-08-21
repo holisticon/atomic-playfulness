@@ -5,14 +5,14 @@ import {
   justifyArgType,
   spacingArgType,
   type Align,
-  type Justify,
+  type Justify as JustifyType,
   type Spacing,
 } from "../../common/layout.js";
 
 interface InlineArgs {
   gap: Spacing;
   align: Align;
-  justify: Justify;
+  justify: JustifyType;
 }
 
 const meta: Meta<InlineArgs> = {
@@ -72,7 +72,7 @@ export const Alignment: Story = {
   `,
 };
 
-export const Positioning: Story = {
+export const Justify: Story = {
   render: () => html`
     <div class="hap-stack hap-gap--sm">
       <div class="hap-inline hap-gap--md hap-justify--start">
