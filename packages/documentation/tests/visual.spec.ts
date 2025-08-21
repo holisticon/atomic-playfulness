@@ -1,4 +1,4 @@
-import { expect, test } from "@playwright/test";
+import { expect, test } from "./test.ts";
 
 /**
  * taken from: https://markus.oberlehner.net/blog/running-visual-regression-tests-with-storybook-and-playwright-for-free
