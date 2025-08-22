@@ -468,7 +468,7 @@ const meta: Meta = {
             <span>Caution</span>
             ${renderIcon("circle-alert", "small")}
           </div>
-          <div class="hap-badge hap-badge--strong hap-feedback--informative">
+          <div class="hap-badge hap-badge--strong hap-feedback--neutral">
             <span>Neutral</span>
             ${renderIcon("check", "small")}
           </div>
@@ -490,7 +490,7 @@ const meta: Meta = {
             <span>Caution</span>
             ${renderIcon("circle-alert", "small")}
           </div>
-          <div class="hap-badge hap-feedback--informative">
+          <div class="hap-badge hap-feedback--neutral">
             <span>Neutral</span>
             ${renderIcon("check", "small")}
           </div>

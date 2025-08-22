@@ -51,7 +51,7 @@ export const Critical: Story = {
 };
 
 export const Neutral: Story = {
-  args: { feedback: "informative", label: "Informative", icon: "check" },
+  args: { feedback: "neutral", label: "Neutral", icon: "check" },
 };
 
 export const New: Story = {

@@ -3,7 +3,7 @@ import { cva } from "cva";
 export const feedback = cva({
   variants: {
     feedback: {
-      default: "hap-feedback--default",
+      default: null,
       informative: "hap-feedback--informative",
       positive: "hap-feedback--positive",
       critical: "hap-feedback--critical",
