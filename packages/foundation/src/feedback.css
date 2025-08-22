@@ -3,12 +3,7 @@
   --hap-color-feedback-light: var(--hap-color-feedback-default-light);
 }
 
-.hap-feedback--default {
-  --hap-color-feedback-dark: var(--hap-color-feedback-default-dark);
-  --hap-color-feedback-light: var(--hap-color-feedback-default-light);
-}
-
-.hap-feedback--informative {
+.hap-feedback--neutral {
   --hap-color-feedback-dark: var(--hap-color-feedback-neutral-dark);
   --hap-color-feedback-light: var(--hap-color-feedback-neutral-light);
 }
