@@ -1,5 +1,5 @@
 import { transparentize } from "polished";
-import React, { type FC, Fragment } from "react";
+import { type FC, Fragment } from "react";
 import { withReset } from "storybook/internal/components";
 import type { Theme } from "storybook/theming";
 import { styled } from "storybook/theming";

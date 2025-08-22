@@ -2,3 +2,9 @@ dist
 node_modules
 .idea
 .history
+test-results
+playwright-report
+
+# ignore all screenshots except for the platform running the CI pipeline.
+packages/documentation/tests/screenshots/*
+!packages/documentation/tests/screenshots/linux
