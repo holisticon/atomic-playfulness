@@ -50,6 +50,12 @@
   }
 }
 
+.hap-topbar-nav-item:where(
+  :not(.hap-topbar-nav-item--current, :hover, :active, :focus-visible)
+) {
+  opacity: var(--hap-opacity-inactive);
+}
+
 .hap-topbar-nav-item--current::after {
   background-color: var(--hap-color-text-brand-on-light);
 }
