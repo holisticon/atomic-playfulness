@@ -1,7 +1,7 @@
 {
   "name": "@holisticon/hap-documentation",
   "type": "module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "author": "Holisticon AG <info@holisticon.de>",
   "description": "Documentation for the atomic-playfulness design system.",
@@ -20,7 +20,7 @@
     "visual-test-update": "playwright test --update-snapshots"
   },
   "dependencies": {
-    "@holisticon/hap-foundation": "^0.4.0",
+    "@holisticon/hap-foundation": "^1.0.0",
     "lit": "^3.3.1",
     "lucide-static": "^0.541.0",
     "polished": "^4.3.1"
