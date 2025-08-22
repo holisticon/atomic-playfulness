@@ -6,7 +6,7 @@
   padding: var(--hap-spacing-md);
   border-block-end: var(--hap-border-width-sm) solid
     var(--hap-color-divider-on-light);
-  background-color: var(--hap-color-surface-primary-default);
+  background-color: var(--hap-color-surface-brand-default);
   box-shadow: var(--hap-shadow-first-level-x) var(--hap-shadow-first-level-y)
     var(--hap-shadow-first-level-blur) 0px var(--hap-shadow-first-level-color);
 }
@@ -23,7 +23,7 @@
   letter-spacing: var(--hap-typography-letter-spacing-md);
   line-height: var(--hap-typography-line-height-bodytext-standard-singleline);
   text-decoration: none;
-  color: var(--hap-color-text-primary-on-light);
+  color: var(--hap-color-text-brand-on-light);
   padding-inline: var(--hap-spacing-xs);
   border-radius: var(--hap-radius-minimal);
 
