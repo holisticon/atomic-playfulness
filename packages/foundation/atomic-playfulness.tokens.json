@@ -1882,7 +1882,7 @@
     "font-weight": {
       "regular": {
         "$type": "string",
-        "$value": "regular",
+        "$value": "400",
         "$description": "",
         "$extensions": {
           "mode": {},
@@ -1916,7 +1916,7 @@
       },
       "bold": {
         "$type": "string",
-        "$value": "bold",
+        "$value": "700",
         "$description": "",
         "$extensions": {
           "mode": {},
@@ -6860,7 +6860,7 @@
         "Primitives",
         "Tokens"
       ],
-      "createdAt": "2025-07-30T06:03:26.518Z"
+      "createdAt": "2025-08-22T10:32:43.891Z"
     }
   }
 }
