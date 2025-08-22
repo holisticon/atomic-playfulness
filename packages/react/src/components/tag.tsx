@@ -1,15 +1,14 @@
 import { cva, type VariantProps } from "cva";
 import { XCircle } from "lucide-react";
-import type { HTMLAttributes, MouseEvent, ReactNode } from "react";
+import type { ComponentPropsWithRef, MouseEvent } from "react";
 
 const tag = cva({
   base: "hap-tag",
 });
 
 export interface TagProps
-  extends HTMLAttributes<HTMLSpanElement>,
+  extends ComponentPropsWithRef<"span">,
     VariantProps<typeof tag> {
-  children?: ReactNode;
   closable?: boolean;
   onClose?: (event: MouseEvent<HTMLButtonElement>) => void;
   closeLabel?: string;
