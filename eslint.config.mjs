@@ -1,13 +1,12 @@
-import eslint from "@eslint/js";
-import tsEslint from "typescript-eslint";
+import js from "@eslint/js";
+import { defineConfig, globalIgnores } from "eslint/config";
+import ts from "typescript-eslint";
 
-export default tsEslint.config(
-  {
-    ignores: ["**/dist", "packages/foundation/atomic-playfulness.tokens.json"],
-  },
-  eslint.configs.recommended,
-  ...tsEslint.configs.recommended,
-  ...tsEslint.configs.stylistic,
+export default defineConfig(
+  globalIgnores(["dist"]),
+  js.configs.recommended,
+  ts.configs.recommended,
+  ts.configs.stylistic,
   {
     rules: {
       "@typescript-eslint/no-empty-object-type": [

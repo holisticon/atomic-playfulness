@@ -7,13 +7,15 @@
 
     /* Modules */
     "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "moduleDetection": "force",
     "verbatimModuleSyntax": true,
     "isolatedModules": true,
     "resolveJsonModule": true,
+    "erasableSyntaxOnly": true,
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true,
 
     /* Type Checking */
-    "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
@@ -21,7 +23,6 @@
     "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
     "allowUnreachableCode": false,
-    "exactOptionalPropertyTypes": true,
-    "jsx": "react"
+    "exactOptionalPropertyTypes": true
   }
 }
