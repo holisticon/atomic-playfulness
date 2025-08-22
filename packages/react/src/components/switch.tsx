@@ -5,12 +5,8 @@ const switchVariants = cva({
   base: "hap-switch",
   variants: {
     size: {
-      default: "",
       small: "hap-switch--sm",
     },
-  },
-  defaultVariants: {
-    size: "default",
   },
 });
 

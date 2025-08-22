@@ -4,7 +4,7 @@ import { Alert } from "./alert.js";
 const meta = {
   component: Alert,
   args: {
-    feedback: "informative",
+    feedback: "default",
     children: "Alert message.",
   },
 } satisfies Meta<typeof Alert>;

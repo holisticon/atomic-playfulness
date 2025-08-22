@@ -1,5 +1,5 @@
 import { cva, type VariantProps } from "cva";
-import type { ComponentPropsWithRef, ReactNode } from "react";
+import type { ComponentPropsWithRef } from "react";
 
 const button = cva({
   base: "hap-button",
@@ -11,21 +11,17 @@ const button = cva({
       destructive: "hap-button--destructive",
     },
     size: {
-      default: "",
       small: "hap-button--sm",
     },
   },
   defaultVariants: {
     variant: "primary",
-    size: "default",
   },
 });
 
 interface ButtonProps
   extends ComponentPropsWithRef<"button">,
-    VariantProps<typeof button> {
-  children?: ReactNode;
-}
+    VariantProps<typeof button> {}
 
 export function Button(props: ButtonProps) {
   const { variant, size, className, children, ...rest } = props;
