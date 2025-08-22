@@ -48,6 +48,13 @@ export {
   NavigationDrawerMenu,
   NavigationDrawerTitle,
 } from "./components/navigation-drawer.js";
+export {
+  NavigationRail,
+  NavigationRailFooter,
+  NavigationRailHeader,
+  NavigationRailItem,
+  NavigationRailItems,
+} from "./components/navigation-rail.js";
 export { ProgressIndicator } from "./components/progress-indicator.js";
 export { RadioGroup } from "./components/radio-group.js";
 export { Search } from "./components/search.js";
@@ -67,4 +74,15 @@ export { Tag } from "./components/tag.js";
 export { TextField } from "./components/text-field.js";
 export { TextLink } from "./components/text-link.js";
 export { Textarea } from "./components/textarea.js";
+export {
+  ToggleButton,
+  ToggleButtonGroup,
+} from "./components/toggle-button-group.js";
 export { Tooltip } from "./components/tooltip.js";
+export {
+  Topbar,
+  TopbarActions,
+  TopbarBrand,
+  TopbarNav,
+  TopbarNavItem,
+} from "./components/topbar.js";
