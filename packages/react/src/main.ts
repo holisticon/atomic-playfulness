@@ -1,6 +1,17 @@
 export { Alert } from "./components/alert.js";
 export { Badge } from "./components/badge.js";
+export { Breadcrumb } from "./components/breadcrumb.js";
 export { Button } from "./components/button.js";
 export { Checkbox } from "./components/checkbox.js";
+export { Divider } from "./components/divider.js";
+export { IconButton } from "./components/icon-button.js";
+export { Icon } from "./components/icon.js";
+export { Indicator } from "./components/indicator.js";
+export { ProgressIndicator } from "./components/progress-indicator.js";
+export { RadioGroup } from "./components/radio-group.js";
+export { Search } from "./components/search.js";
 export { Switch } from "./components/switch.js";
 export { Tag } from "./components/tag.js";
+export { TextField } from "./components/text-field.js";
+export { TextLink } from "./components/text-link.js";
+export { Textarea } from "./components/textarea.js";
