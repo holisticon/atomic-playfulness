@@ -1916,7 +1916,7 @@
       },
       "bold": {
         "$type": "string",
-        "$value": "bold",
+        "$value": "700",
         "$description": "",
         "$extensions": {
           "mode": {},
@@ -6860,7 +6860,7 @@
         "Primitives",
         "Tokens"
       ],
-      "createdAt": "2025-08-22T10:03:43.700Z"
+      "createdAt": "2025-08-22T10:32:43.891Z"
     }
   }
 }
