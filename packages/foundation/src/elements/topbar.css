@@ -6,7 +6,7 @@
   padding: var(--hap-spacing-md);
   border-block-end: var(--hap-border-width-sm) solid
     var(--hap-color-divider-on-light);
-  background-color: var(--hap-color-surface-primary-default);
+  background-color: var(--hap-color-surface-brand-default);
   box-shadow: var(--hap-shadow-first-level-x) var(--hap-shadow-first-level-y)
     var(--hap-shadow-first-level-blur) 0px var(--hap-shadow-first-level-color);
 }
@@ -16,6 +16,20 @@
   gap: var(--hap-spacing-md);
 }
 
+ul.hap-topbar-nav,
+ol.hap-topbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    /* Important, because otherwise the ::after for underlining will take a an additional line-height */
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+}
+
 .hap-topbar-nav-item {
   font-family: var(--hap-typography-font-family-body);
   font-size: var(--hap-typography-font-size-bodytext-standard);
@@ -23,7 +37,7 @@
   letter-spacing: var(--hap-typography-letter-spacing-md);
   line-height: var(--hap-typography-line-height-bodytext-standard-singleline);
   text-decoration: none;
-  color: var(--hap-color-text-primary-on-light);
+  color: var(--hap-color-text-brand-on-light);
   padding-inline: var(--hap-spacing-xs);
   border-radius: var(--hap-radius-minimal);
 
@@ -48,6 +62,12 @@
     outline: var(--hap-border-width-md) solid
       var(--hap-color-border-focused-default);
   }
+}
+
+.hap-topbar-nav-item:where(
+  :not(.hap-topbar-nav-item--current, :hover, :active, :focus-visible)
+) {
+  opacity: var(--hap-opacity-inactive);
 }
 
 .hap-topbar-nav-item--current::after {
