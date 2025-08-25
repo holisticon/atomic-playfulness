@@ -9,28 +9,32 @@ type Story = StoryObj;
 
 export const Default: Story = {
   render: () =>
-    html`<div class="hap-topbar">
+    html`<nav class="hap-topbar">
       <div class="hap-headline--sm">FANCY LOGO</div>
-      <nav class="hap-topbar-nav">
-        <a class="hap-topbar-nav-item hap-topbar-nav-item--current" href="#"
-          >Link 1</a
-        >
-        <a class="hap-topbar-nav-item" href="#">Link 2</a>
-        <a class="hap-topbar-nav-item" href="#">Link 3</a>
-        <a class="hap-topbar-nav-item hap-topbar-nav-item--disabled" href="#">
-          Link 4
-        </a>
-        <a class="hap-topbar-nav-item" href="#">Link 5</a>
-      </nav>
+      <ol class="hap-topbar-nav">
+        <li>
+          <a class="hap-topbar-nav-item hap-topbar-nav-item--current" href="#"
+            >Link 1</a
+          >
+        </li>
+        <li><a class="hap-topbar-nav-item" href="#">Link 2</a></li>
+        <li><a class="hap-topbar-nav-item" href="#">Link 3</a></li>
+        <li>
+          <a class="hap-topbar-nav-item hap-topbar-nav-item--disabled" href="#"
+            >Link 4</a
+          >
+        </li>
+        <li><a class="hap-topbar-nav-item" href="#">Link 5</a></li>
+      </ol>
       <button class="hap-button--sm hap-button--secondary">
         ${renderIcon("log-out")} Logout
       </button>
-    </div>`,
+    </nav>`,
 };
 
 export const Search: Story = {
   render: () =>
-    html`<div class="hap-topbar">
+    html`<nav class="hap-topbar">
       <div class="hap-headline--sm">FANCY LOGO</div>
       <div class="hap-search">
         <span class="hap-search-icon">${renderIcon("search", "small")}</span>
@@ -42,5 +46,5 @@ export const Search: Story = {
       <button class="hap-button--sm hap-button--secondary">
         ${renderIcon("log-out")} Logout
       </button>
-    </div>`,
+    </nav>`,
 };
