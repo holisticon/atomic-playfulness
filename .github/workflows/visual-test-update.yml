@@ -31,6 +31,8 @@ jobs:
         run: npm run visual-test-update
       - name: Commit updated Screenshots
         run: |
+          git config user.name Token Updater
+          git config user.email "lukas.taake@holisticon.de"
           git add -A
           git commit -m "chore: update screenshots"
           git push
