@@ -7,8 +7,9 @@ const meta: Meta = {
     html` <div style="color-scheme: light; background: white; padding: 16px;">
       <div class="hap-menu">
         <a href="#" class="hap-menu-item"><span>Link Entry</span></a>
-        <button type="button" class="hap-menu-item">
+        <button type="button" class="hap-menu-item hap-menu-item--selected">
           <span>Entry 2</span>
+          ${renderIcon("check")}
         </button>
         <button type="button" class="hap-menu-item">
           <span>Entry 3</span>

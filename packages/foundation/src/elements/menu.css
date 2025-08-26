@@ -52,4 +52,8 @@ button.hap-menu-item {
   &:active {
     background: var(--hap-color-fill-interaction-on-light-pressed);
   }
+
+  &.hap-menu-item--selected {
+    background: var(--hap-color-fill-interaction-on-light-selected);
+  }
 }
