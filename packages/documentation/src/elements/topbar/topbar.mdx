@@ -5,13 +5,24 @@ import * as stories from "./topbar.stories.ts";
 
 # Topbar
 
-Displays available actions at the top of the screen.
+Displays available actions at the top of the screen. Use the `hap-topbar` CSS
+class to create a topbar container.
 
 <Canvas of={stories.Default} />
 
 ## Usage Examples
 
 ### With Navigation Links
+
+Navigation links consists of a `nav` container with multiple navigation items.
+They can be styled with:
+
+- `hap-topbar-nav`: CSS class for the wrapping `nav` container.
+- `hap-topbar-nav-item`: Base CSS class for navigation items.
+- `hap-topbar-nav-item--current`: Additional CSS class to mark the currently
+  active navigation item.
+- `hap-topbar-nav-item--disabled`: Additional CSS class to style a navigation
+  items as disabled.
 
 <Canvas of={stories.Default} />
 
