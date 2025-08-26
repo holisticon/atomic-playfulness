@@ -1,5 +1,93 @@
 # @holisticon/hap-foundation
 
+## 1.0.0
+
+### Major Changes
+
+- [#166](https://github.com/holisticon/atomic-playfulness/pull/166) [`1b967a7`](https://github.com/holisticon/atomic-playfulness/commit/1b967a70af31fc02e74f27df2e4333cfa323bb3f) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Updated `hap-switch` to use common size variants and make them work standalone.
+
+  ```html
+  <!-- OLD -->
+  <a class="hap-switch hap-switch--small">Link</a>
+  <!-- NEW -->
+  <a class="hap-switch--sm">Link</a>
+  ```
+
+- [#166](https://github.com/holisticon/atomic-playfulness/pull/166) [`1b967a7`](https://github.com/holisticon/atomic-playfulness/commit/1b967a70af31fc02e74f27df2e4333cfa323bb3f) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Updated `hap-textlink` to use common size variants and make them work standalone.
+
+  ```html
+  <!-- OLD -->
+  <a class="hap-textlink hap-textlink--small">Link</a>
+  <!-- NEW -->
+  <a class="hap-textlink--sm">Link</a>
+
+  <!-- OLD -->
+  <a class="hap-textlink hap-textlink--footnote">Link</a>
+  <!-- NEW -->
+  <a class="hap-textlink--xs">Link</a>
+  ```
+
+- [#208](https://github.com/holisticon/atomic-playfulness/pull/208) [`2ae7e5f`](https://github.com/holisticon/atomic-playfulness/commit/2ae7e5fec4b99adf15196b5183074721c4adaebe) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Removed the background color for secondary and tertiary buttons in the light default state.
+
+- [#166](https://github.com/holisticon/atomic-playfulness/pull/166) [`1b967a7`](https://github.com/holisticon/atomic-playfulness/commit/1b967a70af31fc02e74f27df2e4333cfa323bb3f) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Renamed `hap-topbar-nav-item--active` to `hap-topbar-nav-item--current` to better align its intent with the `aria-current` attribute.
+
+- [#208](https://github.com/holisticon/atomic-playfulness/pull/208) [`2ae7e5f`](https://github.com/holisticon/atomic-playfulness/commit/2ae7e5fec4b99adf15196b5183074721c4adaebe) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Updated the topbar to use brand colors.
+
+- [#198](https://github.com/holisticon/atomic-playfulness/pull/198) [`a8ac0c3`](https://github.com/holisticon/atomic-playfulness/commit/a8ac0c38925de1a7afee4077630d2cb373f7914f) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Overhauled the indicator to only use a single class `hap-indicator`. Instead of an additional "small" styling for indicators without contents, the styling is based on whether or not the indicator has content. The additional `small` and `hap-indicator-content` classes requirements have been removed.
+
+  ```html
+  <!-- OLD -->
+  <div class="hap-indicator">
+    - <span class="hap-indicator-number">123</span> -
+  </div>
+  <!-- NEW -->
+  <div class="hap-indicator">123</div>
+  ```
+
+### Minor Changes
+
+- [#187](https://github.com/holisticon/atomic-playfulness/pull/187) [`2c1b7c2`](https://github.com/holisticon/atomic-playfulness/commit/2c1b7c232d99b479ba7e0e513c8b9959fce67fef) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Added a `hap-inline` helper for creating inline layouts.
+
+  ```html
+  <div class="hap-inline hap-gap--md hap-justify--spaced">
+    <div class="hap-placeholder"></div>
+    <div class="hap-placeholder"></div>
+    <div class="hap-placeholder"></div>
+  </div>
+  ```
+
+- [#187](https://github.com/holisticon/atomic-playfulness/pull/187) [`2c1b7c2`](https://github.com/holisticon/atomic-playfulness/commit/2c1b7c232d99b479ba7e0e513c8b9959fce67fef) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Added a `hap-stack` helper for creating stacked layouts.
+
+  ```html
+  <div class="hap-stack hap-gap--md hap-align--center">
+    <div class="hap-placeholder"></div>
+    <div class="hap-placeholder"></div>
+    <div class="hap-placeholder"></div>
+  </div>
+  ```
+
+- [#210](https://github.com/holisticon/atomic-playfulness/pull/210) [`0c75387`](https://github.com/holisticon/atomic-playfulness/commit/0c753871060077dfda7b4154cb903f069bc3a8bb) Thanks [@mrm1st3r](https://github.com/mrm1st3r)! - Add selected state for menu-item
+
+### Patch Changes
+
+- [#163](https://github.com/holisticon/atomic-playfulness/pull/163) [`ef88203`](https://github.com/holisticon/atomic-playfulness/commit/ef882035c9ff362148701d542eb6c3749d3daa41) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Fix spacing on breadcrumbs
+
+- [#172](https://github.com/holisticon/atomic-playfulness/pull/172) [`4ad537e`](https://github.com/holisticon/atomic-playfulness/commit/4ad537ea765a73e987897406d373f8e9cf6994a0) Thanks [@mrm1st3r](https://github.com/mrm1st3r)! - only show modal when open
+
+- [#204](https://github.com/holisticon/atomic-playfulness/pull/204) [`1989aba`](https://github.com/holisticon/atomic-playfulness/commit/1989aba44a5b6e0df39cdba642ca31079cb9f822) Thanks [@mrm1st3r](https://github.com/mrm1st3r)! - User pointer cursor for icon button
+
+- [#163](https://github.com/holisticon/atomic-playfulness/pull/163) [`ef88203`](https://github.com/holisticon/atomic-playfulness/commit/ef882035c9ff362148701d542eb6c3749d3daa41) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Fix icon button color in snackbar
+
+- [#207](https://github.com/holisticon/atomic-playfulness/pull/207) [`fcb7e5b`](https://github.com/holisticon/atomic-playfulness/commit/fcb7e5b949ddd372dcd2e7d4ba9ea9fc40e926ec) Thanks [@mrm1st3r](https://github.com/mrm1st3r)! - Update Design Tokens
+
+- [#163](https://github.com/holisticon/atomic-playfulness/pull/163) [`ef88203`](https://github.com/holisticon/atomic-playfulness/commit/ef882035c9ff362148701d542eb6c3749d3daa41) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - fix automatic height of vertical divider
+
+- [#189](https://github.com/holisticon/atomic-playfulness/pull/189) [`92b235c`](https://github.com/holisticon/atomic-playfulness/commit/92b235c9ccae548e92dda49f824bf8ff7dcb6a4b) Thanks [@mrm1st3r](https://github.com/mrm1st3r)! - Fix disabled state for icon button
+
+- [#163](https://github.com/holisticon/atomic-playfulness/pull/163) [`ef88203`](https://github.com/holisticon/atomic-playfulness/commit/ef882035c9ff362148701d542eb6c3749d3daa41) Thanks [@christoph-fricke](https://github.com/christoph-fricke)! - Explicitly remove margin on headings
+
+- [#179](https://github.com/holisticon/atomic-playfulness/pull/179) [`1ca8b90`](https://github.com/holisticon/atomic-playfulness/commit/1ca8b90a1929e190edca0644c095314d5b47ddba) Thanks [@fabiangaukler](https://github.com/fabiangaukler)! - updates tokens from figma
+
 ## 0.4.0
 
 ### Minor Changes

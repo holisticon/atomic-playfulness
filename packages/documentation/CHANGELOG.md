@@ -1,5 +1,12 @@
 # @holisticon/hap-documentation
 
+## 0.1.2
+
+### Patch Changes
+
+- Updated dependencies [[`1b967a7`](https://github.com/holisticon/atomic-playfulness/commit/1b967a70af31fc02e74f27df2e4333cfa323bb3f), [`1b967a7`](https://github.com/holisticon/atomic-playfulness/commit/1b967a70af31fc02e74f27df2e4333cfa323bb3f), [`2ae7e5f`](https://github.com/holisticon/atomic-playfulness/commit/2ae7e5fec4b99adf15196b5183074721c4adaebe), [`ef88203`](https://github.com/holisticon/atomic-playfulness/commit/ef882035c9ff362148701d542eb6c3749d3daa41), [`1b967a7`](https://github.com/holisticon/atomic-playfulness/commit/1b967a70af31fc02e74f27df2e4333cfa323bb3f), [`4ad537e`](https://github.com/holisticon/atomic-playfulness/commit/4ad537ea765a73e987897406d373f8e9cf6994a0), [`1989aba`](https://github.com/holisticon/atomic-playfulness/commit/1989aba44a5b6e0df39cdba642ca31079cb9f822), [`ef88203`](https://github.com/holisticon/atomic-playfulness/commit/ef882035c9ff362148701d542eb6c3749d3daa41), [`fcb7e5b`](https://github.com/holisticon/atomic-playfulness/commit/fcb7e5b949ddd372dcd2e7d4ba9ea9fc40e926ec), [`ef88203`](https://github.com/holisticon/atomic-playfulness/commit/ef882035c9ff362148701d542eb6c3749d3daa41), [`2ae7e5f`](https://github.com/holisticon/atomic-playfulness/commit/2ae7e5fec4b99adf15196b5183074721c4adaebe), [`2c1b7c2`](https://github.com/holisticon/atomic-playfulness/commit/2c1b7c232d99b479ba7e0e513c8b9959fce67fef), [`a8ac0c3`](https://github.com/holisticon/atomic-playfulness/commit/a8ac0c38925de1a7afee4077630d2cb373f7914f), [`92b235c`](https://github.com/holisticon/atomic-playfulness/commit/92b235c9ccae548e92dda49f824bf8ff7dcb6a4b), [`ef88203`](https://github.com/holisticon/atomic-playfulness/commit/ef882035c9ff362148701d542eb6c3749d3daa41), [`2c1b7c2`](https://github.com/holisticon/atomic-playfulness/commit/2c1b7c232d99b479ba7e0e513c8b9959fce67fef), [`0c75387`](https://github.com/holisticon/atomic-playfulness/commit/0c753871060077dfda7b4154cb903f069bc3a8bb), [`1ca8b90`](https://github.com/holisticon/atomic-playfulness/commit/1ca8b90a1929e190edca0644c095314d5b47ddba)]:
+  - @holisticon/hap-foundation@1.0.0
+
 ## 0.1.1
 
 ### Patch Changes
