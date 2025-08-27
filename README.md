@@ -1,3 +1,5 @@
+![](https://img.shields.io/npm/v/@holisticon/hap-foundation)
+
 # Atomic Playfulness
 
 Atomic Playfulness defines the brand design for Holisticon AG. This design
