@@ -34,7 +34,7 @@
     "lucide-react": "^0.541.0"
   },
   "peerDependencies": {
-    "@holisticon/hap-foundation": "^0.4.0",
+    "@holisticon/hap-foundation": "^1.0.0",
     "react": "^19.1.1"
   },
   "devDependencies": {
