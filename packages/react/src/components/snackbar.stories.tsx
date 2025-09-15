@@ -22,7 +22,7 @@ const meta = {
   decorators: [
     (Story) => (
       <SnackbarProvider>
-        <div className="p-8">
+        <div>
           <Story />
         </div>
       </SnackbarProvider>
@@ -100,7 +100,7 @@ export const WithTitle: Story = {
         <Snackbar open={open} onOpenChange={setOpen}>
           <SnackbarContent>
             <div>
-              <SnackbarTitle className="font-semibold">Success</SnackbarTitle>
+              <SnackbarTitle>Success</SnackbarTitle>
               <SnackbarDescription>
                 Your changes have been saved successfully.
               </SnackbarDescription>
@@ -128,7 +128,7 @@ export const Multiline: Story = {
         <Snackbar open={open} onOpenChange={setOpen} multiline>
           <SnackbarContent>
             <div>
-              <SnackbarTitle className="font-semibold">Error</SnackbarTitle>
+              <SnackbarTitle>Error</SnackbarTitle>
               <SnackbarDescription>
                 There was an error processing your request. Please check your
                 internet connection and try again.
@@ -200,13 +200,13 @@ export const MultipleSnackbars: Story = {
 
     return (
       <>
-        <div className="space-x-2">
+        <div>
           <Button onClick={() => addSnackbar("First notification")}>
             Add Snackbar 1
-          </Button>
+          </Button>{" "}
           <Button onClick={() => addSnackbar("Second notification")}>
             Add Snackbar 2
-          </Button>
+          </Button>{" "}
           <Button onClick={() => addSnackbar("Third notification")}>
             Add Snackbar 3
           </Button>

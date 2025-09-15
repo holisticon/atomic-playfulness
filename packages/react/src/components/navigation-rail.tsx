@@ -121,11 +121,11 @@ function NavigationRailItem({
 }
 
 function NavigationRailHeader({ children }: { children: ReactNode }) {
-  return <div className="px-4 py-2">{children}</div>;
+  return <div>{children}</div>;
 }
 
 function NavigationRailFooter({ children }: { children: ReactNode }) {
-  return <div className="px-4 py-2 mt-auto">{children}</div>;
+  return <div>{children}</div>;
 }
 
 export {

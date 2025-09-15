@@ -16,7 +16,7 @@ const tabsTrigger = cva({
 });
 
 const tabsContent = cva({
-  base: "mt-6 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2",
+  base: "",
 });
 
 interface TabsProps {

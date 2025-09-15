@@ -60,13 +60,11 @@ export const Static: Story = {
     ),
   },
   render: (args) => (
-    <div className="flex h-screen">
+    <div>
       <NavigationDrawer {...args} />
-      <div className="flex-1 p-8 bg-gray-50">
-        <h1 className="text-2xl font-bold mb-4">Main Content Area</h1>
-        <p>
-          This demonstrates a static navigation drawer that's always visible.
-        </p>
+      <div>
+        <h1>Main Content Area</h1>
+        <p>This demonstrates a static navigation drawer.</p>
       </div>
     </div>
   ),
@@ -117,11 +115,11 @@ export const WithGroups: Story = {
     ),
   },
   render: (args) => (
-    <div className="flex h-screen">
+    <div>
       <NavigationDrawer {...args} />
-      <div className="flex-1 p-8 bg-gray-50">
-        <h1 className="text-2xl font-bold mb-4">Grouped Navigation</h1>
-        <p>This shows navigation items organized into groups with titles.</p>
+      <div>
+        <h1>Grouped Navigation</h1>
+        <p>Navigation items organized into groups with titles.</p>
       </div>
     </div>
   ),
@@ -132,7 +130,7 @@ export const WithButtons: Story = {
     const [activeItem, setActiveItem] = useState("dashboard");
 
     return (
-      <div className="flex h-screen">
+      <div>
         <NavigationDrawer>
           <NavigationDrawerTitle>Menu</NavigationDrawerTitle>
           <NavigationDrawerMenu>
@@ -156,14 +154,11 @@ export const WithButtons: Story = {
             </NavigationDrawerItem>
           </NavigationDrawerMenu>
         </NavigationDrawer>
-        <div className="flex-1 p-8 bg-gray-50">
-          <h1 className="text-2xl font-bold mb-4">
+        <div>
+          <h1>
             Active: {activeItem.charAt(0).toUpperCase() + activeItem.slice(1)}
           </h1>
-          <p>
-            This shows navigation items as interactive buttons with click
-            handlers.
-          </p>
+          <p>Navigation items as interactive buttons.</p>
         </div>
       </div>
     );
@@ -179,12 +174,9 @@ export const ModalDrawer: Story = {
 
     return (
       <>
-        <div className="p-8">
-          <h1 className="text-2xl font-bold mb-4">Modal Navigation Drawer</h1>
-          <p className="mb-4">
-            This drawer opens as an overlay modal. Click the button below to
-            open it.
-          </p>
+        <div>
+          <h1>Modal Navigation Drawer</h1>
+          <p>This drawer opens as an overlay modal.</p>
 
           <Drawer open={open} onOpenChange={setOpen}>
             <DrawerTrigger>
@@ -222,11 +214,9 @@ export const ModalDrawer: Story = {
                 </NavigationDrawerItem>
               </NavigationDrawerMenu>
 
-              <div className="mt-auto">
+              <div>
                 <DrawerClose>
-                  <Button variant="secondary" className="w-full">
-                    Close Drawer
-                  </Button>
+                  <Button variant="secondary">Close Drawer</Button>
                 </DrawerClose>
               </div>
             </DrawerContent>
@@ -246,11 +236,9 @@ export const RightSideDrawer: Story = {
 
     return (
       <>
-        <div className="p-8">
-          <h1 className="text-2xl font-bold mb-4">Right Side Drawer</h1>
-          <p className="mb-4">
-            This drawer opens from the right side of the screen.
-          </p>
+        <div>
+          <h1>Right Side Drawer</h1>
+          <p>This drawer opens from the right side of the screen.</p>
 
           <Drawer open={open} onOpenChange={setOpen}>
             <DrawerTrigger>

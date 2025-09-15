@@ -4,23 +4,23 @@ import { Check, ChevronRight, Circle } from "lucide-react";
 import type { ReactNode } from "react";
 
 const menuContent = cva({
-  base: "hap-menu z-50 min-w-[8rem] overflow-hidden data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2",
+  base: "hap-menu",
 });
 
 const menuItem = cva({
-  base: "hap-menu-item relative flex cursor-default select-none items-center data-[disabled]:pointer-events-none data-[disabled]:opacity-50",
+  base: "hap-menu-item",
 });
 
 const menuSubContent = cva({
-  base: "hap-menu z-50 min-w-[8rem] overflow-hidden data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2",
+  base: "hap-menu",
 });
 
 const menuSeparator = cva({
-  base: "-mx-1 my-1 h-px bg-muted",
+  base: "",
 });
 
 const menuLabel = cva({
-  base: "px-2 py-1.5 text-sm font-semibold",
+  base: "",
 });
 
 interface MenuProps {
@@ -160,7 +160,7 @@ function MenuCheckboxItem({
       {...(onSelect !== undefined && { onSelect })}
       {...(textValue !== undefined && { textValue })}
     >
-      <span className="absolute left-2 flex h-3.5 w-3.5 items-center justify-center">
+      <span>
         <DropdownMenuPrimitive.ItemIndicator>
           <Check size={16} />
         </DropdownMenuPrimitive.ItemIndicator>
@@ -194,7 +194,7 @@ function MenuRadioItem({
       {...(onSelect !== undefined && { onSelect })}
       {...(textValue !== undefined && { textValue })}
     >
-      <span className="absolute left-2 flex h-3.5 w-3.5 items-center justify-center">
+      <span>
         <DropdownMenuPrimitive.ItemIndicator>
           <Circle size={8} fill="currentColor" />
         </DropdownMenuPrimitive.ItemIndicator>
@@ -238,7 +238,7 @@ function MenuSubTrigger({
   return (
     <DropdownMenuPrimitive.SubTrigger className={menuItem({ className })}>
       <span>{children}</span>
-      <ChevronRight className="ml-auto h-4 w-4" />
+      <ChevronRight size={16} />
     </DropdownMenuPrimitive.SubTrigger>
   );
 }

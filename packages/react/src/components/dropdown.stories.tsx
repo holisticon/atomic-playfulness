@@ -118,7 +118,7 @@ export const Controlled: Story = {
     const [value, setValue] = useState("apple");
 
     return (
-      <div className="space-y-4">
+      <div>
         <div>
           Selected value: <strong>{value}</strong>
         </div>

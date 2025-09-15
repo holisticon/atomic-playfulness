@@ -142,7 +142,7 @@ export const SingleSelection: Story = {
     };
 
     return (
-      <div className="space-y-4">
+      <div>
         <div>
           Selected: <strong>{selected || "none"}</strong>
         </div>
@@ -193,7 +193,7 @@ export const MultipleSelection: Story = {
     };
 
     return (
-      <div className="space-y-4">
+      <div>
         <div>
           Selected:{" "}
           <strong>{selected.length > 0 ? selected.join(", ") : "none"}</strong>
@@ -245,7 +245,7 @@ export const ViewSwitcher: Story = {
     const [view, setView] = useState("grid");
 
     return (
-      <div className="space-y-4">
+      <div>
         <div>
           Current view: <strong>{view}</strong>
         </div>
@@ -272,9 +272,9 @@ export const ViewSwitcher: Story = {
             size="small"
           />
         </ToggleButtonGroup>
-        <div className="p-4 bg-gray-100 rounded">
+        <div>
           <p>
-            Content would be displayed in <strong>{view} view</strong> here.
+            Content would be displayed in <strong>{view} view</strong>.
           </p>
         </div>
       </div>

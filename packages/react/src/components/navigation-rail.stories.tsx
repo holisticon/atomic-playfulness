@@ -13,9 +13,7 @@ import {
 const meta = {
   title: "Layout/Navigation Rail",
   component: NavigationRail,
-  parameters: {
-    layout: "fullscreen",
-  },
+  parameters: { layout: "fullscreen" },
   tags: ["autodocs"],
 } satisfies Meta<typeof NavigationRail>;
 
@@ -42,14 +40,11 @@ export const Default: Story = {
     ),
   },
   render: (args) => (
-    <div className="flex h-screen">
+    <div>
       <NavigationRail {...args} />
-      <div className="flex-1 p-8 bg-gray-50">
-        <h1 className="text-2xl font-bold mb-4">Main Content</h1>
-        <p>
-          The navigation rail is a compact navigation component that displays
-          navigation items vertically with icons and labels.
-        </p>
+      <div>
+        <h1>Main Content</h1>
+        <p>The navigation rail shows items vertically with icons.</p>
       </div>
     </div>
   ),
@@ -85,14 +80,11 @@ export const WithHeaderAndFooter: Story = {
     ),
   },
   render: (args) => (
-    <div className="flex h-screen">
+    <div>
       <NavigationRail {...args} />
-      <div className="flex-1 p-8 bg-gray-50">
-        <h1 className="text-2xl font-bold mb-4">With Header & Footer</h1>
-        <p>
-          This navigation rail includes a header with a menu button and a footer
-          with a profile button.
-        </p>
+      <div>
+        <h1>With Header & Footer</h1>
+        <p>Includes actions in header and footer.</p>
       </div>
     </div>
   ),
@@ -130,27 +122,25 @@ export const WithBadges: Story = {
     ),
   },
   render: (args) => (
-    <div className="flex h-screen">
+    <div>
       <NavigationRail {...args} />
-      <div className="flex-1 p-8 bg-gray-50">
-        <h1 className="text-2xl font-bold mb-4">With Badges</h1>
-        <p>
-          Navigation rail items can display badges to show counts or status
-          indicators.
-        </p>
+      <div>
+        <h1>With Badges</h1>
+        <p>Items can display badges for counts or status.</p>
       </div>
     </div>
   ),
 };
 
 export const Interactive: Story = {
+  args: { children: null },
   render: () => {
     const [selectedItem, setSelectedItem] = useState("dashboard");
     const [notifications, setNotifications] = useState(3);
     const [messages, setMessages] = useState(7);
 
     return (
-      <div className="flex h-screen">
+      <div>
         <NavigationRail
           header={
             <NavigationRailHeader>
@@ -209,42 +199,30 @@ export const Interactive: Story = {
             </NavigationRailItem>
           </NavigationRailItems>
         </NavigationRail>
-        <div className="flex-1 p-8 bg-gray-50">
-          <h1 className="text-2xl font-bold mb-4 capitalize">
-            {selectedItem} Page
-          </h1>
-          <div className="space-y-4">
-            <p>
-              Current page: <strong>{selectedItem}</strong>
-            </p>
-            <p>
-              Messages: <strong>{messages}</strong>
-            </p>
-            <p>
-              Notifications: <strong>{notifications}</strong>
-            </p>
-
-            <div className="space-x-2">
-              <button
-                className="px-4 py-2 bg-blue-500 text-white rounded"
-                onClick={() => setMessages(Math.max(0, messages - 1))}
-              >
-                Read Message
-              </button>
-              <button
-                className="px-4 py-2 bg-yellow-500 text-white rounded"
-                onClick={() => setNotifications(Math.max(0, notifications - 1))}
-              >
-                Clear Notification
-              </button>
-            </div>
+        <div>
+          <h1>{selectedItem} Page</h1>
+          <p>
+            Current page: <strong>{selectedItem}</strong>
+          </p>
+          <p>
+            Messages: <strong>{messages}</strong>
+          </p>
+          <p>
+            Notifications: <strong>{notifications}</strong>
+          </p>
+          <div>
+            <button onClick={() => setMessages(Math.max(0, messages - 1))}>
+              Read Message
+            </button>{" "}
+            <button
+              onClick={() => setNotifications(Math.max(0, notifications - 1))}
+            >
+              Clear Notification
+            </button>
           </div>
         </div>
       </div>
     );
-  },
-  args: {
-    children: null,
   },
 };
 
@@ -271,14 +249,11 @@ export const Compact: Story = {
     ),
   },
   render: (args) => (
-    <div className="flex h-screen">
+    <div>
       <NavigationRail {...args} />
-      <div className="flex-1 p-8 bg-gray-50">
-        <h1 className="text-2xl font-bold mb-4">Compact Navigation</h1>
-        <p>
-          A simple navigation rail without header or footer, perfect for
-          minimalist layouts.
-        </p>
+      <div>
+        <h1>Compact Navigation</h1>
+        <p>Simple navigation without header or footer.</p>
       </div>
     </div>
   ),

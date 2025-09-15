@@ -134,7 +134,7 @@ export const WithRadioItems: Story = {
     const [theme, setTheme] = useState("system");
 
     return (
-      <div className="space-y-4">
+      <div>
         <div>
           Current theme: <strong>{theme}</strong>
         </div>
@@ -200,7 +200,7 @@ export const ControlledMenu: Story = {
     const [open, setOpen] = useState(false);
 
     return (
-      <div className="space-y-4">
+      <div>
         <div>
           Menu is: <strong>{open ? "open" : "closed"}</strong>
         </div>

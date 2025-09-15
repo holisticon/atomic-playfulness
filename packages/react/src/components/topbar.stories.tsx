@@ -27,7 +27,7 @@ export const Default: Story = {
     children: (
       <>
         <TopbarBrand>
-          <h1 className="text-xl font-bold">My App</h1>
+          <h1>My App</h1>
         </TopbarBrand>
         <TopbarNav>
           <TopbarNavItem href="#" current>
@@ -48,8 +48,8 @@ export const Default: Story = {
   render: (args) => (
     <div>
       <Topbar {...args} />
-      <div className="p-8">
-        <h2 className="text-2xl font-bold mb-4">Page Content</h2>
+      <div>
+        <h2>Page Content</h2>
         <p>This shows the topbar with brand, navigation, and actions.</p>
       </div>
     </div>
@@ -60,11 +60,9 @@ export const WithLogo: Story = {
   args: {
     children: (
       <>
-        <TopbarBrand className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-blue-600 rounded flex items-center justify-center text-white font-bold">
-            L
-          </div>
-          <span className="text-xl font-bold">Logo</span>
+        <TopbarBrand>
+          <div>L</div>
+          <span>Logo</span>
         </TopbarBrand>
         <TopbarNav>
           <TopbarNavItem href="#" current>
@@ -73,7 +71,7 @@ export const WithLogo: Story = {
           <TopbarNavItem href="#">Projects</TopbarNavItem>
           <TopbarNavItem href="#">Team</TopbarNavItem>
         </TopbarNav>
-        <TopbarActions className="flex items-center gap-2">
+        <TopbarActions>
           <IconButton icon="Search" size="small" />
           <IconButton icon="Bell" size="small" />
           <Button variant="primary" size="small">
@@ -86,8 +84,8 @@ export const WithLogo: Story = {
   render: (args) => (
     <div>
       <Topbar {...args} />
-      <div className="p-8">
-        <h2 className="text-2xl font-bold mb-4">Dashboard</h2>
+      <div>
+        <h2>Dashboard</h2>
         <p>This topbar includes a logo, navigation, and action buttons.</p>
       </div>
     </div>
@@ -99,7 +97,7 @@ export const WithDisabledItems: Story = {
     children: (
       <>
         <TopbarBrand>
-          <h1 className="text-xl font-bold">My App</h1>
+          <h1>My App</h1>
         </TopbarBrand>
         <TopbarNav>
           <TopbarNavItem href="#" current>
@@ -120,8 +118,8 @@ export const WithDisabledItems: Story = {
   render: (args) => (
     <div>
       <Topbar {...args} />
-      <div className="p-8">
-        <h2 className="text-2xl font-bold mb-4">Page with Disabled Nav Item</h2>
+      <div>
+        <h2>Page with Disabled Nav Item</h2>
         <p>The "Coming Soon" navigation item is disabled.</p>
       </div>
     </div>
@@ -137,7 +135,7 @@ export const Interactive: Story = {
       <div>
         <Topbar>
           <TopbarBrand>
-            <h1 className="text-xl font-bold">Interactive App</h1>
+            <h1>Interactive App</h1>
           </TopbarBrand>
           <TopbarNav>
             <TopbarNavItem
@@ -159,14 +157,10 @@ export const Interactive: Story = {
               Settings
             </TopbarNavItem>
           </TopbarNav>
-          <TopbarActions className="flex items-center gap-2">
+          <TopbarActions>
             <div className="relative">
               <IconButton icon="Bell" size="small" />
-              {notifications > 0 && (
-                <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
-                  {notifications}
-                </span>
-              )}
+              {notifications > 0 && <span>({notifications})</span>}
             </div>
             <Button
               variant="secondary"
@@ -177,20 +171,15 @@ export const Interactive: Story = {
             </Button>
           </TopbarActions>
         </Topbar>
-        <div className="p-8">
-          <h2 className="text-2xl font-bold mb-4 capitalize">
-            {currentPage} Page
-          </h2>
+        <div>
+          <h2>{currentPage} Page</h2>
           <p>
             Current page: <strong>{currentPage}</strong>
           </p>
           <p>
             Notifications: <strong>{notifications}</strong>
           </p>
-          <p className="mt-4">
-            Click on navigation items to change pages, or clear notifications
-            using the button.
-          </p>
+          <p>Click navigation items to change pages, or clear notifications.</p>
         </div>
       </div>
     );
@@ -205,7 +194,7 @@ export const MinimalBrand: Story = {
     children: (
       <>
         <TopbarBrand>
-          <h1 className="text-xl font-bold">Brand Only</h1>
+          <h1>Brand Only</h1>
         </TopbarBrand>
         <TopbarActions>
           <IconButton icon="Menu" size="small" />
@@ -216,12 +205,9 @@ export const MinimalBrand: Story = {
   render: (args) => (
     <div>
       <Topbar {...args} />
-      <div className="p-8">
-        <h2 className="text-2xl font-bold mb-4">Minimal Topbar</h2>
-        <p>
-          This topbar only shows a brand and a menu button, useful for mobile
-          layouts.
-        </p>
+      <div>
+        <h2>Minimal Topbar</h2>
+        <p>This topbar only shows a brand and a menu button.</p>
       </div>
     </div>
   ),

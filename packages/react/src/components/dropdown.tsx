@@ -4,15 +4,15 @@ import { Check, ChevronDown } from "lucide-react";
 import type { ReactNode } from "react";
 
 const dropdownTrigger = cva({
-  base: "inline-flex items-center justify-between rounded-sm border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 min-w-[180px]",
+  base: "",
 });
 
 const dropdownContent = cva({
-  base: "hap-menu relative z-50 max-h-96 min-w-[8rem] overflow-hidden data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2",
+  base: "hap-menu",
 });
 
 const dropdownItem = cva({
-  base: "hap-menu-item relative flex cursor-default select-none items-center data-[disabled]:pointer-events-none data-[disabled]:opacity-50",
+  base: "hap-menu-item",
 });
 
 interface DropdownProps {
@@ -109,7 +109,7 @@ function DropdownItem({
       {...(disabled !== undefined && { disabled })}
       {...(textValue !== undefined && { textValue })}
     >
-      <SelectPrimitive.ItemIndicator className="absolute left-2 flex h-3.5 w-3.5 items-center justify-center">
+      <SelectPrimitive.ItemIndicator>
         <Check size={16} />
       </SelectPrimitive.ItemIndicator>
       <SelectPrimitive.ItemText>
