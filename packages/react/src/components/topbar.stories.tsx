@@ -158,7 +158,7 @@ export const Interactive: Story = {
             </TopbarNavItem>
           </TopbarNav>
           <TopbarActions>
-            <div className="relative">
+            <div>
               <IconButton icon="Bell" size="small" />
               {notifications > 0 && <span>({notifications})</span>}
             </div>
