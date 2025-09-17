@@ -1,38 +1,35 @@
 import { cva, type VariantProps } from "cva";
-import type { ComponentPropsWithRef } from "react";
 
 const divider = cva({
-  base: "hap-divider",
   variants: {
     orientation: {
-      horizontal: null, // default
+      horizontal: "hap-divider",
       vertical: "hap-divider-vertical",
     },
-    inset: {
-      none: null, // default
-      start: "hap-divider--inset",
-      both: "hap-divider--middle-inset",
+    variant: {
+      full: null,
+      inset: "hap-divider--inset",
+      "middle-inset": "hap-divider--middle-inset",
     },
-    bold: {
-      true: "hap-divider--bold",
+    weight: {
+      bold: "hap-divider--bold",
     },
   },
   defaultVariants: {
     orientation: "horizontal",
-    inset: "none",
+    variant: "full",
   },
 });
 
-export interface DividerProps
-  extends ComponentPropsWithRef<"hr">,
-    VariantProps<typeof divider> {}
+export interface DividerProps extends VariantProps<typeof divider> {}
 
 export function Divider(props: DividerProps) {
-  const { orientation, inset, bold, className, ...rest } = props;
   return (
     <hr
-      className={divider({ orientation, inset, bold, className })}
-      {...rest}
+      {...props}
+      className={divider(props)}
+      aria-hidden
+      aria-orientation={props.orientation}
     />
   );
 }

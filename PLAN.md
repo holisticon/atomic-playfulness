@@ -19,8 +19,8 @@ progress can be tracked per file or per export.
   - [x] Button
 - [ ] `checkbox.tsx`
   - [ ] Checkbox
-- [ ] `divider.tsx`
-  - [ ] Divider
+- [x] `divider.tsx`
+  - [x] Divider
 - [ ] `dropdown.tsx`
   - [ ] Dropdown
   - [ ] DropdownTrigger
