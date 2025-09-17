@@ -103,8 +103,8 @@ progress can be tracked per file or per export.
 - [ ] `toggle-button-group.tsx`
   - [ ] ToggleButtonGroup
   - [ ] ToggleButton
-- [ ] `tooltip.tsx`
-  - [ ] Tooltip
+- [x] `tooltip.tsx`
+  - [x] Tooltip
 - [ ] `topbar.tsx`
   - [ ] Topbar
   - [ ] TopbarBrand
