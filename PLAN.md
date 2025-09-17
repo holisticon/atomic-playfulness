@@ -11,8 +11,8 @@ progress can be tracked per file or per export.
 
 - [ ] `alert.tsx`
   - [ ] Alert
-- [ ] `badge.tsx`
-  - [ ] Badge
+- [x] `badge.tsx`
+  - [x] Badge
 - [ ] `breadcrumb.tsx`
   - [ ] Breadcrumb
 - [ ] `button.tsx`

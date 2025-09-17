@@ -1,5 +1,5 @@
 import { compose, cva, type VariantProps } from "cva";
-import type { ComponentPropsWithRef } from "react";
+import type { ReactNode } from "react";
 import { feedback } from "../common/feedback.js";
 
 const badge = compose(
@@ -10,14 +10,11 @@ const badge = compose(
   }),
 );
 
-interface BadgeProps
-  extends ComponentPropsWithRef<"div">,
-    VariantProps<typeof badge> {}
+interface BadgeProps extends VariantProps<typeof badge> {
+  children: ReactNode;
+  className?: string;
+}
 
 export function Badge(props: BadgeProps) {
-  return (
-    <div {...props} className={badge(props)}>
-      {props.children}
-    </div>
-  );
+  return <div className={badge(props)}>{props.children}</div>;
 }
