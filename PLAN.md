@@ -74,8 +74,8 @@ progress can be tracked per file or per export.
   - [ ] ProgressIndicator
 - [ ] `radio-group.tsx`
   - [ ] RadioGroup
-- [ ] `search.tsx`
-  - [ ] Search
+- [x] `search.tsx`
+  - [x] Search
 - [ ] `snackbar.tsx`
   - [ ] Snackbar
   - [ ] SnackbarProvider
