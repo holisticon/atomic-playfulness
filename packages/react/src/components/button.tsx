@@ -2,19 +2,20 @@ import { cva, type VariantProps } from "cva";
 import type { ComponentPropsWithRef } from "react";
 
 const button = cva({
-  base: "hap-button",
   variants: {
+    size: {
+      default: "hap-button",
+      small: "hap-button--sm",
+    },
     variant: {
       primary: "hap-button--primary",
       secondary: "hap-button--secondary",
       tertiary: "hap-button--tertiary",
       destructive: "hap-button--destructive",
     },
-    size: {
-      small: "hap-button--sm",
-    },
   },
   defaultVariants: {
+    size: "default",
     variant: "primary",
   },
 });
@@ -24,10 +25,9 @@ interface ButtonProps
     VariantProps<typeof button> {}
 
 export function Button(props: ButtonProps) {
-  const { variant, size, className, children, ...rest } = props;
   return (
-    <button className={button({ variant, size, className })} {...rest}>
-      {children}
+    <button {...props} className={button(props)}>
+      {props.children}
     </button>
   );
 }
