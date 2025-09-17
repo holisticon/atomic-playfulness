@@ -79,10 +79,4 @@ export {
   ToggleButtonGroup,
 } from "./components/toggle-button-group.js";
 export { Tooltip } from "./components/tooltip.js";
-export {
-  Topbar,
-  TopbarActions,
-  TopbarBrand,
-  TopbarNav,
-  TopbarNavItem,
-} from "./components/topbar.js";
+export { Topbar, TopbarNav, TopbarNavItem } from "./components/topbar.js";

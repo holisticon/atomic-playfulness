@@ -1,13 +1,5 @@
-import { cva } from "cva";
-import type { ReactNode } from "react";
-
-const topbar = cva({
-  base: "hap-topbar",
-});
-
-const topbarNav = cva({
-  base: "hap-topbar-nav",
-});
+import { cva, cx } from "cva";
+import type { ComponentPropsWithRef, ReactNode } from "react";
 
 const topbarNavItem = cva({
   base: "hap-topbar-nav-item",
@@ -26,91 +18,40 @@ interface TopbarProps {
   className?: string;
 }
 
+export function Topbar(props: TopbarProps) {
+  return (
+    <header className={cx("hap-topbar", props.className)}>
+      {props.children}
+    </header>
+  );
+}
+
 interface TopbarNavProps {
   children: ReactNode;
   className?: string;
 }
 
-interface TopbarNavItemProps {
-  children: ReactNode;
-  className?: string;
-  href?: string;
+export function TopbarNav(props: TopbarNavProps) {
+  return (
+    <nav className={cx("hap-topbar-nav", props.className)}>
+      {props.children}
+    </nav>
+  );
+}
+
+interface TopbarNavItemProps extends ComponentPropsWithRef<"a"> {
   current?: boolean;
   disabled?: boolean;
-  onClick?: () => void;
 }
 
-interface TopbarBrandProps {
-  children: ReactNode;
-  className?: string;
-  href?: string;
-  onClick?: () => void;
-}
-
-interface TopbarActionsProps {
-  children: ReactNode;
-  className?: string;
-}
-
-function Topbar({ children, className }: TopbarProps) {
-  return <header className={topbar({ className })}>{children}</header>;
-}
-
-function TopbarBrand({ children, className, href, onClick }: TopbarBrandProps) {
-  if (href) {
-    return (
-      <a href={href} className={className} onClick={onClick}>
-        {children}
-      </a>
-    );
-  }
-
+export function TopbarNavItem(props: TopbarNavItemProps) {
   return (
-    <div className={className} onClick={onClick}>
-      {children}
-    </div>
-  );
-}
-
-function TopbarNav({ children, className }: TopbarNavProps) {
-  return <nav className={topbarNav({ className })}>{children}</nav>;
-}
-
-function TopbarNavItem({
-  children,
-  className,
-  href,
-  current = false,
-  disabled = false,
-  onClick,
-}: TopbarNavItemProps) {
-  if (href) {
-    return (
-      <a
-        href={href}
-        className={topbarNavItem({ current, disabled, className })}
-        onClick={onClick}
-        {...(disabled && { "aria-disabled": "true" })}
-      >
-        {children}
-      </a>
-    );
-  }
-
-  return (
-    <button
-      type="button"
-      className={topbarNavItem({ current, disabled, className })}
-      onClick={onClick}
-      disabled={disabled}
+    <a
+      {...props}
+      className={topbarNavItem(props)}
+      aria-disabled={props.disabled ? "true" : undefined}
     >
-      {children}
-    </button>
+      {props.children}
+    </a>
   );
 }
-
-function TopbarActions({ children, className }: TopbarActionsProps) {
-  return <div className={className}>{children}</div>;
-}
-
-export { Topbar, TopbarActions, TopbarBrand, TopbarNav, TopbarNavItem };

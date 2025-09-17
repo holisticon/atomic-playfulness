@@ -105,9 +105,7 @@ progress can be tracked per file or per export.
   - [ ] ToggleButton
 - [x] `tooltip.tsx`
   - [x] Tooltip
-- [ ] `topbar.tsx`
-  - [ ] Topbar
-  - [ ] TopbarBrand
-  - [ ] TopbarNav
-  - [ ] TopbarNavItem
-  - [ ] TopbarActions
+- [x] `topbar.tsx`
+  - [x] Topbar
+  - [x] TopbarNav
+  - [x] TopbarNavItem
