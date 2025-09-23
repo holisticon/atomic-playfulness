@@ -15,3 +15,6 @@ updates:
           - "@storybook/*"
           - storybook
           - storybook-addon-pseudo-states
+      terrazzo:
+        patterns:
+          - "@terrazzo/*"
