@@ -9,3 +9,12 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+    groups:
+      storybook:
+        patterns:
+          - "@storybook/*"
+          - storybook
+          - storybook-addon-pseudo-states
+      terrazzo:
+        patterns:
+          - "@terrazzo/*"
