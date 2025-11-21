@@ -56,6 +56,7 @@ const icons = [
   "download",
   "lock",
   "user-round",
+  "zap",
 ] as const;
 
 export const renderIcon = (icon: IconType, size: IconSizeType = "default") =>

@@ -8,16 +8,7 @@
             "$value": "#effdf4",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:352:1377",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "100": {
@@ -25,16 +16,7 @@
             "$value": "#dbf6e9",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:39:2433",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "200": {
@@ -42,16 +24,7 @@
             "$value": "#99eac4",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:39:2431",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "300": {
@@ -59,16 +32,7 @@
             "$value": "#62e1a5",
             "$description": "Brand Color: Forest Green B4",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:2:8",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "400": {
@@ -76,16 +40,7 @@
             "$value": "#3dce8a",
             "$description": "Brand Color: Forest Green B3",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:2:11",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "500": {
@@ -93,16 +48,7 @@
             "$value": "#18b169",
             "$description": "Brand Color: Forest Green B2",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:2:9",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "600": {
@@ -110,16 +56,7 @@
             "$value": "#089455",
             "$description": "Brand Color: Forest Green B1",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:2:10",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "700": {
@@ -127,16 +64,7 @@
             "$value": "#077342",
             "$description": "Brand Color: Forest Green",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:2:7",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "800": {
@@ -144,16 +72,7 @@
             "$value": "#054e30",
             "$description": "Brand Color: Forest Green D1",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:21:98",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "900": {
@@ -161,16 +80,7 @@
             "$value": "#063221",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:39:2432",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "950": {
@@ -178,16 +88,7 @@
             "$value": "#042f18",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:352:1378",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           }
         },
@@ -197,16 +98,7 @@
             "$value": "#fff3f1",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:352:1373",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "100": {
@@ -214,16 +106,7 @@
             "$value": "#ffe5e0",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:39:2435",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "200": {
@@ -231,16 +114,7 @@
             "$value": "#ffcfc6",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:21:102",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "300": {
@@ -248,16 +122,7 @@
             "$value": "#ffaf9e",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:21:103",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "400": {
@@ -265,16 +130,7 @@
             "$value": "#ff7f67",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:21:104",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "500": {
@@ -282,16 +138,7 @@
             "$value": "#fb5738",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:21:105",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "600": {
@@ -299,16 +146,7 @@
             "$value": "#eb4b2d",
             "$description": "Brand Color: Bright Red",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:21:106",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "700": {
@@ -316,16 +154,7 @@
             "$value": "#c42d12",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:21:107",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "800": {
@@ -333,16 +162,7 @@
             "$value": "#a22911",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:21:108",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "900": {
@@ -350,16 +170,7 @@
             "$value": "#872816",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:39:2436",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "950": {
@@ -367,16 +178,7 @@
             "$value": "#491107",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:352:1374",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           }
         },
@@ -386,16 +188,7 @@
             "$value": "#fdfbe8",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:352:1379",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "100": {
@@ -403,16 +196,7 @@
             "$value": "#fef7c4",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:39:2438",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "200": {
@@ -420,16 +204,7 @@
             "$value": "#ffec89",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:22:3",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "300": {
@@ -437,16 +212,7 @@
             "$value": "#fed946",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:22:4",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "400": {
@@ -454,16 +220,7 @@
             "$value": "#fbc316",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:22:5",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "500": {
@@ -471,16 +228,7 @@
             "$value": "#f6b206",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:22:6",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "600": {
@@ -488,16 +236,7 @@
             "$value": "#cb8204",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:22:7",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "700": {
@@ -505,16 +244,7 @@
             "$value": "#a35c05",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:22:8",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "800": {
@@ -522,16 +252,7 @@
             "$value": "#86480d",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:22:9",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "900": {
@@ -539,16 +260,7 @@
             "$value": "#723b10",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:39:2437",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           },
           "950": {
@@ -556,16 +268,7 @@
             "$value": "#421e07",
             "$description": "",
             "$extensions": {
-              "mode": {},
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:352:1380",
-                "collection": {
-                  "id": "VariableCollectionId:2:5",
-                  "name": "Primitives",
-                  "defaultModeId": "2:0"
-                }
-              }
+              "mode": {}
             }
           }
         }
@@ -576,16 +279,7 @@
           "$value": "#f5f7f8",
           "$description": "Brand Color: White",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:28:655",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "100": {
@@ -593,16 +287,7 @@
           "$value": "#e6eaf6",
           "$description": "Brand Color: Blue-Grey B2",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:2:13",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "200": {
@@ -610,16 +295,7 @@
           "$value": "#dce4fb",
           "$description": "Brand Color: Blue-Grey B1",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:2:15",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "300": {
@@ -627,16 +303,7 @@
           "$value": "#c7cfeb",
           "$description": "Brand Color: Blue-Grey",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:23:59",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "400": {
@@ -644,16 +311,7 @@
           "$value": "#b3bcd3",
           "$description": "Brand Color: Blue-Grey D1",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:21:93",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "500": {
@@ -661,16 +319,7 @@
           "$value": "#9ca4b8",
           "$description": "Brand Color: Blue-Grey D2",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:21:94",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "600": {
@@ -678,16 +327,7 @@
           "$value": "#868ca5",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:183:689",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "700": {
@@ -695,16 +335,7 @@
           "$value": "#73788f",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:21:96",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "800": {
@@ -712,16 +343,7 @@
           "$value": "#5e6275",
           "$description": "Brand Color: Dark Blue",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:21:97",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "900": {
@@ -729,16 +351,7 @@
           "$value": "#505260",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:183:691",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "950": {
@@ -746,16 +359,7 @@
           "$value": "#2e3038",
           "$description": "Brand Color: Black",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:28:656",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         }
       },
@@ -765,16 +369,7 @@
           "$value": "#ffffff",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:317:4262",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "100": {
@@ -782,16 +377,7 @@
           "$value": "#f0ffe6",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:39:2440",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "200": {
@@ -799,16 +385,7 @@
           "$value": "#dbffc4",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:22:12",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "300": {
@@ -816,16 +393,7 @@
           "$value": "#c8ffa5",
           "$description": "Brand Color: Bright Green",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:22:13",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "400": {
@@ -833,16 +401,7 @@
           "$value": "#a7eb7c",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:22:14",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "500": {
@@ -850,16 +409,7 @@
           "$value": "#1ec866",
           "$description": "Brand Color: Vivid Green",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:22:15",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "600": {
@@ -867,16 +417,7 @@
           "$value": "#239d58",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:22:16",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "700": {
@@ -884,16 +425,7 @@
           "$value": "#217846",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:22:17",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "800": {
@@ -901,16 +433,7 @@
           "$value": "#193d36",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:22:18",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "900": {
@@ -918,16 +441,7 @@
           "$value": "#102924",
           "$description": "Brand Color: Black-Green",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:39:2439",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "950": {
@@ -935,16 +449,7 @@
           "$value": "#0a1b18",
           "$description": "Brand Color: Black-Green",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:630:6",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         }
       },
@@ -953,16 +458,7 @@
         "$value": "#14141926",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:132:1740",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "base": {
@@ -971,16 +467,7 @@
           "$value": "#ffffff",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:352:1351",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "blackPrimary": {
@@ -988,16 +475,7 @@
           "$value": "#141419",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:352:1352",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "blackSecondary": {
@@ -1005,16 +483,7 @@
           "$value": "#141419cc",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:393:1065",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "blackTertiary": {
@@ -1022,16 +491,7 @@
           "$value": "#141419a6",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:393:1066",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "whiteSecondary": {
@@ -1039,16 +499,7 @@
           "$value": "#ffffffcc",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:393:1067",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "whiteTertiary": {
@@ -1056,16 +507,7 @@
           "$value": "#ffffffa6",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:393:1068",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "whiteLightest": {
@@ -1073,16 +515,7 @@
           "$value": "#ffffff29",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:450:5579",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "blackLightest": {
@@ -1090,16 +523,7 @@
           "$value": "#14141914",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:450:5580",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "whiteLight": {
@@ -1107,16 +531,7 @@
           "$value": "#ffffff3d",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:450:5684",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "blackLight": {
@@ -1124,16 +539,7 @@
           "$value": "#14141926",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:450:5685",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "whiteTransparent": {
@@ -1141,16 +547,7 @@
           "$value": "#ffffff00",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:1472:1007",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "blackTransparent": {
@@ -1158,16 +555,7 @@
           "$value": "#14141900",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:1472:1008",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         }
       },
@@ -1177,16 +565,7 @@
           "$value": "#f6f6f6",
           "$description": "Brand Color: White",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:677:129",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "100": {
@@ -1194,16 +573,7 @@
           "$value": "#e7e7e7",
           "$description": "Brand Color: Blue-Grey B2",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:677:130",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "200": {
@@ -1211,16 +581,7 @@
           "$value": "#d1d1d1",
           "$description": "Brand Color: Blue-Grey B1",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:677:131",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "300": {
@@ -1228,16 +589,7 @@
           "$value": "#b0b0b0",
           "$description": "Brand Color: Blue-Grey",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:677:132",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "400": {
@@ -1245,16 +597,7 @@
           "$value": "#888888",
           "$description": "Brand Color: Blue-Grey D1",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:677:133",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "500": {
@@ -1262,16 +605,7 @@
           "$value": "#6d6d6d",
           "$description": "Brand Color: Blue-Grey D2",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:677:134",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "600": {
@@ -1279,16 +613,7 @@
           "$value": "#5d5d5d",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:677:135",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "700": {
@@ -1296,16 +621,7 @@
           "$value": "#4f4f4f",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:677:136",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "800": {
@@ -1313,16 +629,7 @@
           "$value": "#383838",
           "$description": "Brand Color: Dark Blue",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:677:137",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "900": {
@@ -1330,16 +637,7 @@
           "$value": "#1b1b1b",
           "$description": "",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:677:138",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
           }
         },
         "950": {
@@ -1347,16 +645,97 @@
           "$value": "#000000",
           "$description": "Brand Color: Black",
           "$extensions": {
-            "mode": {},
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:677:139",
-              "collection": {
-                "id": "VariableCollectionId:2:5",
-                "name": "Primitives",
-                "defaultModeId": "2:0"
-              }
-            }
+            "mode": {}
+          }
+        }
+      },
+      "ai": {
+        "50": {
+          "$type": "color",
+          "$value": "#f4f2ff",
+          "$description": "Brand Color: White",
+          "$extensions": {
+            "mode": {}
+          }
+        },
+        "100": {
+          "$type": "color",
+          "$value": "#eae8fe",
+          "$description": "Brand Color: Blue-Grey B2",
+          "$extensions": {
+            "mode": {}
+          }
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#d8d4fe",
+          "$description": "Brand Color: Blue-Grey B1",
+          "$extensions": {
+            "mode": {}
+          }
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#b9b2fd",
+          "$description": "Brand Color: Blue-Grey",
+          "$extensions": {
+            "mode": {}
+          }
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#9586fc",
+          "$description": "Brand Color: Blue-Grey D1",
+          "$extensions": {
+            "mode": {}
+          }
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#7256fa",
+          "$description": "Brand Color: Blue-Grey D2",
+          "$extensions": {
+            "mode": {}
+          }
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#6036f2",
+          "$description": "",
+          "$extensions": {
+            "mode": {}
+          }
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#5023df",
+          "$description": "",
+          "$extensions": {
+            "mode": {}
+          }
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#431dba",
+          "$description": "Brand Color: Dark Blue",
+          "$extensions": {
+            "mode": {}
+          }
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#391a99",
+          "$description": "",
+          "$extensions": {
+            "mode": {}
+          }
+        },
+        "950": {
+          "$type": "color",
+          "$value": "#210d67",
+          "$description": "Brand Color: Black",
+          "$extensions": {
+            "mode": {}
           }
         }
       }
@@ -1367,16 +746,7 @@
         "$value": "8px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:40",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "2": {
@@ -1384,16 +754,7 @@
         "$value": "16px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:41",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "3": {
@@ -1401,16 +762,7 @@
         "$value": "24px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:42",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "4": {
@@ -1418,16 +770,7 @@
         "$value": "32px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:43",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "5": {
@@ -1435,16 +778,7 @@
         "$value": "40px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:44",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "6": {
@@ -1452,16 +786,7 @@
         "$value": "48px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:45",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "7": {
@@ -1469,16 +794,7 @@
         "$value": "56px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:46",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "8": {
@@ -1486,16 +802,7 @@
         "$value": "64px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:47",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "9": {
@@ -1503,16 +810,7 @@
         "$value": "72px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:48",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "10": {
@@ -1520,16 +818,7 @@
         "$value": "80px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:49",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "half": {
@@ -1537,16 +826,7 @@
         "$value": "4px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:39",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "quarter": {
@@ -1554,16 +834,7 @@
         "$value": "2px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:4094:217",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       }
     },
@@ -1573,16 +844,7 @@
         "$value": "4px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:50",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "md": {
@@ -1590,16 +852,7 @@
         "$value": "8px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:51",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "lg": {
@@ -1607,16 +860,7 @@
         "$value": "16px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:52",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "xl": {
@@ -1624,16 +868,7 @@
         "$value": "32px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:53",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "2xl": {
@@ -1641,16 +876,7 @@
         "$value": "128px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:54",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "3xl": {
@@ -1658,16 +884,7 @@
         "$value": "360px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:55",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "none": {
@@ -1675,16 +892,7 @@
         "$value": "0px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:622:17814",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       }
     },
@@ -1694,16 +902,7 @@
         "$value": "ES Klarheit Kurrent RD",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:2",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "body": {
@@ -1711,16 +910,7 @@
         "$value": "ES Klarheit Grotesk RD",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:3",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       }
     },
@@ -1730,16 +920,7 @@
         "$value": "12px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:6",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "md": {
@@ -1747,16 +928,7 @@
         "$value": "16px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:7",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "s": {
@@ -1764,16 +936,7 @@
         "$value": "14px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:8",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "lg": {
@@ -1781,16 +944,7 @@
         "$value": "20px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:9",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "xl": {
@@ -1798,16 +952,7 @@
         "$value": "24px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:10",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "2xl": {
@@ -1815,16 +960,7 @@
         "$value": "32px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:11",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "3xl": {
@@ -1832,16 +968,7 @@
         "$value": "48px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:28:29",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "4xl": {
@@ -1849,16 +976,7 @@
         "$value": "64px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:28:30",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "xxs": {
@@ -1866,16 +984,7 @@
         "$value": "11px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:437:3763",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       }
     },
@@ -1885,16 +994,7 @@
         "$value": "400",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:12",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "medium": {
@@ -1902,16 +1002,7 @@
         "$value": "500",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:13",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "bold": {
@@ -1919,16 +1010,7 @@
         "$value": "700",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:14",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       }
     },
@@ -1938,16 +1020,7 @@
         "$value": "14px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:15",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "xs": {
@@ -1955,16 +1028,7 @@
         "$value": "16px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:16",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "md": {
@@ -1972,16 +1036,7 @@
         "$value": "24px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:17",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "lg": {
@@ -1989,16 +1044,7 @@
         "$value": "28px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:18",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "xl": {
@@ -2006,16 +1052,7 @@
         "$value": "36px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:19",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "2xl": {
@@ -2023,16 +1060,7 @@
         "$value": "48px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:20",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "s": {
@@ -2040,16 +1068,7 @@
         "$value": "20px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:25:50",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "3xl": {
@@ -2057,16 +1076,7 @@
         "$value": "64px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:28:31",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "4xl": {
@@ -2074,16 +1084,7 @@
         "$value": "72px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:28:32",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "3xs": {
@@ -2091,16 +1092,7 @@
         "$value": "12px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:636:3375",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       }
     },
@@ -2110,16 +1102,7 @@
         "$value": "-0.2px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:21",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "s": {
@@ -2127,16 +1110,7 @@
         "$value": "-0.1px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:22",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "md": {
@@ -2144,16 +1118,7 @@
         "$value": "0px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:23",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "lg": {
@@ -2161,16 +1126,7 @@
         "$value": "0.1px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:24",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "xl": {
@@ -2178,16 +1134,7 @@
         "$value": "0.2px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:24:25",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       }
     },
@@ -2197,16 +1144,7 @@
         "$value": 1,
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:39:2441",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "disabled": {
@@ -2214,16 +1152,7 @@
         "$value": 0.3,
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:39:2442",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "inactive": {
@@ -2231,16 +1160,7 @@
         "$value": 0.72,
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:83:2122",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "hover": {
@@ -2248,16 +1168,7 @@
         "$value": 0.1,
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:370:918",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       }
     },
@@ -2267,16 +1178,7 @@
         "$value": "8px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:3123:1744",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "2": {
@@ -2284,16 +1186,7 @@
         "$value": "12px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:3123:1745",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "3": {
@@ -2301,16 +1194,7 @@
         "$value": "16px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:3123:1746",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "4": {
@@ -2318,16 +1202,7 @@
         "$value": "20px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:3123:1747",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "5": {
@@ -2335,16 +1210,7 @@
         "$value": "24px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:3123:1748",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "6": {
@@ -2352,16 +1218,7 @@
         "$value": "32px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:3123:1749",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "7": {
@@ -2369,16 +1226,7 @@
         "$value": "40px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:3123:2676",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       }
     },
@@ -2388,16 +1236,7 @@
         "$value": "1px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:3215:2484",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "2": {
@@ -2405,16 +1244,7 @@
         "$value": "2px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:3215:2485",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       },
       "3": {
@@ -2422,16 +1252,7 @@
         "$value": "4px",
         "$description": "",
         "$extensions": {
-          "mode": {},
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:3215:2486",
-            "collection": {
-              "id": "VariableCollectionId:2:5",
-              "name": "Primitives",
-              "defaultModeId": "2:0"
-            }
-          }
+          "mode": {}
         }
       }
     }
@@ -2446,15 +1267,6 @@
           "mode": {
             "Light": "0px",
             "Dark": "0px"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:62",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -2466,15 +1278,6 @@
           "mode": {
             "Light": "{Primitives.spacing.half}",
             "Dark": "{Primitives.spacing.half}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:63",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -2486,15 +1289,6 @@
           "mode": {
             "Light": "{Primitives.spacing.2}",
             "Dark": "{Primitives.spacing.2}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:64",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -2506,15 +1300,6 @@
           "mode": {
             "Light": "{Primitives.spacing.1}",
             "Dark": "{Primitives.spacing.1}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:65",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -2526,15 +1311,6 @@
           "mode": {
             "Light": "{Primitives.spacing.4}",
             "Dark": "{Primitives.spacing.4}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:66",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -2546,15 +1322,6 @@
           "mode": {
             "Light": "{Primitives.spacing.6}",
             "Dark": "{Primitives.spacing.6}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:67",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -2566,15 +1333,6 @@
           "mode": {
             "Light": "{Primitives.spacing.10}",
             "Dark": "{Primitives.spacing.10}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:68",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -2586,15 +1344,6 @@
           "mode": {
             "Light": "{Primitives.spacing.3}",
             "Dark": "{Primitives.spacing.3}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:215:637",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -2606,15 +1355,6 @@
           "mode": {
             "Light": "{Primitives.spacing.quarter}",
             "Dark": "{Primitives.spacing.quarter}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:4094:218",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       }
@@ -2628,15 +1368,6 @@
           "mode": {
             "Light": "{Primitives.radius.sm}",
             "Dark": "{Primitives.radius.sm}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:69",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -2648,15 +1379,6 @@
           "mode": {
             "Light": "{Primitives.radius.md}",
             "Dark": "{Primitives.radius.md}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:70",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -2668,15 +1390,6 @@
           "mode": {
             "Light": "{Primitives.radius.3xl}",
             "Dark": "{Primitives.radius.3xl}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:23:71",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -2688,15 +1401,6 @@
           "mode": {
             "Light": "{Primitives.radius.lg}",
             "Dark": "{Primitives.radius.lg}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:349:1170",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -2708,15 +1412,6 @@
           "mode": {
             "Light": "{Primitives.radius.none}",
             "Dark": "{Primitives.radius.none}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:622:17815",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       }
@@ -2732,15 +1427,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackPrimary}",
                 "Dark": "{Primitives.color.base.whitePrimary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:23:72",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -2752,15 +1438,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.whitePrimary}",
                 "Dark": "{Primitives.color.base.blackPrimary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:78:159",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -2772,15 +1449,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackPrimary}",
                 "Dark": "{Primitives.color.base.blackPrimary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:386:1106",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -2792,15 +1460,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.whitePrimary}",
                 "Dark": "{Primitives.color.base.whitePrimary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:499:8006",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -2814,15 +1473,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackSecondary}",
                 "Dark": "{Primitives.color.base.whiteSecondary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:23:73",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -2834,15 +1484,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.whiteSecondary}",
                 "Dark": "{Primitives.color.base.blackSecondary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:78:160",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -2854,15 +1495,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackSecondary}",
                 "Dark": "{Primitives.color.base.blackSecondary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:386:1107",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -2874,15 +1506,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.whiteSecondary}",
                 "Dark": "{Primitives.color.base.whiteSecondary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:499:8005",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -2896,15 +1519,6 @@
               "mode": {
                 "Light": "{Primitives.color.brand.900}",
                 "Dark": "{Primitives.color.brand.300}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:23:74",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -2916,15 +1530,6 @@
               "mode": {
                 "Light": "{Primitives.color.brand.300}",
                 "Dark": "{Primitives.color.brand.900}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:78:161",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -2936,15 +1541,6 @@
               "mode": {
                 "Light": "{Primitives.color.brand.300}",
                 "Dark": "{Primitives.color.brand.300}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:385:1104",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -2956,15 +1552,6 @@
               "mode": {
                 "Light": "{Primitives.color.brand.900}",
                 "Dark": "{Primitives.color.brand.900}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:385:1105",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -2978,15 +1565,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackTertiary}",
                 "Dark": "{Primitives.color.base.whiteTertiary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:78:162",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -2998,15 +1576,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.whiteTertiary}",
                 "Dark": "{Primitives.color.base.blackTertiary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:78:163",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -3018,15 +1587,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackTertiary}",
                 "Dark": "{Primitives.color.base.blackTertiary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:386:1108",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -3038,15 +1598,52 @@
               "mode": {
                 "Light": "{Primitives.color.base.whiteTertiary}",
                 "Dark": "{Primitives.color.base.whiteTertiary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:499:8007",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
+              }
+            }
+          }
+        },
+        "ai": {
+          "onLight": {
+            "$type": "color",
+            "$value": "{Primitives.color.ai.900}",
+            "$description": "",
+            "$extensions": {
+              "mode": {
+                "Light": "{Primitives.color.ai.900}",
+                "Dark": "{Primitives.color.ai.300}"
+              }
+            }
+          },
+          "onDark": {
+            "$type": "color",
+            "$value": "{Primitives.color.ai.300}",
+            "$description": "",
+            "$extensions": {
+              "mode": {
+                "Light": "{Primitives.color.ai.300}",
+                "Dark": "{Primitives.color.ai.900}"
+              }
+            }
+          },
+          "onLightOnly": {
+            "$type": "color",
+            "$value": "{Primitives.color.ai.900}",
+            "$description": "",
+            "$extensions": {
+              "mode": {
+                "Light": "{Primitives.color.ai.900}",
+                "Dark": "{Primitives.color.ai.900}"
+              }
+            }
+          },
+          "onDarkOnly": {
+            "$type": "color",
+            "$value": "{Primitives.color.ai.300}",
+            "$description": "",
+            "$extensions": {
+              "mode": {
+                "Light": "{Primitives.color.ai.300}",
+                "Dark": "{Primitives.color.ai.300}"
               }
             }
           }
@@ -3063,15 +1660,6 @@
                 "mode": {
                   "Light": "{Primitives.color.neutral.700}",
                   "Dark": "{Primitives.color.neutral.300}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:29:665",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3083,15 +1671,6 @@
                 "mode": {
                   "Light": "{Primitives.color.neutral.600}",
                   "Dark": "{Primitives.color.neutral.400}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:29:669",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3103,15 +1682,6 @@
                 "mode": {
                   "Light": "{Primitives.color.neutral.500}",
                   "Dark": "{Primitives.color.neutral.500}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:29:670",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3123,15 +1693,6 @@
                 "mode": {
                   "Light": "{Primitives.color.neutral.600}",
                   "Dark": "{Primitives.color.neutral.400}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2695",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -3145,15 +1706,6 @@
                 "mode": {
                   "Light": "{Primitives.color.neutral.300}",
                   "Dark": "{Primitives.color.neutral.700}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:78:1205",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3165,15 +1717,6 @@
                 "mode": {
                   "Light": "{Primitives.color.neutral.400}",
                   "Dark": "{Primitives.color.neutral.600}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:78:1206",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3185,15 +1728,6 @@
                 "mode": {
                   "Light": "{Primitives.color.neutral.500}",
                   "Dark": "{Primitives.color.neutral.500}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:78:1207",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3205,15 +1739,6 @@
                 "mode": {
                   "Light": "{Primitives.color.neutral.400}",
                   "Dark": "{Primitives.color.neutral.600}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2696",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -3229,15 +1754,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.blackLightest}",
                   "Dark": "{Primitives.color.base.whiteLightest}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:78:1408",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3249,15 +1765,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.blackLight}",
                   "Dark": "{Primitives.color.base.whiteLight}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:78:1409",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3269,15 +1776,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.blackTertiary}",
                   "Dark": "{Primitives.color.base.whiteTertiary}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:78:1410",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3289,15 +1787,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.blackLight}",
                   "Dark": "{Primitives.color.base.whiteLight}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2697",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -3311,15 +1800,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.whiteLightest}",
                   "Dark": "{Primitives.color.base.blackLightest}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:78:1411",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3331,15 +1811,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.whiteLight}",
                   "Dark": "{Primitives.color.base.blackLight}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:78:1412",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3351,15 +1822,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.whiteTertiary}",
                   "Dark": "{Primitives.color.base.blackTertiary}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:78:1413",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3371,15 +1833,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.whiteLight}",
                   "Dark": "{Primitives.color.base.blackLight}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2698",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -3395,15 +1848,6 @@
                 "mode": {
                   "Light": "{Primitives.color.feedback.red.700}",
                   "Dark": "{Primitives.color.feedback.red.700}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:83:1858",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3415,15 +1859,6 @@
                 "mode": {
                   "Light": "{Primitives.color.feedback.red.600}",
                   "Dark": "{Primitives.color.feedback.red.600}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:83:1859",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3435,15 +1870,6 @@
                 "mode": {
                   "Light": "{Primitives.color.feedback.red.500}",
                   "Dark": "{Primitives.color.feedback.red.500}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:83:1860",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3455,15 +1881,6 @@
                 "mode": {
                   "Light": "{Primitives.color.feedback.red.600}",
                   "Dark": "{Primitives.color.feedback.red.600}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2701",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -3477,15 +1894,6 @@
                 "mode": {
                   "Light": "{Primitives.color.feedback.red.700}",
                   "Dark": "{Primitives.color.feedback.red.700}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:83:1861",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3497,15 +1905,6 @@
                 "mode": {
                   "Light": "{Primitives.color.feedback.red.600}",
                   "Dark": "{Primitives.color.feedback.red.600}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:83:1862",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3517,15 +1916,6 @@
                 "mode": {
                   "Light": "{Primitives.color.feedback.red.500}",
                   "Dark": "{Primitives.color.feedback.red.500}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:83:1863",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3537,15 +1927,6 @@
                 "mode": {
                   "Light": "{Primitives.color.feedback.red.600}",
                   "Dark": "{Primitives.color.feedback.red.600}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2702",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -3561,15 +1942,6 @@
                 "mode": {
                   "Light": "{Primitives.color.brand.900}",
                   "Dark": "{Primitives.color.brand.400}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2711",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3581,15 +1953,6 @@
                 "mode": {
                   "Light": "{Primitives.color.brand.800}",
                   "Dark": "{Primitives.color.brand.500}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2712",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3601,15 +1964,6 @@
                 "mode": {
                   "Light": "{Primitives.color.brand.700}",
                   "Dark": "{Primitives.color.brand.600}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2713",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3621,15 +1975,6 @@
                 "mode": {
                   "Light": "{Primitives.color.brand.800}",
                   "Dark": "{Primitives.color.brand.500}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2714",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -3643,15 +1988,6 @@
                 "mode": {
                   "Light": "{Primitives.color.brand.300}",
                   "Dark": "{Primitives.color.brand.700}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2715",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3663,15 +1999,6 @@
                 "mode": {
                   "Light": "{Primitives.color.brand.400}",
                   "Dark": "{Primitives.color.brand.600}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2716",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3683,15 +2010,6 @@
                 "mode": {
                   "Light": "{Primitives.color.brand.500}",
                   "Dark": "{Primitives.color.brand.500}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2717",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3703,15 +2021,6 @@
                 "mode": {
                   "Light": "{Primitives.color.brand.400}",
                   "Dark": "{Primitives.color.brand.600}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2718",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -3726,15 +2035,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackTransparent}",
                 "Dark": "{Primitives.color.base.whiteTransparent}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2719",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -3748,15 +2048,6 @@
               "mode": {
                 "Light": "{Primitives.color.feedback.green.500}",
                 "Dark": "{Primitives.color.feedback.green.500}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2727",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -3768,15 +2059,6 @@
               "mode": {
                 "Light": "{Primitives.color.neutral.400}",
                 "Dark": "{Primitives.color.neutral.400}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2728",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -3791,15 +2073,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.blackTransparent}",
                   "Dark": "{Primitives.color.base.whiteTransparent}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2975",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3811,15 +2084,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.blackLightest}",
                   "Dark": "{Primitives.color.base.whiteLightest}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2976",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3831,15 +2095,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.blackLight}",
                   "Dark": "{Primitives.color.base.whiteLight}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2977",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3851,15 +2106,6 @@
                 "mode": {
                   "Light": "{Primitives.color.neutral.200}",
                   "Dark": "{Primitives.color.brand.800}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2978",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -3873,15 +2119,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.whiteTransparent}",
                   "Dark": "{Primitives.color.base.blackTransparent}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2979",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3893,15 +2130,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.whiteLightest}",
                   "Dark": "{Primitives.color.base.blackLightest}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2980",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3913,15 +2141,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.whiteLight}",
                   "Dark": "{Primitives.color.base.blackLight}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2981",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -3933,15 +2152,6 @@
                 "mode": {
                   "Light": "{Primitives.color.brand.800}",
                   "Dark": "{Primitives.color.neutral.200}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2982",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -3956,15 +2166,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.whitePrimary}",
                 "Dark": "{Primitives.color.base.blackPrimary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:3001",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -3976,15 +2177,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackLightest}",
                 "Dark": "{Primitives.color.base.whiteLightest}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:3002",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -3996,15 +2188,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackLight}",
                 "Dark": "{Primitives.color.base.whiteLight}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:3003",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4016,15 +2199,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackLightest}",
                 "Dark": "{Primitives.color.base.whiteLightest}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:3004",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -4038,15 +2212,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.whitePrimary}",
                 "Dark": "{Primitives.color.base.blackPrimary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:3172",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4058,15 +2223,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.whiteSecondary}",
                 "Dark": "{Primitives.color.base.blackSecondary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:3173",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4078,15 +2234,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.whiteTertiary}",
                 "Dark": "{Primitives.color.base.blackTertiary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:3174",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4098,15 +2245,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.whiteSecondary}",
                 "Dark": "{Primitives.color.base.blackSecondary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:3175",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -4121,15 +2259,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.whitePrimary}",
                   "Dark": "{Primitives.color.base.blackPrimary}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1493:3198",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -4141,15 +2270,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.blackLightest}",
                   "Dark": "{Primitives.color.base.whiteLightest}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1493:3199",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -4161,15 +2281,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.blackLight}",
                   "Dark": "{Primitives.color.base.whiteLight}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1493:3200",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -4181,15 +2292,6 @@
                 "mode": {
                   "Light": "{Primitives.color.neutral.200}",
                   "Dark": "{Primitives.color.brand.800}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1493:3201",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -4203,15 +2305,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.blackPrimary}",
                   "Dark": "{Primitives.color.base.whitePrimary}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1493:3202",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -4223,15 +2316,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.whiteLightest}",
                   "Dark": "{Primitives.color.base.blackLightest}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1493:3203",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -4243,15 +2327,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.whiteLight}",
                   "Dark": "{Primitives.color.base.blackLight}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1493:3204",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -4263,15 +2338,100 @@
                 "mode": {
                   "Light": "{Primitives.color.brand.800}",
                   "Dark": "{Primitives.color.neutral.200}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1493:3205",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
+                }
+              }
+            }
+          }
+        },
+        "ai": {
+          "onLight": {
+            "default": {
+              "$type": "color",
+              "$value": "{Primitives.color.ai.200}",
+              "$description": "",
+              "$extensions": {
+                "mode": {
+                  "Light": "{Primitives.color.ai.200}",
+                  "Dark": "{Primitives.color.ai.800}"
+                }
+              }
+            },
+            "hovered": {
+              "$type": "color",
+              "$value": "{Primitives.color.ai.300}",
+              "$description": "",
+              "$extensions": {
+                "mode": {
+                  "Light": "{Primitives.color.ai.300}",
+                  "Dark": "{Primitives.color.ai.700}"
+                }
+              }
+            },
+            "pressed": {
+              "$type": "color",
+              "$value": "{Primitives.color.ai.400}",
+              "$description": "",
+              "$extensions": {
+                "mode": {
+                  "Light": "{Primitives.color.ai.400}",
+                  "Dark": "{Primitives.color.ai.600}"
+                }
+              }
+            },
+            "selected": {
+              "$type": "color",
+              "$value": "{Primitives.color.ai.300}",
+              "$description": "",
+              "$extensions": {
+                "mode": {
+                  "Light": "{Primitives.color.ai.300}",
+                  "Dark": "{Primitives.color.ai.700}"
+                }
+              }
+            }
+          },
+          "onDark": {
+            "default": {
+              "$type": "color",
+              "$value": "{Primitives.color.ai.800}",
+              "$description": "",
+              "$extensions": {
+                "mode": {
+                  "Light": "{Primitives.color.ai.800}",
+                  "Dark": "{Primitives.color.ai.200}"
+                }
+              }
+            },
+            "hovered": {
+              "$type": "color",
+              "$value": "{Primitives.color.ai.700}",
+              "$description": "",
+              "$extensions": {
+                "mode": {
+                  "Light": "{Primitives.color.ai.700}",
+                  "Dark": "{Primitives.color.ai.300}"
+                }
+              }
+            },
+            "pressed": {
+              "$type": "color",
+              "$value": "{Primitives.color.ai.600}",
+              "$description": "",
+              "$extensions": {
+                "mode": {
+                  "Light": "{Primitives.color.ai.600}",
+                  "Dark": "{Primitives.color.ai.400}"
+                }
+              }
+            },
+            "selected": {
+              "$type": "color",
+              "$value": "{Primitives.color.ai.700}",
+              "$description": "",
+              "$extensions": {
+                "mode": {
+                  "Light": "{Primitives.color.ai.700}",
+                  "Dark": "{Primitives.color.ai.300}"
                 }
               }
             }
@@ -4287,15 +2447,6 @@
             "mode": {
               "Light": "{Primitives.color.brand.700}",
               "Dark": "{Primitives.color.brand.500}"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:29:703",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         },
@@ -4307,15 +2458,6 @@
             "mode": {
               "Light": "{Primitives.color.brand.600}",
               "Dark": "{Primitives.color.feedback.green.400}"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:71:832",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         },
@@ -4327,15 +2469,6 @@
             "mode": {
               "Light": "{Primitives.color.brand.500}",
               "Dark": "{Primitives.color.feedback.green.300}"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:71:833",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         }
@@ -4350,15 +2483,6 @@
               "mode": {
                 "Light": "{Primitives.color.feedback.green.900}",
                 "Dark": "{Primitives.color.feedback.green.200}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:144:3774",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4370,15 +2494,6 @@
               "mode": {
                 "Light": "{Primitives.color.feedback.green.200}",
                 "Dark": "{Primitives.color.feedback.green.900}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:144:3775",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -4392,15 +2507,6 @@
               "mode": {
                 "Light": "{Primitives.color.feedback.yellow.900}",
                 "Dark": "{Primitives.color.feedback.yellow.100}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:144:3805",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4412,15 +2518,6 @@
               "mode": {
                 "Light": "{Primitives.color.feedback.yellow.100}",
                 "Dark": "{Primitives.color.feedback.yellow.900}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:144:3806",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -4434,15 +2531,6 @@
               "mode": {
                 "Light": "{Primitives.color.feedback.red.800}",
                 "Dark": "{Primitives.color.feedback.red.200}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:144:3821",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4454,15 +2542,6 @@
               "mode": {
                 "Light": "{Primitives.color.feedback.red.200}",
                 "Dark": "{Primitives.color.feedback.red.800}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:144:3822",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -4476,15 +2555,6 @@
               "mode": {
                 "Light": "{Primitives.color.neutral.950}",
                 "Dark": "{Primitives.color.neutral.200}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:144:3838",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4496,15 +2566,6 @@
               "mode": {
                 "Light": "{Primitives.color.neutral.200}",
                 "Dark": "{Primitives.color.neutral.950}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:144:3839",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -4518,15 +2579,6 @@
               "mode": {
                 "Light": "{Primitives.color.brand.900}",
                 "Dark": "{Primitives.color.brand.900}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:393:825",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4538,15 +2590,6 @@
               "mode": {
                 "Light": "{Primitives.color.brand.400}",
                 "Dark": "{Primitives.color.brand.400}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:393:826",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -4560,15 +2603,6 @@
               "mode": {
                 "Light": "{Primitives.color.grey.800}",
                 "Dark": "{Primitives.color.grey.200}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1507:3339",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4580,15 +2614,30 @@
               "mode": {
                 "Light": "{Primitives.color.grey.200}",
                 "Dark": "{Primitives.color.grey.800}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1507:3340",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
+              }
+            }
+          }
+        },
+        "ai": {
+          "dark": {
+            "$type": "color",
+            "$value": "{Primitives.color.ai.800}",
+            "$description": "",
+            "$extensions": {
+              "mode": {
+                "Light": "{Primitives.color.ai.800}",
+                "Dark": "{Primitives.color.ai.200}"
+              }
+            }
+          },
+          "light": {
+            "$type": "color",
+            "$value": "{Primitives.color.ai.200}",
+            "$description": "",
+            "$extensions": {
+              "mode": {
+                "Light": "{Primitives.color.ai.200}",
+                "Dark": "{Primitives.color.ai.800}"
               }
             }
           }
@@ -4604,15 +2653,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackSecondary}",
                 "Dark": "{Primitives.color.base.whiteSecondary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:330:893",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4624,15 +2664,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.whiteSecondary}",
                 "Dark": "{Primitives.color.base.blackSecondary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:330:894",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4644,15 +2675,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.whiteSecondary}",
                 "Dark": "{Primitives.color.base.whiteSecondary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:499:8008",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4664,15 +2686,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackSecondary}",
                 "Dark": "{Primitives.color.base.blackSecondary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:499:8009",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -4686,15 +2699,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackTertiary}",
                 "Dark": "{Primitives.color.base.whiteTertiary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:330:895",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4706,15 +2710,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.whiteTertiary}",
                 "Dark": "{Primitives.color.base.blackTertiary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:330:896",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4726,15 +2721,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.whiteTertiary}",
                 "Dark": "{Primitives.color.base.whiteTertiary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:499:8010",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4746,15 +2732,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackTertiary}",
                 "Dark": "{Primitives.color.base.whiteTertiary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:499:8011",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -4768,15 +2745,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackTertiary}",
                 "Dark": "{Primitives.color.base.whiteTertiary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:330:897",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4788,15 +2756,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.whiteTertiary}",
                 "Dark": "{Primitives.color.base.blackTertiary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:330:898",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4808,15 +2767,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.whiteTertiary}",
                 "Dark": "{Primitives.color.base.whiteTertiary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:499:8012",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4828,15 +2778,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackTertiary}",
                 "Dark": "{Primitives.color.base.blackTertiary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:499:8013",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -4850,15 +2791,6 @@
               "mode": {
                 "Light": "{Primitives.color.brand.800}",
                 "Dark": "{Primitives.color.brand.400}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:492:7251",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4870,15 +2802,6 @@
               "mode": {
                 "Light": "{Primitives.color.brand.400}",
                 "Dark": "{Primitives.color.brand.800}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:492:7252",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4890,15 +2813,6 @@
               "mode": {
                 "Light": "{Primitives.color.brand.400}",
                 "Dark": "{Primitives.color.brand.400}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:492:7263",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -4910,15 +2824,52 @@
               "mode": {
                 "Light": "{Primitives.color.brand.800}",
                 "Dark": "{Primitives.color.brand.800}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:492:7264",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
+              }
+            }
+          }
+        },
+        "ai": {
+          "onLight": {
+            "$type": "color",
+            "$value": "{Primitives.color.ai.800}",
+            "$description": "",
+            "$extensions": {
+              "mode": {
+                "Light": "{Primitives.color.ai.800}",
+                "Dark": "{Primitives.color.ai.400}"
+              }
+            }
+          },
+          "onDark": {
+            "$type": "color",
+            "$value": "{Primitives.color.ai.400}",
+            "$description": "",
+            "$extensions": {
+              "mode": {
+                "Light": "{Primitives.color.ai.400}",
+                "Dark": "{Primitives.color.ai.800}"
+              }
+            }
+          },
+          "onLightOnly": {
+            "$type": "color",
+            "$value": "{Primitives.color.ai.800}",
+            "$description": "",
+            "$extensions": {
+              "mode": {
+                "Light": "{Primitives.color.ai.800}",
+                "Dark": "{Primitives.color.ai.800}"
+              }
+            }
+          },
+          "onDarkOnly": {
+            "$type": "color",
+            "$value": "{Primitives.color.ai.400}",
+            "$description": "",
+            "$extensions": {
+              "mode": {
+                "Light": "{Primitives.color.ai.400}",
+                "Dark": "{Primitives.color.ai.400}"
               }
             }
           }
@@ -4933,15 +2884,6 @@
             "mode": {
               "Light": "{Primitives.color.neutral.50}",
               "Dark": "{Primitives.color.grey.900}"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:390:939",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         },
@@ -4953,15 +2895,6 @@
             "mode": {
               "Light": "{Primitives.color.brand.300}",
               "Dark": "{Primitives.color.grey.900}"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:390:966",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         },
@@ -4973,15 +2906,6 @@
             "mode": {
               "Light": "{Primitives.color.neutral.200}",
               "Dark": "{Primitives.color.grey.900}"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:391:781",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         }
@@ -4996,15 +2920,6 @@
               "mode": {
                 "Light": "{Primitives.color.brand.950}",
                 "Dark": "{Primitives.color.brand.50}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:390:977",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5016,15 +2931,6 @@
               "mode": {
                 "Light": "{Primitives.color.brand.900}",
                 "Dark": "{Primitives.color.brand.100}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:390:980",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5036,15 +2942,6 @@
               "mode": {
                 "Light": "{Primitives.color.brand.800}",
                 "Dark": "{Primitives.color.brand.200}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:390:981",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5056,15 +2953,6 @@
               "mode": {
                 "Light": "{Primitives.color.brand.900}",
                 "Dark": "{Primitives.color.brand.100}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:490:6532",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -5078,15 +2966,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.whitePrimary}",
                 "Dark": "{Primitives.color.grey.950}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2670",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5098,15 +2977,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackLightest}",
                 "Dark": "{Primitives.color.base.whiteLightest}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2671",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5118,15 +2988,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackLight}",
                 "Dark": "{Primitives.color.base.whiteLight}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2672",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5138,15 +2999,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackPrimary}",
                 "Dark": "{Primitives.color.base.whitePrimary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2673",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -5160,15 +3012,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackLightest}",
                 "Dark": "{Primitives.color.base.whiteLightest}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2674",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5180,15 +3023,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackLightest}",
                 "Dark": "{Primitives.color.base.whiteLightest}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2675",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5200,15 +3034,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackLight}",
                 "Dark": "{Primitives.color.base.whiteLight}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2676",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5220,15 +3045,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackPrimary}",
                 "Dark": "{Primitives.color.base.whitePrimary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2677",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -5242,15 +3058,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.whiteTransparent}",
                 "Dark": "{Primitives.color.base.blackTransparent}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2682",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5262,15 +3069,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackLightest}",
                 "Dark": "{Primitives.color.base.whiteLightest}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2683",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5282,15 +3080,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackLight}",
                 "Dark": "{Primitives.color.base.whiteLight}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2684",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5302,15 +3091,6 @@
               "mode": {
                 "Light": "{Primitives.color.base.blackPrimary}",
                 "Dark": "{Primitives.color.base.whitePrimary}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2685",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -5324,15 +3104,6 @@
               "mode": {
                 "Light": "{Primitives.color.brand.300}",
                 "Dark": "{Primitives.color.brand.900}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2686",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5344,15 +3115,6 @@
               "mode": {
                 "Light": "{Primitives.color.brand.400}",
                 "Dark": "{Primitives.color.brand.800}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2687",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5364,15 +3126,6 @@
               "mode": {
                 "Light": "{Primitives.color.brand.500}",
                 "Dark": "{Primitives.color.brand.700}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2688",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5384,15 +3137,6 @@
               "mode": {
                 "Light": "{Primitives.color.brand.400}",
                 "Dark": "{Primitives.color.brand.800}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2689",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -5406,15 +3150,6 @@
               "mode": {
                 "Light": "{Primitives.color.grey.300}",
                 "Dark": "{Primitives.color.grey.800}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2690",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -5428,15 +3163,52 @@
               "mode": {
                 "Light": "{Primitives.color.base.whiteTransparent}",
                 "Dark": "{Primitives.color.base.blackTransparent}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2694",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
+              }
+            }
+          }
+        },
+        "ai": {
+          "default": {
+            "$type": "color",
+            "$value": "{Primitives.color.ai.300}",
+            "$description": "",
+            "$extensions": {
+              "mode": {
+                "Light": "{Primitives.color.ai.300}",
+                "Dark": "{Primitives.color.ai.900}"
+              }
+            }
+          },
+          "hovered": {
+            "$type": "color",
+            "$value": "{Primitives.color.ai.400}",
+            "$description": "",
+            "$extensions": {
+              "mode": {
+                "Light": "{Primitives.color.ai.400}",
+                "Dark": "{Primitives.color.ai.800}"
+              }
+            }
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "{Primitives.color.ai.500}",
+            "$description": "",
+            "$extensions": {
+              "mode": {
+                "Light": "{Primitives.color.ai.500}",
+                "Dark": "{Primitives.color.ai.700}"
+              }
+            }
+          },
+          "selected": {
+            "$type": "color",
+            "$value": "{Primitives.color.ai.400}",
+            "$description": "",
+            "$extensions": {
+              "mode": {
+                "Light": "{Primitives.color.ai.400}",
+                "Dark": "{Primitives.color.ai.800}"
               }
             }
           }
@@ -5451,15 +3223,6 @@
             "mode": {
               "Light": "{Primitives.color.base.blackLightest}",
               "Dark": "{Primitives.color.base.whiteLightest}"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:450:5581",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         },
@@ -5471,15 +3234,6 @@
             "mode": {
               "Light": "{Primitives.color.base.whiteLightest}",
               "Dark": "{Primitives.color.base.blackLightest}"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:450:5584",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         }
@@ -5495,15 +3249,6 @@
                 "mode": {
                   "Light": "{Primitives.color.neutral.700}",
                   "Dark": "{Primitives.color.neutral.300}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:492:6936",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -5517,15 +3262,6 @@
                 "mode": {
                   "Light": "{Primitives.color.neutral.300}",
                   "Dark": "{Primitives.color.neutral.700}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2849",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -5541,15 +3277,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.blackLight}",
                   "Dark": "{Primitives.color.base.whiteLight}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2850",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -5563,15 +3290,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.whiteLight}",
                   "Dark": "{Primitives.color.base.blackLight}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2851",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -5587,15 +3305,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.blackLightest}",
                   "Dark": "{Primitives.color.base.whiteLightest}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2852",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -5609,15 +3318,6 @@
                 "mode": {
                   "Light": "{Primitives.color.base.whiteLightest}",
                   "Dark": "{Primitives.color.base.blackLightest}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2853",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -5633,15 +3333,6 @@
                 "mode": {
                   "Light": "{Primitives.color.brand.900}",
                   "Dark": "{Primitives.color.brand.400}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2854",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -5655,15 +3346,6 @@
                 "mode": {
                   "Light": "{Primitives.color.brand.300}",
                   "Dark": "{Primitives.color.brand.700}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:1479:2855",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -5678,15 +3360,6 @@
               "mode": {
                 "Light": "{Primitives.color.brand.500}",
                 "Dark": "{Primitives.color.brand.500}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:1479:2856",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -5703,15 +3376,6 @@
             "mode": {
               "Light": "{Primitives.font-family.heading}",
               "Dark": "{Primitives.font-family.heading}"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:25:28",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         },
@@ -5723,15 +3387,6 @@
             "mode": {
               "Light": "{Primitives.font-family.body}",
               "Dark": "{Primitives.font-family.body}"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:25:29",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         }
@@ -5745,15 +3400,6 @@
             "mode": {
               "Light": "{Primitives.font-weight.regular}",
               "Dark": "{Primitives.font-weight.regular}"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:25:30",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         },
@@ -5765,15 +3411,6 @@
             "mode": {
               "Light": "{Primitives.font-weight.medium}",
               "Dark": "{Primitives.font-weight.medium}"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:25:31",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         },
@@ -5785,15 +3422,6 @@
             "mode": {
               "Light": "{Primitives.font-weight.bold}",
               "Dark": "{Primitives.font-weight.bold}"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:25:32",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         }
@@ -5808,15 +3436,6 @@
               "mode": {
                 "Light": "{Primitives.font-size.4xl}",
                 "Dark": "{Primitives.font-size.4xl}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:25:33",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5828,15 +3447,6 @@
               "mode": {
                 "Light": "{Primitives.font-size.3xl}",
                 "Dark": "{Primitives.font-size.3xl}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:25:34",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5848,15 +3458,6 @@
               "mode": {
                 "Light": "{Primitives.font-size.2xl}",
                 "Dark": "{Primitives.font-size.2xl}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:25:35",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5868,15 +3469,6 @@
               "mode": {
                 "Light": "{Primitives.font-size.xl}",
                 "Dark": "{Primitives.font-size.xl}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:25:36",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5888,15 +3480,6 @@
               "mode": {
                 "Light": "{Primitives.font-size.lg}",
                 "Dark": "{Primitives.font-size.lg}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:25:37",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5908,15 +3491,6 @@
               "mode": {
                 "Light": "{Primitives.font-size.md}",
                 "Dark": "{Primitives.font-size.md}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:25:38",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -5930,15 +3504,6 @@
               "mode": {
                 "Light": "{Primitives.font-size.md}",
                 "Dark": "{Primitives.font-size.md}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:25:39",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5950,15 +3515,6 @@
               "mode": {
                 "Light": "{Primitives.font-size.s}",
                 "Dark": "{Primitives.font-size.s}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:25:40",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5970,15 +3526,6 @@
               "mode": {
                 "Light": "{Primitives.font-size.xs}",
                 "Dark": "{Primitives.font-size.xs}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:25:41",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -5990,15 +3537,6 @@
               "mode": {
                 "Light": "{Primitives.font-size.xxs}",
                 "Dark": "{Primitives.font-size.xxs}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:437:3764",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -6014,15 +3552,6 @@
               "mode": {
                 "Light": "{Primitives.line-height.4xl}",
                 "Dark": "{Primitives.line-height.4xl}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:25:42",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -6034,15 +3563,6 @@
               "mode": {
                 "Light": "{Primitives.line-height.3xl}",
                 "Dark": "{Primitives.line-height.3xl}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:25:43",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -6054,15 +3574,6 @@
               "mode": {
                 "Light": "{Primitives.line-height.2xl}",
                 "Dark": "{Primitives.line-height.2xl}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:25:44",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -6074,15 +3585,6 @@
               "mode": {
                 "Light": "{Primitives.line-height.xl}",
                 "Dark": "{Primitives.line-height.xl}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:25:45",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -6094,15 +3596,6 @@
               "mode": {
                 "Light": "{Primitives.line-height.lg}",
                 "Dark": "{Primitives.line-height.lg}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:25:46",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -6114,15 +3607,6 @@
               "mode": {
                 "Light": "{Primitives.line-height.md}",
                 "Dark": "{Primitives.line-height.md}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:25:47",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -6137,15 +3621,6 @@
                 "mode": {
                   "Light": "{Primitives.line-height.md}",
                   "Dark": "{Primitives.line-height.md}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:25:49",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -6157,15 +3632,6 @@
                 "mode": {
                   "Light": "{Primitives.line-height.md}",
                   "Dark": "{Primitives.line-height.md}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:25:51",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -6179,15 +3645,6 @@
                 "mode": {
                   "Light": "{Primitives.line-height.xs}",
                   "Dark": "{Primitives.line-height.xs}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:25:52",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -6199,15 +3656,6 @@
                 "mode": {
                   "Light": "{Primitives.line-height.s}",
                   "Dark": "{Primitives.line-height.s}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:25:53",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -6221,15 +3669,6 @@
                 "mode": {
                   "Light": "{Primitives.line-height.xs}",
                   "Dark": "{Primitives.line-height.xs}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:25:54",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             },
@@ -6241,15 +3680,6 @@
                 "mode": {
                   "Light": "{Primitives.line-height.xs}",
                   "Dark": "{Primitives.line-height.xs}"
-                },
-                "figma": {
-                  "codeSyntax": {},
-                  "variableId": "VariableID:25:55",
-                  "collection": {
-                    "id": "VariableCollectionId:23:56",
-                    "name": "Tokens",
-                    "defaultModeId": "23:0"
-                  }
                 }
               }
             }
@@ -6262,15 +3692,6 @@
               "mode": {
                 "Light": "{Primitives.line-height.3xs}",
                 "Dark": "{Primitives.line-height.3xs}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:636:3376",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           },
@@ -6282,15 +3703,6 @@
               "mode": {
                 "Light": "{Primitives.line-height.2xs}",
                 "Dark": "{Primitives.line-height.2xs}"
-              },
-              "figma": {
-                "codeSyntax": {},
-                "variableId": "VariableID:636:3377",
-                "collection": {
-                  "id": "VariableCollectionId:23:56",
-                  "name": "Tokens",
-                  "defaultModeId": "23:0"
-                }
               }
             }
           }
@@ -6305,15 +3717,6 @@
             "mode": {
               "Light": "{Primitives.letter-spacing.md}",
               "Dark": "{Primitives.letter-spacing.md}"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:25:56",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         },
@@ -6325,15 +3728,6 @@
             "mode": {
               "Light": "{Primitives.letter-spacing.lg}",
               "Dark": "{Primitives.letter-spacing.lg}"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:25:57",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         },
@@ -6345,15 +3739,6 @@
             "mode": {
               "Light": "{Primitives.letter-spacing.xl}",
               "Dark": "{Primitives.letter-spacing.xl}"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:25:58",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         },
@@ -6365,15 +3750,6 @@
             "mode": {
               "Light": "{Primitives.letter-spacing.s}",
               "Dark": "{Primitives.letter-spacing.s}"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:25:59",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         },
@@ -6385,15 +3761,6 @@
             "mode": {
               "Light": "{Primitives.letter-spacing.xs}",
               "Dark": "{Primitives.letter-spacing.xs}"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:25:60",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         }
@@ -6408,15 +3775,6 @@
           "mode": {
             "Light": "{Primitives.opacity.default}",
             "Dark": "{Primitives.opacity.default}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:39:2444",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -6428,15 +3786,6 @@
           "mode": {
             "Light": "{Primitives.opacity.disabled}",
             "Dark": "{Primitives.opacity.disabled}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:39:2445",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -6448,15 +3797,6 @@
           "mode": {
             "Light": "{Primitives.opacity.inactive}",
             "Dark": "{Primitives.opacity.inactive}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:83:2123",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -6468,15 +3808,6 @@
           "mode": {
             "Light": "{Primitives.opacity.hover}",
             "Dark": "{Primitives.opacity.hover}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:370:919",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       }
@@ -6491,15 +3822,6 @@
             "mode": {
               "Light": "{Primitives.color.shadow}",
               "Dark": "{Primitives.color.shadow}"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:132:1741",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         },
@@ -6511,15 +3833,6 @@
             "mode": {
               "Light": "0px",
               "Dark": "0px"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:132:1742",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         },
@@ -6531,15 +3844,6 @@
             "mode": {
               "Light": "2px",
               "Dark": "2px"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:132:1743",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         },
@@ -6551,15 +3855,6 @@
             "mode": {
               "Light": "4px",
               "Dark": "4px"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:132:1744",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         }
@@ -6573,15 +3868,6 @@
             "mode": {
               "Light": "{Primitives.color.shadow}",
               "Dark": "{Primitives.color.shadow}"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:382:942",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         },
@@ -6593,15 +3879,6 @@
             "mode": {
               "Light": "0px",
               "Dark": "0px"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:382:943",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         },
@@ -6613,15 +3890,6 @@
             "mode": {
               "Light": "4px",
               "Dark": "4px"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:382:944",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         },
@@ -6633,15 +3901,6 @@
             "mode": {
               "Light": "8px",
               "Dark": "8px"
-            },
-            "figma": {
-              "codeSyntax": {},
-              "variableId": "VariableID:382:945",
-              "collection": {
-                "id": "VariableCollectionId:23:56",
-                "name": "Tokens",
-                "defaultModeId": "23:0"
-              }
             }
           }
         }
@@ -6656,15 +3915,6 @@
           "mode": {
             "Light": "{Primitives.size.1}",
             "Dark": "{Primitives.size.1}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:3123:1756",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -6676,15 +3926,6 @@
           "mode": {
             "Light": "{Primitives.size.2}",
             "Dark": "{Primitives.size.2}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:3123:1757",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -6696,15 +3937,6 @@
           "mode": {
             "Light": "{Primitives.size.3}",
             "Dark": "{Primitives.size.3}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:3123:1758",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -6716,15 +3948,6 @@
           "mode": {
             "Light": "{Primitives.size.4}",
             "Dark": "{Primitives.size.4}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:3123:1759",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -6736,15 +3959,6 @@
           "mode": {
             "Light": "{Primitives.size.5}",
             "Dark": "{Primitives.size.5}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:3123:1760",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -6756,15 +3970,6 @@
           "mode": {
             "Light": "{Primitives.size.6}",
             "Dark": "{Primitives.size.6}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:3123:1762",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -6776,15 +3981,6 @@
           "mode": {
             "Light": "{Primitives.size.7}",
             "Dark": "{Primitives.size.7}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:3123:2677",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       }
@@ -6798,15 +3994,6 @@
           "mode": {
             "Light": "{Primitives.border-width.1}",
             "Dark": "{Primitives.border-width.1}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:3215:2493",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -6818,15 +4005,6 @@
           "mode": {
             "Light": "{Primitives.border-width.2}",
             "Dark": "{Primitives.border-width.2}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:3215:2494",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       },
@@ -6838,15 +4016,6 @@
           "mode": {
             "Light": "{Primitives.border-width.3}",
             "Dark": "{Primitives.border-width.3}"
-          },
-          "figma": {
-            "codeSyntax": {},
-            "variableId": "VariableID:3215:2495",
-            "collection": {
-              "id": "VariableCollectionId:23:56",
-              "name": "Tokens",
-              "defaultModeId": "23:0"
-            }
           }
         }
       }
@@ -6860,7 +4029,7 @@
         "Primitives",
         "Tokens"
       ],
-      "createdAt": "2025-08-22T10:32:43.891Z"
+      "createdAt": "2025-11-21T10:38:35.408Z"
     }
   }
 }
