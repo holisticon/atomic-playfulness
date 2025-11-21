@@ -1,0 +1,7 @@
+{
+  "codeConnect": {
+    "include": ["src/components/**/*.{tsx,jsx}"],
+    "label": "React",
+    "interactiveSetupFigmaFileUrl": "https://www.figma.com/design/qz52VrR2zMqD57VorqiLmw/Atomic-Playfulness---Test?m=auto&t=5jACNv68YruWNNIb-6"
+  }
+}

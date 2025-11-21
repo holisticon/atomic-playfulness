@@ -4,6 +4,7 @@ node_modules
 .history
 test-results
 playwright-report
+.env
 
 # ignore all screenshots except for the platform running the CI pipeline.
 packages/documentation/tests/screenshots/*
