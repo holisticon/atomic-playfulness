@@ -3,7 +3,7 @@ export type Feedback = (typeof feedbackArgType)["options"][number];
 export const feedbackArgType = {
   control: { type: "select" },
 
-  options: ["positive", "caution", "critical", "new", "neutral"],
+  options: ["positive", "caution", "critical", "new", "neutral", "ai"],
 } as const;
 
 /** @returns the class name for a given {@link Feedback}. */

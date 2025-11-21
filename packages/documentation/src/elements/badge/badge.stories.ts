@@ -55,5 +55,9 @@ export const Neutral: Story = {
 };
 
 export const New: Story = {
-  args: { feedback: "new", label: "New", icon: "sparkles" },
+  args: { feedback: "new", label: "New", icon: "zap" },
+};
+
+export const AI: Story = {
+  args: { feedback: "ai", label: "AI", icon: "sparkles" },
 };
