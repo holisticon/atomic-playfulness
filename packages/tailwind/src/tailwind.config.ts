@@ -176,6 +176,10 @@ export const theme: Config["theme"] = {
         dark: "var(--hap-color-feedback-new-dark)",
         light: "var(--hap-color-feedback-new-light)",
       },
+      ai: {
+        dark: "var(--hap-color-feedback-ai-dark)",
+        light: "var(--hap-color-feedback-ai-light)",
+      },
       default: {
         dark: "var(--hap-color-feedback-default-dark)",
         light: "var(--hap-color-feedback-default-light)",
