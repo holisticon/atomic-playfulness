@@ -16,5 +16,10 @@ interface BadgeProps extends VariantProps<typeof badge> {
 }
 
 export function Badge(props: BadgeProps) {
-  return <div className={badge(props)}>{props.children}</div>;
+  const { className, children, feedback, ...rest } = props;
+  return (
+    <div className={badge({ className, feedback })} {...rest}>
+      {children}
+    </div>
+  );
 }

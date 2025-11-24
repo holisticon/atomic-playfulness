@@ -22,12 +22,17 @@ const button = cva({
 
 interface ButtonProps
   extends ComponentPropsWithRef<"button">,
-    VariantProps<typeof button> {}
+    VariantProps<typeof button> {
+  iconVariant?: "nocon" | "iconLeft" | "iconRight";
+  icon?: React.ReactNode;
+}
 
 export function Button(props: ButtonProps) {
   return (
     <button {...props} className={button(props)}>
+      {props.iconVariant === "iconLeft" && props.icon}
       {props.children}
+      {props.iconVariant === "iconRight" && props.icon}
     </button>
   );
 }
