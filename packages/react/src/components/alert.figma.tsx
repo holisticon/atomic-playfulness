@@ -13,9 +13,12 @@ figma.connect(
         Neutral: "neutral",
         New: "new",
       }),
+      showIcon: figma.boolean("Show Iconbutton"),
     },
     example: (props) => (
-      <Alert feedback={props.feedback}>Neutral message</Alert>
+      <Alert feedback={props.feedback} showIcon={props.showIcon}>
+        Neutral message
+      </Alert>
     ),
   },
 );

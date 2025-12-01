@@ -6,6 +6,7 @@ const meta = {
   args: {
     feedback: "neutral",
     children: "Alert message.",
+    showIcon: true,
   },
 } satisfies Meta<typeof Alert>;
 

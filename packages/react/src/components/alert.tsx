@@ -15,6 +15,7 @@ export interface AlertProps
     VariantProps<typeof alert> {
   onClose?: () => void;
   closeLabel?: string;
+  showIcon: boolean;
   icon?: ElementType;
 }
 
@@ -26,11 +27,12 @@ export function Alert(props: AlertProps) {
     onClose,
     closeLabel = "Dismiss alert",
     icon: Icon = Info,
+    showIcon,
     ...rest
   } = props;
   return (
     <div role="alert" className={alert({ className, feedback })} {...rest}>
-      <Icon className="hap-icon" aria-hidden="true" />
+      {showIcon && <Icon className="hap-icon" aria-hidden="true" />}
       <div className="hap-alert-content">{children}</div>
       {onClose && (
         <button

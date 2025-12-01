@@ -7,7 +7,6 @@ figma.connect(
   "https://www.figma.com/design/qz52VrR2zMqD57VorqiLmw/Atomic-Playfulness---Test?node-id=28%3A58",
   {
     props: {
-      // These props were automatically mapped based on your linked code:
       disabled: figma.enum("State", {
         disabled: true,
       }),
