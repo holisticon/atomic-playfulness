@@ -13,6 +13,7 @@ export interface IndicatorProps
 
 export function Indicator(props: IndicatorProps) {
   const { className, children, ...rest } = props;
+
   return (
     <span className={indicator({ className })} {...rest}>
       {children}

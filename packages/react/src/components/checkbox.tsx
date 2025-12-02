@@ -14,12 +14,14 @@ interface CheckboxProps
   extends Omit<ComponentPropsWithRef<"input">, "type">,
     VariantProps<typeof checkbox> {
   indeterminate?: boolean;
+  showLabel?: boolean;
 }
 
 export function Checkbox(props: CheckboxProps) {
   const {
     children,
     indeterminate = false,
+    showLabel,
     invalid,
     className,
     ...rest
@@ -37,7 +39,7 @@ export function Checkbox(props: CheckboxProps) {
         }}
         {...rest}
       />
-      {children}
+      {showLabel && children}
     </label>
   );
 }

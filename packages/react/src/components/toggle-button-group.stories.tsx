@@ -84,15 +84,11 @@ export const Small: Story = {
   args: {
     children: (
       <>
-        <ToggleButton value="option1" size="small" pressed>
+        <ToggleButton value="option1" pressed>
           Option 1
         </ToggleButton>
-        <ToggleButton value="option2" size="small">
-          Option 2
-        </ToggleButton>
-        <ToggleButton value="option3" size="small">
-          Option 3
-        </ToggleButton>
+        <ToggleButton value="option2">Option 2</ToggleButton>
+        <ToggleButton value="option3">Option 3</ToggleButton>
       </>
     ),
   },
@@ -255,21 +251,18 @@ export const ViewSwitcher: Story = {
             pressed={view === "list"}
             onClick={() => setView("list")}
             icon={<Icon name="List" size="small" />}
-            size="small"
           />
           <ToggleButton
             value="grid"
             pressed={view === "grid"}
             onClick={() => setView("grid")}
             icon={<Icon name="Grid3x3" size="small" />}
-            size="small"
           />
           <ToggleButton
             value="card"
             pressed={view === "card"}
             onClick={() => setView("card")}
             icon={<Icon name="SquareStack" size="small" />}
-            size="small"
           />
         </ToggleButtonGroup>
         <div>

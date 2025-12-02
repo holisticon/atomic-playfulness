@@ -4,8 +4,9 @@ import { Alert } from "./alert.js";
 const meta = {
   component: Alert,
   args: {
-    feedback: "default",
+    feedback: "neutral",
     children: "Alert message.",
+    showIcon: true,
   },
 } satisfies Meta<typeof Alert>;
 

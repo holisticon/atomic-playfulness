@@ -10,10 +10,11 @@ export interface ProgressIndicatorProps
     VariantProps<typeof progressIndicator> {
   value: number;
   max?: number;
+  variant?: "linear" | "linear-countdown";
 }
 
 export function ProgressIndicator(props: ProgressIndicatorProps) {
-  const { value, max = 100, className, style, ...rest } = props;
+  const { value, max = 100, className, style, variant, ...rest } = props;
 
   const percentage = Math.min(Math.max((value / max) * 100, 0), 100);
 
@@ -22,7 +23,7 @@ export function ProgressIndicator(props: ProgressIndicatorProps) {
       className={progressIndicator({ className })}
       style={
         {
-          "--progress": `${percentage}%`,
+          "--progress": `${variant === "linear-countdown" ? 100 - percentage : percentage}%`,
           ...style,
         } as React.CSSProperties
       }

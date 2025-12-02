@@ -9,8 +9,8 @@ const toggleButton = cva({
   base: "hap-toggle-button",
   variants: {
     size: {
-      medium: null, // default
-      small: "hap-toggle-button--sm",
+      default: null, // default
+      big: "hap-toggle-button--big",
     },
     pressed: {
       true: "", // pressed state is handled by aria-pressed
@@ -21,7 +21,7 @@ const toggleButton = cva({
     },
   },
   defaultVariants: {
-    size: "medium",
+    size: "default",
   },
 });
 
@@ -40,7 +40,7 @@ interface ToggleButtonProps {
   value: string;
   pressed?: boolean;
   disabled?: boolean;
-  size?: "medium" | "small";
+  size?: "default" | "big";
   subtle?: boolean;
   onClick?: () => void;
   icon?: ReactNode;
@@ -56,7 +56,7 @@ function ToggleButton({
   value,
   pressed = false,
   disabled = false,
-  size = "medium",
+  size = "default",
   subtle = false,
   onClick,
   icon,

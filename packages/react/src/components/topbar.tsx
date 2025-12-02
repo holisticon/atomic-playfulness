@@ -16,11 +16,13 @@ const topbarNavItem = cva({
 interface TopbarProps {
   children: ReactNode;
   className?: string;
+  logo?: ReactNode;
 }
 
 export function Topbar(props: TopbarProps) {
   return (
-    <header className={cx("hap-topbar", props.className)}>
+    <header className={cx("hap-topbar", "", props.className)}>
+      {props.logo}
       {props.children}
     </header>
   );

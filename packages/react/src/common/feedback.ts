@@ -8,6 +8,7 @@ export const feedback = cva({
       critical: "hap-feedback--critical",
       caution: "hap-feedback--caution",
       new: "hap-feedback--new",
+      ai: "hap-feedback--ai",
     },
   },
   defaultVariants: {

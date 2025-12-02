@@ -2,6 +2,7 @@ import { compose, cva, type VariantProps } from "cva";
 import type { ComponentPropsWithRef } from "react";
 import { feedback } from "../common/feedback.js";
 import { Icon } from "./icon.js";
+import { RadioButton } from "./radio-button.tsx";
 
 const radioGroup = compose(
   feedback,
@@ -61,17 +62,13 @@ export function RadioGroup(props: RadioGroupProps) {
       {legend && <legend>{legend}</legend>}
 
       {options.map((option) => (
-        <label key={option.value} className="hap-radio">
-          <input
-            type="radio"
-            name={name}
-            value={option.value}
-            checked={value === option.value}
-            disabled={disabled || option.disabled}
-            onChange={() => handleChange(option.value)}
-          />
-          {option.label}
-        </label>
+        <RadioButton
+          key={option.value}
+          name={name}
+          value={value}
+          option={option}
+          onChange={() => handleChange}
+        />
       ))}
 
       {invalid && errorMessage && (

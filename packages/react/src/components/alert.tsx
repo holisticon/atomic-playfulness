@@ -1,6 +1,6 @@
 import { compose, cva, type VariantProps } from "cva";
 import { Info, XCircle } from "lucide-react";
-import type { ComponentPropsWithRef } from "react";
+import type { ComponentPropsWithRef, ElementType } from "react";
 import { feedback } from "../common/feedback.js";
 
 const alert = compose(
@@ -13,9 +13,10 @@ const alert = compose(
 export interface AlertProps
   extends ComponentPropsWithRef<"div">,
     VariantProps<typeof alert> {
-  /** When provided, a close button is rendered. */
   onClose?: () => void;
   closeLabel?: string;
+  showIcon: boolean;
+  icon?: ElementType;
 }
 
 export function Alert(props: AlertProps) {
@@ -25,11 +26,13 @@ export function Alert(props: AlertProps) {
     feedback,
     onClose,
     closeLabel = "Dismiss alert",
+    icon: Icon = Info,
+    showIcon,
     ...rest
   } = props;
   return (
     <div role="alert" className={alert({ className, feedback })} {...rest}>
-      <Info className="hap-icon" aria-hidden="true" />
+      {showIcon && <Icon className="hap-icon" aria-hidden="true" />}
       <div className="hap-alert-content">{children}</div>
       {onClose && (
         <button
