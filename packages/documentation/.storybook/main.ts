@@ -1,13 +1,26 @@
 import type { StorybookConfig } from "@storybook/web-components-vite";
-import { readFileSync } from "fs";
+import { readFileSync } from "node:fs";
+import { dirname } from "node:path";
+import { fileURLToPath } from "node:url";
 
-const spriteSvg = readFileSync("../../node_modules/lucide-static/sprite.svg");
+function getFilePath(file: string): string {
+  return fileURLToPath(import.meta.resolve(file));
+}
+
+function getPackagePath(packageName: string): string {
+  return dirname(getFilePath(packageName + "/package.json"));
+}
+
+const spriteSvg = readFileSync(getFilePath("lucide-static/sprite.svg"));
 
 const config: StorybookConfig = {
-  framework: "@storybook/web-components-vite",
+  framework: getPackagePath("@storybook/web-components-vite"),
   core: { disableTelemetry: true },
   stories: ["../src/**/*.mdx", "../src/**/*.stories.ts"],
-  addons: ["storybook-addon-pseudo-states", "@storybook/addon-docs"],
+  addons: [
+    getPackagePath("storybook-addon-pseudo-states"),
+    getPackagePath("@storybook/addon-docs"),
+  ],
   previewBody: (body) => `${body}<svg style="display: none">${spriteSvg}</svg>`,
 };
 
