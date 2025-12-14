@@ -5,7 +5,8 @@ import {
   feedbackArgType,
   type Feedback,
 } from "../../common/feedback.js";
-import { renderIcon, type IconType } from "../icon/icon.stories.js";
+import { type IconType } from "../icon/icon.stories.js";
+import { renderIcon } from "../icon/renderIcon.ts";
 
 interface AlertArgs {
   label: string;

@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/web-components-vite";
 import { html } from "lit";
-import { renderIcon } from "../elements/icon/icon.stories.js";
+
+import { renderIcon } from "../elements/icon/renderIcon.ts";
 
 const meta: Meta = {
   render: () => html`

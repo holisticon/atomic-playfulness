@@ -1,6 +1,7 @@
 import { html, nothing } from "lit";
 import { classMap } from "lit/directives/class-map.js";
-import { renderIcon, type IconType } from "../icon/icon.stories.js";
+import { type IconType } from "../icon/icon.stories.js";
+import { renderIcon } from "../icon/renderIcon.ts";
 import { renderIndicator } from "../indicator/indicator-story-helpers.js";
 
 export interface NavigationRailItemArgs {

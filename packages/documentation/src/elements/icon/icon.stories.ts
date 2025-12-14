@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/web-components-vite";
 import { html } from "lit";
-import { classMap } from "lit/directives/class-map.js";
 import { styleMap } from "lit/directives/style-map.js";
+import { renderIcon } from "./renderIcon.ts";
 
 interface IconArgs {
   iconSize: IconSizeType;
@@ -57,17 +57,6 @@ const icons = [
   "lock",
   "user-round",
 ] as const;
-
-export const renderIcon = (icon: IconType, size: IconSizeType = "default") =>
-  html` <svg
-    class="${classMap({
-      "hap-icon": size !== "small",
-      "hap-icon--sm": size === "small",
-    })}"
-    viewBox="0 0 24 24"
-  >
-    <use href="#${icon}" />
-  </svg>`;
 
 const renderAllIcons = (args: IconArgs) =>
   html` ${icons.map((icon) => html`${renderIcon(icon, args.iconSize)}`)}`;

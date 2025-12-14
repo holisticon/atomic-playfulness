@@ -1,7 +1,8 @@
-import type { Meta, StoryObj } from "@storybook/web-components";
+import type { Meta, StoryObj } from "@storybook/web-components-vite";
 import { html } from "lit";
 import { classMap } from "lit/directives/class-map.js";
-import { renderIcon } from "../icon/icon.stories.js";
+
+import { renderIcon } from "../icon/renderIcon.ts";
 
 interface DropdownArgs {
   label: string;
