@@ -1,5 +1,6 @@
 import { html } from "lit";
-import { type IconType, renderIcon } from "../icon/icon.stories.js";
+import { type IconType } from "../icon/icon.stories.js";
+import { renderIcon } from "../icon/renderIcon.ts";
 
 export function navigationItem(icon: IconType, label: string, indicator = 0) {
   return html`

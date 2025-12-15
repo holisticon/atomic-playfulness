@@ -1,6 +1,7 @@
 import type { ArgTypes } from "@storybook/web-components";
 import { html } from "lit";
-import { renderIcon, type IconType } from "../icon/icon.stories.js";
+import { type IconType } from "../icon/icon.stories.js";
+import { renderIcon } from "../icon/renderIcon.ts";
 
 type ButtonSize = "default" | "sm" | "xs";
 type ColorScheme = "light" | "dark";

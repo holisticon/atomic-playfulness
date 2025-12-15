@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/web-components";
+import type { Meta, StoryObj } from "@storybook/web-components-vite";
 import { html } from "lit";
 import {
   renderNavigationRailItem,
@@ -33,7 +33,6 @@ export type Story = StoryObj<NavigationRailItemArgs>;
 export const NavigationRail: Story = {};
 
 export const NavigationRailItem: Story = {
-  name: "Navigation Rail Item",
   render: (args) =>
     html`<div style="display:flex;gap:2rem;padding:2rem">
       ${renderNavigationRailItem({ ...args })}

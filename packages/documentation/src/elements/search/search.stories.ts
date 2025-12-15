@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/web-components-vite";
 import { html } from "lit";
-import { renderIcon } from "../icon/icon.stories.js";
+
+import { renderIcon } from "../icon/renderIcon.ts";
 
 interface SearchArgs {
   label: string;

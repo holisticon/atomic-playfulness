@@ -1,7 +1,8 @@
 import type { Meta, StoryObj } from "@storybook/web-components-vite";
 import { html } from "lit";
 import { when } from "lit/directives/when.js";
-import { renderIcon } from "../icon/icon.stories.js";
+
+import { renderIcon } from "../icon/renderIcon.ts";
 
 interface TagArgs {
   label: string;

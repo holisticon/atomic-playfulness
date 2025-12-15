@@ -1,7 +1,8 @@
 import type { ArgTypes } from "@storybook/web-components";
 import { html } from "lit";
 import { classMap } from "lit/directives/class-map.js";
-import { renderIcon, type IconType } from "../icon/icon.stories.js";
+import { type IconType } from "../icon/icon.stories.js";
+import { renderIcon } from "../icon/renderIcon.ts";
 
 type ButtonSize = "default" | "small";
 type ButtonVariant = "primary" | "secondary" | "tertiary" | "destructive";

@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/web-components-vite";
 import { html } from "lit";
-import { renderIcon, type IconType } from "../icon/icon.stories.js";
+import { type IconType } from "../icon/icon.stories.js";
+import { renderIcon } from "../icon/renderIcon.ts";
 
 type SnackbarVariant = "hap-snackbar" | "hap-snackbar-multiline";
 
