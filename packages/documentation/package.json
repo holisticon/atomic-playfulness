@@ -22,7 +22,7 @@
   "dependencies": {
     "@holisticon/hap-foundation": "^1.0.0",
     "lit": "^3.3.1",
-    "lucide-static": "^0.554.0",
+    "lucide-static": "^0.562.0",
     "polished": "^4.3.1"
   },
   "devDependencies": {
