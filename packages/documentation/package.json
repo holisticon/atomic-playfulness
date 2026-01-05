@@ -27,12 +27,12 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.57.0",
-    "@storybook/addon-docs": "^10.1.9",
-    "@storybook/web-components-vite": "^10.1.9",
+    "@storybook/addon-docs": "^10.1.10",
+    "@storybook/web-components-vite": "^10.1.10",
     "@types/node": "^24.9.1",
     "local-web-server": "^5.4.0",
     "storybook": "^10.1.4",
-    "storybook-addon-pseudo-states": "^10.1.9",
+    "storybook-addon-pseudo-states": "^10.1.10",
     "eslint-plugin-storybook": "10.1.4"
   }
 }
