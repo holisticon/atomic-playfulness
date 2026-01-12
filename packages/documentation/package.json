@@ -29,7 +29,7 @@
     "@playwright/test": "^1.57.0",
     "@storybook/addon-docs": "^10.1.10",
     "@storybook/web-components-vite": "^10.1.10",
-    "@types/node": "^24.9.1",
+    "@types/node": "^25.0.6",
     "local-web-server": "^5.4.0",
     "storybook": "^10.1.4",
     "storybook-addon-pseudo-states": "^10.1.10",
