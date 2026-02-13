@@ -4,16 +4,408 @@ import { ColorPalette, ColorItem, Meta } from "@storybook/addon-docs/blocks";
 
 # Color Tokens
 
-The following color tokens are available as CSS custom properties.
+Use semantic tokens (non-primitives) for UI work. Primitives are shown for
+reference and design exploration but should not be used directly in components
+or Tailwind classes.
 
-## Primitive Brand Colors
+## Semantic Colors (Use These)
 
-Palettes for our brand colors.
+These are the actual color tokens intended for UI usage. Each token maps to a
+primitive but is stable for design.
+
+### Text
+
+<ColorPalette>
+  <ColorItem
+    title="Text Primary"
+    colors={{
+      onLight: "var(--hap-color-text-primary-on-light)",
+      onDark: "var(--hap-color-text-primary-on-dark)",
+      onLightOnly: "var(--hap-color-text-primary-on-light-only)",
+      onDarkOnly: "var(--hap-color-text-primary-on-dark-only)",
+    }}
+  />
+  <ColorItem
+    title="Text Secondary"
+    colors={{
+      onLight: "var(--hap-color-text-secondary-on-light)",
+      onDark: "var(--hap-color-text-secondary-on-dark)",
+      onLightOnly: "var(--hap-color-text-secondary-on-light-only)",
+      onDarkOnly: "var(--hap-color-text-secondary-on-dark-only)",
+    }}
+  />
+  <ColorItem
+    title="Text Tertiary"
+    colors={{
+      onLight: "var(--hap-color-text-tertiary-on-light)",
+      onDark: "var(--hap-color-text-tertiary-on-dark)",
+      onLightOnly: "var(--hap-color-text-tertiary-on-light-only)",
+      onDarkOnly: "var(--hap-color-text-tertiary-on-dark-only)",
+    }}
+  />
+  <ColorItem
+    title="Text Brand"
+    colors={{
+      onLight: "var(--hap-color-text-brand-on-light)",
+      onDark: "var(--hap-color-text-brand-on-dark)",
+      onLightOnly: "var(--hap-color-text-brand-on-light-only)",
+      onDarkOnly: "var(--hap-color-text-brand-on-dark-only)",
+    }}
+  />
+</ColorPalette>
+
+### Icon
+
+<ColorPalette>
+  <ColorItem
+    title="Icon Primary"
+    colors={{
+      onLight: "var(--hap-color-icon-primary-on-light)",
+      onDark: "var(--hap-color-icon-primary-on-dark)",
+      onLightOnly: "var(--hap-color-icon-primary-on-light-only)",
+      onDarkOnly: "var(--hap-color-icon-primary-on-dark-only)",
+    }}
+  />
+  <ColorItem
+    title="Icon Secondary"
+    colors={{
+      onLight: "var(--hap-color-icon-secondary-on-light)",
+      onDark: "var(--hap-color-icon-secondary-on-dark)",
+      onLightOnly: "var(--hap-color-icon-secondary-on-light-only)",
+      onDarkOnly: "var(--hap-color-icon-secondary-on-dark-only)",
+    }}
+  />
+  <ColorItem
+    title="Icon Tertiary"
+    colors={{
+      onLight: "var(--hap-color-icon-tertiary-on-light)",
+      onDark: "var(--hap-color-icon-tertiary-on-dark)",
+      onLightOnly: "var(--hap-color-icon-tertiary-on-light-only)",
+      onDarkOnly: "var(--hap-color-icon-tertiary-on-dark-only)",
+    }}
+  />
+  <ColorItem
+    title="Icon Brand"
+    colors={{
+      onLight: "var(--hap-color-icon-brand-on-light)",
+      onDark: "var(--hap-color-icon-brand-on-dark)",
+      onLightOnly: "var(--hap-color-icon-brand-on-light-only)",
+      onDarkOnly: "var(--hap-color-icon-brand-on-dark-only)",
+    }}
+  />
+</ColorPalette>
+
+### Fill (Component Backgrounds)
+
+<ColorPalette>
+  <ColorItem
+    title="Fill Primary"
+    subtitle="Default / Hovered / Pressed / Selected"
+    colors={{
+      onLightDefault: "var(--hap-color-fill-primary-on-light-default)",
+      onLightHovered: "var(--hap-color-fill-primary-on-light-hovered)",
+      onLightPressed: "var(--hap-color-fill-primary-on-light-pressed)",
+      onLightSelected: "var(--hap-color-fill-primary-on-light-selected)",
+      onDarkDefault: "var(--hap-color-fill-primary-on-dark-default)",
+      onDarkHovered: "var(--hap-color-fill-primary-on-dark-hovered)",
+      onDarkPressed: "var(--hap-color-fill-primary-on-dark-pressed)",
+      onDarkSelected: "var(--hap-color-fill-primary-on-dark-selected)",
+    }}
+  />
+  <ColorItem
+    title="Fill Secondary"
+    subtitle="Default / Hovered / Pressed / Selected"
+    colors={{
+      onLightDefault: "var(--hap-color-fill-secondary-on-light-default)",
+      onLightHovered: "var(--hap-color-fill-secondary-on-light-hovered)",
+      onLightPressed: "var(--hap-color-fill-secondary-on-light-pressed)",
+      onLightSelected: "var(--hap-color-fill-secondary-on-light-selected)",
+      onDarkDefault: "var(--hap-color-fill-secondary-on-dark-default)",
+      onDarkHovered: "var(--hap-color-fill-secondary-on-dark-hovered)",
+      onDarkPressed: "var(--hap-color-fill-secondary-on-dark-pressed)",
+      onDarkSelected: "var(--hap-color-fill-secondary-on-dark-selected)",
+    }}
+  />
+  <ColorItem
+    title="Fill Tertiary"
+    subtitle="Default / Hovered / Pressed / Selected"
+    colors={{
+      onLightDefault: "var(--hap-color-fill-tertiary-on-light-default)",
+      onLightHovered: "var(--hap-color-fill-tertiary-on-light-hovered)",
+      onLightPressed: "var(--hap-color-fill-tertiary-on-light-pressed)",
+      onLightSelected: "var(--hap-color-fill-tertiary-on-light-selected)",
+      onDarkDefault: "var(--hap-color-fill-tertiary-on-dark-default)",
+      onDarkHovered: "var(--hap-color-fill-tertiary-on-dark-hovered)",
+      onDarkPressed: "var(--hap-color-fill-tertiary-on-dark-pressed)",
+      onDarkSelected: "var(--hap-color-fill-tertiary-on-dark-selected)",
+    }}
+  />
+  <ColorItem
+    title="Fill Brand"
+    subtitle="Default / Hovered / Pressed / Selected"
+    colors={{
+      onLightDefault: "var(--hap-color-fill-brand-on-light-default)",
+      onLightHovered: "var(--hap-color-fill-brand-on-light-hovered)",
+      onLightPressed: "var(--hap-color-fill-brand-on-light-pressed)",
+      onLightSelected: "var(--hap-color-fill-brand-on-light-selected)",
+      onDarkDefault: "var(--hap-color-fill-brand-on-dark-default)",
+      onDarkHovered: "var(--hap-color-fill-brand-on-dark-hovered)",
+      onDarkPressed: "var(--hap-color-fill-brand-on-dark-pressed)",
+      onDarkSelected: "var(--hap-color-fill-brand-on-dark-selected)",
+    }}
+  />
+  <ColorItem
+    title="Fill Destructive"
+    subtitle="Default / Hovered / Pressed / Selected"
+    colors={{
+      onLightDefault: "var(--hap-color-fill-destructive-on-light-default)",
+      onLightHovered: "var(--hap-color-fill-destructive-on-light-hovered)",
+      onLightPressed: "var(--hap-color-fill-destructive-on-light-pressed)",
+      onLightSelected: "var(--hap-color-fill-destructive-on-light-selected)",
+      onDarkDefault: "var(--hap-color-fill-destructive-on-dark-default)",
+      onDarkHovered: "var(--hap-color-fill-destructive-on-dark-hovered)",
+      onDarkPressed: "var(--hap-color-fill-destructive-on-dark-pressed)",
+      onDarkSelected: "var(--hap-color-fill-destructive-on-dark-selected)",
+    }}
+  />
+  <ColorItem
+    title="Fill Interaction"
+    subtitle="Default / Hovered / Pressed / Selected"
+    colors={{
+      onLightDefault: "var(--hap-color-fill-interaction-on-light-default)",
+      onLightHovered: "var(--hap-color-fill-interaction-on-light-hovered)",
+      onLightPressed: "var(--hap-color-fill-interaction-on-light-pressed)",
+      onLightSelected: "var(--hap-color-fill-interaction-on-light-selected)",
+      onDarkDefault: "var(--hap-color-fill-interaction-on-dark-default)",
+      onDarkHovered: "var(--hap-color-fill-interaction-on-dark-hovered)",
+      onDarkPressed: "var(--hap-color-fill-interaction-on-dark-pressed)",
+      onDarkSelected: "var(--hap-color-fill-interaction-on-dark-selected)",
+    }}
+  />
+</ColorPalette>
+
+<ColorPalette>
+  <ColorItem
+    title="Fill Input"
+    subtitle="Default / Hovered / Pressed / Selected"
+    colors={{
+      default: "var(--hap-color-fill-input-default)",
+      hovered: "var(--hap-color-fill-input-hovered)",
+      pressed: "var(--hap-color-fill-input-pressed)",
+      selected: "var(--hap-color-fill-input-selected)",
+    }}
+  />
+  <ColorItem
+    title="Fill Inverted"
+    subtitle="Default / Hovered / Pressed / Selected"
+    colors={{
+      default: "var(--hap-color-fill-inverted-default)",
+      hovered: "var(--hap-color-fill-inverted-hovered)",
+      pressed: "var(--hap-color-fill-inverted-pressed)",
+      selected: "var(--hap-color-fill-inverted-selected)",
+    }}
+  />
+  <ColorItem
+    title="Fill State"
+    subtitle="On / Off"
+    colors={{
+      on: "var(--hap-color-fill-state-on)",
+      off: "var(--hap-color-fill-state-off)",
+    }}
+  />
+  <ColorItem
+    title="Fill Transparent"
+    colors={{
+      default: "var(--hap-color-fill-transparent-default)",
+    }}
+  />
+</ColorPalette>
+
+### Surface (Containers)
+
+<ColorPalette>
+  <ColorItem
+    title="Surface Primary"
+    subtitle="Default / Hovered / Pressed / Selected"
+    colors={{
+      default: "var(--hap-color-surface-primary-default)",
+      hovered: "var(--hap-color-surface-primary-hovered)",
+      pressed: "var(--hap-color-surface-primary-pressed)",
+      selected: "var(--hap-color-surface-primary-selected)",
+    }}
+  />
+  <ColorItem
+    title="Surface Secondary"
+    subtitle="Default / Hovered / Pressed / Selected"
+    colors={{
+      default: "var(--hap-color-surface-secondary-default)",
+      hovered: "var(--hap-color-surface-secondary-hovered)",
+      pressed: "var(--hap-color-surface-secondary-pressed)",
+      selected: "var(--hap-color-surface-secondary-selected)",
+    }}
+  />
+  <ColorItem
+    title="Surface Tertiary"
+    subtitle="Default / Hovered / Pressed / Selected"
+    colors={{
+      default: "var(--hap-color-surface-tertiary-default)",
+      hovered: "var(--hap-color-surface-tertiary-hovered)",
+      pressed: "var(--hap-color-surface-tertiary-pressed)",
+      selected: "var(--hap-color-surface-tertiary-selected)",
+    }}
+  />
+  <ColorItem
+    title="Surface Brand"
+    subtitle="Default / Hovered / Pressed / Selected"
+    colors={{
+      default: "var(--hap-color-surface-brand-default)",
+      hovered: "var(--hap-color-surface-brand-hovered)",
+      pressed: "var(--hap-color-surface-brand-pressed)",
+      selected: "var(--hap-color-surface-brand-selected)",
+    }}
+  />
+  <ColorItem
+    title="Surface Inverted"
+    subtitle="Default / Hovered / Pressed / Selected"
+    colors={{
+      default: "var(--hap-color-surface-inverted-default)",
+      hovered: "var(--hap-color-surface-inverted-hovered)",
+      pressed: "var(--hap-color-surface-inverted-pressed)",
+      selected: "var(--hap-color-surface-inverted-selected)",
+    }}
+  />
+</ColorPalette>
+
+<ColorPalette>
+  <ColorItem
+    title="Surface Disabled"
+    colors={{
+      default: "var(--hap-color-surface-disabled-default)",
+    }}
+  />
+  <ColorItem
+    title="Surface Transparent"
+    colors={{
+      default: "var(--hap-color-surface-transparent-default)",
+    }}
+  />
+</ColorPalette>
+
+### Background
+
+<ColorPalette>
+  <ColorItem
+    title="Background"
+    colors={{
+      neutral: "var(--hap-color-background-neutral)",
+      brand1: "var(--hap-color-background-brand-1)",
+      brand2: "var(--hap-color-background-brand-2)",
+    }}
+  />
+</ColorPalette>
+
+### Link
+
+<ColorPalette>
+  <ColorItem
+    title="Link"
+    subtitle="Default / Hovered / Pressed"
+    colors={{
+      default: "var(--hap-color-link-default)",
+      hovered: "var(--hap-color-link-hovered)",
+      pressed: "var(--hap-color-link-pressed)",
+    }}
+  />
+</ColorPalette>
+
+### Feedback
+
+<ColorPalette>
+  <ColorItem
+    title="Feedback"
+    colors={{
+      positiveDark: "var(--hap-color-feedback-positive-dark)",
+      positiveLight: "var(--hap-color-feedback-positive-light)",
+      cautionDark: "var(--hap-color-feedback-caution-dark)",
+      cautionLight: "var(--hap-color-feedback-caution-light)",
+    }}
+  />
+</ColorPalette>
+
+<ColorPalette>
+  <ColorItem
+    title="Feedback"
+    colors={{
+      criticalDark: "var(--hap-color-feedback-critical-dark)",
+      criticalLight: "var(--hap-color-feedback-critical-light)",
+      neutralDark: "var(--hap-color-feedback-neutral-dark)",
+      neutralLight: "var(--hap-color-feedback-neutral-light)",
+      newDark: "var(--hap-color-feedback-new-dark)",
+      newLight: "var(--hap-color-feedback-new-light)",
+      defaultDark: "var(--hap-color-feedback-default-dark)",
+      defaultLight: "var(--hap-color-feedback-default-light)",
+    }}
+  />
+</ColorPalette>
+
+### Divider and Border
+
+<ColorPalette>
+  <ColorItem
+    title="Divider"
+    colors={{
+      onLight: "var(--hap-color-divider-on-light)",
+      onDark: "var(--hap-color-divider-on-dark)",
+    }}
+  />
+  <ColorItem
+    title="Border Primary"
+    colors={{
+      onLight: "var(--hap-color-border-primary-on-light-default)",
+      onDark: "var(--hap-color-border-primary-on-dark-default)",
+    }}
+  />
+  <ColorItem
+    title="Border Secondary"
+    colors={{
+      onLight: "var(--hap-color-border-secondary-on-light-default)",
+      onDark: "var(--hap-color-border-secondary-on-dark-default)",
+    }}
+  />
+  <ColorItem
+    title="Border Tertiary"
+    colors={{
+      onLight: "var(--hap-color-border-tertiary-on-light-default)",
+      onDark: "var(--hap-color-border-tertiary-on-dark-default)",
+    }}
+  />
+  <ColorItem
+    title="Border Brand"
+    colors={{
+      onLight: "var(--hap-color-border-brand-on-light-default)",
+      onDark: "var(--hap-color-border-brand-on-dark-default)",
+    }}
+  />
+  <ColorItem
+    title="Border Focused"
+    colors={{
+      default: "var(--hap-color-border-focused-default)",
+    }}
+  />
+</ColorPalette>
+
+## Primitive Colors (Reference)
+
+Use these only for exploration or if you are defining a new semantic token.
+
+### Brand and Neutral
+
+Brand and neutral primitives are split into two ranges for readability.
 
 <ColorPalette>
   <ColorItem
     title="Brand"
-    subtitle="Brand Colors"
+    subtitle="50-500 (Primitives)"
     colors={{
       50: "var(--hap-primitives-color-brand-50)",
       100: "var(--hap-primitives-color-brand-100)",
@@ -21,15 +413,25 @@ Palettes for our brand colors.
       300: "var(--hap-primitives-color-brand-300)",
       400: "var(--hap-primitives-color-brand-400)",
       500: "var(--hap-primitives-color-brand-500)",
+    }}
+  />
+  <ColorItem
+    title="Brand"
+    subtitle="600-950 (Primitives)"
+    colors={{
       600: "var(--hap-primitives-color-brand-600)",
       700: "var(--hap-primitives-color-brand-700)",
       800: "var(--hap-primitives-color-brand-800)",
       900: "var(--hap-primitives-color-brand-900)",
+      950: "var(--hap-primitives-color-brand-950)",
     }}
   />
+</ColorPalette>
+
+<ColorPalette>
   <ColorItem
     title="Neutral"
-    subtitle="Neutral Colors"
+    subtitle="50-500 (Primitives)"
     colors={{
       50: "var(--hap-primitives-color-neutral-50)",
       100: "var(--hap-primitives-color-neutral-100)",
@@ -37,23 +439,29 @@ Palettes for our brand colors.
       300: "var(--hap-primitives-color-neutral-300)",
       400: "var(--hap-primitives-color-neutral-400)",
       500: "var(--hap-primitives-color-neutral-500)",
+    }}
+  />
+  <ColorItem
+    title="Neutral"
+    subtitle="600-950 (Primitives)"
+    colors={{
       600: "var(--hap-primitives-color-neutral-600)",
       700: "var(--hap-primitives-color-neutral-700)",
       800: "var(--hap-primitives-color-neutral-800)",
       900: "var(--hap-primitives-color-neutral-900)",
+      950: "var(--hap-primitives-color-neutral-950)",
     }}
   />
 </ColorPalette>
 
-## Primitive Feedback Colors
+### Feedback
 
-Palettes for our feedback colors which are used to inform users about the state
-of an application.
+Feedback primitives are split into two ranges for readability.
 
 <ColorPalette>
   <ColorItem
     title="Feedback Green"
-    subtitle="Give some positive feedback"
+    subtitle="50-500 (Primitives)"
     colors={{
       50: "var(--hap-primitives-color-feedback-green-50)",
       100: "var(--hap-primitives-color-feedback-green-100)",
@@ -61,15 +469,25 @@ of an application.
       300: "var(--hap-primitives-color-feedback-green-300)",
       400: "var(--hap-primitives-color-feedback-green-400)",
       500: "var(--hap-primitives-color-feedback-green-500)",
+    }}
+  />
+  <ColorItem
+    title="Feedback Green"
+    subtitle="600-950 (Primitives)"
+    colors={{
       600: "var(--hap-primitives-color-feedback-green-600)",
       700: "var(--hap-primitives-color-feedback-green-700)",
       800: "var(--hap-primitives-color-feedback-green-800)",
       900: "var(--hap-primitives-color-feedback-green-900)",
+      950: "var(--hap-primitives-color-feedback-green-950)",
     }}
   />
+</ColorPalette>
+
+<ColorPalette>
   <ColorItem
     title="Feedback Red"
-    subtitle="Give some critical feedback"
+    subtitle="50-500 (Primitives)"
     colors={{
       50: "var(--hap-primitives-color-feedback-red-50)",
       100: "var(--hap-primitives-color-feedback-red-100)",
@@ -77,15 +495,25 @@ of an application.
       300: "var(--hap-primitives-color-feedback-red-300)",
       400: "var(--hap-primitives-color-feedback-red-400)",
       500: "var(--hap-primitives-color-feedback-red-500)",
+    }}
+  />
+  <ColorItem
+    title="Feedback Red"
+    subtitle="600-950 (Primitives)"
+    colors={{
       600: "var(--hap-primitives-color-feedback-red-600)",
       700: "var(--hap-primitives-color-feedback-red-700)",
       800: "var(--hap-primitives-color-feedback-red-800)",
       900: "var(--hap-primitives-color-feedback-red-900)",
+      950: "var(--hap-primitives-color-feedback-red-950)",
     }}
   />
+</ColorPalette>
+
+<ColorPalette>
   <ColorItem
     title="Feedback Yellow"
-    subtitle="Give some cautious feedback"
+    subtitle="50-500 (Primitives)"
     colors={{
       50: "var(--hap-primitives-color-feedback-yellow-50)",
       100: "var(--hap-primitives-color-feedback-yellow-100)",
@@ -93,33 +521,46 @@ of an application.
       300: "var(--hap-primitives-color-feedback-yellow-300)",
       400: "var(--hap-primitives-color-feedback-yellow-400)",
       500: "var(--hap-primitives-color-feedback-yellow-500)",
+    }}
+  />
+  <ColorItem
+    title="Feedback Yellow"
+    subtitle="600-950 (Primitives)"
+    colors={{
       600: "var(--hap-primitives-color-feedback-yellow-600)",
       700: "var(--hap-primitives-color-feedback-yellow-700)",
       800: "var(--hap-primitives-color-feedback-yellow-800)",
       900: "var(--hap-primitives-color-feedback-yellow-900)",
+      950: "var(--hap-primitives-color-feedback-yellow-950)",
     }}
   />
 </ColorPalette>
 
-## Base Colors
-
-Tones of black and whites that are mainly used for typography.
+### Base Black and White
 
 <ColorPalette>
   <ColorItem
     title="Base Black"
+    subtitle="Primitives"
     colors={{
       primary: "var(--hap-primitives-color-base-black-primary)",
       secondary: "var(--hap-primitives-color-base-black-secondary)",
       tertiary: "var(--hap-primitives-color-base-black-tertiary)",
+      light: "var(--hap-primitives-color-base-black-light)",
+      lightest: "var(--hap-primitives-color-base-black-lightest)",
+      transparent: "var(--hap-primitives-color-base-black-transparent)",
     }}
   />
   <ColorItem
     title="Base White"
+    subtitle="Primitives"
     colors={{
       primary: "var(--hap-primitives-color-base-white-primary)",
       secondary: "var(--hap-primitives-color-base-white-secondary)",
       tertiary: "var(--hap-primitives-color-base-white-tertiary)",
+      light: "var(--hap-primitives-color-base-white-light)",
+      lightest: "var(--hap-primitives-color-base-white-lightest)",
+      transparent: "var(--hap-primitives-color-base-white-transparent)",
     }}
   />
 </ColorPalette>

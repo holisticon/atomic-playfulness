@@ -4,11 +4,12 @@ export const theme: Config["theme"] = {
   spacing: {
     none: "var(--hap-spacing-none)",
     xs: "var(--hap-spacing-xs)",
+    "2xs": "var(--hap-spacing-2xs)",
     md: "var(--hap-spacing-md)",
     sm: "var(--hap-spacing-sm)",
     lg: "var(--hap-spacing-lg)",
     xl: "var(--hap-spacing-xl)",
-    "2xl": "var(--hap-spacing-2-xl)",
+    "2xl": "var(--hap-spacing-2xl)",
     mdlg: "var(--hap-spacing-md-lg)",
   },
   borderRadius: {
@@ -254,43 +255,75 @@ export const theme: Config["theme"] = {
       onLight: "var(--hap-color-divider-on-light)",
       onDark: "var(--hap-color-divider-on-dark)",
     },
-    borderColor: {
-      primary: {
-        onLight: {
-          default: "var(--hap-color-border-primary-on-light-default)",
-        },
-        onDark: {
-          default: "var(--hap-color-border-primary-on-dark-default)",
-        },
+  },
+  borderColor: {
+    primary: {
+      onLight: {
+        default: "var(--hap-color-border-primary-on-light-default)",
       },
-      secondary: {
-        onLight: {
-          default: "var(--hap-color-border-secondary-on-light-default)",
-        },
-        onDark: {
-          default: "var(--hap-color-border-secondary-on-dark-default)",
-        },
-      },
-      tertiary: {
-        onLight: {
-          default: "var(--hap-color-bordedefault)",
-        },
-        onDark: {
-          default: "var(--hap-color-border-tertiary-on-dark-default)",
-        },
-      },
-      brand: {
-        onLight: {
-          default: "var(--hap-color-border-brand-on-light-default)",
-        },
-        onDark: {
-          default: "var(--hap-color-border-brand-on-dark-default)",
-        },
-      },
-      focused: {
-        default: "var(--hap-color-border-focused-default)",
+      onDark: {
+        default: "var(--hap-color-border-primary-on-dark-default)",
       },
     },
+    secondary: {
+      onLight: {
+        default: "var(--hap-color-border-secondary-on-light-default)",
+      },
+      onDark: {
+        default: "var(--hap-color-border-secondary-on-dark-default)",
+      },
+    },
+    tertiary: {
+      onLight: {
+        default: "var(--hap-color-border-tertiary-on-light-default)",
+      },
+      onDark: {
+        default: "var(--hap-color-border-tertiary-on-dark-default)",
+      },
+    },
+    brand: {
+      onLight: {
+        default: "var(--hap-color-border-brand-on-light-default)",
+      },
+      onDark: {
+        default: "var(--hap-color-border-brand-on-dark-default)",
+      },
+    },
+    focused: {
+      default: "var(--hap-color-border-focused-default)",
+    },
+  },
+  borderWidth: {
+    sm: "var(--hap-border-width-sm)",
+    md: "var(--hap-border-width-md)",
+    lg: "var(--hap-border-width-lg)",
+  },
+  width: {
+    "2xs": "var(--hap-size-2xs)",
+    xs: "var(--hap-size-xs)",
+    sm: "var(--hap-size-sm)",
+    md: "var(--hap-size-md)",
+    lg: "var(--hap-size-lg)",
+    xl: "var(--hap-size-xl)",
+    "2xl": "var(--hap-size-2xl)",
+  },
+  height: {
+    "2xs": "var(--hap-size-2xs)",
+    xs: "var(--hap-size-xs)",
+    sm: "var(--hap-size-sm)",
+    md: "var(--hap-size-md)",
+    lg: "var(--hap-size-lg)",
+    xl: "var(--hap-size-xl)",
+    "2xl": "var(--hap-size-2xl)",
+  },
+  size: {
+    "2xs": "var(--hap-size-2xs)",
+    xs: "var(--hap-size-xs)",
+    sm: "var(--hap-size-sm)",
+    md: "var(--hap-size-md)",
+    lg: "var(--hap-size-lg)",
+    xl: "var(--hap-size-xl)",
+    "2xl": "var(--hap-size-2xl)",
   },
   fontFamily: {
     heading: ["var(--hap-typography-font-family-heading)", "sans-serif"],

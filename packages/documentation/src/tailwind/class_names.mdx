@@ -12,13 +12,14 @@ usage with code snippets.
 ## **1. Spacing** (Margin, Padding, Gap, etc.)
 
 - `none` → `var(--hap-spacing-none)`
+- `2xs` → `var(--hap-spacing-2xs)`
 - `xs` → `var(--hap-spacing-xs)`
 - `sm` → `var(--hap-spacing-sm)`
 - `md` → `var(--hap-spacing-md)`
 - `mdlg` → `var(--hap-spacing-md-lg)`
 - `lg` → `var(--hap-spacing-lg)`
 - `xl` → `var(--hap-spacing-xl)`
-- `2xl` → `var(--hap-spacing-2-xl)`
+- `2xl` → `var(--hap-spacing-2xl)`
 
 **Usage Example:**
 
@@ -39,7 +40,9 @@ usage with code snippets.
 **Usage Example:**
 
 ```html
-<button class="rounded-lg p-md bg-fill-primary-light-default">Click Me</button>
+<button class="rounded-large p-md bg-fill-primary-onLight-default">
+  Click Me
+</button>
 ```
 
 ---
@@ -48,52 +51,125 @@ usage with code snippets.
 
 ### **Text Colors**
 
-- `text-primary-on-light`
-- `text-primary-on-dark`
-- `text-secondary-on-light`
-- `text-secondary-on-dark`
-- `text-brand-on-light`
-- `text-brand-on-dark`
-- `text-tertiary-on-light`
-- `text-tertiary-on-dark`
+Use these for text content, headings, and any foreground text.
+
+- `text-text-primary-onLight`
+- `text-text-primary-onDark`
+- `text-text-primary-onLightOnly`
+- `text-text-primary-onDarkOnly`
+- `text-text-secondary-onLight`
+- `text-text-secondary-onDark`
+- `text-text-secondary-onLightOnly`
+- `text-text-secondary-onDarkOnly`
+- `text-text-brand-onLight`
+- `text-text-brand-onDark`
+- `text-text-brand-onLightOnly`
+- `text-text-brand-onDarkOnly`
+- `text-text-tertiary-onLight`
+- `text-text-tertiary-onDark`
+- `text-text-tertiary-onLightOnly`
+- `text-text-tertiary-onDarkOnly`
 
 **Usage Example:**
 
 ```html
-<p class="text-primary-on-light">Hello, World!</p>
+<p class="text-primary-onLight">Hello, World!</p>
 ```
 
 ### **Fill (Background) Colors**
 
-- `bg-fill-primary-light-default`
-- `bg-fill-primary-dark-default`
-- `bg-fill-secondary-light-default`
-- `bg-fill-secondary-dark-default`
-- `bg-fill-destructive-light-default`
-- `bg-fill-destructive-dark-default`
-- `bg-fill-brand-light-default`
-- `bg-fill-brand-dark-default`
-- `bg-fill-tertiary-on-light-default`
-- `bg-fill-tertiary-on-dark-default`
+Use these for component backgrounds like buttons, pills, and inputs.
+
+- `bg-fill-primary-onLight-default`
+- `bg-fill-primary-onLight-hovered`
+- `bg-fill-primary-onLight-pressed`
+- `bg-fill-primary-onLight-selected`
+- `bg-fill-primary-onDark-default`
+- `bg-fill-primary-onDark-hovered`
+- `bg-fill-primary-onDark-pressed`
+- `bg-fill-primary-onDark-selected`
+- `bg-fill-secondary-onLight-default`
+- `bg-fill-secondary-onLight-hovered`
+- `bg-fill-secondary-onLight-pressed`
+- `bg-fill-secondary-onLight-selected`
+- `bg-fill-secondary-onDark-default`
+- `bg-fill-secondary-onDark-hovered`
+- `bg-fill-secondary-onDark-pressed`
+- `bg-fill-secondary-onDark-selected`
+- `bg-fill-destructive-onLight-default`
+- `bg-fill-destructive-onLight-hovered`
+- `bg-fill-destructive-onLight-pressed`
+- `bg-fill-destructive-onLight-selected`
+- `bg-fill-destructive-onDark-default`
+- `bg-fill-destructive-onDark-hovered`
+- `bg-fill-destructive-onDark-pressed`
+- `bg-fill-destructive-onDark-selected`
+- `bg-fill-brand-onLight-default`
+- `bg-fill-brand-onLight-hovered`
+- `bg-fill-brand-onLight-pressed`
+- `bg-fill-brand-onLight-selected`
+- `bg-fill-brand-onDark-default`
+- `bg-fill-brand-onDark-hovered`
+- `bg-fill-brand-onDark-pressed`
+- `bg-fill-brand-onDark-selected`
+- `bg-fill-tertiary-onLight-default`
+- `bg-fill-tertiary-onLight-hovered`
+- `bg-fill-tertiary-onLight-pressed`
+- `bg-fill-tertiary-onLight-selected`
+- `bg-fill-tertiary-onDark-default`
+- `bg-fill-tertiary-onDark-hovered`
+- `bg-fill-tertiary-onDark-pressed`
+- `bg-fill-tertiary-onDark-selected`
 - `bg-fill-transparent-default`
 - `bg-fill-state-on`
 - `bg-fill-state-off`
 - `bg-fill-input-default`
+- `bg-fill-input-hovered`
+- `bg-fill-input-pressed`
+- `bg-fill-input-selected`
 - `bg-fill-inverted-default`
+- `bg-fill-inverted-hovered`
+- `bg-fill-inverted-pressed`
+- `bg-fill-inverted-selected`
+- `bg-fill-interaction-onLight-default`
+- `bg-fill-interaction-onLight-hovered`
+- `bg-fill-interaction-onLight-pressed`
+- `bg-fill-interaction-onLight-selected`
+- `bg-fill-interaction-onDark-default`
+- `bg-fill-interaction-onDark-hovered`
+- `bg-fill-interaction-onDark-pressed`
+- `bg-fill-interaction-onDark-selected`
 
 **Usage Example:**
 
 ```html
-<div class="bg-fill-brand-light-default p-md">Brand Background</div>
+<div class="bg-fill-brand-onLight-default p-md">Brand Background</div>
 ```
 
 ### **Surface (Card/Container Background) Colors**
 
+Use these for larger containers like cards, panels, and sections.
+
 - `bg-surface-inverted-default`
+- `bg-surface-inverted-hovered`
+- `bg-surface-inverted-pressed`
+- `bg-surface-inverted-selected`
 - `bg-surface-primary-default`
+- `bg-surface-primary-hovered`
+- `bg-surface-primary-pressed`
+- `bg-surface-primary-selected`
 - `bg-surface-secondary-default`
+- `bg-surface-secondary-hovered`
+- `bg-surface-secondary-pressed`
+- `bg-surface-secondary-selected`
 - `bg-surface-tertiary-default`
+- `bg-surface-tertiary-hovered`
+- `bg-surface-tertiary-pressed`
+- `bg-surface-tertiary-selected`
 - `bg-surface-brand-default`
+- `bg-surface-brand-hovered`
+- `bg-surface-brand-pressed`
+- `bg-surface-brand-selected`
 - `bg-surface-disabled-default`
 - `bg-surface-transparent-default`
 
@@ -103,7 +179,17 @@ usage with code snippets.
 <div class="bg-surface-primary-default p-lg rounded">Card</div>
 ```
 
+### **Background Colors**
+
+Use these for page or section backgrounds.
+
+- `bg-background-neutral`
+- `bg-background-brand1`
+- `bg-background-brand2`
+
 ### **Link Colors**
+
+Use these for inline links and navigational text.
 
 - `text-link-default`
 - `text-link-hovered`
@@ -115,35 +201,79 @@ usage with code snippets.
 <a href="#" class="text-link-default hover:text-link-hovered">Click Me</a>
 ```
 
+### **Feedback Colors**
+
+Use these for status and feedback text.
+
+- `text-feedback-positive-dark`
+- `text-feedback-positive-light`
+- `text-feedback-caution-dark`
+- `text-feedback-caution-light`
+- `text-feedback-critical-dark`
+- `text-feedback-critical-light`
+- `text-feedback-neutral-dark`
+- `text-feedback-neutral-light`
+- `text-feedback-new-dark`
+- `text-feedback-new-light`
+- `text-feedback-default-dark`
+- `text-feedback-default-light`
+
+### **Icon Colors**
+
+Use these for SVG icon fill/stroke or icon-only buttons.
+
+- `text-icon-primary-onLight`
+- `text-icon-primary-onDark`
+- `text-icon-primary-onLightOnly`
+- `text-icon-primary-onDarkOnly`
+- `text-icon-secondary-onLight`
+- `text-icon-secondary-onDark`
+- `text-icon-secondary-onLightOnly`
+- `text-icon-secondary-onDarkOnly`
+- `text-icon-tertiary-onLight`
+- `text-icon-tertiary-onDark`
+- `text-icon-tertiary-onLightOnly`
+- `text-icon-tertiary-onDarkOnly`
+- `text-icon-brand-onLight`
+- `text-icon-brand-onDark`
+- `text-icon-brand-onLightOnly`
+- `text-icon-brand-onDarkOnly`
+
 ---
 
 ## **4. Borders & Dividers**
 
 ### **Border Colors**
 
-- `border-primary-on-light-default`
-- `border-primary-on-dark-default`
-- `border-secondary-on-light-default`
-- `border-secondary-on-dark-default`
-- `border-brand-on-light-default`
-- `border-brand-on-dark-default`
+Use these for outlines, input borders, and focus rings.
+
+- `border-primary-onLight-default`
+- `border-primary-onDark-default`
+- `border-secondary-onLight-default`
+- `border-secondary-onDark-default`
+- `border-tertiary-onLight-default`
+- `border-tertiary-onDark-default`
+- `border-brand-onLight-default`
+- `border-brand-onDark-default`
 - `border-focused-default`
 
 **Usage Example:**
 
 ```html
-<input class="border border-primary-on-light-default p-sm" type="text" />
+<input class="border border-primary-onLight-default p-sm" type="text" />
 ```
 
 ### **Dividers**
 
-- `border-divider-on-light`
-- `border-divider-on-dark`
+Use these for separators between sections or list items.
+
+- `border-divider-onLight`
+- `border-divider-onDark`
 
 **Usage Example:**
 
 ```html
-<hr class="border-divider-on-light" />
+<hr class="border-divider-onLight" />
 ```
 
 ---
@@ -158,7 +288,7 @@ usage with code snippets.
 **Usage Example:**
 
 ```html
-<h1 class="font-heading text-xl">Heading</h1>
+<h1 class="font-heading text-headline-xl">Heading</h1>
 ```
 
 ### **Font Weight**
@@ -233,20 +363,54 @@ usage with code snippets.
 **Usage Example:**
 
 ```html
-<button class="opacity-disabled bg-fill-primary-light-default">Disabled</button>
+<button class="opacity-disabled bg-fill-primary-onLight-default">
+  Disabled
+</button>
 ```
 
 ---
 
 ## **7. Shadows**
 
-- `shadow-first-level`
-- `shadow-second-level`
+- `shadow-firstLevel`
+- `shadow-secondLevel`
 
 **Usage Example:**
 
 ```html
-<div class="shadow-first-level p-md bg-fill-primary-light-default">
+<div class="shadow-firstLevel p-md bg-fill-primary-onLight-default">
   Shadow Box
 </div>
+```
+
+---
+
+## **8. Border Widths**
+
+- `border-sm`
+- `border-md`
+- `border-lg`
+
+**Usage Example:**
+
+```html
+<div class="border-md border-primary-onLight-default">Card</div>
+```
+
+---
+
+## **9. Sizes (Width, Height, Size)**
+
+- `w-2xs`, `h-2xs`, `size-2xs`
+- `w-xs`, `h-xs`, `size-xs`
+- `w-sm`, `h-sm`, `size-sm`
+- `w-md`, `h-md`, `size-md`
+- `w-lg`, `h-lg`, `size-lg`
+- `w-xl`, `h-xl`, `size-xl`
+- `w-2xl`, `h-2xl`, `size-2xl`
+
+**Usage Example:**
+
+```html
+<div class="size-lg bg-surface-secondary-default"></div>
 ```
