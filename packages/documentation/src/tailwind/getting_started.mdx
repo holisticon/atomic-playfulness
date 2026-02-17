@@ -37,7 +37,8 @@ instructions at https://v3.tailwindcss.com/docs/installation.
 ### 3. Use Our Custom Tailwind Config
 
 Ensure that the target project imports and extends our custom Tailwind
-configuration in `tailwind.config.js`:
+configuration in `tailwind.config.js`. The package only provides the theme
+object, so you still manage content paths and plugins locally:
 
 ```js
 import { theme as hapTheme } from "@holisticon/hap-tailwind";
@@ -96,13 +97,13 @@ design tokens. Here are some key examples:
 
 - **Spacing:** Classes such as `p-md`, `m-xl`, `gap-sm` use values like
   `var(--hap-spacing-md)`, ensuring consistent spacing.
-- **Border Radius:** Classes like `rounded-minimal`, `rounded-lg`, and
+- **Border Radius:** Classes like `rounded-minimal`, `rounded-large`, and
   `rounded-full` apply predefined radius tokens.
 - **Typography:** Font-related classes (`text-headline-lg`, `font-bold`,
   `leading-bodytext-standard`) map to specific variables like
   `var(--hap-typography-font-size-headline-lg)`.
-- **Colors:** Classes like `text-primary-onLight`,
-  `bg-fill-brand-light-default`, and `border-primary-onDark-default` adapt to
+- **Colors:** Classes like `text-text-primary-onLight`,
+  `bg-fill-brand-onLight-default`, and `border-primary-onDark-default` adapt to
   different themes.
 - **Shadows & Opacity:** Custom shadow levels (`shadow-firstLevel`) and opacity
   (`opacity-disabled`, `opacity-hovered`) provide consistent depth and
