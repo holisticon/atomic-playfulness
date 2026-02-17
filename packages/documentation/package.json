@@ -1,7 +1,7 @@
 {
   "name": "@holisticon/hap-documentation",
   "type": "module",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "private": true,
   "author": "Holisticon AG <info@holisticon.de>",
   "description": "Documentation for the atomic-playfulness design system.",

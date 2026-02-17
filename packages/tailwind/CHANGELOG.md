@@ -1,5 +1,11 @@
 # @holisticon/hap-tailwind
 
+## 3.1.0
+
+### Minor Changes
+
+- [#278](https://github.com/holisticon/atomic-playfulness/pull/278) [`0bddb59`](https://github.com/holisticon/atomic-playfulness/commit/0bddb593bbe391beb954d2282c186e9805d359a8) Thanks [@fabiangaukler](https://github.com/fabiangaukler)! - Updated documentation and resolved Tailwind styling issues introduced on this branch.
+
 ## 3.0.0
 
 ### Patch Changes

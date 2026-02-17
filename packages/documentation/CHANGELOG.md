@@ -1,5 +1,15 @@
 # @holisticon/hap-documentation
 
+## 0.2.0
+
+### Minor Changes
+
+- [#278](https://github.com/holisticon/atomic-playfulness/pull/278) [`0bddb59`](https://github.com/holisticon/atomic-playfulness/commit/0bddb593bbe391beb954d2282c186e9805d359a8) Thanks [@fabiangaukler](https://github.com/fabiangaukler)! - Updated documentation and resolved Tailwind styling issues introduced on this branch.
+
+### Patch Changes
+
+- [#268](https://github.com/holisticon/atomic-playfulness/pull/268) [`281831e`](https://github.com/holisticon/atomic-playfulness/commit/281831e97335ccd612ba895754dd0edc7e013ff1) Thanks [@fabiangaukler](https://github.com/fabiangaukler)! - chore: create storybook page with available css class names
+
 ## 0.1.2
 
 ### Patch Changes
