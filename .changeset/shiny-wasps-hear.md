@@ -3,4 +3,4 @@
 "@holisticon/hap-tailwind": minor
 ---
 
-chore: update docs and fix tailwind issues
+Updated documentation and resolved Tailwind styling issues introduced on this branch.
