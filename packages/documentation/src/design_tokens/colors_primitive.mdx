@@ -1,0 +1,180 @@
+import { ColorPalette, ColorItem, Meta } from "@storybook/addon-docs/blocks";
+
+<Meta title="Design Tokens/Primitive Colors" />
+
+# Color Tokens
+
+Use semantic tokens (non-primitives) for UI work. Primitives are shown for
+reference and design exploration but should not be used directly in components
+or Tailwind classes.
+
+## Primitive Colors (Reference)
+
+Use these only for exploration or if you are defining a new semantic token.
+
+### Brand
+
+<ColorPalette>
+  <ColorItem
+    title="Brand"
+    subtitle="50-500"
+    colors={{
+      50: "var(--hap-primitives-color-brand-50)",
+      100: "var(--hap-primitives-color-brand-100)",
+      200: "var(--hap-primitives-color-brand-200)",
+      300: "var(--hap-primitives-color-brand-300)",
+      400: "var(--hap-primitives-color-brand-400)",
+      500: "var(--hap-primitives-color-brand-500)",
+    }}
+  />
+  <ColorItem
+    title="Brand"
+    subtitle="600-950"
+    colors={{
+      600: "var(--hap-primitives-color-brand-600)",
+      700: "var(--hap-primitives-color-brand-700)",
+      800: "var(--hap-primitives-color-brand-800)",
+      900: "var(--hap-primitives-color-brand-900)",
+      950: "var(--hap-primitives-color-brand-950)",
+    }}
+  />
+</ColorPalette>
+
+### Neutral
+
+<ColorPalette>
+  <ColorItem
+    title="Neutral"
+    subtitle="50-500"
+    colors={{
+      50: "var(--hap-primitives-color-neutral-50)",
+      100: "var(--hap-primitives-color-neutral-100)",
+      200: "var(--hap-primitives-color-neutral-200)",
+      300: "var(--hap-primitives-color-neutral-300)",
+      400: "var(--hap-primitives-color-neutral-400)",
+      500: "var(--hap-primitives-color-neutral-500)",
+    }}
+  />
+  <ColorItem
+    title="Neutral"
+    subtitle="600-950"
+    colors={{
+      600: "var(--hap-primitives-color-neutral-600)",
+      700: "var(--hap-primitives-color-neutral-700)",
+      800: "var(--hap-primitives-color-neutral-800)",
+      900: "var(--hap-primitives-color-neutral-900)",
+      950: "var(--hap-primitives-color-neutral-950)",
+    }}
+  />
+</ColorPalette>
+
+### Feedback
+
+Feedback primitives are split into two ranges for readability.
+
+<ColorPalette>
+  <ColorItem
+    title="Feedback Green"
+    subtitle="50-500"
+    colors={{
+      50: "var(--hap-primitives-color-feedback-green-50)",
+      100: "var(--hap-primitives-color-feedback-green-100)",
+      200: "var(--hap-primitives-color-feedback-green-200)",
+      300: "var(--hap-primitives-color-feedback-green-300)",
+      400: "var(--hap-primitives-color-feedback-green-400)",
+      500: "var(--hap-primitives-color-feedback-green-500)",
+    }}
+  />
+  <ColorItem
+    title="Feedback Green"
+    subtitle="600-950"
+    colors={{
+      600: "var(--hap-primitives-color-feedback-green-600)",
+      700: "var(--hap-primitives-color-feedback-green-700)",
+      800: "var(--hap-primitives-color-feedback-green-800)",
+      900: "var(--hap-primitives-color-feedback-green-900)",
+      950: "var(--hap-primitives-color-feedback-green-950)",
+    }}
+  />
+</ColorPalette>
+
+<ColorPalette>
+  <ColorItem
+    title="Feedback Red"
+    subtitle="50-500"
+    colors={{
+      50: "var(--hap-primitives-color-feedback-red-50)",
+      100: "var(--hap-primitives-color-feedback-red-100)",
+      200: "var(--hap-primitives-color-feedback-red-200)",
+      300: "var(--hap-primitives-color-feedback-red-300)",
+      400: "var(--hap-primitives-color-feedback-red-400)",
+      500: "var(--hap-primitives-color-feedback-red-500)",
+    }}
+  />
+  <ColorItem
+    title="Feedback Red"
+    subtitle="600-950"
+    colors={{
+      600: "var(--hap-primitives-color-feedback-red-600)",
+      700: "var(--hap-primitives-color-feedback-red-700)",
+      800: "var(--hap-primitives-color-feedback-red-800)",
+      900: "var(--hap-primitives-color-feedback-red-900)",
+      950: "var(--hap-primitives-color-feedback-red-950)",
+    }}
+  />
+</ColorPalette>
+
+<ColorPalette>
+  <ColorItem
+    title="Feedback Yellow"
+    subtitle="50-500"
+    colors={{
+      50: "var(--hap-primitives-color-feedback-yellow-50)",
+      100: "var(--hap-primitives-color-feedback-yellow-100)",
+      200: "var(--hap-primitives-color-feedback-yellow-200)",
+      300: "var(--hap-primitives-color-feedback-yellow-300)",
+      400: "var(--hap-primitives-color-feedback-yellow-400)",
+      500: "var(--hap-primitives-color-feedback-yellow-500)",
+    }}
+  />
+  <ColorItem
+    title="Feedback Yellow"
+    subtitle="600-950"
+    colors={{
+      600: "var(--hap-primitives-color-feedback-yellow-600)",
+      700: "var(--hap-primitives-color-feedback-yellow-700)",
+      800: "var(--hap-primitives-color-feedback-yellow-800)",
+      900: "var(--hap-primitives-color-feedback-yellow-900)",
+      950: "var(--hap-primitives-color-feedback-yellow-950)",
+    }}
+  />
+</ColorPalette>
+
+### Base Black and White
+
+<ColorPalette>
+  <ColorItem
+    title="Base Black"
+    subtitle="Primitives"
+    colors={{
+      primary: "var(--hap-primitives-color-base-black-primary)",
+      secondary: "var(--hap-primitives-color-base-black-secondary)",
+      tertiary: "var(--hap-primitives-color-base-black-tertiary)",
+      light: "var(--hap-primitives-color-base-black-light)",
+      lightest: "var(--hap-primitives-color-base-black-lightest)",
+      transparent: "var(--hap-primitives-color-base-black-transparent)",
+    }}
+  />
+  <ColorItem
+    title="Base White"
+    subtitle="Primitives"
+    colors={{
+      primary: "var(--hap-primitives-color-base-white-primary)",
+      secondary: "var(--hap-primitives-color-base-white-secondary)",
+      tertiary: "var(--hap-primitives-color-base-white-tertiary)",
+      light: "var(--hap-primitives-color-base-white-light)",
+      lightest: "var(--hap-primitives-color-base-white-lightest)",
+      transparent: "var(--hap-primitives-color-base-white-transparent)",
+    }}
+  />
+</ColorPalette>
