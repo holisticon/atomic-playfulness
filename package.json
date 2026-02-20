@@ -10,10 +10,11 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "npm run build:foundation && npm run build:documentation && npm run build:tailwind",
+    "build": "npm run build:foundation && npm run build:documentation && npm run build:tailwind && npm run build:json-render-react",
     "build:foundation": "npm run build -w @holisticon/hap-foundation",
     "build:documentation": "npm run build -w @holisticon/hap-documentation",
     "build:tailwind": "npm run build -w @holisticon/hap-tailwind",
+    "build:json-render-react": "npm run build -w @holisticon/hap-json-render-react",
     "format": "prettier --write .",
     "lint": "npm run lint --if-present -ws && prettier -c .",
     "version": "changeset version && npm i",

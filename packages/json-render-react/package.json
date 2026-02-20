@@ -1,0 +1,45 @@
+{
+  "name": "@holisticon/hap-json-render-react",
+  "type": "module",
+  "version": "0.1.0",
+  "author": "Holisticon AG <info@holisticon.de>",
+  "description": "JSON Render registry and schema for the atomic-playfulness design system.",
+  "repository": "github:holisticon/atomic-playfulness",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc",
+    "build:json-render-react": "npm run build",
+    "lint": "tsc --noEmit && eslint ."
+  },
+  "dependencies": {
+    "@json-render/core": "^0.8.0",
+    "@json-render/react": "^0.8.0",
+    "zod": "^4.0.0"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@holisticon/hap-foundation": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.9.3"
+  }
+}
