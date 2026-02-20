@@ -1,0 +1,109 @@
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(
+      circle at 10% 0%,
+      var(--hap-color-surface-brand-default),
+      transparent 55%
+    ),
+    radial-gradient(
+      circle at 90% 10%,
+      var(--hap-color-surface-secondary-default),
+      transparent 40%
+    ),
+    linear-gradient(
+      160deg,
+      var(--hap-color-background-neutral) 0%,
+      var(--hap-color-surface-secondary-default) 100%
+    );
+  color: var(--hap-color-text-primary-on-light);
+  font-family: var(--hap-typography-font-family-body);
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 48px 24px 64px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--hap-spacing-xl);
+}
+
+.icon-sprite {
+  display: none;
+}
+
+.hap-modal {
+  position: static;
+  margin: 0;
+  inline-size: min(520px, 100%);
+}
+
+.hap-navigation-rail,
+.hap-navigation-drawer {
+  flex: 1 1 240px;
+}
+
+.hap-breadcrumb,
+.hap-menu,
+.hap-tabs,
+.hap-alert,
+.hap-snackbar {
+  flex: 1 1 240px;
+}
+
+.hap-modal[open] {
+  display: flex;
+}
+
+.hap-modal::backdrop {
+  display: none;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#root > * {
+  animation: fade-up 0.6s ease-out both;
+}
+
+#root > *:nth-child(2) {
+  animation-delay: 0.05s;
+}
+
+#root > *:nth-child(3) {
+  animation-delay: 0.1s;
+}
+
+@media (max-width: 900px) {
+  #root {
+    padding: 32px 16px 48px;
+  }
+
+  .hap-navigation-rail,
+  .hap-navigation-drawer,
+  .hap-breadcrumb,
+  .hap-menu,
+  .hap-tabs,
+  .hap-alert,
+  .hap-snackbar {
+    flex: 1 1 100%;
+  }
+}
