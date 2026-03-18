@@ -1,5 +1,11 @@
 # @holisticon/hap-foundation
 
+## 1.0.1
+
+### Patch Changes
+
+- [#281](https://github.com/holisticon/atomic-playfulness/pull/281) [`52d27c9`](https://github.com/holisticon/atomic-playfulness/commit/52d27c97c36fbf7ed1728c65427437d3afb5b656) Thanks [@mrm1st3r](https://github.com/mrm1st3r)! - Fixes two CSS variable typos in the modal styles so the correct typography font-weight tokens are referenced.
+
 ## 1.0.0
 
 ### Major Changes
