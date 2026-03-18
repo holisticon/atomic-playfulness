@@ -20,7 +20,7 @@
     font-family: var(--hap-typography-font-family-body);
     font-size: var(--hap-typography-font-size-headline-md);
     font-style: normal;
-    font-weight: var(-hap-typography-font-weight-medium);
+    font-weight: var(--hap-typography-font-weight-medium);
     line-height: var(--hap-typography-line-height-bodytext-standard-singleline);
     letter-spacing: var(--hap-typography-letter-spacing-lg);
     margin: 0;
@@ -30,7 +30,7 @@
     color: var(--hap-color-text-primary-on-light);
     font-family: var(--hap-typography-font-family-body);
     font-size: var(--hap-typography-font-size-bodytext-Standard);
-    font-weight: var(-hap-typography-font-weight-regular);
+    font-weight: var(--hap-typography-font-weight-regular);
     line-height: var(--hap-typography-line-height-bodytext-standard-multiline);
     letter-spacing: var(--hap-typography-letter-spacing-lg);
     margin: 0;
