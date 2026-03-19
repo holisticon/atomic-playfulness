@@ -7,6 +7,9 @@ import { Meta } from "@storybook/addon-docs/blocks";
 This guide explains how to integrate our custom Tailwind CSS configuration into
 another project.
 
+If you are upgrading an existing project, see the
+[Tailwind Migration Guide (3.x to 4.0.0)](?path=/docs/tailwind-migration-guide-3-x-to-4-0-0--docs).
+
 ## Prerequisites
 
 - The target project should be using **Tailwind CSS v3**.
@@ -34,11 +37,23 @@ yarn add @holisticon/hap-foundation @holisticon/hap-tailwind
 If the target project does not have Tailwind CSS installed, follow the
 instructions at https://v3.tailwindcss.com/docs/installation.
 
-### 3. Use Our Custom Tailwind Config
+### 3. Use Our Custom Tailwind Preset
 
-Ensure that the target project imports and extends our custom Tailwind
-configuration in `tailwind.config.js`. The package only provides the theme
-object, so you still manage content paths and plugins locally:
+Ensure that the target project imports our preset in `tailwind.config.mjs`. This
+is the recommended setup because it removes the need to wire `theme.extend`
+manually:
+
+```js
+import { preset as hapPreset } from "@holisticon/hap-tailwind";
+
+export default {
+  content: ["./src/**/*.{js,ts,jsx,tsx}"],
+  presets: [hapPreset],
+  plugins: [],
+};
+```
+
+If you prefer to keep using the theme fragment directly, this still works:
 
 ```js
 import { theme as hapTheme } from "@holisticon/hap-tailwind";
@@ -59,17 +74,20 @@ export default {
 #### a) Add a Global Stylesheet
 
 Create a global stylesheet (e.g., `global.css`) in the project and import
-Tailwind. Additionally, make sure that `atomic-playfulness.css` is included in
-the styles. In this file we provide all the custom CSS tokens that are being
-used by the Tailwind config:
+Tailwind. Additionally, make sure that the Atomic Playfulness CSS variables are
+included in the styles. For Tailwind projects, the tokens-only stylesheet is the
+smallest and least surprising option:
 
 ```css
-@import "@holisticon/hap-foundation/atomic-playfulness.css";
+@import "@holisticon/hap-foundation/tokens.css";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 ```
+
+If you also want the full Atomic Playfulness base, components, and layout CSS,
+you can import `@holisticon/hap-foundation/atomic-playfulness.css` instead.
 
 #### b) Ensure PostCSS is Configured
 
@@ -100,7 +118,7 @@ design tokens. Here are some key examples:
 - **Border Radius:** Classes like `rounded-minimal`, `rounded-large`, and
   `rounded-full` apply predefined radius tokens.
 - **Typography:** Font-related classes (`text-headline-lg`, `font-bold`,
-  `leading-bodytext-standard`) map to specific variables like
+  `leading-bodytext-standard-singleline`) map to specific variables like
   `var(--hap-typography-font-size-headline-lg)`.
 - **Colors:** Classes like `text-text-primary-onLight`,
   `bg-fill-brand-onLight-default`, and `border-primary-onDark-default` adapt to

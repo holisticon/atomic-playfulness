@@ -15,6 +15,7 @@ export const theme: Config["theme"] = {
   borderRadius: {
     minimal: "var(--hap-radius-minimal)",
     rounded: "var(--hap-radius-rounded)",
+    large: "var(--hap-radius-rounded-large)",
     full: "var(--hap-radius-full)",
     roundedLarge: "var(--hap-radius-rounded-large)",
     none: "var(--hap-radius-none)",
@@ -48,13 +49,13 @@ export const theme: Config["theme"] = {
     },
     fill: {
       primary: {
-        light: {
+        onLight: {
           default: "var(--hap-color-fill-primary-on-light-default)",
           hovered: "var(--hap-color-fill-primary-on-light-hovered)",
           pressed: "var(--hap-color-fill-primary-on-light-pressed)",
           selected: "var(--hap-color-fill-primary-on-light-selected)",
         },
-        dark: {
+        onDark: {
           default: "var(--hap-color-fill-primary-on-dark-default)",
           hovered: "var(--hap-color-fill-primary-on-dark-hovered)",
           pressed: "var(--hap-color-fill-primary-on-dark-pressed)",
@@ -62,13 +63,13 @@ export const theme: Config["theme"] = {
         },
       },
       secondary: {
-        light: {
+        onLight: {
           default: "var(--hap-color-fill-secondary-on-light-default)",
           hovered: "var(--hap-color-fill-secondary-on-light-hovered)",
           pressed: "var(--hap-color-fill-secondary-on-light-pressed)",
           selected: "var(--hap-color-fill-secondary-on-light-selected)",
         },
-        dark: {
+        onDark: {
           default: "var(--hap-color-fill-secondary-on-dark-default)",
           hovered: "var(--hap-color-fill-secondary-on-dark-hovered)",
           pressed: "var(--hap-color-fill-secondary-on-dark-pressed)",
@@ -76,13 +77,13 @@ export const theme: Config["theme"] = {
         },
       },
       destructive: {
-        light: {
+        onLight: {
           default: "var(--hap-color-fill-destructive-on-light-default)",
           hovered: "var(--hap-color-fill-destructive-on-light-hovered)",
           pressed: "var(--hap-color-fill-destructive-on-light-pressed)",
           selected: "var(--hap-color-fill-destructive-on-light-selected)",
         },
-        dark: {
+        onDark: {
           default: "var(--hap-color-fill-destructive-on-dark-default)",
           hovered: "var(--hap-color-fill-destructive-on-dark-hovered)",
           pressed: "var(--hap-color-fill-destructive-on-dark-pressed)",
@@ -391,3 +392,11 @@ export const theme: Config["theme"] = {
       "var(--hap-shadow-second-level-x) var(--hap-shadow-second-level-y) var(--hap-shadow-second-level-blur) var(--hap-shadow-second-level-color)",
   },
 };
+
+export const preset = {
+  theme: {
+    extend: theme,
+  },
+} satisfies Partial<Config>;
+
+export default preset;
