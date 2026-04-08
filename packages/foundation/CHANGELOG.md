@@ -1,5 +1,17 @@
 # @holisticon/hap-foundation
 
+## 2.0.0
+
+### Major Changes
+
+- [#283](https://github.com/holisticon/atomic-playfulness/pull/283) [`68d1c1c`](https://github.com/holisticon/atomic-playfulness/commit/68d1c1c9f4ed7b83d0c7829ebf9810d9ad86323b) Thanks [@fabiangaukler](https://github.com/fabiangaukler)! - Remove the public `@holisticon/hap-foundation/atomic-playfulness.tokens.json` export and stop publishing the raw token source file. Consumers should rely on the supported CSS entry points such as `@holisticon/hap-foundation/tokens.css` instead.
+
+  Add a dedicated `@holisticon/hap-foundation/tokens.css` export for consumers that only need the generated CSS variables.
+
+  Improve `@holisticon/hap-tailwind` integration by adding a reusable `preset` export, documenting the recommended preset-based setup, relaxing the Tailwind v3 peer dependency range, and aligning the generated utility names with the documented `rounded-large` and `*-onLight`/`*-onDark` class variants.
+
+  Standardize fill color utilities on the `onLight` and `onDark` naming scheme to match the underlying CSS variable names. The previous `*-light-*` and `*-dark-*` fill utility aliases are removed.
+
 ## 1.0.1
 
 ### Patch Changes
