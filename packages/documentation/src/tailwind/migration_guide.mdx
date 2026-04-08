@@ -1,0 +1,105 @@
+import { Meta } from "@storybook/addon-docs/blocks";
+
+<Meta title="Tailwind/Migration Guide 3.x to 4.0.0" />
+
+# Tailwind Migration Guide: 3.x to 4.0.0
+
+This guide covers the current breaking changes in `@holisticon/hap-tailwind` and
+how to update existing projects.
+
+Use this guide when migrating from any `3.x` version of
+`@holisticon/hap-tailwind` to `4.0.0`.
+
+## What Changed
+
+- The recommended integration path now uses the exported `preset`.
+- Fill color utilities are standardized on `onLight` and `onDark`.
+- The old `*-light-*` and `*-dark-*` fill utility aliases are removed.
+
+## Who Needs To Migrate
+
+You need to update your project if you:
+
+- use classes such as `bg-fill-primary-light-default` or
+  `bg-fill-primary-dark-default`
+- maintain your own Tailwind setup and want to adopt the new recommended preset
+  integration
+
+If you already use classes like `bg-fill-primary-onLight-default`, you are only
+affected if you want to move to the new preset-based setup.
+
+## Update Fill Utility Names
+
+The old fill utilities used `light` and `dark`. The supported utilities now use
+`onLight` and `onDark` to match the underlying CSS variable names.
+
+### Before
+
+```html
+<button class="bg-fill-primary-light-default">Save</button>
+<button class="bg-fill-primary-dark-default">Save</button>
+```
+
+### After
+
+```html
+<button class="bg-fill-primary-onLight-default">Save</button>
+<button class="bg-fill-primary-onDark-default">Save</button>
+```
+
+Apply the same rename pattern to other fill utilities such as `secondary`,
+`tertiary`, `brand`, `destructive`, and `interaction`.
+
+## Recommended Tailwind Setup
+
+The `theme` export still works, but the preferred setup is now the package
+`preset`.
+
+### Before
+
+```js
+import { theme as hapTheme } from "@holisticon/hap-tailwind";
+
+export default {
+  content: ["./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: hapTheme,
+  },
+  plugins: [],
+};
+```
+
+### After
+
+```js
+import { preset as hapPreset } from "@holisticon/hap-tailwind";
+
+export default {
+  content: ["./src/**/*.{js,ts,jsx,tsx}"],
+  presets: [hapPreset],
+  plugins: [],
+};
+```
+
+## CSS Import Recommendation
+
+For Tailwind-only token usage, import the tokens stylesheet:
+
+```css
+@import "@holisticon/hap-foundation/tokens.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+If you also need the full Atomic Playfulness CSS bundle, import
+`@holisticon/hap-foundation/atomic-playfulness.css` instead.
+
+## Migration Checklist
+
+1. Replace `*-light-*` fill utilities with `*-onLight-*`.
+2. Replace `*-dark-*` fill utilities with `*-onDark-*`.
+3. Optionally move from `theme.extend` to `presets: [hapPreset]`.
+4. Ensure your global stylesheet imports `@holisticon/hap-foundation/tokens.css`
+   or the full foundation stylesheet.

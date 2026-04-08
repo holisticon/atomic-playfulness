@@ -1,0 +1,66 @@
+import { Meta } from "@storybook/addon-docs/blocks";
+
+<Meta title="Foundation/Migration Guide 1.x to 2.0.0" />
+
+# Foundation Migration Guide: 1.x to 2.0.0
+
+This guide covers the current breaking changes in `@holisticon/hap-foundation`
+and how to update existing projects.
+
+Use this guide when migrating from any `1.x` version of
+`@holisticon/hap-foundation` to `2.0.0`.
+
+## What Changed
+
+- The raw `@holisticon/hap-foundation/atomic-playfulness.tokens.json` export is
+  removed.
+- The supported token-only entry point is now
+  `@holisticon/hap-foundation/tokens.css`.
+
+## Who Needs To Migrate
+
+You need to update your project only if you imported the raw token JSON file
+directly.
+
+Projects that already import `@holisticon/hap-foundation/atomic-playfulness.css`
+do not need to change anything unless they want to switch to the smaller
+tokens-only stylesheet.
+
+## Replace Raw Token Imports
+
+The removed JSON export was never intended to be the long-term public API. Use a
+supported CSS entry point instead.
+
+### Before
+
+```js
+import tokens from "@holisticon/hap-foundation/atomic-playfulness.tokens.json";
+```
+
+### After: Tokens Only
+
+```css
+@import "@holisticon/hap-foundation/tokens.css";
+```
+
+### After: Full Foundation Styles
+
+```css
+@import "@holisticon/hap-foundation/atomic-playfulness.css";
+```
+
+## Which Entry Point To Use
+
+- Use `@holisticon/hap-foundation/tokens.css` when you only need the generated
+  CSS variables, for example in Tailwind integrations.
+- Use `@holisticon/hap-foundation/atomic-playfulness.css` when you also want the
+  bundled base, component, and layout styles.
+
+## Migration Checklist
+
+1. Remove any imports of
+   `@holisticon/hap-foundation/atomic-playfulness.tokens.json`.
+2. Replace them with `@holisticon/hap-foundation/tokens.css` if you only need
+   CSS custom properties.
+3. Use `@holisticon/hap-foundation/atomic-playfulness.css` instead if you also
+   need the full foundation styles.

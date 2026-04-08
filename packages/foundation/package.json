@@ -6,14 +6,13 @@
   "description": "Foundational tokens for the atomic-playfulness design system.",
   "repository": "github:holisticon/atomic-playfulness",
   "files": [
-    "./atomic-playfulness.tokens.json",
     "dist",
     "src",
     "CHANGELOG.md",
     "README.md"
   ],
   "exports": {
-    "./atomic-playfulness.tokens.json": "./atomic-playfulness.tokens.json",
+    "./tokens.css": "./dist/tokens.css",
     "./atomic-playfulness.css": "./src/atomic-playfulness.css"
   },
   "scripts": {
